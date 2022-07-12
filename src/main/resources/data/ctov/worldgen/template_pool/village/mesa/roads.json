@@ -1,0 +1,16 @@
+{
+    "name": "ctov:village/mesa/roads",
+    "fallback": "ctov:village/mesa/terminator",
+    "elements": [
+      {
+        "weight": 12,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/mesa/roads/straight",
+          "processors": "ctov:detailing/mesa/roads"
+        }
+      }
+    ]
+  }
+  

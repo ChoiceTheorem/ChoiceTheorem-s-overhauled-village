@@ -1,0 +1,24 @@
+{
+    "name":"ctov:village/biome/savanna",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "ctov:village/savanna/town_center",
+                "processors": "ctov:detailing/savanna/roads"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "ctov:village/savanna_na/town_center",
+                "processors": "ctov:detailing/savanna/roads"
+            }
+        }
+    ]
+}

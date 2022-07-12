@@ -1,0 +1,69 @@
+{
+    "name": "ctov:village/mesa_fortified/roads",
+    "fallback": "ctov:village/mesa_fortified/terminator",
+    "elements": [
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/mesa/red_roads",
+                "location": "ctov:village/mesa_fortified/roads/straight"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/mesa/red_roads",
+                "location": "ctov:village/mesa_fortified/roads/bent_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/mesa/red_roads",
+                "location": "ctov:village/mesa_fortified/roads/bent_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/mesa/red_roads",
+                "location": "ctov:village/mesa_fortified/roads/t_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/mesa/red_roads",
+                "location": "ctov:village/mesa_fortified/roads/t_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/mesa/red_roads",
+                "location": "ctov:village/mesa_fortified/roads/t_3"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/mesa/red_roads",
+                "location": "ctov:village/mesa_fortified/roads/inter"
+            }
+        }
+    ]
+}

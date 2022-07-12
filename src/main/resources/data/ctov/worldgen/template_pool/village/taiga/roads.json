@@ -1,0 +1,70 @@
+{
+    "name":"ctov:village/taiga/roads",
+    "fallback": "ctov:village/taiga/terminator",
+    "elements": 
+    [
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/taiga/road",
+                "location": "ctov:village/taiga/roads/straight"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/taiga/road",
+                "location": "ctov:village/taiga/roads/bent_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/taiga/road",
+                "location": "ctov:village/taiga/roads/bent_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/taiga/road",
+                "location": "ctov:village/taiga/roads/t_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/taiga/road",
+                "location": "ctov:village/taiga/roads/t_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/taiga/road",
+                "location": "ctov:village/taiga/roads/t_3"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/taiga/road",
+                "location": "ctov:village/taiga/roads/inter"
+            }
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "name": "ctov:pillager_outpost/taiga/deco",
+    "fallback": "ctov:pillager_outpost/common/mobs",
+    "elements": [
+      {
+        "weight": 10,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:pillager_outpost/taiga/deco/cage",
+          "processors": "ctov:detailing/taiga/deepslate_crack_30"
+        }
+      },
+      {
+          "weight": 10,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:pillager_outpost/taiga/deco/campfire",
+          "processors": "ctov:detailing/taiga/deepslate_crack_30"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:pillager_outpost/taiga/deco/golem_cage",
+          "processors": "ctov:detailing/taiga/deepslate_crack_30"
+        }
+      },
+      {
+          "weight": 10,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:pillager_outpost/taiga/deco/kitchen",
+          "processors": "ctov:detailing/taiga/deepslate_crack_30"
+        }
+      },
+      {
+          "weight": 10,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:pillager_outpost/taiga/deco/ravager_pen",
+          "processors": "ctov:detailing/taiga/deepslate_crack_30"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:pillager_outpost/taiga/deco/smith",
+          "processors": "ctov:detailing/taiga/deepslate_crack_30"
+        }
+      },
+      {
+          "weight": 10,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:pillager_outpost/taiga/deco/target",
+          "processors": "ctov:detailing/taiga/deepslate_crack_30"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:pillager_outpost/taiga/deco/house",
+          "processors": "ctov:detailing/taiga/deepslate_crack_30"
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,110 @@
+{
+    "name": "ctov:village/mountain/deco",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/mountain/sakura",
+                "location": "ctov:village/mountain/deco/sakura_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/mountain/sakura",
+                "location": "ctov:village/mountain/deco/sakura_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/mountain/sakura",
+                "location": "ctov:village/mountain/deco/sakura_3"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/mountain/deco/lamp_6"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/mountain/deco/lamp_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/mountain/deco/lamp_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/mountain/deco/lamp_3"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/mountain/deco/lamp_4"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/mountain/deco/lamp_5"
+            }
+        },
+        {
+            "weight": 1,
+            "element":{
+                "element_type":"minecraft:feature_pool_element",
+                "projection":"rigid",
+                "feature": "minecraft:flower_meadow"
+            }
+        },
+        {
+            "weight": 1,
+            "element":{
+                "element_type":"minecraft:feature_pool_element",
+                "projection":"rigid",
+                "feature": "minecraft:trees_meadow"
+            }
+        },
+        {
+            "weight":5,
+            "element":{
+                "element_type": "minecraft:empty_pool_element",
+                "projection":"rigid"
+            }
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "pools":[
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"item",
+                    "name":"minecraft:redstone",
+                    "functions": [
+                        {
+                            "function":"set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"item",
+                    "name":"minecraft:glowstone_dust",
+                    "functions": [
+                        {
+                            "function":"set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"item",
+                    "name":"minecraft:glass_bottle",
+                    "functions": [
+                        {
+                            "function":"set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        ,
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"item",
+                    "name":"spider_eye",
+                    "functions": [
+                        {
+                            "function":"set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

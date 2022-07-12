@@ -1,0 +1,96 @@
+{
+  "name": "ctov:pillager_outpost/plains/deco",
+  "fallback": "ctov:pillager_outpost/common/mobs",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "ctov:pillager_outpost/plains/deco/cage",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+	    "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "ctov:pillager_outpost/plains/deco/campfire",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "ctov:pillager_outpost/plains/deco/golem_cage",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+	    "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "ctov:pillager_outpost/plains/deco/kitchen",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+	    "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "ctov:pillager_outpost/plains/deco/ravager_stable",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "ctov:pillager_outpost/plains/deco/smith",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+	    "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "ctov:pillager_outpost/plains/deco/target",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "ctov:pillager_outpost/plains/deco/tent",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+	    "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "ctov:pillager_outpost/plains/deco/tree",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+	    "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "ctov:pillager_outpost/plains/deco/villager_cage",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

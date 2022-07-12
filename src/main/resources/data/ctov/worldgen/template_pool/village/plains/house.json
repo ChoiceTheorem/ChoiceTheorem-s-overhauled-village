@@ -1,0 +1,187 @@
+{
+    "name": "ctov:village/plains/house",
+    "fallback": "ctov:village/plains/decos",
+    "elements": [
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/house/small_1",
+          "processors": "ctov:detailing/plains/house"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/house/small_2",
+          "processors": "ctov:detailing/plains/house"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/house/small_3",
+          "processors": "ctov:detailing/plains/house"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/house/small_4",
+          "processors": "ctov:detailing/plains/house"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/house/small_5",
+          "processors": "ctov:detailing/plains/house"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/house/med_1",
+          "processors": "ctov:detailing/plains/house"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/house/med_2",
+          "processors": "ctov:detailing/plains/house"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/house/big_1",
+          "processors": "ctov:detailing/plains/house"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/house/big_2",
+          "processors": "ctov:detailing/plains/house"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/jobsite/butcher",
+          "processors": "ctov:detailing/plains/house"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/jobsite/cartography",
+          "processors": "ctov:detailing/plains/house"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/jobsite/chemist",
+          "processors": "ctov:detailing/plains/house"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/jobsite/fishing_hut",
+          "processors": "ctov:detailing/plains/house"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/jobsite/library",
+          "processors": "ctov:detailing/plains/house"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/jobsite/shepherd",
+          "processors": "ctov:detailing/plains/house"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/jobsite/mason",
+          "processors": "ctov:detailing/plains/house"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/jobsite/pen",
+          "processors": "ctov:detailing/plains/house"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/jobsite/farm",
+          "processors": "ctov:farm/plains/normal"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/jobsite/fd_farm",
+          "processors": "ctov:farm/plains/normal"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/jobsite/smith",
+          "processors": "ctov:detailing/plains/house"
+        }
+      }
+    ]
+  }
+  

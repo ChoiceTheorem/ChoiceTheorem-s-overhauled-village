@@ -1,0 +1,71 @@
+{
+    "name": "ctov:village/plains/roads",
+    "fallback": "ctov:village/plains/terminator",
+    "elements": [
+      {
+        "weight": 4,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/plains/roads/straight",
+          "processors": "ctov:detailing/plains/roads"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/plains/roads/t_1",
+          "processors": "ctov:detailing/plains/roads"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/plains/roads/t_2",
+          "processors": "ctov:detailing/plains/roads"
+        }
+      }
+      ,
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/plains/roads/t_3",
+          "processors": "ctov:detailing/plains/roads"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/plains/roads/bent_1",
+          "processors": "ctov:detailing/plains/roads"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/plains/roads/bent_2",
+          "processors": "ctov:detailing/plains/roads"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/plains/roads/inter",
+          "processors": "ctov:detailing/plains/roads"
+        }
+      }
+    ]
+  }
+  

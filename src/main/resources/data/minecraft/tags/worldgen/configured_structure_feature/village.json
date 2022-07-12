@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:village_plains",
+        "minecraft:village_desert",
+        "minecraft:village_savanna",
+        "minecraft:village_snowy",
+        "minecraft:village_taiga",
+        "ctov:village_beach",
+        "ctov:village_dark_forest",
+        "ctov:village_jungle",
+        "ctov:village_mountain",
+        "ctov:village_mushroom",
+        "ctov:village_swamp",
+        "ctov:village_mesa"
+    ]
+}

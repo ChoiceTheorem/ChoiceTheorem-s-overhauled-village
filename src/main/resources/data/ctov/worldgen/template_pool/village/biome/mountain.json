@@ -1,0 +1,24 @@
+{
+    "name":"ctov:village/biome/mountain",
+    "fallback": "minecraft:empty",
+    "elements": [
+            {
+                "weight": 1,
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "location": "ctov:village/mountain/town_center",
+                    "processors": "ctov:detailing/mountain/roads"
+                }
+            },
+            {
+                "weight": 1,
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "projection": "rigid",
+                    "location": "ctov:village/mountain_alpine/town_center",
+                    "processors": "ctov:detailing/mountain/roads"
+                }
+            }
+        ]
+}

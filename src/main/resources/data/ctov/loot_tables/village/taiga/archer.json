@@ -1,0 +1,23 @@
+{
+    "pools":[
+        {
+            "rolls":7,
+            "entries":[
+                {
+                    "type":"minecraft:tag",
+                    "name":"minecraft:arrows",
+                    "expand": true,
+                    "functions": [
+                        {
+                            "function":"set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "name": "ctov:village/snowy_igloo/deco",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/snowy_igloo/deco/bench"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/snowy_igloo/deco/berry"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/snowy_igloo/deco/bucket"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/snowy_igloo/deco/snowman"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/snowy_igloo/deco/statue"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/snowy_igloo/deco/lamp_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/snowy_igloo/deco/lamp_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/snowy_igloo/deco/lamp_3"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/snowy_igloo/deco/lamp_4"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/snowy_igloo/deco/lamp_5"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+              "element_type": "minecraft:feature_pool_element",
+              "projection": "rigid",
+              "feature": "minecraft:spruce"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+              "element_type": "minecraft:feature_pool_element",
+              "projection": "rigid",
+              "feature": "minecraft:pile_snow"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+              "element_type": "minecraft:feature_pool_element",
+              "projection": "rigid",
+              "feature": "minecraft:pile_ice"
+            }
+        },
+        {
+            "weight": 7,
+            "element": {
+              "element_type": "minecraft:empty_pool_element",
+              "projection": "rigid"
+            }
+        }
+    ]
+}

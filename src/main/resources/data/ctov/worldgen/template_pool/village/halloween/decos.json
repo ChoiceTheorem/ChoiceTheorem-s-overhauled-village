@@ -1,0 +1,224 @@
+{
+    "name": "ctov:village/halloween/decos",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/halloween/decos/lamp_1",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/halloween/decos/lamp_2",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/halloween/decos/lamp_3",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/halloween/decos/lamp_4",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/halloween/decos/well",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/halloween/decos/cage",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/halloween/decos/cemetary",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/halloween/decos/tree",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/halloween/decos/grave_0",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/halloween/decos/grave_1",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/halloween/decos/grave_2",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/halloween/decos/grave_3",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/halloween/decos/grave_4",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/halloween/decos/grave_5",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/halloween/decos/jacko_1",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/halloween/decos/jacko_2",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/halloween/decos/jacko_3",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/halloween/decos/jacko_4",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/halloween/decos/jacko_5",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:feature_pool_element",
+          "projection":"rigid",
+          "feature":"minecraft:dark_forest_vegetation"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:feature_pool_element",
+          "projection":"rigid",
+          "feature":"minecraft:patch_pumpkin"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:feature_pool_element",
+          "projection": "rigid",
+         "feature": "minecraft:flower_plain"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:feature_pool_element",
+          "projection": "rigid",
+         "feature": "minecraft:forest_flowers"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "element_type": "minecraft:feature_pool_element",
+          "projection": "rigid",
+          "feature": "minecraft:pile_hay"
+        }
+      },
+      {
+        "weight":10,
+        "element":{
+          "element_type": "minecraft:empty_pool_element",
+          "projection": "rigid"
+        }
+      }
+    ]
+  }

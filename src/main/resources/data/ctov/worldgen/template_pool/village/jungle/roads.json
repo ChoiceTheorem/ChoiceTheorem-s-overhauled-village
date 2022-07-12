@@ -1,0 +1,69 @@
+{
+    "name":"ctov:village/jungle/starts",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/jungle/road",
+                "location": "ctov:village/jungle/roads/straight"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/jungle/road",
+                "location": "ctov:village/jungle/roads/bent_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/jungle/road",
+                "location": "ctov:village/jungle/roads/bent_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/jungle/road",
+                "location": "ctov:village/jungle/roads/t_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/jungle/road",
+                "location": "ctov:village/jungle/roads/t_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/jungle/road",
+                "location": "ctov:village/jungle/roads/t_3"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/jungle/road",
+                "location": "ctov:village/jungle/roads/inter"
+            }
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "name": "ctov:village/mountain/roads",
+    "fallback": "ctov:village/mountain/terminator",
+    "elements": [
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/mountain/roads",
+                "location": "ctov:village/mountain/roads/straight"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/mountain/roads",
+                "location": "ctov:village/mountain/roads/bent_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/mountain/roads",
+                "location": "ctov:village/mountain/roads/bent_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/mountain/roads",
+                "location": "ctov:village/mountain/roads/t_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/mountain/roads",
+                "location": "ctov:village/mountain/roads/t_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/mountain/roads",
+                "location": "ctov:village/mountain/roads/t_3"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/mountain/roads",
+                "location": "ctov:village/mountain/roads/inter"
+            }
+        }
+    ]
+}

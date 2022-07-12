@@ -1,0 +1,71 @@
+{
+    "name": "ctov:village/plains_fortified/roads",
+    "fallback": "ctov:village/plains_fortified/terminator",
+    "elements": [
+      {
+        "weight": 4,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/plains_fortified/roads/straight",
+          "processors": "ctov:detailing/plains/roads"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/plains_fortified/roads/t_1",
+          "processors": "ctov:detailing/plains/roads"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/plains_fortified/roads/t_2",
+          "processors": "ctov:detailing/plains/roads"
+        }
+      }
+      ,
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/plains_fortified/roads/t_3",
+          "processors": "ctov:detailing/plains/roads"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/plains_fortified/roads/bent_1",
+          "processors": "ctov:detailing/plains/roads"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/plains_fortified/roads/bent_2",
+          "processors": "ctov:detailing/plains/roads"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/plains_fortified/roads/inter",
+          "processors": "ctov:detailing/plains/roads"
+        }
+      }
+    ]
+  }
+  

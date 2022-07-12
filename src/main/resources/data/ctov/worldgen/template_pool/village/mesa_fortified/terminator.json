@@ -1,0 +1,15 @@
+{
+    "name":"ctov:village/mesa_fortified/terminator",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/mesa/red_roads",
+                "location": "ctov:village/mesa_fortified/roads/terminator"
+            }
+        }
+    ]
+}

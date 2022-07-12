@@ -1,0 +1,16 @@
+{
+    "name": "ctov:pillager_outpost/desert/hq",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 100,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:pillager_outpost/desert/hq",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

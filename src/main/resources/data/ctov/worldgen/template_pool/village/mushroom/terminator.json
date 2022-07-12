@@ -1,0 +1,15 @@
+{
+    "name": "ctov:village/mushroom/terminator",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/mushroom/roads/terminator",
+          "processors": "ctov:detailing/mushroom/roads"
+        }
+      }
+    ]
+}

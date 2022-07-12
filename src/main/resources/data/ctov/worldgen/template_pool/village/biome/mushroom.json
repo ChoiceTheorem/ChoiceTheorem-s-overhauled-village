@@ -1,0 +1,25 @@
+{
+    "name": "ctov:village/biome/mushroom",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "ctov:village/mushroom/town_center",
+                "processors": "ctov:detailing/mushroom/brown_house"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "ctov:village/mushroom/town_center",
+                "processors": "ctov:detailing/mushroom/red_house"
+            }
+        }
+    ]
+}
+  

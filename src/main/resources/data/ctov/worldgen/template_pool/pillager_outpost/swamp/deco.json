@@ -1,0 +1,87 @@
+{
+    "name":"ctov:pillager_outpost/swamp/deco",
+    "fallback": "ctov:pillager_outpost/common/mobs",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors":  "ctov:detailing/swamp/house",
+                "location": "ctov:pillager_outpost/swamp/deco/cage"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/swamp/house",
+                "location": "ctov:pillager_outpost/swamp/deco/campfire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/swamp/house",
+                "location": "ctov:pillager_outpost/swamp/deco/golem_cage"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/swamp/house",
+                "location": "ctov:pillager_outpost/swamp/deco/house"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/swamp/house",
+                "location": "ctov:pillager_outpost/swamp/deco/kitchen"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/swamp/house",
+                "location": "ctov:pillager_outpost/swamp/deco/ravager_pen"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/swamp/house",
+                "location": "ctov:pillager_outpost/swamp/deco/smith"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/swamp/house",
+                "location": "ctov:pillager_outpost/swamp/deco/target"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/swamp/house",
+                "location": "ctov:pillager_outpost/swamp/deco/villager_cage"
+            }
+        }
+    ]
+}

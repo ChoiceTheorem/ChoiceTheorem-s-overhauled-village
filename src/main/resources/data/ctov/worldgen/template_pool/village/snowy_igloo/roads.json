@@ -1,0 +1,69 @@
+{
+    "name": "ctov:village/snowy_igloo/roads",
+    "fallback": "ctov:village/snowy_igloo/terminator",
+    "elements": [
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/snowy/roads",
+                "location": "ctov:village/snowy_igloo/roads/straight"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/snowy/roads",
+                "location": "ctov:village/snowy_igloo/roads/bent_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/snowy/roads",
+                "location": "ctov:village/snowy_igloo/roads/bent_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/snowy/roads",
+                "location": "ctov:village/snowy_igloo/roads/t_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/snowy/roads",
+                "location": "ctov:village/snowy_igloo/roads/t_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/snowy/roads",
+                "location": "ctov:village/snowy_igloo/roads/t_3"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/snowy/roads",
+                "location": "ctov:village/snowy_igloo/roads/inter"
+            }
+        }
+    ]
+}

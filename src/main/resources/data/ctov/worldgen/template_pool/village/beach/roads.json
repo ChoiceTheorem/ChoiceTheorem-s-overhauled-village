@@ -1,0 +1,71 @@
+{
+    "name": "ctov:village/beach/roads",
+    "fallback": "ctov:village/beach/terminator",
+    "elements": [
+      {
+        "weight": 4,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/beach/roads/straight",
+          "processors": "ctov:detailing/beach/roads"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/beach/roads/t_1",
+          "processors": "ctov:detailing/beach/roads"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/beach/roads/t_2",
+          "processors": "ctov:detailing/beach/roads"
+        }
+      }
+      ,
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/beach/roads/t_3",
+          "processors": "ctov:detailing/beach/roads"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/beach/roads/bent_1",
+          "processors": "ctov:detailing/beach/roads"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/beach/roads/bent_2",
+          "processors": "ctov:detailing/beach/roads"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/beach/roads/inter",
+          "processors": "ctov:detailing/beach/roads"
+        }
+      }
+    ]
+  }
+  

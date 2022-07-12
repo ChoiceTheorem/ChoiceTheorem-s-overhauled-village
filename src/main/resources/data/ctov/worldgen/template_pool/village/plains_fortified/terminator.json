@@ -1,0 +1,15 @@
+{
+    "name": "ctov:village/plains_fortified/terminator",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "location": "ctov:village/plains_fortified/roads/terminator",
+          "processors": "ctov:detailing/plains/roads"
+        }
+      }
+    ]
+}

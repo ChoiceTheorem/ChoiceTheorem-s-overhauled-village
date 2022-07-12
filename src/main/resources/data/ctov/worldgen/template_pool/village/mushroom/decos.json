@@ -1,0 +1,101 @@
+{
+    "name": "ctov:village/mushroom/decos",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/mushroom/decos/lamp_1",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/mushroom/decos/lamp_2",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/mushroom/decos/lamp_3",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/mushroom/decos/lamp_4",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/mushroom/decos/well",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/mushroom/decos/hay_bale",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/mushroom/decos/wagon",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element":{
+          "element_type":"minecraft:feature_pool_element",
+          "projection":"rigid",
+          "feature": "minecraft:mushroom_island_vegetation"
+        }
+      },
+      {
+        "weight": 1,
+        "element":{
+          "element_type":"minecraft:feature_pool_element",
+          "projection":"rigid",
+          "feature": "minecraft:brown_mushroom_taiga"
+        }
+      },
+      {
+        "weight": 1,
+        "element":{
+          "element_type":"minecraft:feature_pool_element",
+          "projection":"rigid",
+          "feature": "minecraft:red_mushroom_taiga"
+        }
+      },
+      {
+        "weight":5,
+        "element":{
+            "element_type": "minecraft:empty_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }

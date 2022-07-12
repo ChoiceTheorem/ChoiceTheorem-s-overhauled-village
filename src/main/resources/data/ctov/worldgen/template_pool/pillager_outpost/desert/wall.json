@@ -1,0 +1,25 @@
+{
+    "name": "ctov:pillager_outpost/desert/wall",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 75,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:pillager_outpost/desert/wall/wall",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 25,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:pillager_outpost/desert/wall/gate",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

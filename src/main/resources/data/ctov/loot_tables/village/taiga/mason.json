@@ -1,0 +1,44 @@
+{
+    "pools":[
+        {
+            "rolls":4,
+            "entries":[
+                {
+                    "type":"minecraft:item",
+                    "name":"cobblestone",
+                    "functions": [
+                        {
+                            "function":"set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type":"minecraft:item",
+                    "name":"stone_bricks",
+                    "functions": [
+                        {
+                            "function":"set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls":1,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "name":"ctov:village/common/mason"
+                }
+            ]
+        }
+    ]
+}

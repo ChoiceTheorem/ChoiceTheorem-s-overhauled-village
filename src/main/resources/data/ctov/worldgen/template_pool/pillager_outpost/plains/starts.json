@@ -1,0 +1,15 @@
+{
+  "name": "ctov:pillager_outpost/plains/starts",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "ctov:pillager_outpost/plains/baseline",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+    "pools":[
+        {
+            "rolls":3,
+            "entries":[
+                {
+                    "type":"minecraft:item",
+                    "name":"sandstone",
+                    "functions": [
+                        {
+                            "function":"set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls":3,
+            "entries":[
+                {
+                    "type":"minecraft:item",
+                    "name":"smooth_sandstone",
+                    "functions": [
+                        {
+                            "function":"set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls":1,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "name":"ctov:village/common/mason"
+                }
+            ]
+        }
+    ]
+}

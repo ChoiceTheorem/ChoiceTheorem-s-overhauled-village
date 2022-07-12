@@ -1,0 +1,49 @@
+{
+    "pools":[
+        {
+            "rolls":3,
+            "entries":[
+                {
+                    "type":"item",
+                    "name":"minecraft:arrow",
+                    "functions": [
+                        {
+                            "function":"set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 20
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"item",
+                    "name":"minecraft:iron_sword"
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"item",
+                    "name":"minecraft:crossbow"
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"item",
+                    "name":"minecraft:bow"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "pools":[
+        {
+            "rolls":1,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "name":"ctov:village/common/smith"
+                }
+            ]
+        },
+        {
+            "rolls":1,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "name":"ctov:village/common/tannery"
+                }
+            ]
+        }
+    ]
+}

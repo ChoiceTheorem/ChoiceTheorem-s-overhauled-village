@@ -1,0 +1,108 @@
+{
+    "name": "ctov:village/plains/decos",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/decos/lamp_1",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/decos/lamp_2",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/decos/lamp_3",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/decos/lamp_4",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/decos/well",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/decos/hay_bale",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:village/plains/decos/wagon",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:feature_pool_element",
+          "projection": "rigid",
+          "feature": "minecraft:oak"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:feature_pool_element",
+          "projection": "rigid",
+         "feature": "minecraft:flower_plain"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:feature_pool_element",
+          "projection": "rigid",
+         "feature": "minecraft:forest_flowers"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:feature_pool_element",
+          "projection": "rigid",
+          "feature": "minecraft:pile_hay"
+        }
+      },
+      {
+        "weight":5,
+        "element":{
+          "element_type": "minecraft:empty_pool_element",
+          "projection": "rigid"
+        }
+      }
+    ]
+  }

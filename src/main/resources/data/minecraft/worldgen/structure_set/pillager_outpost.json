@@ -1,0 +1,64 @@
+{
+	"structures": [
+		{
+			"structure": "ctov:pillager_outpost_beach",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:pillager_outpost_dark_forest",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:pillager_outpost_desert",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:pillager_outpost_jungle",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:pillager_outpost_mesa",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:pillager_outpost_mountain",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:pillager_outpost_plains",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:pillager_outpost_savanna",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:pillager_outpost_snowy",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:pillager_outpost_swamp",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:pillager_outpost_taiga",
+			"weight": 1
+		},
+		{
+			"structure": "minecraft:pillager_outpost",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 165745296,
+		"frequency_reduction_method": "legacy_type_1",
+		"frequency": 0.2,
+		"exclusion_zone": {
+			"other_set": "minecraft:villages",
+			"chunk_count": 10
+		},
+		"spacing": 32,
+		"separation": 8
+	}
+}

@@ -1,0 +1,16 @@
+{
+    "name": "ctov:pillager_outpost/taiga/hq",
+    "fallback": "ctov:pillager_outpost/taiga/deco",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "ctov:pillager_outpost/taiga/hq",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

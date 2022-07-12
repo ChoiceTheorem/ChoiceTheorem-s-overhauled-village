@@ -1,0 +1,17 @@
+{
+  "name": "ctov:pillager_outpost/jungle/start",
+  "fallback": "minecraft:empty",
+  "elements": 
+  [
+    {
+      "weight": 1,
+      "element": 
+      {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "ctov:pillager_outpost/jungle/baseline",
+        "processors": "minecraft:empty"
+        }
+    }
+  ]
+}

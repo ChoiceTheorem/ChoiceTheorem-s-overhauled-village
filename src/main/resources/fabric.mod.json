@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "ctov",
+  "version": "3.0.1",
+  "name": "ChoiceTheorem's Overhauled Villages",
+  "description": "Enhances and creates new villages and pillager outposts, that perfectly fit into your Minecraft world.",
+  "authors": [
+    "ChoiceTheorem"
+  ],
+  "contact": {
+    "sources": "https://github.com/ChoiceTheorem/ct-overhaul-village",
+    "issues": "https://github.com/ChoiceTheorem/ct-overhaul-village/issues"
+  },
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "icon": "pack.png",
+  "environment": "*",
+  "depends": {
+    "fabricloader": ">=0.14.7",
+    "minecraft": ">=1.19"
+  }
+}

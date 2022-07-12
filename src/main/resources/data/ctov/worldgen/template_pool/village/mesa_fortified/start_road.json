@@ -1,0 +1,15 @@
+{
+    "name": "ctov:village/mesa_fortified/start_road",
+    "fallback": "ctov:village/mesa_fortified/roads",
+    "elements": [
+        {
+            "weight":1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "ctov:detailing/mesa/red_roads",
+                "location": "ctov:village/mesa_fortified/roads/start"
+            }
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "pools":[
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"item",
+                    "name":"minecraft:carrot",
+                    "functions": [
+                        {
+                            "function":"set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"item",
+                    "name":"minecraft:pumpkin",
+                    "functions": [
+                        {
+                            "function":"set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"item",
+                    "name":"minecraft:pumpkin_pie",
+                    "functions": [
+                        {
+                            "function":"set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

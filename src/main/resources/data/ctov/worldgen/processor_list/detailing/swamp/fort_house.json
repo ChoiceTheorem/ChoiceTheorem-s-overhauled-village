@@ -1,0 +1,49 @@
+{
+	"processors": [
+		{
+			"processor_type": "minecraft:rule",
+			"rules": [
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:deepslate_bricks",
+						"probability": 0.2
+					},
+					"output_state": {
+						"Name": "minecraft:cracked_deepslate_bricks"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:terracotta",
+						"probability": 0.1
+					},
+					"output_state": {
+						"Name": "minecraft:granite"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:terracotta",
+						"probability": 0.1
+					},
+					"output_state": {
+						"Name": "minecraft:polished_granite"
+					}
+				}
+			]
+		}
+	]
+}
+	
