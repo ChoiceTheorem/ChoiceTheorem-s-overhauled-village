@@ -271,6 +271,96 @@
                 "processors": "ctov:detailing/snowy/igloo",
                 "location": "ctov:village/snowy_igloo/jobsite/smith"
             }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/snowy/igloo",
+                "location": "ctov:village/snowy_igloo/jobsite/engineer"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/snowy/igloo",
+                "location": "ctov:village/snowy_igloo/jobsite/garden"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/snowy/igloo",
+                "location": "ctov:village/snowy_igloo/jobsite/hunter"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/snowy/igloo",
+                "location": "ctov:village/snowy_igloo/jobsite/oceanographer"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/snowy/igloo",
+                "location": "ctov:village/snowy_igloo/jobsite/woodworker"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/snowy/ice_igloo",
+                "location": "ctov:village/snowy_igloo/jobsite/engineer"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/snowy/ice_igloo",
+                "location": "ctov:village/snowy_igloo/jobsite/garden"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/snowy/ice_igloo",
+                "location": "ctov:village/snowy_igloo/jobsite/hunter"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/snowy/ice_igloo",
+                "location": "ctov:village/snowy_igloo/jobsite/oceanographer"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/snowy/ice_igloo",
+                "location": "ctov:village/snowy_igloo/jobsite/woodworker"
+            }
         }
     ]
 }

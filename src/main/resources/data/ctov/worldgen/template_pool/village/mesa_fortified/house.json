@@ -172,6 +172,51 @@
                 "processors": "ctov:detailing/mesa/village",
                 "location": "ctov:village/mesa_fortified/jobsite/smith"
             }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/mesa/village",
+                "location": "ctov:village/mesa_fortified/jobsite/engineer"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/mesa/village",
+                "location": "ctov:village/mesa_fortified/jobsite/garden"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/mesa/village",
+                "location": "ctov:village/mesa_fortified/jobsite/hunter"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/mesa/village",
+                "location": "ctov:village/mesa_fortified/jobsite/oceanographer"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/mesa/village",
+                "location": "ctov:village/mesa_fortified/jobsite/woodworker"
+            }
         }
     ]
 }

@@ -190,6 +190,51 @@
                 "processors": "ctov:detailing/desert/village",
                 "location": "ctov:village/desert_oasis/jobsite/temple"
             }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/desert/village",
+                "location": "ctov:village/desert_oasis/jobsite/engineer"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/desert/village",
+                "location": "ctov:village/desert_oasis/jobsite/garden"
+            }
+        }
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/desert/village",
+                "location": "ctov:village/desert_oasis/jobsite/hunter"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/desert/village",
+                "location": "ctov:village/desert_oasis/jobsite/oceanographer"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/desert/village",
+                "location": "ctov:village/desert_oasis/jobsite/woodworker"
+            }
         }
     ]
 }

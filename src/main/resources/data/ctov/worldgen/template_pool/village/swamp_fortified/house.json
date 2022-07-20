@@ -181,6 +181,51 @@
                 "processors": "ctov:detailing/swamp/fort_house",
                 "location": "ctov:village/swamp_fortified/jobsite/smith"
             }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/swamp/fort_house",
+                "location": "ctov:village/swamp_fortified/jobsite/engineer"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/swamp/fort_house",
+                "location": "ctov:village/swamp_fortified/jobsite/garden"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/swamp/fort_house",
+                "location": "ctov:village/swamp_fortified/jobsite/hunter"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/swamp/fort_house",
+                "location": "ctov:village/swamp_fortified/jobsite/oceanographer"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/swamp/fort_house",
+                "location": "ctov:village/swamp_fortified/jobsite/woodworker"
+            }
         }
     ]
 }

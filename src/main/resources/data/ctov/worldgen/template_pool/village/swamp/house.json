@@ -190,6 +190,51 @@
                 "processors": "ctov:detailing/swamp/house",
                 "location": "ctov:village/swamp/jobsite/smith"
             }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/swamp/house",
+                "location": "ctov:village/swamp/jobsite/engineer"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/swamp/house",
+                "location": "ctov:village/swamp/jobsite/garden"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/swamp/house",
+                "location": "ctov:village/swamp/jobsite/hunter"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/swamp/house",
+                "location": "ctov:village/swamp/jobsite/oceanographer"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/swamp/house",
+                "location": "ctov:village/swamp/jobsite/woodworker"
+            }
         }
     ]
 }

@@ -163,6 +163,51 @@
                 "processors": "ctov:detailing/taiga/village",
                 "location": "ctov:village/taiga_fortified/jobsite/cartography"
             }
+        },
+        {
+            "weight":1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/taiga/village",
+                "location": "ctov:village/taiga_fortified/jobsite/engineer"
+            }
+        },
+        {
+            "weight":1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/taiga/village",
+                "location": "ctov:village/taiga_fortified/jobsite/garden"
+            }
+        },
+        {
+            "weight":1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/taiga/village",
+                "location": "ctov:village/taiga_fortified/jobsite/hunter"
+            }
+        },
+        {
+            "weight":1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/taiga/village",
+                "location": "ctov:village/taiga_fortified/jobsite/oceanographer"
+            }
+        },
+        {
+            "weight":1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/taiga/village",
+                "location": "ctov:village/taiga_fortified/jobsite/woodworker"
+            }
         }
     ]
 }

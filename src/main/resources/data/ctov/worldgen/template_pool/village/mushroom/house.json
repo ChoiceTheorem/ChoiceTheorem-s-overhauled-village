@@ -1,187 +1,276 @@
 {
-		"name": "ctov:village/mushroom/house",
-		"fallback": "ctov:village/mushroom/decos",
-		"elements": [
-			{
-				"weight": 20,
-				"element": {
-					"element_type": "minecraft:single_pool_element",
-					"projection": "rigid",
-					"location": "ctov:village/mushroom/house/small_1",
-					"processors": "ctov:detailing/mushroom/brown_house"
-				}
-			},
-			{
-				"weight": 20,
-				"element": {
-					"element_type": "minecraft:single_pool_element",
-					"projection": "rigid",
-					"location": "ctov:village/mushroom/house/small_2",
-					"processors": "ctov:detailing/mushroom/brown_house"
-				}
-			},
-			{
-				"weight": 20,
-				"element": {
-					"element_type": "minecraft:single_pool_element",
-					"projection": "rigid",
-					"location": "ctov:village/mushroom/house/small_1",
-					"processors": "ctov:detailing/mushroom/red_house"
-				}
-			},
-			{
-				"weight": 20,
-				"element": {
-					"element_type": "minecraft:single_pool_element",
-					"projection": "rigid",
-					"location": "ctov:village/mushroom/house/small_2",
-					"processors": "ctov:detailing/mushroom/red_house"
-				}
-			},
-			{
-				"weight": 5,
-				"element": {
-					"element_type": "minecraft:single_pool_element",
-					"projection": "rigid",
-					"location": "ctov:village/mushroom/house/med_1",
-					"processors": "ctov:detailing/mushroom/brown_house"
-				}
-			},
-			{
-				"weight": 5,
-				"element": {
-					"element_type": "minecraft:single_pool_element",
-					"projection": "rigid",
-					"location": "ctov:village/mushroom/house/med_2",
-					"processors": "ctov:detailing/mushroom/brown_house"
-				}
-			},
-			{
-				"weight": 5,
-				"element": {
-					"element_type": "minecraft:single_pool_element",
-					"projection": "rigid",
-					"location": "ctov:village/mushroom/house/med_1",
-					"processors": "ctov:detailing/mushroom/red_house"
-				}
-			},
-			{
-				"weight": 5,
-				"element": {
-					"element_type": "minecraft:single_pool_element",
-					"projection": "rigid",
-					"location": "ctov:village/mushroom/house/med_2",
-					"processors": "ctov:detailing/mushroom/red_house"
-				}
-			},
-			{
-				"weight": 5,
-				"element": {
-					"element_type": "minecraft:single_pool_element",
-					"projection": "rigid",
-					"location": "ctov:village/mushroom/jobsite/butcher",
-					"processors": "ctov:detailing/mushroom/brown_house"
-				}
-			},
-			{
-				"weight": 5,
-				"element": {
-					"element_type": "minecraft:single_pool_element",
-					"projection": "rigid",
-					"location": "ctov:village/mushroom/jobsite/cartographer",
-					"processors": "ctov:detailing/mushroom/red_house"
-				}
-			},
-			{
-				"weight": 5,
-				"element": {
-					"element_type": "minecraft:single_pool_element",
-					"projection": "rigid",
-					"location": "ctov:village/mushroom/jobsite/chemist",
-					"processors": "ctov:detailing/mushroom/brown_house"
-				}
-			},
-			{
-				"weight": 5,
-				"element": {
-					"element_type": "minecraft:single_pool_element",
-					"projection": "rigid",
-					"location": "ctov:village/mushroom/jobsite/fishing_house",
-					"processors": "ctov:detailing/mushroom/brown_house"
-				}
-			},
-			{
-				"weight": 5,
-				"element": {
-					"element_type": "minecraft:single_pool_element",
-					"projection": "rigid",
-					"location": "ctov:village/mushroom/jobsite/library",
-					"processors": "ctov:detailing/mushroom/red_house"
-				}
-			},
-			{
-				"weight": 5,
-				"element": {
-					"element_type": "minecraft:single_pool_element",
-					"projection": "rigid",
-					"location": "ctov:village/mushroom/jobsite/loomhouse",
-					"processors": "ctov:detailing/mushroom/brown_house"
-				}
-			},
-			{
-				"weight": 5,
-				"element": {
-					"element_type": "minecraft:single_pool_element",
-					"projection": "rigid",
-					"location": "ctov:village/mushroom/jobsite/mason",
-					"processors": "ctov:detailing/mushroom/red_house"
-				}
-			},
-			{
-				"weight": 5,
-				"element": {
-					"element_type": "minecraft:single_pool_element",
-					"projection": "rigid",
-					"processors": "ctov:farm/mushroom/brown",
-					"location": "ctov:village/mushroom/jobsite/farm"
-				}
-			},
-			{
-				"weight": 5,
-				"element": {
-					"element_type": "minecraft:single_pool_element",
-					"projection": "rigid",
-					"processors": "ctov:farm/mushroom/brown",
-					"location": "ctov:village/mushroom/jobsite/fd_farm"
-				}
-			},
-			{
-				"weight": 3,
-				"element": {
-					"element_type": "minecraft:single_pool_element",
-					"projection": "rigid",
-					"processors": "ctov:farm/mushroom/red",
-					"location": "ctov:village/mushroom/jobsite/farm"
-				}
-			},
-			{
-				"weight": 3,
-				"element": {
-					"element_type": "minecraft:single_pool_element",
-					"projection": "rigid",
-					"processors": "ctov:farm/mushroom/red",
-					"location": "ctov:village/mushroom/jobsite/fd_farm"
-				}
-			},
-			{
-				"weight": 5,
-				"element": {
-					"element_type": "minecraft:single_pool_element",
-					"projection": "rigid",
-					"location": "ctov:village/mushroom/jobsite/smith",
-					"processors": "ctov:detailing/mushroom/red_house"
-				}
+	"name": "ctov:village/mushroom/house",
+	"fallback": "ctov:village/mushroom/decos",
+	"elements": [
+		{
+			"weight": 20,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/house/small_1",
+				"processors": "ctov:detailing/mushroom/brown_house"
 			}
-		]
-	}
-	
+		},
+		{
+			"weight": 20,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/house/small_2",
+				"processors": "ctov:detailing/mushroom/brown_house"
+			}
+		},
+		{
+			"weight": 20,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/house/small_1",
+				"processors": "ctov:detailing/mushroom/red_house"
+			}
+		},
+		{
+			"weight": 20,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/house/small_2",
+				"processors": "ctov:detailing/mushroom/red_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/house/med_1",
+				"processors": "ctov:detailing/mushroom/brown_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/house/med_2",
+				"processors": "ctov:detailing/mushroom/brown_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/house/med_1",
+				"processors": "ctov:detailing/mushroom/red_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/house/med_2",
+				"processors": "ctov:detailing/mushroom/red_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/butcher",
+				"processors": "ctov:detailing/mushroom/brown_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/cartographer",
+				"processors": "ctov:detailing/mushroom/red_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/chemist",
+				"processors": "ctov:detailing/mushroom/brown_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/fishing_house",
+				"processors": "ctov:detailing/mushroom/brown_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/library",
+				"processors": "ctov:detailing/mushroom/red_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/loomhouse",
+				"processors": "ctov:detailing/mushroom/brown_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/mason",
+				"processors": "ctov:detailing/mushroom/red_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/farm",
+				"processors": "ctov:farm/mushroom/brown"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/fd_farm",
+				"processors": "ctov:farm/mushroom/brown"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/farm",
+				"processors": "ctov:farm/mushroom/red"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/fd_farm",
+				"processors": "ctov:farm/mushroom/red"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/smith",
+				"processors": "ctov:detailing/mushroom/red_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/engineer",
+				"processors": "ctov:detailing/mushroom/red_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/engineer",
+				"processors": "ctov:detailing/mushroom/brown_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/garden",
+				"processors": "ctov:detailing/mushroom/red_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/garden",
+				"processors": "ctov:detailing/mushroom/brown_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/hunter",
+				"processors": "ctov:detailing/mushroom/red_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/hunter",
+				"processors": "ctov:detailing/mushroom/brown_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/oceanographer",
+				"processors": "ctov:detailing/mushroom/red_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/oceanographer",
+				"processors": "ctov:detailing/mushroom/brown_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/woodworker",
+				"processors": "ctov:detailing/mushroom/red_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/woodworker",
+				"processors": "ctov:detailing/mushroom/brown_house"
+			}
+		}
+	]
+}

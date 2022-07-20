@@ -181,6 +181,42 @@
                 "processors": "ctov:detailing/desert/village",
                 "location": "ctov:village/desert/jobsite/tannery"
             }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/desert/village",
+                "location": "ctov:village/desert/jobsite/engineer"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/desert/village",
+                "location": "ctov:village/desert/jobsite/hunter"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/desert/village",
+                "location": "ctov:village/desert/jobsite/oceanographer"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/desert/village",
+                "location": "ctov:village/desert/jobsite/woodworker"
+            }
         }
     ]
 }
