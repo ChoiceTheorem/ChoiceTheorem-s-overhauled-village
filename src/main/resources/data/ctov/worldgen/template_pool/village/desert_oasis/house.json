@@ -208,7 +208,7 @@
                 "processors": "ctov:detailing/desert/village",
                 "location": "ctov:village/desert_oasis/jobsite/garden"
             }
-        }
+        },
         {
             "weight": 1,
             "element": {

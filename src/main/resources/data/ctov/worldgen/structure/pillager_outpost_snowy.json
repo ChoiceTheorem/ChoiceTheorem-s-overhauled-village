@@ -35,7 +35,7 @@
 	},
 	"terrain_adaptation": "beard_thin",
 	"start_pool": "ctov:pillager_outpost/snowy/outpost",
-	"size": 5,
+	"size": 2,
 	"start_height": {
 		"absolute": 0
 	},
