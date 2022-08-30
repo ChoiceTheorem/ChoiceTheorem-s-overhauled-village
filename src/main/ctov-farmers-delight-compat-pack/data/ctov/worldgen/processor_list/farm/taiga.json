@@ -1,0 +1,115 @@
+{
+    "processors": [
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:dirt",
+                        "probability": 0.3
+                    },
+                    "location_predicate":{
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "farmersdelight:rich_soil"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:farmland",
+                        "probability": 0.3
+                    },
+                    "location_predicate":{
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "farmersdelight:rich_soil_farmland"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:grass_block",
+                        "probability": 0.3
+                    },
+                    "location_predicate":{
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "farmersdelight:organic_compost"
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type":"minecraft:rule",
+            "rules": [
+                {
+                    "position_predicate":{
+                        "predicate_type": "always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "minecraft:deepslate_bricks",
+                        "probability": 0.3
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cracked_deepslate_bricks"
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type":"minecraft:rule",
+            "rules": [
+                {
+                    "position_predicate":{
+                        "predicate_type": "always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "minecraft:deepslate_tiles",
+                        "probability": 0.3
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cracked_deepslate_tiles"
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type":"minecraft:rule",
+            "rules": 
+            [
+                {
+                    "position_predicate":{
+                        "predicate_type": "always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "minecraft:spruce_planks",
+                        "probability": 0.3
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:stripped_spruce_log",
+                        "Properties": {
+                            "axis":"y"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
