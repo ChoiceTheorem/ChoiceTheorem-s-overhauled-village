@@ -5,7 +5,6 @@
 <p style="text-align: left;"><span style="font-size: 14px;">ChoiceTheorem's overhauled village is a structure datapack package as a mod for forge and fabric that enhances and creates new villages and pillager outpost variants. This pack adds 20 village variants and pillager outpost variants that perfectly fit into your Minecraft worlds. The existing villages are rebuilt from the ground up and each biome type can generate two types of structures. In total, there are 23 village variants and 14 pillager outpost variants tailored to suit the terrain, theme and biomes.</span></p>
 <p><span style="font-size: 14px; color: #ff0000;">There will be no backporting beyond 1.18.2 for the mod version and 1.17 for the datapack version. DO NOT ASK because it will be ignored and your comment removed.</span></p>
 <p><span style="font-size: 24px; color: #ff0000;">FAQ section is there for a reason. Read it before asking in the comment.</span></p>
-<p>&nbsp;</p>
 <h4 style="text-align: center;"><span style="text-decoration: underline; font-size: 18px;"><strong>FAQs</strong></span></h4>
 <h4 style="text-align: left;"><span style="font-size: 14px;">These are just some of the most asked questions I&rsquo;ve had from people, but if you have any more, please leave a comment below and I&rsquo;ll try to help you as best I can.</span></h4>
 <p><em><strong>1. Is it safe to update CTOV to a newer version?</strong></em><br />Yes. If any serious problems arise because of that, let me know.<br /><br />
@@ -30,6 +29,3 @@
 <p style="text-align: center;"><span style="font-size: 14px;">More Villagers with compatibility datapack <a href="https://www.curseforge.com/minecraft/texture-packs/choicetheorems-overhauled-village-more-villagers">here</a>.</span></p>
 <p style="text-align: center;"><span style="font-size: 14px;">Various structure mods like Town&amp;Tower and Repurposed structures.</span></p>
 <p style="text-align: center;"><span style="font-size: 14px;">Any other structure packs by ChoiceTheorem like Immersive structures.</span></p>
-</div>
-<p><span style="font-size: 1.2rem;">&nbsp;</span></p>
-<p>&nbsp;</p>
