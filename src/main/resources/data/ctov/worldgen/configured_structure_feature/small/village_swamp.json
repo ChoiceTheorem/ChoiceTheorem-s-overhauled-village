@@ -3,7 +3,7 @@
 	"biomes": "#minecraft:has_structure/ruined_portal_swamp",
 	"step": "surface_structures",
 	"spawn_overrides": {},
-	"terrain_adaptation": "beard_thin",
+	"adapt_noise": true,
 	"config": { "start_pool": "ctov:village/biome/swamp",
 	"size": 3 },
 	"start_height": {

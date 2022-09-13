@@ -3,7 +3,7 @@
 	"biomes": "#minecraft:has_structure/woodland_mansion",
 	"step": "surface_structures",
 	"spawn_overrides": {},
-	"terrain_adaptation": "beard_thin",
+	"adapt_noise": true,
 	"config": { "start_pool": "ctov:village/biome/dark_forest",
 	"size": 5 },
 	"start_height": {

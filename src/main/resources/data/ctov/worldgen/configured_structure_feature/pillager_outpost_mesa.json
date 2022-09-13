@@ -33,7 +33,7 @@
 			]
 		}
 	},
-	"terrain_adaptation": "beard_thin",
+	"adapt_noise": true,
 	"config": { "start_pool": "ctov:pillager_outpost/mesa/starts",
 	"size": 2 },
 	"start_height": {

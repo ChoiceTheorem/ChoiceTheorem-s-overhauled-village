@@ -3,7 +3,7 @@
 	"biomes": "#minecraft:is_badlands",
 	"step": "surface_structures",
 	"spawn_overrides": {},
-	"terrain_adaptation": "beard_thin",
+	"adapt_noise": true,
 	"config": { "start_pool": "ctov:village/biome/mesa",
 	"size": 3 },
 	"start_height": {

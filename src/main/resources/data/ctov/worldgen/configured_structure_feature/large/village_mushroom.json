@@ -3,7 +3,7 @@
 	"biomes": "minecraft:mushroom_fields",
 	"step": "surface_structures",
 	"spawn_overrides": {},
-	"terrain_adaptation": "beard_thin",
+	"adapt_noise": true,
 	"config": { "start_pool": "ctov:village/biome/mushroom",
 	"size": 5 },
 	"start_height": {

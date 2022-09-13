@@ -3,7 +3,7 @@
 	"biomes": "#minecraft:has_structure/village_taiga",
 	"step": "surface_structures",
 	"spawn_overrides": {},
-	"terrain_adaptation": "beard_thin",
+	"adapt_noise": true,
 	"config": { "start_pool": "ctov:village/biome/taiga",
 	"size": 4 },
 	"start_height": {
