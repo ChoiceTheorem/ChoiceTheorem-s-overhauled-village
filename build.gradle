@@ -16,7 +16,7 @@ plugins {
 apply plugin: 'net.minecraftforge.gradle'
 
 
-version = '2.9.1'
+version = '2.9.2'
 group = 'com.choicetheorem.ctov' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'ctov'
 
