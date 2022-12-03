@@ -106,6 +106,15 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
+                "processors": "ctov:orchard/jungle",
+                "location": "ctov:village/jungle/jobsite/orchard"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
                 "processors": "ctov:farm/jungle",
                 "location": "ctov:village/jungle/jobsite/fd_farm"
             }

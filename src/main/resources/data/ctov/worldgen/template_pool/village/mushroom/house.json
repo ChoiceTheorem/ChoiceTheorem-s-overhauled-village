@@ -147,6 +147,15 @@
 			}
 		},
 		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/orchard",
+				"processors": "ctov:orchard/mushroom/brown"
+			}
+		},
+		{
 			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
@@ -162,6 +171,15 @@
 				"projection": "rigid",
 				"location": "ctov:village/mushroom/jobsite/farm",
 				"processors": "ctov:farm/mushroom/red"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/orchard",
+				"processors": "ctov:orchard/mushroom/red"
 			}
 		},
 		{

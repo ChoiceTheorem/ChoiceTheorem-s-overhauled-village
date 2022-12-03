@@ -133,6 +133,15 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
+                "processors": "ctov:orchard/swamp",
+                "location": "ctov:village/swamp_fortified/jobsite/orchard"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
                 "processors": "ctov:farm/swamp",
                 "location": "ctov:village/swamp_fortified/jobsite/fd_farm"
             }

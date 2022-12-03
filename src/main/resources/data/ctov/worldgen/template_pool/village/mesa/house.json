@@ -115,6 +115,15 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"processors": "ctov:orchard/mesa",
+				"location": "ctov:village/mesa/jobsite/orchard"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
 				"processors": "ctov:farm/mesa",
 				"location": "ctov:village/mesa/jobsite/fd_farm"
 			}

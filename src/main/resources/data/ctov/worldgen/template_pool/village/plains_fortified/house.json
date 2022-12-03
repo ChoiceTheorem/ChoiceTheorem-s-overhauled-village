@@ -169,6 +169,15 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/jobsite/orchard",
+				"processors": "ctov:orchard/plains/quartz"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
 				"location": "ctov:village/plains_fortified/jobsite/fd_farm",
 				"processors": "ctov:farm/plains/quartz"
 			}

@@ -116,15 +116,6 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "processors": "ctov:detailing/savanna/house_orange",
-                "location": "ctov:village/savanna/jobsite/farm"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_orange",
                 "location": "ctov:village/savanna/jobsite/fishing_hut"
             }
         },
@@ -277,6 +268,15 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
+                "processors": "ctov:orchard/savanna/orange",
+                "location": "ctov:village/savanna/jobsite/orchard"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
                 "processors": "ctov:farm/savanna/orange",
                 "location": "ctov:village/savanna/jobsite/fd_farm"
             }
@@ -295,6 +295,15 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
+                "processors": "ctov:orchard/savanna/red",
+                "location": "ctov:village/savanna/jobsite/orchard"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
                 "processors": "ctov:farm/savanna/red",
                 "location": "ctov:village/savanna/jobsite/fd_farm"
             }
@@ -306,6 +315,15 @@
                 "projection": "rigid",
                 "processors": "ctov:farm/savanna/yellow",
                 "location": "ctov:village/savanna/jobsite/farm"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:orchard/savanna/yellow",
+                "location": "ctov:village/savanna/jobsite/orchard"
             }
         },
         {

@@ -214,6 +214,15 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
+                "processors": "ctov:orchard/snowy/igloo",
+                "location": "ctov:village/snowy_igloo/jobsite/orchard"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
                 "processors": "ctov:farm/snowy/igloo",
                 "location": "ctov:village/snowy_igloo/jobsite/fd_farm"
             }
@@ -223,7 +232,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
-                "processors": "ctov:farm/snowy/igloo",
+                "processors": "ctov:farm/snowy/ice_igloo",
                 "location": "ctov:village/snowy_igloo/jobsite/farm"
             }
         },
@@ -232,7 +241,16 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
-                "processors": "ctov:farm/snowy/igloo",
+                "processors": "ctov:orchard/snowy/ice_igloo",
+                "location": "ctov:village/snowy_igloo/jobsite/orchard"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:farm/snowy/ice_igloo",
                 "location": "ctov:village/snowy_igloo/jobsite/fd_farm"
             }
         },

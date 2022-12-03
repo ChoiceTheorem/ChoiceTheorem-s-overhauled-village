@@ -142,6 +142,15 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
+                "processors": "ctov:orchard/default",
+                "location": "ctov:village/savanna_na/jobsite/orchard"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
                 "processors": "ctov:farm/default",
                 "location": "ctov:village/savanna_na/jobsite/fd_farm"
             }
