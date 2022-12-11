@@ -16,7 +16,7 @@ plugins {
 apply plugin: 'net.minecraftforge.gradle'
 
 
-version = '3.1.2'
+version = '3.1.4'
 group = 'com.choicetheorem.ctov' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'ctov'
 
@@ -175,7 +175,7 @@ jar {
                 "Specification-Version"   : "1", // We are version 1 of ourselves
                 "Implementation-Title"    : archivesBaseName,
                 "Implementation-Version"  : version,
-                "Implementation-Vendor"   : "choicetheorem",
+                "Implementation-Vendor"   : "3.1.4",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }

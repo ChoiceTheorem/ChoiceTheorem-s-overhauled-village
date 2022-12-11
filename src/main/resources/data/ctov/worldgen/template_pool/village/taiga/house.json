@@ -115,6 +115,15 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
+                "processors": "ctov:orchard/taiga",
+                "location": "ctov:village/taiga/jobsite/orchard"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
                 "processors": "ctov:farm/taiga",
                 "location": "ctov:village/taiga/jobsite/fd_farm"
             }
