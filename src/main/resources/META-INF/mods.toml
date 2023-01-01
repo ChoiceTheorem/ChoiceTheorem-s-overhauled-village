@@ -27,7 +27,7 @@ displayName="ChoiceTheorem's Overhauled Villages" #mandatory
 # A URL for the "homepage" for this mod, displayed in the mod UI
 displayURL="https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="pack.png" #optional
+logoFile="assets/pack.png" #optional
 # A text field displayed in the mod UI
 credits="" #optional
 # A text field displayed in the mod UI
@@ -36,6 +36,8 @@ authors="ChoiceTheorem" #optional
 description='''
 Enhances and creates new villages and pillager outposts, that perfectly fit into your Minecraft world.
 '''
+# the other stuff here - ID, version, display name, etc. 
+updateJSONURL = "https://api.modrinth.com/updates/fgmhI8kH/forge_updates.json"
 [[dependencies.classes]] #optional
     modId="forge" 
     mandatory=true
