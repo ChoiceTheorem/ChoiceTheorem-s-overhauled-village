@@ -1,708 +1,825 @@
 {
-    "name": "ctov:village/savanna/house",
-    "fallback": "ctov:village/savanna/deco",
-    "elements": [
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "ctov:village/savanna/house/small_1",
-                "processors": "ctov:detailing/savanna/house_orange"              
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_orange",
-                "location": "ctov:village/savanna/house/small_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_orange",
-                "location": "ctov:village/savanna/house/small_3"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_orange",
-                "location": "ctov:village/savanna/house/med_1"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_orange",
-                "location": "ctov:village/savanna/house/med_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_orange",
-                "location": "ctov:village/savanna/house/big_1"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_orange",
-                "location": "ctov:village/savanna/house/big_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_orange",
-                "location": "ctov:village/savanna/jobsite/tannery"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_orange",
-                "location": "ctov:village/savanna/jobsite/library"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_orange",
-                "location": "ctov:village/savanna/jobsite/butcher"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_orange",
-                "location": "ctov:village/savanna/jobsite/cartographer"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_orange",
-                "location": "ctov:village/savanna/jobsite/chemist"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_orange",
-                "location": "ctov:village/savanna/jobsite/fishing_hut"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_orange",
-                "location": "ctov:village/savanna/jobsite/mason"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_orange",
-                "location": "ctov:village/savanna/jobsite/shepherd"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_orange",
-                "location": "ctov:village/savanna/jobsite/smith"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "ctov:village/savanna/house/small_1",
-                "processors": "ctov:detailing/savanna/house_red"              
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_red",
-                "location": "ctov:village/savanna/house/small_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_red",
-                "location": "ctov:village/savanna/house/small_3"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_red",
-                "location": "ctov:village/savanna/house/med_1"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_red",
-                "location": "ctov:village/savanna/house/med_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_red",
-                "location": "ctov:village/savanna/house/big_1"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_red",
-                "location": "ctov:village/savanna/house/big_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_red",
-                "location": "ctov:village/savanna/jobsite/tannery"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_red",
-                "location": "ctov:village/savanna/jobsite/library"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_red",
-                "location": "ctov:village/savanna/jobsite/butcher"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_red",
-                "location": "ctov:village/savanna/jobsite/cartographer"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_red",
-                "location": "ctov:village/savanna/jobsite/chemist"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:farm/savanna/orange",
-                "location": "ctov:village/savanna/jobsite/farm"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:orchard/savanna/orange",
-                "location": "ctov:village/savanna/jobsite/orchard"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:farm/savanna/orange",
-                "location": "ctov:village/savanna/jobsite/fd_farm"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:farm/savanna/red",
-                "location": "ctov:village/savanna/jobsite/farm"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:orchard/savanna/red",
-                "location": "ctov:village/savanna/jobsite/orchard"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:farm/savanna/red",
-                "location": "ctov:village/savanna/jobsite/fd_farm"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:farm/savanna/yellow",
-                "location": "ctov:village/savanna/jobsite/farm"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:orchard/savanna/yellow",
-                "location": "ctov:village/savanna/jobsite/orchard"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:farm/savanna/yellow",
-                "location": "ctov:village/savanna/jobsite/fd_farm"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_red",
-                "location": "ctov:village/savanna/jobsite/fishing_hut"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_red",
-                "location": "ctov:village/savanna/jobsite/mason"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_red",
-                "location": "ctov:village/savanna/jobsite/shepherd"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_red",
-                "location": "ctov:village/savanna/jobsite/smith"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "ctov:village/savanna/house/small_1",
-                "processors": "ctov:detailing/savanna/house_yellow"              
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_yellow",
-                "location": "ctov:village/savanna/house/small_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_yellow",
-                "location": "ctov:village/savanna/house/small_3"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_yellow",
-                "location": "ctov:village/savanna/house/med_1"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_yellow",
-                "location": "ctov:village/savanna/house/med_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_yellow",
-                "location": "ctov:village/savanna/house/big_1"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_yellow",
-                "location": "ctov:village/savanna/house/big_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_yellow",
-                "location": "ctov:village/savanna/jobsite/tannery"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_yellow",
-                "location": "ctov:village/savanna/jobsite/library"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_yellow",
-                "location": "ctov:village/savanna/jobsite/butcher"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_yellow",
-                "location": "ctov:village/savanna/jobsite/cartographer"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_yellow",
-                "location": "ctov:village/savanna/jobsite/chemist"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_yellow",
-                "location": "ctov:village/savanna/jobsite/fishing_hut"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_yellow",
-                "location": "ctov:village/savanna/jobsite/mason"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_yellow",
-                "location": "ctov:village/savanna/jobsite/shepherd"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/savanna/house_yellow",
-                "location": "ctov:village/savanna/jobsite/smith"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "ctov:village/savanna/house/small_1",
-                "processors": "minecraft:empty"              
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/savanna/house/small_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/savanna/house/small_3"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/savanna/house/med_1"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/savanna/house/med_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/savanna/house/big_1"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/savanna/house/big_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/savanna/jobsite/tannery"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/savanna/jobsite/library"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/savanna/jobsite/butcher"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/savanna/jobsite/cartographer"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/savanna/jobsite/chemist"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/savanna/jobsite/fishing_hut"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/savanna/jobsite/mason"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/savanna/jobsite/shepherd"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/savanna/jobsite/smith"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/savanna/jobsite/engineer"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/savanna/jobsite/garden"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/savanna/jobsite/hunter"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/savanna/jobsite/oceanographer"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/savanna/jobsite/woodworker"
-            }
-        }
-    ]
+	"name": "ctov:village/savanna/house",
+	"fallback": "ctov:village/savanna/deco",
+	"elements": [
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/small_1",
+				"processors": "ctov:detailing/savanna/house_orange"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/small_2",
+				"processors": "ctov:detailing/savanna/house_orange"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/small_3",
+				"processors": "ctov:detailing/savanna/house_orange"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/med_1",
+				"processors": "ctov:detailing/savanna/house_orange"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/med_2",
+				"processors": "ctov:detailing/savanna/house_orange"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/big_1",
+				"processors": "ctov:detailing/savanna/house_orange"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/big_2",
+				"processors": "ctov:detailing/savanna/house_orange"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/tannery",
+				"processors": "ctov:detailing/savanna/house_orange"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/library",
+				"processors": "ctov:detailing/savanna/house_orange"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/butcher",
+				"processors": "ctov:detailing/savanna/house_orange"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/cartographer",
+				"processors": "ctov:detailing/savanna/house_orange"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/chemist",
+				"processors": "ctov:detailing/savanna/house_orange"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/fishing_hut",
+				"processors": "ctov:detailing/savanna/house_orange"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/mason",
+				"processors": "ctov:detailing/savanna/house_orange"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/shepherd",
+				"processors": "ctov:detailing/savanna/house_orange"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/smith",
+				"processors": "ctov:detailing/savanna/house_orange"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/small_1",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/small_2",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/small_3",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/med_1",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/med_2",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/big_1",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/big_2",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/tannery",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/library",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/butcher",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/cartographer",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/chemist",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/farm",
+				"processors": "ctov:farm/savanna/orange"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/orchard",
+				"processors": "ctov:orchard/savanna/orange"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/fd_farm",
+				"processors": "ctov:farm/savanna/orange"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/farm",
+				"processors": "ctov:farm/savanna/red"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/orchard",
+				"processors": "ctov:orchard/savanna/red"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/fd_farm",
+				"processors": "ctov:farm/savanna/red"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/farm",
+				"processors": "ctov:farm/savanna/yellow"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/orchard",
+				"processors": "ctov:orchard/savanna/yellow"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/fd_farm",
+				"processors": "ctov:farm/savanna/yellow"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/fishing_hut",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/mason",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/shepherd",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/smith",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/small_1",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/small_2",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/small_3",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/med_1",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/med_2",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/big_1",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/big_2",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/tannery",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/library",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/butcher",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/cartographer",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/chemist",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/fishing_hut",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/mason",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/shepherd",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/smith",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/small_1",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/small_2",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/small_3",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/med_1",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/med_2",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/big_1",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/house/big_2",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/tannery",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/library",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/butcher",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/cartographer",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/chemist",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/fishing_hut",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/mason",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/shepherd",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/smith",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/engineer",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/garden",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/hunter",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/oceanographer",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/woodworker",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/chicken_coop",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/engineer",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/garden",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/hunter",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/oceanographer",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/woodworker",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/chicken_coop",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/engineer",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/garden",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/hunter",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/oceanographer",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/woodworker",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/chicken_coop",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		}
+	]
 }

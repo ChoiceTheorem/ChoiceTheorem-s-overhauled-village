@@ -1,249 +1,258 @@
 {
-    "name": "ctov:village/swamp/house",
-    "fallback": "ctov:village/swamp/deco",
-    "elements": [
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "ctov:village/swamp/house/small_1",
-                "processors": "ctov:detailing/swamp/house"              
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/house/small_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/house/small_3"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/house/small_4"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/house/med_1"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/house/med_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/house/med_3"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/house/big_1"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/house/big_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/jobsite/leatherworker"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/jobsite/library"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/jobsite/butcher"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/jobsite/cartographer"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/jobsite/chemist"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:farm/swamp",
-                "location": "ctov:village/swamp/jobsite/farm"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:orchard/swamp",
-                "location": "ctov:village/swamp/jobsite/orchard"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:farm/swamp",
-                "location": "ctov:village/swamp/jobsite/fd_farm"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/jobsite/fishing_hut"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/jobsite/mason"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/jobsite/pen"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/jobsite/shepherd"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/jobsite/smith"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/jobsite/engineer"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/jobsite/garden"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/jobsite/hunter"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/jobsite/oceanographer"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/swamp/house",
-                "location": "ctov:village/swamp/jobsite/woodworker"
-            }
-        }
-    ]
+	"name": "ctov:village/swamp/house",
+	"fallback": "ctov:village/swamp/deco",
+	"elements": [
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/house/small_1",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/house/small_2",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/house/small_3",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/house/small_4",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/house/med_1",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/house/med_2",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/house/med_3",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/house/big_1",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/house/big_2",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/leatherworker",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/library",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/butcher",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/cartographer",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/chemist",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/farm",
+				"processors": "ctov:farm/swamp"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/orchard",
+				"processors": "ctov:orchard/swamp"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/fd_farm",
+				"processors": "ctov:farm/swamp"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/fishing_hut",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/mason",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/pen",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/shepherd",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/smith",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/engineer",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/garden",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/hunter",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/oceanographer",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/woodworker",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/chicken_coop",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		}
+	]
 }
