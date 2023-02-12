@@ -3,7 +3,7 @@
 	"fallback": "ctov:village/mesa/deco",
 	"elements": [
 		{
-			"weight": 5,
+			"weight": 15,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -12,7 +12,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 15,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -21,7 +21,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 15,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -30,7 +30,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 15,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -39,7 +39,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 15,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -170,6 +170,15 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/mesa/jobsite/woodworker",
+				"processors": "ctov:detailing/mesa/house"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mesa/jobsite/chicken_coop",
 				"processors": "ctov:detailing/mesa/house"
 			}
 		}
