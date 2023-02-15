@@ -640,6 +640,33 @@
 				"location": "ctov:village/plains_fortified/jobsite/chicken_coop",
 				"processors": "ctov:detailing/plains/house"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/jobsite/engineer",
+				"processors": "ctov:detailing/plains/red_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/jobsite/engineer",
+				"processors": "ctov:detailing/plains/pink_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/jobsite/engineer",
+				"processors": "ctov:detailing/plains/quartz_house"
+			}
 		}
 	]
 }

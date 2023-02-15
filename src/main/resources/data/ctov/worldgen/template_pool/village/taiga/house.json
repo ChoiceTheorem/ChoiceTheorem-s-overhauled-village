@@ -253,6 +253,15 @@
 				"location": "ctov:village/taiga/jobsite/chicken_coop",
 				"processors": "ctov:detailing/taiga/village"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/taiga/jobsite/engineer",
+				"processors": "ctov:detailing/taiga/village"
+			}
 		}
 	]
 }

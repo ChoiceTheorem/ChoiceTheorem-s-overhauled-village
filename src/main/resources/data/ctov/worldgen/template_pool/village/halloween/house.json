@@ -253,6 +253,15 @@
 				"location": "ctov:village/halloween/jobsite/chicken_coop",
 				"processors": "ctov:detailing/halloween/house"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/halloween/jobsite/engineer",
+				"processors": "ctov:detailing/halloween/house"
+			}
 		}
 	]
 }
