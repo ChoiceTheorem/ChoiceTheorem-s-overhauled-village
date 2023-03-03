@@ -259,7 +259,16 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/swamp/jobsite/engineer",
+				"location": "ctov:village/swamp/jobsite/imengineer",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/hunter_trainer",
 				"processors": "ctov:detailing/swamp/house"
 			}
 		}

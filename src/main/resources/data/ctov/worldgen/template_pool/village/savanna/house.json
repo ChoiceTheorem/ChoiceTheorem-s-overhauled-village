@@ -826,7 +826,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/savanna/jobsite/engineer",
+				"location": "ctov:village/savanna/jobsite/imengineer",
 				"processors": "ctov:detailing/savanna/house_yellow"
 			}
 		},
@@ -835,7 +835,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/savanna/jobsite/engineer",
+				"location": "ctov:village/savanna/jobsite/imengineer",
 				"processors": "ctov:detailing/savanna/house_orange"
 			}
 		},
@@ -844,7 +844,34 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/savanna/jobsite/engineer",
+				"location": "ctov:village/savanna/jobsite/imengineer",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/hunter_trainer",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/hunter_trainer",
+				"processors": "ctov:detailing/savanna/house_orange"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/hunter_trainer",
 				"processors": "ctov:detailing/savanna/house_red"
 			}
 		}

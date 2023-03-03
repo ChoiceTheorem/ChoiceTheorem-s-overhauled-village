@@ -187,7 +187,16 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/mesa/jobsite/engineer",
+				"location": "ctov:village/mesa/jobsite/imengineer",
+				"processors": "ctov:detailing/mesa/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mesa/jobsite/hunter_trainer",
 				"processors": "ctov:detailing/mesa/house"
 			}
 		}

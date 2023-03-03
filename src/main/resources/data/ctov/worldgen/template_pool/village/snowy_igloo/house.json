@@ -404,7 +404,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "ctov:detailing/snowy/ice_igloo",
-				"location": "ctov:village/snowy_igloo/jobsite/engineer"
+				"location": "ctov:village/snowy_igloo/jobsite/imengineer"
 			}
 		},
 		{
@@ -413,7 +413,25 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "ctov:detailing/snowy/igloo",
-				"location": "ctov:village/snowy_igloo/jobsite/engineer"
+				"location": "ctov:village/snowy_igloo/jobsite/imengineer"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/hunter_trainer"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/hunter_trainer"
 			}
 		}
 	]

@@ -251,7 +251,16 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain_alpine/jobsite/engineer"
+				"location": "ctov:village/mountain_alpine/jobsite/imengineer"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "ctov:village/mountain_alpine/jobsite/hunter_trainer"
 			}
 		}
 	]

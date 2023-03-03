@@ -242,7 +242,16 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "processors": "ctov:detailing/desert/village",
-                "location": "ctov:village/desert/jobsite/engineer"
+                "location": "ctov:village/desert/jobsite/imengineer"
+            }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/desert/village",
+                "location": "ctov:village/desert/jobsite/hunter_trainer"
             }
         }
 	]

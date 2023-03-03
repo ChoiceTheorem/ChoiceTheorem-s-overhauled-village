@@ -232,7 +232,16 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/engineer",
+				"location": "ctov:village/taiga_fortified/jobsite/imengineer",
+				"processors": "ctov:detailing/taiga/village"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/taiga_fortified/jobsite/hunter_trainer",
 				"processors": "ctov:detailing/taiga/village"
 			}
 		}
