@@ -1,5 +1,5 @@
 {
-    "name":"ctov:village/common/bee",
+    "name":"ctov:village/common/bees",
     "fallback": "minecraft:empty",
     "elements": [
         {

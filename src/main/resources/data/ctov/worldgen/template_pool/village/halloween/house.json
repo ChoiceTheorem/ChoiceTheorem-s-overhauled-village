@@ -271,6 +271,15 @@
 				"location": "ctov:village/halloween/jobsite/hunter_trainer",
 				"processors": "ctov:detailing/halloween/house"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/halloween/jobsite/restaurant",
+				"processors": "ctov:detailing/halloween/house"
+			}
 		}
 	]
 }
