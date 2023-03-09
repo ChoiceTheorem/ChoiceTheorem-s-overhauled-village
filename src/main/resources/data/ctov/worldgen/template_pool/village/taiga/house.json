@@ -280,6 +280,15 @@
 				"location": "ctov:village/taiga/jobsite/restaurant",
 				"processors": "ctov:detailing/taiga/village"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/taiga/jobsite/botanist",
+				"processors": "ctov:detailing/taiga/village"
+			}
 		}
 	]
 }
