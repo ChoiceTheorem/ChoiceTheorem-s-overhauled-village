@@ -103,7 +103,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/desert/deco/beekeeper",
+				"location": "ctov:village/christmas/deco/beekeeper",
 				"processors": "minecraft:empty"
 			}
 		},
@@ -112,7 +112,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/desert/deco/copper_golem",
+				"location": "ctov:village/christmas/deco/copper_golem",
 				"processors": "minecraft:empty"
 			}
 		},
