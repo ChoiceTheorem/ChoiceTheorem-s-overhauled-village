@@ -1,231 +1,276 @@
 {
-    "name": "ctov:village/mesa_fortified/house",
-    "fallback": "ctov:village/mesa_fortified/deco",
-    "elements": [
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/mesa/village",
-                "location": "ctov:village/mesa_fortified/house/small_1"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/mesa/village",
-                "location": "ctov:village/mesa_fortified/house/small_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/mesa/village",
-                "location": "ctov:village/mesa_fortified/house/small_3"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/mesa/village",
-                "location": "ctov:village/mesa_fortified/house/small_4"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/mesa/village",
-                "location": "ctov:village/mesa_fortified/house/small_5"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/mesa/village",
-                "location": "ctov:village/mesa_fortified/house/med_1"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/mesa/village",
-                "location": "ctov:village/mesa_fortified/house/med_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/mesa/village",
-                "location": "ctov:village/mesa_fortified/house/med_3"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/mesa/village",
-                "location": "ctov:village/mesa_fortified/house/med_4"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/mesa/village",
-                "location": "ctov:village/mesa_fortified/house/big"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:farm/mesa",
-                "location": "ctov:village/mesa_fortified/jobsite/farm"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:orchard/mesa",
-                "location": "ctov:village/mesa_fortified/jobsite/orchard"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:farm/mesa",
-                "location": "ctov:village/mesa_fortified/jobsite/fd_farm"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/mesa/village",
-                "location": "ctov:village/mesa_fortified/jobsite/bakery"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/mesa/village",
-                "location": "ctov:village/mesa_fortified/jobsite/coop"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/mesa/village",
-                "location": "ctov:village/mesa_fortified/jobsite/fishing_oasis"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/mesa/village",
-                "location": "ctov:village/mesa_fortified/jobsite/library"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/mesa/village",
-                "location": "ctov:village/mesa_fortified/jobsite/mason"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/mesa/village",
-                "location": "ctov:village/mesa_fortified/jobsite/sheep_farm"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/mesa/village",
-                "location": "ctov:village/mesa_fortified/jobsite/smith"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/mesa/village",
-                "location": "ctov:village/mesa_fortified/jobsite/engineer"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/mesa/village",
-                "location": "ctov:village/mesa_fortified/jobsite/garden"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/mesa/village",
-                "location": "ctov:village/mesa_fortified/jobsite/hunter"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/mesa/village",
-                "location": "ctov:village/mesa_fortified/jobsite/oceanographer"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/mesa/village",
-                "location": "ctov:village/mesa_fortified/jobsite/woodworker"
-            }
-        }
-    ]
+	"name": "ctov:village/mesa_fortified/house",
+	"fallback": "ctov:village/mesa_fortified/deco",
+	"elements": [
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/house/small_1"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/house/small_2"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/house/small_3"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/house/small_4"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/house/small_5"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/house/med_1"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/house/med_2"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/house/med_3"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/house/med_4"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/house/big"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:farm/mesa",
+				"location": "ctov:village/mesa_fortified/jobsite/farm"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:orchard/mesa",
+				"location": "ctov:village/mesa_fortified/jobsite/orchard"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:farm/mesa",
+				"location": "ctov:village/mesa_fortified/jobsite/fd_farm"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/jobsite/bakery"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/jobsite/coop"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/jobsite/fishing_oasis"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/jobsite/library"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/jobsite/mason"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/jobsite/sheep_farm"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/jobsite/smith"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/jobsite/engineer"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/jobsite/garden"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/jobsite/hunter"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/jobsite/oceanographer"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/jobsite/woodworker"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/jobsite/chicken_coop"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/jobsite/imengineer"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/jobsite/hunter_trainer"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/jobsite/restaurant"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/jobsite/botanist"
+			}
+		}
+	]
 }

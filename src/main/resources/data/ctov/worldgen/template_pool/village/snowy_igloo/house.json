@@ -1,384 +1,474 @@
 {
-    "name": "ctov:village/snowy_igloo/house",
-    "fallback": "ctov:village/snowy_igloo/deco",
-    "elements": [
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "ctov:village/snowy_igloo/house/small_1",
-                "processors": "ctov:detailing/snowy/ice_igloo"              
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/ice_igloo",
-                "location": "ctov:village/snowy_igloo/house/small_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/ice_igloo",
-                "location": "ctov:village/snowy_igloo/house/small_3"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/ice_igloo",
-                "location": "ctov:village/snowy_igloo/house/med_1"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/ice_igloo",
-                "location": "ctov:village/snowy_igloo/house/med_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/ice_igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/library"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/ice_igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/butcher"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/ice_igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/cartographer"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/ice_igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/chemist"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/ice_igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/fishing_hut"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/ice_igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/mason"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/ice_igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/shepherd"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/ice_igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/smith"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "ctov:village/snowy_igloo/house/small_1",
-                "processors": "ctov:detailing/snowy/igloo"              
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/igloo",
-                "location": "ctov:village/snowy_igloo/house/small_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/igloo",
-                "location": "ctov:village/snowy_igloo/house/small_3"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/igloo",
-                "location": "ctov:village/snowy_igloo/house/med_1"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/igloo",
-                "location": "ctov:village/snowy_igloo/house/med_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/library"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/butcher"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/cartographer"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/chemist"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:farm/snowy/igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/farm"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:orchard/snowy/igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/orchard"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:farm/snowy/igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/fd_farm"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:farm/snowy/ice_igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/farm"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:orchard/snowy/ice_igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/orchard"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:farm/snowy/ice_igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/fd_farm"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/fishing_hut"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/mason"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/shepherd"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/smith"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/engineer"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/garden"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/hunter"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/oceanographer"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/woodworker"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/ice_igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/engineer"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/ice_igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/garden"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/ice_igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/hunter"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/ice_igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/oceanographer"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ctov:detailing/snowy/ice_igloo",
-                "location": "ctov:village/snowy_igloo/jobsite/woodworker"
-            }
-        }
-    ]
+	"name": "ctov:village/snowy_igloo/house",
+	"fallback": "ctov:village/snowy_igloo/deco",
+	"elements": [
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/snowy_igloo/house/small_1",
+				"processors": "ctov:detailing/snowy/ice_igloo"              
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/house/small_2"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/house/small_3"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/house/med_1"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/house/med_2"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/library"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/butcher"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/cartographer"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/chemist"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/fishing_hut"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/mason"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/shepherd"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/smith"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/snowy_igloo/house/small_1",
+				"processors": "ctov:detailing/snowy/igloo"              
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/house/small_2"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/house/small_3"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/house/med_1"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/house/med_2"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/library"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/butcher"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/cartographer"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/chemist"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:farm/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/farm"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:orchard/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/orchard"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:farm/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/fd_farm"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:farm/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/farm"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:orchard/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/orchard"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:farm/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/fd_farm"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/fishing_hut"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/mason"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/shepherd"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/smith"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/engineer"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/garden"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/hunter"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/oceanographer"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/woodworker"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/engineer"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/garden"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/hunter"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/oceanographer"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/woodworker"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/chicken_coop"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/chicken_coop"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/imengineer"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/imengineer"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/hunter_trainer"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/hunter_trainer"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/restaurant"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/restaurant"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/botanist"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/botanist"
+			}
+		}
+	]
 }
