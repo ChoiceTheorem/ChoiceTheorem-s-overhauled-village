@@ -3,7 +3,7 @@
 		"fallback": "ctov:village/halloween/decos",
 		"elements": [
 			{
-				"weight": 5,
+				"weight": 10,
 				"element": {
 					"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
@@ -12,7 +12,7 @@
 				}
 			},
 			{
-				"weight": 5,
+				"weight": 10,
 				"element": {
 					"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
@@ -21,7 +21,7 @@
 				}
 			},
 			{
-				"weight": 5,
+				"weight": 10,
 				"element": {
 					"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
@@ -30,7 +30,7 @@
 				}
 			},
 			{
-				"weight": 5,
+				"weight": 10,
 				"element": {
 					"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
@@ -39,7 +39,7 @@
 				}
 			},
 			{
-				"weight": 5,
+				"weight": 10,
 				"element": {
 					"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
@@ -48,7 +48,7 @@
 				}
 			},
 			{
-				"weight": 5,
+				"weight": 10,
 				"element": {
 					"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
@@ -57,7 +57,7 @@
 				}
 			},
 			{
-				"weight": 5,
+				"weight": 10,
 				"element": {
 					"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
@@ -66,7 +66,7 @@
 				}
 			},
 			{
-				"weight": 5,
+				"weight": 10,
 				"element": {
 					"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
@@ -75,7 +75,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 10,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -169,6 +169,15 @@
 			"element": {
 					"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
+					"processors": "ctov:orchard/halloween",
+					"location": "ctov:village/halloween/jobsite/orchard"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
 					"processors": "ctov:farm/halloween",
 					"location": "ctov:village/halloween/jobsite/fd_farm"
 			}
@@ -233,6 +242,51 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/halloween/jobsite/woodworker",
+				"processors": "ctov:detailing/halloween/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/halloween/jobsite/chicken_coop",
+				"processors": "ctov:detailing/halloween/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/halloween/jobsite/imengineer",
+				"processors": "ctov:detailing/halloween/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/halloween/jobsite/hunter_trainer",
+				"processors": "ctov:detailing/halloween/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/halloween/jobsite/restaurant",
+				"processors": "ctov:detailing/halloween/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/halloween/jobsite/botanist",
 				"processors": "ctov:detailing/halloween/house"
 			}
 		}
