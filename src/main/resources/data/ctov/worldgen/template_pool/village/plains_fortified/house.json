@@ -640,6 +640,114 @@
 				"location": "ctov:village/plains_fortified/jobsite/chicken_coop",
 				"processors": "ctov:detailing/plains/house"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/jobsite/imengineer",
+				"processors": "ctov:detailing/plains/red_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/jobsite/imengineer",
+				"processors": "ctov:detailing/plains/pink_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/jobsite/imengineer",
+				"processors": "ctov:detailing/plains/quartz_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/jobsite/hunter_trainer",
+				"processors": "ctov:detailing/plains/red_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/jobsite/hunter_trainer",
+				"processors": "ctov:detailing/plains/pink_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/jobsite/hunter_trainer",
+				"processors": "ctov:detailing/plains/quartz_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/jobsite/restaurant",
+				"processors": "ctov:detailing/plains/red_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/jobsite/restaurant",
+				"processors": "ctov:detailing/plains/pink_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/jobsite/restaurant",
+				"processors": "ctov:detailing/plains/quartz_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/jobsite/botanist",
+				"processors": "ctov:detailing/plains/red_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/jobsite/botanist",
+				"processors": "ctov:detailing/plains/pink_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/jobsite/botanist",
+				"processors": "ctov:detailing/plains/quartz_house"
+			}
 		}
 	]
 }
