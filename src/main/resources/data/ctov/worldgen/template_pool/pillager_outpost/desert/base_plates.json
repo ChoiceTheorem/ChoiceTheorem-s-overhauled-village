@@ -1,5 +1,5 @@
 {
-    "name": "ctov:pillager_outpost/beach/starts",
+    "name": "ctov:pillager_outpost/desert/starts",
     "fallback": "minecraft:empty",
     "elements": [
         {
@@ -8,7 +8,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "processors": "minecraft:empty",
-                "location": "ctov:pillager_outpost/beach/hq"
+                "location": "ctov:pillager_outpost/desert/base_plate"
             }
         }
     ]

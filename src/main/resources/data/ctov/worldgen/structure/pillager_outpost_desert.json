@@ -34,8 +34,8 @@
 	  }
 	},
 	"terrain_adaptation": "beard_thin",
-	"start_pool": "ctov:pillager_outpost/desert/starts",
-	"size": 2,
+	"start_pool": "ctov:pillager_outpost/desert/base_plates",
+	"size": 4,
 	"start_height": {
 	  "absolute": 0
 	},
