@@ -10,7 +10,7 @@
 					"type": "minecraft:pillager",
 					"weight": 5,
 					"minCount": 1,
-					"maxCount": 5
+					"maxCount": 1
 				},
 				{
 					"type": "minecraft:evoker",
@@ -22,7 +22,7 @@
 					"type": "minecraft:vindicator",
 					"weight": 2,
 					"minCount": 1,
-					"maxCount": 3
+					"maxCount": 1
 				},
 				{
 					"type": "minecraft:witch",
@@ -34,8 +34,8 @@
 		}
 	},
 	"terrain_adaptation": "beard_thin",
-	"start_pool": "ctov:pillager_outpost/snowy/outpost",
-	"size": 2,
+	"start_pool": "ctov:pillager_outpost/snowy/base_plates",
+	"size": 5,
 	"start_height": {
 		"absolute": 0
 	},
