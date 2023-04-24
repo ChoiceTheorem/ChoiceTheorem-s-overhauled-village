@@ -1,4 +1,5 @@
 {
+	"name": "ctov:pillager_outpost/mountain/features",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{

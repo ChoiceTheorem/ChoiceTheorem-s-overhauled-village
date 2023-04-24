@@ -1,5 +1,5 @@
 {
-    "name": "ctov:pillager_outpost/plains/starts",
+    "name": "ctov:pillager_outpost/plains/base_plates",
     "fallback": "minecraft:empty",
     "elements": [
         {

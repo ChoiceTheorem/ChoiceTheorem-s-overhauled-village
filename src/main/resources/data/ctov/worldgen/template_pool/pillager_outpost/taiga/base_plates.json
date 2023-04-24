@@ -1,5 +1,5 @@
 {
-    "name": "ctov:pillager_outpost/taiga/starts",
+    "name": "ctov:pillager_outpost/taiga/base_plates",
     "fallback": "minecraft:empty",
     "elements": [
         {

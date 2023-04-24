@@ -1,5 +1,5 @@
 {
-    "name": "ctov:pillager_outpost/snowy/starts",
+    "name": "ctov:pillager_outpost/snowy/base_plates",
     "fallback": "minecraft:empty",
     "elements": [
         {

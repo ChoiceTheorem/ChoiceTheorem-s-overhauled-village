@@ -1,4 +1,5 @@
 {
+	"name": "ctov:pillager_outpost/savanna/features",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{

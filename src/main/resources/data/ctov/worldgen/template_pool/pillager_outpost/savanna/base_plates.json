@@ -1,5 +1,5 @@
 {
-    "name": "ctov:pillager_outpost/savanna/starts",
+    "name": "ctov:pillager_outpost/savanna/base_plates",
     "fallback": "minecraft:empty",
     "elements": [
         {

@@ -1,4 +1,5 @@
 {
+	"name": "ctov:pillager_outpost/plains/features",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{
