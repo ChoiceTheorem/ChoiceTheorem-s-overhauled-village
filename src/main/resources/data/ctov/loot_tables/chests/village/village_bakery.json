@@ -5,7 +5,7 @@
             "entries":[
                 {
                     "type":"minecraft:loot_table",
-                    "name":"ctov:village/common/smith"
+                    "name":"minecraft:chests/village/village_butcher"
                 }
             ]
         },
@@ -14,7 +14,7 @@
             "entries":[
                 {
                     "type":"minecraft:loot_table",
-                    "name":"ctov:village/mushroom/generic"
+                    "name":"ctov:chests/village/village_farm"
                 }
             ]
         }
