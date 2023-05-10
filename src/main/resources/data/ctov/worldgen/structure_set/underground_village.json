@@ -1,0 +1,22 @@
+{
+	"structures": [
+		{
+			"structure": "ctov:large/village_underground",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:medium/village_underground",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:small/village_underground",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1393759393,
+		"spacing": 32,
+		"separation": 16
+	}
+}

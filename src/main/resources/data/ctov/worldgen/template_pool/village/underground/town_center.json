@@ -1,0 +1,15 @@
+{
+	"name": "ctov:village/underground/town_center",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/underground/town_center",
+				"processors": "ctov:detailing/underground/main"
+			}
+		}
+	]
+}
