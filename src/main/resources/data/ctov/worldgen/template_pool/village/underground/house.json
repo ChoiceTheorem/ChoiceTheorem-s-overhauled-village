@@ -1,6 +1,6 @@
 {
 	"name": "ctov:village/underground/house",
-	"fallback": "ctov:village/underground/walls",
+	"fallback": "ctov:village/underground/wall",
 	"elements": [
 		{
 			"weight": 10,

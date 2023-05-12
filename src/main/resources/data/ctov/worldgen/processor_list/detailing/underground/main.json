@@ -13,7 +13,7 @@
 						"probability": 0.15
 					},
 					"output_state": {
-						"Name": "minecraft:cobblestone"
+						"Name": "minecraft:cracked_stone_bricks"
 					}
 				},
 				{
@@ -52,7 +52,20 @@
 						"probability": 0.15
 					},
 					"output_state": {
-						"Name": "minecraft:mossy_cobblestone"
+						"Name": "minecraft:chiseled_stone_bricks"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:water"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:air"
+					},
+					"output_state": {
+						"Name": "minecraft:air"
 					}
 				}
 			]

@@ -1,6 +1,6 @@
 {
     "name":"ctov:village/underground/roads",
-    "fallback": "ctov:village/underground/terminator",
+    "fallback": "ctov:village/underground/small_wall",
     "elements": 
     [
         {
