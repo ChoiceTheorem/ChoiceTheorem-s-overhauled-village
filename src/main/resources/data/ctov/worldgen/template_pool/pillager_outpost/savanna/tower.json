@@ -1,5 +1,5 @@
 {
-	"name": "ctov:pillager_outpost/beach/towers",
+	"name": "ctov:pillager_outpost/savanna/tower",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{
@@ -7,7 +7,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-                "location": "ctov:pillager_outpost/beach/tower",
+                "location": "ctov:pillager_outpost/savanna/tower",
 				"processors": {
 					"processors": []
 				}

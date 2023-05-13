@@ -91,6 +91,15 @@
 			}
 		},
 		{
+			"weight": 1,
+			"element": {
+			  "location": "savage_and_ravage:pillager_outpost/feature_targets_arrow",
+			  "processors": "minecraft:empty",
+			  "projection": "rigid",
+			  "element_type": "minecraft:single_pool_element"
+			}
+		},
+		{
 			"weight": 6,
 			"element": {
 				"element_type": "minecraft:empty_pool_element"

@@ -1,5 +1,5 @@
 {
-	"name": "ctov:pillager_outpost/snowy/towers",
+	"name": "ctov:pillager_outpost/dark_forest/tower",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{
@@ -7,7 +7,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-                "location": "ctov:pillager_outpost/snowy/tower",
+                "location": "ctov:pillager_outpost/dark_forest/tower",
 				"processors": {
 					"processors": []
 				}
