@@ -271,6 +271,15 @@
 				"processors": "ctov:detailing/desert/village",
 				"location": "ctov:village/desert/jobsite/botanist"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/desert/village",
+				"location": "ctov:village/desert/jobsite/wizard_tower"
+			}
 		}
 	]
 }

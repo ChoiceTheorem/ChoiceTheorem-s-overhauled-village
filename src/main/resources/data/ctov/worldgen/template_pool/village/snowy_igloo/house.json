@@ -469,6 +469,24 @@
 				"processors": "ctov:detailing/snowy/ice_igloo",
 				"location": "ctov:village/snowy_igloo/jobsite/botanist"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/wizard_tower"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/snowy/ice_igloo",
+				"location": "ctov:village/snowy_igloo/jobsite/wizard_tower"
+			}
 		}
 	]
 }

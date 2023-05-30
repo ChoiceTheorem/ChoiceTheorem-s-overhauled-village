@@ -280,6 +280,15 @@
 				"location": "ctov:village/plains/jobsite/botanist",
 				"processors": "ctov:detailing/plains/house"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains/jobsite/wizard_tower",
+				"processors": "ctov:detailing/plains/house"
+			}
 		}
 	]
 }
