@@ -289,6 +289,15 @@
 				"processors": "minecraft:empty",
 				"location": "ctov:village/christmas/jobsite/wizard_tower"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "ctov:village/christmas/jobsite/petshop"
+			}
 		}
 	]
 }

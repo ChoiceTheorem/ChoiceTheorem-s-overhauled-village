@@ -6,3 +6,5 @@ ChoiceTheorem's-overhauled-village.jar
 src/main/ctov-size-variantion-add-on/*
 run/*
 .gitignore
+gradle/*
+mcmodsrepo/*

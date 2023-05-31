@@ -226,6 +226,15 @@
 				"location": "ctov:village/mesa/jobsite/wizard_tower",
 				"processors": "ctov:detailing/mesa/house"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mesa/jobsite/petshop",
+				"processors": "ctov:detailing/mesa/house"
+			}
 		}
 	]
 }

@@ -289,6 +289,15 @@
 				"location": "ctov:village/beach/jobsite/wizard_tower",
 				"processors": "ctov:detailing/beach/house"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/beach/jobsite/petshop",
+				"processors": "ctov:detailing/beach/house"
+			}
 		}
 	]
 }
