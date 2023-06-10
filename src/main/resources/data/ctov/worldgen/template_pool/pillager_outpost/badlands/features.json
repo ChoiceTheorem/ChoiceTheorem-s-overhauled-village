@@ -1,0 +1,109 @@
+{
+	"name": "ctov:pillager_outpost/badlands/features",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/badlands/cage",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/badlands/golem_cage",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/badlands/allays_cage",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/badlands/ravager_cage",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/badlands/campfire",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/badlands/cook_tent",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/badlands/smith_tent",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/badlands/targets",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+			  "location": "savage_and_ravage:pillager_outpost/feature_targets_arrow",
+			  "processors": "minecraft:empty",
+			  "projection": "rigid",
+			  "element_type": "minecraft:single_pool_element"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:empty_pool_element"
+			}
+		}
+	]
+}

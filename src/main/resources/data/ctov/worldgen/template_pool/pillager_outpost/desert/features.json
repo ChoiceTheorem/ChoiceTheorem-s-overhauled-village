@@ -1,0 +1,109 @@
+{
+	"name": "ctov:pillager_outpost/desert/features",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/desert/cage",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/desert/golem_cage",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/desert/allays_cage",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/desert/ravager_cage",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/desert/campfire",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/desert/cook_tent",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/desert/smith_tent",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/desert/targets",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+			  "location": "savage_and_ravage:pillager_outpost/feature_targets_arrow",
+			  "processors": "minecraft:empty",
+			  "projection": "rigid",
+			  "element_type": "minecraft:single_pool_element"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:empty_pool_element"
+			}
+		}
+	]
+}

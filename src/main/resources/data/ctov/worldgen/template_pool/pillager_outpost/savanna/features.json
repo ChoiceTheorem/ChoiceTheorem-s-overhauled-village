@@ -1,0 +1,109 @@
+{
+	"name": "ctov:pillager_outpost/savanna/features",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/savanna/cage",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/savanna/golem_cage",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/savanna/allays_cage",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/savanna/ravager_cage",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/savanna/log",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/savanna/cook_tent",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/savanna/smith_tent",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:pillager_outpost/savanna/targets",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+			  "location": "savage_and_ravage:pillager_outpost/feature_targets_arrow",
+			  "processors": "minecraft:empty",
+			  "projection": "rigid",
+			  "element_type": "minecraft:single_pool_element"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:empty_pool_element"
+			}
+		}
+	]
+}

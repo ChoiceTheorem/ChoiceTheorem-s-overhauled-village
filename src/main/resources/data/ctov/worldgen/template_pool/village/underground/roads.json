@@ -1,0 +1,70 @@
+{
+    "name":"ctov:village/underground/roads",
+    "fallback": "ctov:village/underground/small_wall",
+    "elements": 
+    [
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/underground/main",
+                "location": "ctov:village/underground/roads/straight"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/underground/main",
+                "location": "ctov:village/underground/roads/bent_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/underground/main",
+                "location": "ctov:village/underground/roads/bent_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/underground/main",
+                "location": "ctov:village/underground/roads/t_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/underground/main",
+                "location": "ctov:village/underground/roads/t_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/underground/main",
+                "location": "ctov:village/underground/roads/t_3"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:detailing/underground/main",
+                "location": "ctov:village/underground/roads/inter"
+            }
+        }
+    ]
+}

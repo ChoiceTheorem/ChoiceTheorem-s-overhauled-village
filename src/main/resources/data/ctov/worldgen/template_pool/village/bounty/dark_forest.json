@@ -1,0 +1,15 @@
+{
+	"name": "ctov:village/bounty/dark_forest",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "bountiful:village/common/bounty_gazebo",
+				"processors": "ctov:bountiful/dark_forest"
+			}
+		}
+	]
+}

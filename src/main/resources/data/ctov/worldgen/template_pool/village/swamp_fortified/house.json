@@ -280,6 +280,60 @@
 				"location": "ctov:village/swamp_fortified/jobsite/botanist",
 				"processors": "ctov:detailing/swamp/fort_house"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/jobsite/wizard_tower",
+				"processors": "ctov:detailing/swamp/fort_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/jobsite/petshop",
+				"processors": "ctov:detailing/swamp/fort_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/jobsite/alchemist",
+				"processors": "ctov:detailing/swamp/fort_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/jobsite/aquarium",
+				"processors": "ctov:detailing/swamp/fort_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/jobsite/horticulturist",
+				"processors": "ctov:detailing/swamp/fort_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/jobsite/occultist",
+				"processors": "ctov:detailing/swamp/fort_house"
+			}
 		}
 	]
 }

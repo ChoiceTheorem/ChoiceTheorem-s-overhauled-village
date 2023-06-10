@@ -1,0 +1,74 @@
+{
+	"processors": [
+		{
+			"processor_type": "minecraft:rule",
+			"rules": [
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:stone_bricks",
+						"probability": 0.15
+					},
+					"output_state": {
+						"Name": "minecraft:cracked_stone_bricks"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:stone_bricks",
+						"probability": 0.15
+					},
+					"output_state": {
+						"Name": "minecraft:mossy_stone_bricks"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:stone_bricks",
+						"probability": 0.15
+					},
+					"output_state": {
+						"Name": "minecraft:mossy_cobblestone"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:stone_bricks",
+						"probability": 0.15
+					},
+					"output_state": {
+						"Name": "minecraft:chiseled_stone_bricks"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:water"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:air"
+					},
+					"output_state": {
+						"Name": "minecraft:air"
+					}
+				}
+			]
+		}
+	]
+}

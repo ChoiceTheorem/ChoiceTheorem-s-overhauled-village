@@ -262,6 +262,60 @@
 				"location": "ctov:village/taiga_fortified/jobsite/botanist",
 				"processors": "ctov:detailing/taiga/village"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/taiga_fortified/jobsite/wizard_tower",
+				"processors": "ctov:detailing/taiga/village"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/taiga_fortified/jobsite/petshop",
+				"processors": "ctov:detailing/taiga/village"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/taiga_fortified/jobsite/alchemist",
+				"processors": "ctov:detailing/taiga/village"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/taiga_fortified/jobsite/aquarium",
+				"processors": "ctov:detailing/taiga/village"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/taiga_fortified/jobsite/horticulturist",
+				"processors": "ctov:detailing/taiga/village"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/taiga_fortified/jobsite/occultist",
+				"processors": "ctov:detailing/taiga/village"
+			}
 		}
 	]
 }
