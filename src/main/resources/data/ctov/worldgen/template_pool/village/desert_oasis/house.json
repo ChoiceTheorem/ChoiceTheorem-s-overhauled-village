@@ -307,6 +307,42 @@
 				"processors": "ctov:detailing/desert/village",
 				"location": "ctov:village/desert_oasis/jobsite/petshop"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/desert/village",
+				"location": "ctov:village/desert_oasis/jobsite/alchemist"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/desert/village",
+				"location": "ctov:village/desert_oasis/jobsite/aquarium"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/desert/village",
+				"location": "ctov:village/desert_oasis/jobsite/horticulturist"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/desert/village",
+				"location": "ctov:village/desert_oasis/jobsite/occultist"
+			}
 		}
 	]
 }

@@ -307,6 +307,42 @@
 				"location": "ctov:village/taiga/jobsite/petshop",
 				"processors": "ctov:detailing/taiga/village"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/taiga/jobsite/alchemist",
+				"processors": "ctov:detailing/taiga/village"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/taiga/jobsite/aquarium",
+				"processors": "ctov:detailing/taiga/village"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/taiga/jobsite/horticulturist",
+				"processors": "ctov:detailing/taiga/village"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/taiga/jobsite/occultist",
+				"processors": "ctov:detailing/taiga/village"
+			}
 		}
 	]
 }
