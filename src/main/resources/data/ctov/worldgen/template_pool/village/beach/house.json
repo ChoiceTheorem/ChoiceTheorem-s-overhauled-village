@@ -334,6 +334,15 @@
 				"location": "ctov:village/beach/jobsite/occultist",
 				"processors": "ctov:detailing/beach/house"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/beach/jobsite/computer_lab",
+				"processors": "ctov:detailing/beach/house"
+			}
 		}
 	]
 }

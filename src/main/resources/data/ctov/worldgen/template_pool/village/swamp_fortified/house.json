@@ -334,6 +334,15 @@
 				"location": "ctov:village/swamp_fortified/jobsite/occultist",
 				"processors": "ctov:detailing/swamp/fort_house"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/jobsite/computer_lab",
+				"processors": "ctov:detailing/swamp/fort_house"
+			}
 		}
 	]
 }

@@ -334,6 +334,15 @@
 				"location": "ctov:village/plains/jobsite/occultist",
 				"processors": "ctov:detailing/plains/house"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains/jobsite/computer_lab",
+				"processors": "ctov:detailing/plains/house"
+			}
 		}
 	]
 }
