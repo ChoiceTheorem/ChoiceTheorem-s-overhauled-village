@@ -280,6 +280,15 @@
 				"processors": "minecraft:empty",
 				"location": "ctov:village/jungle_tree/jobsite/computer_lab"
 			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "ctov:village/jungle_tree/jobsite/forager"
+			}
 		}
 	]
 }

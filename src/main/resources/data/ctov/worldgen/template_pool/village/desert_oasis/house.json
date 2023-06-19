@@ -352,6 +352,15 @@
 				"processors": "ctov:detailing/desert/village",
 				"location": "ctov:village/desert_oasis/jobsite/computer_lab"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/desert/village",
+				"location": "ctov:village/desert_oasis/jobsite/forager"
+			}
 		}
 	]
 }
