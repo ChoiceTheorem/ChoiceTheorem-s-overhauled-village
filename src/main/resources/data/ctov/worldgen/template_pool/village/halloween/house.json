@@ -343,6 +343,24 @@
 				"location": "ctov:village/halloween/jobsite/occultist",
 				"processors": "ctov:detailing/halloween/house"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/halloween/jobsite/computer_lab",
+				"processors": "ctov:detailing/halloween/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/halloween/jobsite/forager",
+				"processors": "ctov:detailing/halloween/house"
+			}
 		}
 	]
 }

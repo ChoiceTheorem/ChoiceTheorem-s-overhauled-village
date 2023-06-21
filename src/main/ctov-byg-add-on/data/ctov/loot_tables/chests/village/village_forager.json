@@ -1,0 +1,28 @@
+{
+	"pools": [
+		{
+			"rolls": 5,
+			"entries": [
+				{
+					"type": "minecraft:tag",
+					"weight": 1,
+					"name": "byg:mushrooms_for_foragers_table"
+				},
+				{
+					"type": "minecraft:tag",
+					"weight": 1,
+					"name": "byg:all/saplings"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": {
+						"min": 1,
+						"max": 10
+					}
+				}
+			]
+		}
+	]
+}
