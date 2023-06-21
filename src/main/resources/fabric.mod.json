@@ -1,21 +1,21 @@
 {
-  "schemaVersion": 1,
-  "id": "ctov",
-  "version": "3.2.3",
-  "name": "ChoiceTheorem's Overhauled Villages",
-  "description": "Enhances and creates new villages and pillager outposts, that perfectly fit into your Minecraft world.",
-  "authors": [
-    "ChoiceTheorem"
-  ],
-  "contact": {
-    "sources": "https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village",
-    "issues": "https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village/issues"
-  },
-  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "icon": "assets/mod.png",
-  "environment": "*",
-  "depends": {
-    "fabricloader": ">=0.14.7",
-    "minecraft": ">=1.19"
-  }
+	"schemaVersion": 1,
+	"id": "ctov",
+	"version": "3.3.0",
+	"name": "ChoiceTheorem's Overhauled Villages",
+	"description": "Enhances and creates new villages and pillager outposts, that perfectly fit into your Minecraft world.",
+	"authors": [
+		"ChoiceTheorem"
+	],
+	"contact": {
+		"sources": "https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village",
+		"issues": "https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village/issues"
+	},
+	"license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+	"icon": "assets/pack.png",
+	"environment": "*",
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": ">=1.20"
+	}
 }
