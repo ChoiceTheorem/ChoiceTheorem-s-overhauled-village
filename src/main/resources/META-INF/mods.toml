@@ -11,7 +11,7 @@ loaderVersion="${loader_version_range}" #mandatory This is typically bumped ever
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
 license="${mod_license}"
 # A URL to refer people to when problems occur with this mod
-issueTrackerURL="https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village/issues" #optional
+issueTrackerURL="${issue_url}" #optional
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 # The modid of the mod
@@ -19,13 +19,13 @@ modId="${mod_id}" #mandatory
 # The version number of the mod
 version="${mod_version}" #mandatory
 # A display name for the mod
-displayName="ChoiceTheorem's Overhauled Village" #mandatory
+displayName="${mod_name}" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
 updateJSONURL = "https://api.modrinth.com/updates/fgmhI8kH/forge_updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
-displayURL="https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village" #optional
+displayURL="${source_url}" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="assets/pack.png" #optional
+logoFile="${icon_path}" #optional
 # A text field displayed in the mod UI
 credits="" #optional
 # A text field displayed in the mod UI
