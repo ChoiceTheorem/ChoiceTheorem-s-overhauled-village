@@ -469,6 +469,24 @@
 				"processors": "minecraft:empty",
 				"location": "ctov:village/savanna_na/jobsite/forager"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "ctov:village/savanna_na/jobsite/sanctuary"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "ctov:village/savanna_na/jobsite/gazebo"
+			}
 		}
 	]
 }

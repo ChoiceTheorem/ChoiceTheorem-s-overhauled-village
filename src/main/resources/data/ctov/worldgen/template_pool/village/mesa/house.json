@@ -289,6 +289,24 @@
 				"location": "ctov:village/mesa/jobsite/forager",
 				"processors": "ctov:detailing/mesa/house"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mesa/jobsite/sanctuary",
+				"processors": "ctov:detailing/mesa/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mesa/jobsite/gazebo",
+				"processors": "ctov:detailing/mesa/house"
+			}
 		}
 	]
 }

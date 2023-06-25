@@ -964,6 +964,60 @@
 				"location": "ctov:village/plains_fortified/jobsite/forager",
 				"processors": "ctov:detailing/plains/quartz_house"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/jobsite/sanctuary",
+				"processors": "ctov:detailing/plains/red_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/jobsite/sanctuary",
+				"processors": "ctov:detailing/plains/pink_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/jobsite/sanctuary",
+				"processors": "ctov:detailing/plains/quartz_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/jobsite/gazebo",
+				"processors": "ctov:detailing/plains/red_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/jobsite/gazebo",
+				"processors": "ctov:detailing/plains/pink_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/jobsite/gazebo",
+				"processors": "ctov:detailing/plains/quartz_house"
+			}
 		}
 	]
 }
