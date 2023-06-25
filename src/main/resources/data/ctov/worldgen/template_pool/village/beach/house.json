@@ -352,6 +352,24 @@
 				"location": "ctov:village/beach/jobsite/forager",
 				"processors": "ctov:detailing/beach/house"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/beach/jobsite/sanctuary",
+				"processors": "ctov:detailing/beach/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/beach/jobsite/gazebo",
+				"processors": "ctov:detailing/beach/house"
+			}
 		}
 	]
 }
