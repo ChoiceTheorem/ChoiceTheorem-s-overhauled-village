@@ -174,15 +174,6 @@
 			}
 		},
 		{
-			"weight": 2,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/mesa/jobsite/chicken_coop",
-				"processors": "ctov:detailing/mesa/house"
-			}
-		},
-		{
 			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",

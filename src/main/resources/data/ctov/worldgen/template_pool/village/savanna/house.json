@@ -709,15 +709,6 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/savanna/jobsite/chicken_coop",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
 				"location": "ctov:village/savanna/jobsite/engineer",
 				"processors": "ctov:detailing/savanna/house_red"
 			}
@@ -763,15 +754,6 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/savanna/jobsite/chicken_coop",
-				"processors": "ctov:detailing/savanna/house_red"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
 				"location": "ctov:village/savanna/jobsite/engineer",
 				"processors": "ctov:detailing/savanna/house_yellow"
 			}
@@ -809,15 +791,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/savanna/jobsite/woodworker",
-				"processors": "ctov:detailing/savanna/house_yellow"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/savanna/jobsite/chicken_coop",
 				"processors": "ctov:detailing/savanna/house_yellow"
 			}
 		},
