@@ -126,6 +126,60 @@
 			}
 		},
 		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/deco/vm",
+				"processors": "ctov:detailing/mushroom/red_house"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/deco/vm",
+				"processors": "ctov:detailing/mushroom/brown_house"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/chicken_coop",
+				"processors": "ctov:detailing/mushroom/red_house"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/chicken_coop",
+				"processors": "ctov:detailing/mushroom/brown_house"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/deco/goddess_statue",
+				"processors": "ctov:detailing/mushroom/red_house"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/deco/goddess_statue",
+				"processors": "ctov:detailing/mushroom/brown_house"
+			}
+		},
+		{
 			"weight": 5,
 			"element": {
 				"element_type": "minecraft:empty_pool_element",

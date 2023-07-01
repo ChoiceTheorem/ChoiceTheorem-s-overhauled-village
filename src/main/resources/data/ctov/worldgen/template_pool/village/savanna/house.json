@@ -709,15 +709,6 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/savanna/jobsite/chicken_coop",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
 				"location": "ctov:village/savanna/jobsite/engineer",
 				"processors": "ctov:detailing/savanna/house_red"
 			}
@@ -755,15 +746,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/savanna/jobsite/woodworker",
-				"processors": "ctov:detailing/savanna/house_red"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/savanna/jobsite/chicken_coop",
 				"processors": "ctov:detailing/savanna/house_red"
 			}
 		},
@@ -817,15 +799,6 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/savanna/jobsite/chicken_coop",
-				"processors": "ctov:detailing/savanna/house_yellow"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
 				"location": "ctov:village/savanna/jobsite/imengineer",
 				"processors": "ctov:detailing/savanna/house_yellow"
 			}
@@ -1142,6 +1115,60 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/savanna/jobsite/forager",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/sanctuary",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/sanctuary",
+				"processors": "ctov:detailing/savanna/house_orange"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/sanctuary",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/gazebo",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/gazebo",
+				"processors": "ctov:detailing/savanna/house_orange"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/gazebo",
 				"processors": "ctov:detailing/savanna/house_red"
 			}
 		}

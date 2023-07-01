@@ -144,6 +144,24 @@
 			}
 		},
 		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "ctov:village/snowy_igloo/deco/goddess_statue"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "ctov:village/snowy_igloo/jobsite/chicken_coop"
+			}
+		},
+		{
 			"weight": 7,
 			"element": {
 			  "element_type": "minecraft:empty_pool_element",

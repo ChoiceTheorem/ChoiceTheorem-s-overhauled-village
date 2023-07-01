@@ -100,6 +100,15 @@
 			}
 		},
 		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location":"ctov:pillager_outpost/savanna/feature_kennel"
+			}
+		},
+		{
 			"weight": 6,
 			"element": {
 				"element_type": "minecraft:empty_pool_element"

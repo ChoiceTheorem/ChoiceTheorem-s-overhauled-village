@@ -1,52 +1,61 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-# This workflow will build a package using Gradle and then publish it to GitHub packages when a release is created
-# For more information see: https://github.com/actions/setup-java/blob/main/docs/advanced-usage.md#Publishing-using-gradle
+name: Publish on GitHub, CurseForge & Modrinth    #The name of your GitHub Action on github.com
+ 
+on: [ pull_request, workflow_dispatch ]           #When your GitHub Action will be executed ('pull_request' -> on every Merge(/Pull) Request; 'workflow_dispatch' -> allows manual execution through github.com
 
-name: Gradle Package
+env:                                              #Environment variables that can later be referenced using ${{ env.MINECRAFT_VERSION }}. These are useful for repeating information and allow for quick changes for new mod updates
+    MINECRAFT_VERSION: 1.20.1                       
+    JAVA_VERSION: 17      
+    VERSION: 3.3.2+1.20
+    RELEASE_NAME: "[Universal]CTOVv3.3.2+1.20"
+    MODRINTH_TOKEN: ${{ secrets.PUBLISH_MODRINTH_TOKEN }}
+    CURSEFORGE_TOKEN: ${{ secrets.PUBLISH_CURSEFORGE_TOKEN }}
+    GITHUB_TOKEN: ${{ secrets.PUBLISH_GITHUB_TOKEN }}              
 
-on:
-  push:
-    branches:
-    - main
-    - release/*
-  release:
-    types: [created]
-  pull_request:
-    branches:
-    - main
+permissions:
+    contents: write
 
-jobs:
-  build:
+jobs:                                             #The place where you actually tell the GitHub server what to do. 
+    build:                                          #To publish your mod you only need one 'job', here it is called 'build'.
+        runs-on: windows                              #'runs-on' specifies the operation system (linux).                                        #Under 'steps' you will list all the individual commands, such as MC-Publish by Kir-Antipov.
+        steps:
+            - name: Check Environment Variables
+              run: env
 
-    runs-on: windows-latest
-    permissions:
-      contents: read
-      packages: write
+            - name: Checkout Repository
+              uses: actions/checkout@v3
+              with:
+                submodules: true
 
-    steps:
-    - uses: actions/checkout@v3
-    - name: Set up JDK 11
-      uses: actions/setup-java@v3
-      with:
-        java-version: '11'
-        distribution: 'temurin'
-        server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
-        settings-path: ${{ github.workspace }} # location for the settings.xml file
+            - name: Setup Java
+              uses: actions/setup-java@v2
+              with:
+                distribution: "temurin"
+                java-version: 17
 
-    - name: Build with Gradle
-      uses: gradle/gradle-build-action@67421db6bd0bf253fb4bd25b31ebb98943c375e1
-      with:
-        arguments: build
+            - name: Make Gradle Wrapper Executable
+              if: ${{ runner.os != 'Windows' }}
+              run: chmod +x ./gradlew
 
-    # The USERNAME and TOKEN need to correspond to the credentials environment variables used in
-    # the publishing section of your build.gradle
-    - name: Publish to GitHub Packages
-      uses: gradle/gradle-build-action@67421db6bd0bf253fb4bd25b31ebb98943c375e1
-      with:
-        arguments: publish
-      env:
-        USERNAME: ${{ github.actor }}
-        TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            - name: Build
+              run: ./gradlew clean build
+
+            - name: Publish (CurseForge/Modrinth/GitHub)
+              uses: Kir-Antipov/mc-publish@v3.2                                   #The specified MC-Publish GitHub Action in the version 3.2
+              with:
+                curseforge-id: 123456                                             #The id of your CurseForge project
+                curseforge-token: "${{env.CURSEFORGE_TOKEN}}"
+               
+                modrinth-id: 1q2w3e4r                                             #The id of your modrinth project
+                modrinth-token: "${{env.MODRINTH_TOKEN}}"
+               
+                github-tag: "v${{env.VERSION}}"
+                github-token: "${{env.GITHUB_TOKEN}}"
+      
+                name: "${{env.RELEASE_NAME}}"                             
+                version: "${{env.VERSION}}"
+                version-type: release
+                changelog-file: CHANGELOG.md                                      #The file in which the changes of your new update are specified (the path starts at your project root)
+    
+                loaders: fabric, forge
+                game-versions: "${{env.MINECRAFT_VERSION}}"
+                java: "${{env.JAVA_VERSION}}"

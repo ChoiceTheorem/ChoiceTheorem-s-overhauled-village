@@ -291,24 +291,6 @@
 			}
 		},
 		{
-			"weight": 2,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/mushroom/jobsite/chicken_coop",
-				"processors": "ctov:detailing/mushroom/red_house"
-			}
-		},
-		{
-			"weight": 2,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/mushroom/jobsite/chicken_coop",
-				"processors": "ctov:detailing/mushroom/brown_house"
-			}
-		},
-		{
 			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
@@ -521,6 +503,42 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/mushroom/jobsite/forager",
+				"processors": "ctov:detailing/mushroom/red_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/sanctuary",
+				"processors": "ctov:detailing/mushroom/brown_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/sanctuary",
+				"processors": "ctov:detailing/mushroom/red_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/gazebo",
+				"processors": "ctov:detailing/mushroom/brown_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/gazebo",
 				"processors": "ctov:detailing/mushroom/red_house"
 			}
 		}
