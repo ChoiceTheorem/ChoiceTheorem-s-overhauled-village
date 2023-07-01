@@ -123,6 +123,22 @@
 				"location": "ctov:village/plains/deco/vm",
 				"processors": "minecraft:empty"
 			}
+		},{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains/deco/goddess_statue",
+				"processors": "minecraft:empty"
+			}
+		},{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains/jobsite/chicken_coop",
+				"processors": "minecraft:empty"
+			}
 		},
 		{
 			"weight": 5,

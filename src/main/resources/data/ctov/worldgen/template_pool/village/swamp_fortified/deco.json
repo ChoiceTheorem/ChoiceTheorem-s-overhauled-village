@@ -125,6 +125,24 @@
 				"location": "ctov:village/swamp_fortified/deco/vm"
 			}
 		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "ctov:village/swamp_fortified/deco/goddess_statue"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "ctov:village/swamp_fortified/jobsite/chicken_coop"
+			}
+		},
 		{
 		  	"weight": 5,
 		  	"element": {

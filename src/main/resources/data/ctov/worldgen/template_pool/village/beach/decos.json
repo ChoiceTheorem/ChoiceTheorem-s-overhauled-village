@@ -111,6 +111,24 @@
 			}
 		},
 		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/beach/jobsite/chicken_coop",
+				"processors": "ctov:detailing/beach/house"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/beach/deco/goddess_statue",
+				"processors": "ctov:detailing/beach/house"
+			}
+		},
+		{
 			"weight": 7,
 			"element": {
 				"element_type": "minecraft:empty_pool_element",

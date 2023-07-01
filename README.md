@@ -1,4 +1,5 @@
 # **Welcome to ChoiceTheorem's overhauled village!**
+
 [![Discord Badge](https://img.shields.io/discord/894248275841003542?color=blue&logo=discord "Join our Discord Server")](https://discord.gg/JzYEw7PxQv)
 [![GitHub Badge](https://img.shields.io/appveyor/build/ChoiceTheorem/ChoiceTheorem-s-overhauled-village?color=black&logo=github)](https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village)
 The Youtube channel is [here]("https://www.youtube.com/channel/UCUSv0t-aWToQkpP5eonHmlA)
@@ -7,9 +8,10 @@ The Youtube channel is [here]("https://www.youtube.com/channel/UCUSv0t-aWToQkpP5
 ![Banner](https://api.mcbanners.com/banner/saved/LPRxAWJYUxKliD.png)
 
 ## **Description**
+
 ChoiceTheorem's overhauled village is a structure datapack package as a mod for forge and fabric that enhances and creates new villages and pillager outpost variants. This pack adds 20 village variants and pillager outpost variants that perfectly fit into your Minecraft worlds. The existing villages are rebuilt from the ground up and each biome type can generate two types of structures. In total, there are 23 village variants and 14 pillager outpost variants tailored to suit the terrain, theme and biomes.
 
-There will be no backporting beyond 1.18.2 for the mod version and 1.17 for the datapack version. 
+There will be no backporting beyond 1.18.2 for the mod version and 1.17 for the datapack version.
 
 <details><summary>FAQs</summary>
 These are just some of the most asked questions I've had from people, but if you have any more, please leave a comment down below and I'll try to help you as best we can.
@@ -49,12 +51,13 @@ I can't take any commissions or monetary support due to a lack of time and mean 
 <details><summary>Images</summary>
 
 Some fantastic footage from the mod. All pictures are taken with complementary shaders or complementary reimagined shaders.
-![](https://media.forgecdn.net/attachments/470/355/2022-06-19_15.png) 
+![](https://media.forgecdn.net/attachments/470/355/2022-06-19_15.png)
 ![](https://media.forgecdn.net/attachments/484/285/4.png)
-![](https://media.forgecdn.net/attachments/484/286/12.png) 
+![](https://media.forgecdn.net/attachments/484/286/12.png)
 </details>
 
 ## **Credits**
+
 + Vichy0623 for codesigning the builds
 + Robified for converting this datapack into a mod.
 
@@ -68,24 +71,28 @@ Some fantastic footage from the mod. All pictures are taken with complementary s
 
 <details><summary>Planned mod integration</summary>
 
-- [✓] [**Waystone**](https://modrinth.com/datapack/ctov-waystone-compat) 
-- [✓] [**Farmer's delight**](https://modrinth.com/datapack/ctov-farmers-delight-compat)
-- [✓] [**More villagers**](https://modrinth.com/datapack/ctov-more-villagers-compat)
-- [✓] [**Croptopia**](https://modrinth.com/datapack/ctov-croptopia-compat)
-- [✓] [**Bountiful**](https://modrinth.com/datapack/ctov-bountiful-compat)
-- [✓] [**Friend and Foe**](https://modrinth.com/datapack/choicetheorems-overhauled-village-friends-and-foes-add-on)
-- [✓] [**Immersive Engineering**](https://modrinth.com/datapack/ctov-immersive-engineering-add-on)
-- [✓] [**Incubation**](https://modrinth.com/datapack/ctov-incubation-add-on)
-- [✓] [**Chef's delight**](https://modrinth.com/datapack/ctov-chefs-delight-add-on)
-- [✓] [**Beautify**](https://modrinth.com/datapack/ctov-beautify-add-on)
-- [ ] Drunken mug
-- [ ] Pneumatic craft
-- [ ] Advance peripheral
-- [ ] Domestication Innovation
-- [ ] Questager
-- [ ] Vampirism
-- [ ] Wizards
-- [ ] Villager Plus
-- [ ] Buzzier bees
++ [✓] [**Waystone (Before version 3.2.1)**](https://modrinth.com/datapack/ctov-waystone-compat)
++ [✓] [**Farmer's delight**](https://modrinth.com/datapack/ctov-farmers-delight-compat)
++ [✓] [**More villagers**](https://modrinth.com/datapack/ctov-more-villagers-compat)
++ [✓] [**Croptopia**](https://modrinth.com/datapack/ctov-croptopia-compat)
++ [✓] [**Bountiful (Before version 3.2.1)**](https://modrinth.com/datapack/ctov-bountiful-compat)
++ [✓] [**Friend and Foe**](https://modrinth.com/datapack/ctov-friends-and-foes-compat)
++ [✓] [**Immersive Engineering**](https://modrinth.com/datapack/ctov-immersive-engineering-compat)
++ [✓] [**Incubation**](https://modrinth.com/datapack/ctov-incubation-compat)
++ [✓] [**Chef's delight**](https://modrinth.com/datapack/ctov-chefs-delight-compat)
++ [✓] [**Beautify**](https://modrinth.com/datapack/ctov-beautify-compat)
++ [✓] [**Vampirism**](https://modrinth.com/mod/vampirism-integrations)
++ [✓] [**Domestication Innovation**](https://modrinth.com/datapack/ctov-domesticated-innovation-compat)
++ [✓] [**Wizards**](https://modrinth.com/datapack/ctov-wizards-compat)
++ [✓] [**Villager Plus**](https://modrinth.com/datapack/ctov-villagers-plus-compat)
++ [✓] [**Advance peripheral**](https://modrinth.com/datapack/ctov-advanced-peripheral-compat)
++ [✓] [**BYG**](https://modrinth.com/datapack/ctov-byg-compat)
++ [✓] [**Savage and Ravage**](https://modrinth.com/datapack/ctov-savage-and-ravage-compat)
++ [✓] [**Vending Machine**](https://modrinth.com/datapack/ctov-vending-machine-compat)
++ [ ] Drunken mug
++ [ ] Pneumatic craft
++ [ ] Questager
++ [ ] Buzzier bees
+
 </details>
 You can suggest more mods in my GitHub Issue section.

@@ -127,6 +127,24 @@
 			}
 		},
 		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mesa_fortified/deco/goddess_statue",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mesa_fortified/jobsite/chicken_coop",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
 			"weight": 5,
 			"element": {
 				"element_type": "minecraft:empty_pool_element",
