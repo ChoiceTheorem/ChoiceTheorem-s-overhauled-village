@@ -541,6 +541,24 @@
 				"location": "ctov:village/mushroom/jobsite/gazebo",
 				"processors": "ctov:detailing/mushroom/red_house"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/mechanic",
+				"processors": "ctov:detailing/mushroom/brown_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/mechanic",
+				"processors": "ctov:detailing/mushroom/red_house"
+			}
 		}
 	]
 }

@@ -361,6 +361,15 @@
 				"processors": "minecraft:empty",
 				"location": "ctov:village/mountain_alpine/jobsite/gazebo"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "ctov:village/mountain_alpine/jobsite/mechanic"
+			}
 		}
 	]
 }
