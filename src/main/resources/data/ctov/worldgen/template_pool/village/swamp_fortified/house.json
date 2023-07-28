@@ -361,6 +361,15 @@
 				"location": "ctov:village/swamp_fortified/jobsite/sanctuary",
 				"processors": "ctov:detailing/swamp/fort_house"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/jobsite/mechanic",
+				"processors": "ctov:detailing/swamp/fort_house"
+			}
 		}
 	]
 }
