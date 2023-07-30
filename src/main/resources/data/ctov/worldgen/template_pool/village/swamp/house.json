@@ -388,6 +388,15 @@
 				"location": "ctov:village/swamp/jobsite/priest_tower",
 				"processors": "ctov:detailing/swamp/house"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/krusty_krab",
+				"processors": "ctov:detailing/swamp/house"
+			}
 		}
 	]
 }

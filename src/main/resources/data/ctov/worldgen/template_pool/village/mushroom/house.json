@@ -577,6 +577,24 @@
 				"location": "ctov:village/mushroom/jobsite/priest_tower",
 				"processors": "ctov:detailing/mushroom/red_house"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/krusty_krab",
+				"processors": "ctov:detailing/mushroom/brown_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/jobsite/krusty_krab",
+				"processors": "ctov:detailing/mushroom/red_house"
+			}
 		}
 	]
 }
