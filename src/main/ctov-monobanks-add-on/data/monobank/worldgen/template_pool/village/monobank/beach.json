@@ -1,0 +1,33 @@
+{
+  "name": "monobank:village/monobank/beach",
+  "fallback": "monobank:village/monobank/beach",
+  "elements": [
+    {
+      "weight": 12,
+      "element": {
+        "location": "monobank:village/monobank/beach_locked",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "monobank:village/monobank/beach_unlocked",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "monobank:village/monobank/empty",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
