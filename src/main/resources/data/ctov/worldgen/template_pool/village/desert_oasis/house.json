@@ -397,6 +397,24 @@
 				"processors": "ctov:detailing/desert/village",
 				"location": "ctov:village/desert_oasis/jobsite/krusty_krab"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/desert/village",
+				"location": "ctov:village/desert_oasis/jobsite/vault"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/desert/village",
+				"location": "ctov:village/desert_oasis/jobsite/warehouse"
+			}
 		}
 	]
 }
