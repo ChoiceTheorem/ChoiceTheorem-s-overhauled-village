@@ -397,6 +397,24 @@
 				"location": "ctov:village/taiga/jobsite/krusty_krab",
 				"processors": "ctov:detailing/taiga/village"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/taiga/jobsite/vault",
+				"processors": "ctov:detailing/taiga/village"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/taiga/jobsite/warehouse",
+				"processors": "ctov:detailing/taiga/village"
+			}
 		}
 	]
 }
