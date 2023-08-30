@@ -282,7 +282,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 2,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -354,7 +354,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 2,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -363,7 +363,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 1,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -377,6 +377,42 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/swamp/jobsite/mechanic",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/priest_tower",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/krusty_krab",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/vault",
+				"processors": "ctov:detailing/swamp/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp/jobsite/warehouse",
 				"processors": "ctov:detailing/swamp/house"
 			}
 		}

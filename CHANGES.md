@@ -1,7 +1,5 @@
 # What's changed
 
-+ Added compatibility with [PneumaticCraft mod](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized)
-+ Added compatibility with [Iron's Spells 'n Spellbooks](https://www.curseforge.com/minecraft/mc-mods/gazebos)
-+ Added compatibility with [All Bark, All Bites mod](https://www.curseforge.com/minecraft/mc-mods/all-bark-all-bite)
-+ Added compatibility with [Paragliders](https://www.curseforge.com/minecraft/mc-mods/paragliders)
-+ Move incubation's chicken hen to decoration categories which decreases it's spawnrate
++ Added compatibility with [Wares](https://www.curseforge.com/minecraft/mc-mods/wares)
++ Added compatibility with [Monobanks](https://www.curseforge.com/minecraft/mc-mods/monobank)
++ Decreasing Daedelus' mod buildings.

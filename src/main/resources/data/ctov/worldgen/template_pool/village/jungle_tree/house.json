@@ -307,6 +307,24 @@
 				"processors": "minecraft:empty",
 				"location": "ctov:village/jungle_tree/jobsite/mechanic"
 			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "ctov:village/jungle_tree/jobsite/priest_tower"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "ctov:village/jungle_tree/jobsite/krusty_krab"
+			}
 		}
 	]
 }

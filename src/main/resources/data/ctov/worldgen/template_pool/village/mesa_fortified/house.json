@@ -264,7 +264,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 2,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -336,7 +336,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 2,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -345,7 +345,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 1,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -360,6 +360,42 @@
 				"projection": "rigid",
 				"processors": "ctov:detailing/mesa/village",
 				"location": "ctov:village/mesa_fortified/jobsite/mechanic"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/jobsite/priest_tower"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/jobsite/krusty_krab"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/jobsite/vault"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/mesa/village",
+				"location": "ctov:village/mesa_fortified/jobsite/warehouse"
 			}
 		}
 	]

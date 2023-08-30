@@ -282,7 +282,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 2,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -354,7 +354,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 2,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -363,7 +363,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 1,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -378,6 +378,42 @@
 				"projection": "rigid",
 				"processors": "ctov:detailing/desert/village",
 				"location": "ctov:village/desert_oasis/jobsite/mechanic"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/desert/village",
+				"location": "ctov:village/desert_oasis/jobsite/priest_tower"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/desert/village",
+				"location": "ctov:village/desert_oasis/jobsite/krusty_krab"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/desert/village",
+				"location": "ctov:village/desert_oasis/jobsite/vault"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:detailing/desert/village",
+				"location": "ctov:village/desert_oasis/jobsite/warehouse"
 			}
 		}
 	]

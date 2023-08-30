@@ -273,7 +273,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 2,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -345,7 +345,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 2,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -354,7 +354,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 1,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -369,6 +369,42 @@
 				"projection": "rigid",
 				"processors": "minecraft:empty",
 				"location": "ctov:village/christmas/jobsite/mechanic"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "ctov:village/christmas/jobsite/priest_tower"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "ctov:village/christmas/jobsite/krusty_krab"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "ctov:village/christmas/jobsite/vault"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "ctov:village/christmas/jobsite/warehouse"
 			}
 		}
 	]
