@@ -3,7 +3,7 @@ name: Bug report
 about: Create a report to help us improve
 title: ''
 labels: bug
-assignees: ChoiceTheorem
+assignees: ''
 
 ---
 
@@ -26,6 +26,8 @@ If applicable, add screenshots to help explain your problem.
 **Minecraft Version**
 
 **CTOV Version**
+
+**Add-ons used**
 
 **Log**
 
