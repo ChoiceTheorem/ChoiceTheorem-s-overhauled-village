@@ -165,6 +165,15 @@
 			}
 		},
 		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "ctov:village/taiga/deco/bard_house"
+			}
+		},
+		{
 			"weight": 2,
 			"element": {
 				"element_type": "minecraft:feature_pool_element",
