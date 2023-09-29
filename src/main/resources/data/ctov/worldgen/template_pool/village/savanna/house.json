@@ -1306,6 +1306,33 @@
 				"location": "ctov:village/savanna/jobsite/warehouse",
 				"processors": "ctov:detailing/savanna/house_red"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/flower_farm",
+				"processors": "ctov:detailing/savanna/house_yellow"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/flower_farm",
+				"processors": "ctov:detailing/savanna/house_orange"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/savanna/jobsite/flower_farm",
+				"processors": "ctov:detailing/savanna/house_red"
+			}
 		}
 	]
 }

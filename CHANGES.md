@@ -1,5 +1,6 @@
 # What's changed
 
-+ Added compatibility with [Wares](https://www.curseforge.com/minecraft/mc-mods/wares)
-+ Added compatibility with [Monobanks](https://www.curseforge.com/minecraft/mc-mods/monobank)
-+ Decreasing Daedelus' mod buildings.
++ Fix the long standing village distribution bug
++ Decrease mesa fortified village lion statue.
++ Compatibility with [Etched](https://www.curseforge.com/minecraft/mc-mods/etched)
++ Compatibility with [Floralis](https://modrinth.com/mod/floralis)

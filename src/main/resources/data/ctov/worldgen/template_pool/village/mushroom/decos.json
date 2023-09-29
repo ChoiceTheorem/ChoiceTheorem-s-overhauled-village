@@ -148,6 +148,24 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"location": "ctov:village/mushroom/deco/bard_house",
+				"processors": "ctov:detailing/mushroom/red_house"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mushroom/deco/bard_house",
+				"processors": "ctov:detailing/mushroom/brown_house"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
 				"location": "ctov:village/mushroom/jobsite/chicken_coop",
 				"processors": "ctov:detailing/mushroom/red_house"
 			}
