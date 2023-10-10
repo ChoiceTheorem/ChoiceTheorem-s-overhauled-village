@@ -143,26 +143,6 @@
 		{
 			"structure": "ctov:small/village_taiga",
 			"weight": 15
-		},
-		{
-			"structure": "minecraft:village_desert",
-			"weight": 15
-		},
-		{
-			"structure": "minecraft:village_plains",
-			"weight": 15
-		},
-		{
-			"structure": "minecraft:village_savanna",
-			"weight": 15
-		},
-		{
-			"structure": "minecraft:village_snowy",
-			"weight": 15
-		},
-		{
-			"structure": "minecraft:village_taiga",
-			"weight": 15
 		}
 	],
 	"placement": {

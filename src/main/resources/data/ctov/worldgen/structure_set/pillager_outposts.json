@@ -43,10 +43,6 @@
 		{
 			"structure": "ctov:pillager_outpost_taiga",
 			"weight": 1
-		},
-		{
-			"structure": "minecraft:pillager_outpost",
-			"weight": 1
 		}
 	],
 	"placement": {
