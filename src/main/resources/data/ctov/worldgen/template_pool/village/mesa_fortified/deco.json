@@ -149,6 +149,15 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"location": "ctov:village/mesa_fortified/deco/garbage_heaps",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
 				"location": "ctov:village/mesa_fortified/jobsite/chicken_coop",
 				"processors": "minecraft:empty"
 			}

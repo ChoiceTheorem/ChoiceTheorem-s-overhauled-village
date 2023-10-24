@@ -158,6 +158,15 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"location": "ctov:village/mountain_alpine/deco/garbage_heaps",
+				"processors": "minecraft:empty"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
 				"location": "ctov:village/mountain_alpine/jobsite/chicken_coop",
 				"processors": "minecraft:empty"
 			}

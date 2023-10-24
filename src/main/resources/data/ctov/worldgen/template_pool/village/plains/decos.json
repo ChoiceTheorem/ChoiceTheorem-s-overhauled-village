@@ -147,6 +147,15 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"location": "ctov:village/plains/deco/garbage_heaps",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
 				"location": "ctov:village/plains/jobsite/chicken_coop",
 				"processors": "minecraft:empty"
 			}
