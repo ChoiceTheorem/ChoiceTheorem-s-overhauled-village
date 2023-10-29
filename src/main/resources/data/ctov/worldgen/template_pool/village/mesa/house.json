@@ -352,6 +352,15 @@
 				"location": "ctov:village/mesa/jobsite/flower_farm",
 				"processors": "ctov:detailing/mesa/house"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/mesa/jobsite/water_mill",
+				"processors": "ctov:detailing/mesa/house"
+			}
 		}
 	]
 }

@@ -415,6 +415,15 @@
 				"location": "ctov:village/beach/jobsite/flower_farm",
 				"processors": "ctov:detailing/beach/house"
 			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/beach/jobsite/water_mill",
+				"processors": "ctov:detailing/beach/house"
+			}
 		}
 	]
 }
