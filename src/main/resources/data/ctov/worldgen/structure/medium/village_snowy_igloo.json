@@ -4,8 +4,8 @@
 	"step": "surface_structures",
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",
-	"start_pool": "ctov:village/snowy/town_centers",
-	"size": 3,
+	"start_pool": "ctov:village/snowy_igloo/town_centers",
+	"size": 4,
 	"start_height": {
 		"absolute": 0
 	},
