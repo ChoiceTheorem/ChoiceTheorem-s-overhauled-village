@@ -4,7 +4,7 @@
 	"step": "surface_structures",
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",
-	"start_pool": "ctov:village/biome/snowy",
+	"start_pool": "ctov:village/snowy/town_centers",
 	"size": 4,
 	"start_height": {
 		"absolute": 0

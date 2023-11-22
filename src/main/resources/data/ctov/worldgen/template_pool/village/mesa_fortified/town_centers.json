@@ -3,15 +3,6 @@
     "fallback": "minecraft:empty",
     "elements": [
         {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "ctov:village/mesa/town_center",
-                "processors": "ctov:detailing/mesa/roads"
-            }
-        },
-        {
             "weight":1,
             "element": {
                 "element_type": "minecraft:single_pool_element",
