@@ -51,7 +51,7 @@
 		"frequency_reduction_method": "legacy_type_1",
 		"frequency": 0.2,
 		"exclusion_zone": {
-			"other_set": "minecraft:village",
+			"other_set": "ctov:villages",
 			"chunk_count": 10
 		},
 		"spacing": 32,

@@ -4,7 +4,7 @@
 	"step": "surface_structures",
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",
-	"start_pool": "ctov:village/biome/mesa",
+	"start_pool": "ctov:village/mesa/town_centers",
 	"size": 3,
 	"start_height": {
 		"absolute": 0

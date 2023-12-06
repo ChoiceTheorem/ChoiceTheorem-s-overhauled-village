@@ -1,17 +1,25 @@
 {
 	"values": [
 		"ctov:small/village_beach",
+		"ctov:small/village_christmas",
+		"ctov:small/village_desert",
+		"ctov:small/village_desert_oasis",
 		"ctov:small/village_dark_forest",
 		"ctov:small/village_jungle",
+		"ctov:small/village_jungle_tree",
 		"ctov:small/village_mesa",
+		"ctov:small/village_mesa_fortified",
 		"ctov:small/village_mountain",
+		"ctov:small/village_mountain_alpine",
 		"ctov:small/village_mushroom",
-		"ctov:small/village_swamp",
-		"ctov:small/village_desert",
 		"ctov:small/village_plains",
+		"ctov:small/village_plains_fortified",
 		"ctov:small/village_savanna",
-		"ctov:small/village_snowy",
+		"ctov:small/village_savanna_na",
+		"ctov:small/village_snowy_igloo",
+		"ctov:small/village_swamp",
+		"ctov:small/village_swamp_fortified",
 		"ctov:small/village_taiga",
-		"ctov:small/village_underground"
+		"ctov:small/village_taiga_fortified"
 	]
 }
