@@ -15,8 +15,7 @@ import dev.architectury.registry.ReloadListenerRegistry;
 import java.util.function.Supplier;
 
 import org.jetbrains.annotations.Nullable;
-
-import net.ctov.ctovReloadListener;
+//import net.ctov.ctovReloadListener;
 
 public class ctov {
     public static final String MOD_ID = "ctov";
