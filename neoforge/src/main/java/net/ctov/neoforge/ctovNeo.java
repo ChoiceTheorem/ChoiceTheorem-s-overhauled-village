@@ -1,10 +1,8 @@
 package net.ctov.neoforge;
 
-import dev.architectury.platform.forge.EventBuses;
 import net.ctov.ctov;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.neoforged.bus.api.IEventBus;
 @Mod(ctov.MOD_ID)
 public class ctovNeo {
     public ctovNeo() {

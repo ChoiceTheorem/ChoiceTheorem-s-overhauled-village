@@ -8,9 +8,7 @@
 				"element_type": "minecraft:legacy_single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:pillager_outpost/dark_forest/cage",
-				"processors": {
-					"processors": []
-				}
+				"processors": "minecraft:empty"
 			}
 		},
 		{
@@ -19,9 +17,7 @@
 				"element_type": "minecraft:legacy_single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:pillager_outpost/dark_forest/golem_cage",
-				"processors": {
-					"processors": []
-				}
+				"processors": "minecraft:empty"
 			}
 		},
 		{
@@ -30,9 +26,7 @@
 				"element_type": "minecraft:legacy_single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:pillager_outpost/dark_forest/allays_cage",
-				"processors": {
-					"processors": []
-				}
+				"processors": "minecraft:empty"
 			}
 		},
         {
@@ -41,9 +35,7 @@
 				"element_type": "minecraft:legacy_single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:pillager_outpost/dark_forest/ravager_cage",
-				"processors": {
-					"processors": []
-				}
+				"processors": "minecraft:empty"
 			}
 		},
 		{
@@ -52,9 +44,7 @@
 				"element_type": "minecraft:legacy_single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:pillager_outpost/dark_forest/log",
-				"processors": {
-					"processors": []
-				}
+				"processors": "minecraft:empty"
 			}
 		},
 		{
@@ -63,9 +53,7 @@
 				"element_type": "minecraft:legacy_single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:pillager_outpost/dark_forest/cook_tent",
-				"processors": {
-					"processors": []
-				}
+				"processors": "minecraft:empty"
 			}
 		},
 		{
@@ -74,9 +62,7 @@
 				"element_type": "minecraft:legacy_single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:pillager_outpost/dark_forest/smith_tent",
-				"processors": {
-					"processors": []
-				}
+				"processors": "minecraft:empty"
 			}
 		},
 		{
@@ -85,9 +71,7 @@
 				"element_type": "minecraft:legacy_single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:pillager_outpost/dark_forest/targets",
-				"processors": {
-					"processors": []
-				}
+				"processors": "minecraft:empty"
 			}
 		},
 		{

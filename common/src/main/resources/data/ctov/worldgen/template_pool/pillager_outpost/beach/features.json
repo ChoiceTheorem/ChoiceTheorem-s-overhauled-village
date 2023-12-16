@@ -8,9 +8,7 @@
 				"element_type": "minecraft:legacy_single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:pillager_outpost/beach/cage",
-				"processors": {
-					"processors": []
-				}
+				"processors": "minecraft:empty"
 			}
 		},
 		{
@@ -19,9 +17,7 @@
 				"element_type": "minecraft:legacy_single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:pillager_outpost/beach/golem_cage",
-				"processors": {
-					"processors": []
-				}
+				"processors": "minecraft:empty"
 			}
 		},
 		{
@@ -30,9 +26,7 @@
 				"element_type": "minecraft:legacy_single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:pillager_outpost/beach/allays_cage",
-				"processors": {
-					"processors": []
-				}
+				"processors": "minecraft:empty"
 			}
 		},
         {
@@ -41,9 +35,7 @@
 				"element_type": "minecraft:legacy_single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:pillager_outpost/beach/ravager_cage",
-				"processors": {
-					"processors": []
-				}
+				"processors": "minecraft:empty"
 			}
 		},
 		{
@@ -52,9 +44,7 @@
 				"element_type": "minecraft:legacy_single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:pillager_outpost/beach/ship",
-				"processors": {
-					"processors": []
-				}
+				"processors": "minecraft:empty"
 			}
 		},
 		{
@@ -63,9 +53,7 @@
 				"element_type": "minecraft:legacy_single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:pillager_outpost/beach/cook_tent",
-				"processors": {
-					"processors": []
-				}
+				"processors": "minecraft:empty"
 			}
 		},
 		{
@@ -74,9 +62,7 @@
 				"element_type": "minecraft:legacy_single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:pillager_outpost/beach/smith_tent",
-				"processors": {
-					"processors": []
-				}
+				"processors": "minecraft:empty"
 			}
 		},
 		{
@@ -85,9 +71,7 @@
 				"element_type": "minecraft:legacy_single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:pillager_outpost/beach/targets",
-				"processors": {
-					"processors": []
-				}
+				"processors": "minecraft:empty"
 			}
 		},
 		{
@@ -97,15 +81,6 @@
 			  "processors": "minecraft:empty",
 			  "projection": "rigid",
 			  "element_type": "minecraft:single_pool_element"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location":"ctov:pillager_outpost/beach/feature_kennel"
 			}
 		},
 		{
