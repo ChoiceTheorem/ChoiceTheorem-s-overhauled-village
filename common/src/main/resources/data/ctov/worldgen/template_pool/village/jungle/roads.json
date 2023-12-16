@@ -7,7 +7,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/jungle/road",
+                "processors": "ctov:village/jungle/road",
                 "location": "ctov:village/jungle/roads/straight"
             }
         },
@@ -16,7 +16,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/jungle/road",
+                "processors": "ctov:village/jungle/road",
                 "location": "ctov:village/jungle/roads/bent_1"
             }
         },
@@ -25,7 +25,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/jungle/road",
+                "processors": "ctov:village/jungle/road",
                 "location": "ctov:village/jungle/roads/bent_2"
             }
         },
@@ -34,7 +34,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/jungle/road",
+                "processors": "ctov:village/jungle/road",
                 "location": "ctov:village/jungle/roads/t_1"
             }
         },
@@ -43,7 +43,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/jungle/road",
+                "processors": "ctov:village/jungle/road",
                 "location": "ctov:village/jungle/roads/t_2"
             }
         },
@@ -52,7 +52,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/jungle/road",
+                "processors": "ctov:village/jungle/road",
                 "location": "ctov:village/jungle/roads/t_3"
             }
         },
@@ -61,7 +61,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/jungle/road",
+                "processors": "ctov:village/jungle/road",
                 "location": "ctov:village/jungle/roads/inter"
             }
         }

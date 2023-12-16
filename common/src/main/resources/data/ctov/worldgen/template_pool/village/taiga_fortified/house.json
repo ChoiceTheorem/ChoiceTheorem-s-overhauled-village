@@ -8,7 +8,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/taiga_fortified/house/big_1",
-				"processors": "ctov:detailing/taiga/village"
+				"processors": "ctov:village/taiga_fortified/house"
 			}
 		},
 		{
@@ -17,7 +17,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/taiga_fortified/house/med_1",
-				"processors": "ctov:detailing/taiga/village"
+				"processors": "ctov:village/taiga_fortified/house"
 			}
 		},
 		{
@@ -26,7 +26,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/taiga_fortified/house/med_2",
-				"processors": "ctov:detailing/taiga/village"
+				"processors": "ctov:village/taiga_fortified/house"
 			}
 		},
 		{
@@ -35,7 +35,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/taiga_fortified/house/small_1",
-				"processors": "ctov:detailing/taiga/village"
+				"processors": "ctov:village/taiga_fortified/house"
 			}
 		},
 		{
@@ -44,7 +44,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/taiga_fortified/house/small_2",
-				"processors": "ctov:detailing/taiga/village"
+				"processors": "ctov:village/taiga_fortified/house"
 			}
 		},
 		{
@@ -53,7 +53,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/taiga_fortified/house/small_3",
-				"processors": "ctov:detailing/taiga/village"
+				"processors": "ctov:village/taiga_fortified/house"
 			}
 		},
 		{
@@ -62,7 +62,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/taiga_fortified/house/med_3",
-				"processors": "ctov:detailing/taiga/village"
+				"processors": "ctov:village/taiga_fortified/house"
 			}
 		},
 		{
@@ -71,7 +71,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/taiga_fortified/house/big_2",
-				"processors": "ctov:detailing/taiga/village"
+				"processors": "ctov:village/taiga_fortified/house"
 			}
 		},
 		{
@@ -80,7 +80,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/taiga_fortified/jobsite/butcher",
-				"processors": "ctov:detailing/taiga/village"
+				"processors": "ctov:village/taiga_fortified/house"
 			}
 		},
 		{
@@ -89,7 +89,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/taiga_fortified/jobsite/chemist",
-				"processors": "ctov:detailing/taiga/village"
+				"processors": "ctov:village/taiga_fortified/house"
 			}
 		},
 		{
@@ -106,26 +106,8 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/orchard",
-				"processors": "ctov:orchard/taiga"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/fd_farm",
-				"processors": "ctov:farm/taiga"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
 				"location": "ctov:village/taiga_fortified/jobsite/fishing_hut",
-				"processors": "ctov:detailing/taiga/village"
+				"processors": "ctov:village/taiga_fortified/house"
 			}
 		},
 		{
@@ -134,7 +116,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/taiga_fortified/jobsite/library",
-				"processors": "ctov:detailing/taiga/village"
+				"processors": "ctov:village/taiga_fortified/house"
 			}
 		},
 		{
@@ -143,7 +125,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/taiga_fortified/jobsite/mason",
-				"processors": "ctov:detailing/taiga/village"
+				"processors": "ctov:village/taiga_fortified/house"
 			}
 		},
 		{
@@ -152,7 +134,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/taiga_fortified/jobsite/loomhouse",
-				"processors": "ctov:detailing/taiga/village"
+				"processors": "ctov:village/taiga_fortified/house"
 			}
 		},
 		{
@@ -161,7 +143,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/taiga_fortified/jobsite/smith",
-				"processors": "ctov:detailing/taiga/village"
+				"processors": "ctov:village/taiga_fortified/house"
 			}
 		},
 		{
@@ -170,241 +152,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/taiga_fortified/jobsite/cartography",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/engineer",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/garden",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/hunter",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/oceanographer",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/woodworker",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/imengineer",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/hunter_trainer",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/restaurant",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/botanist",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 2,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/wizard_tower",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/petshop",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/alchemist",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/aquarium",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/horticulturist",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/occultist",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/computer_lab",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/forager",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 2,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/sanctuary",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/gazebo",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/mechanic",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/priest_tower",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/krusty_krab",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/vault",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/warehouse",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/flower_farm",
-				"processors": "ctov:detailing/taiga/village"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/taiga_fortified/jobsite/windmill",
-				"processors": "ctov:detailing/taiga/village"
+				"processors": "ctov:village/taiga_fortified/house"
 			}
 		}
 	]

@@ -8,7 +8,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "location": "ctov:village/mushroom/town_center",
-                "processors": "ctov:detailing/mushroom/brown_house"
+                "processors": "ctov:village/mushroom/brown_house"
             }
         },
         {
@@ -17,7 +17,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "location": "ctov:village/mushroom/town_center",
-                "processors": "ctov:detailing/mushroom/red_house"
+                "processors": "ctov:village/mushroom/red_house"
             }
         }
     ]

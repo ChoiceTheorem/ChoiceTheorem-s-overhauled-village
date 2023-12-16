@@ -127,69 +127,6 @@
 			}
 		},
 		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/mesa/deco/beekeeper",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/mesa/deco/copper_golem",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/mesa/deco/vm",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/mesa/deco/goddess_statue",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/mesa/deco/bard_house",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/mesa/jobsite/chicken_coop",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/mesa/deco/garbage_heaps",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
 			"weight": 5,
 			"element": {
 				"element_type": "minecraft:empty_pool_element",

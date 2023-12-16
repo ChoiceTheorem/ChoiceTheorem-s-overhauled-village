@@ -7,7 +7,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/savanna/roads",
+                "processors": "ctov:village/savanna_na/roads",
                 "location": "ctov:village/savanna_na/roads/straight"
             }
         },
@@ -16,7 +16,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/savanna/roads",
+                "processors": "ctov:village/savanna_na/roads",
                 "location": "ctov:village/savanna_na/roads/bent_1"
             }
         },
@@ -25,7 +25,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/savanna/roads",
+                "processors": "ctov:village/savanna_na/roads",
                 "location": "ctov:village/savanna_na/roads/bent_2"
             }
         },
@@ -34,7 +34,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/savanna/roads",
+                "processors": "ctov:village/savanna_na/roads",
                 "location": "ctov:village/savanna_na/roads/t_1"
             }
         },
@@ -43,7 +43,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/savanna/roads",
+                "processors": "ctov:village/savanna_na/roads",
                 "location": "ctov:village/savanna_na/roads/t_2"
             }
         },
@@ -52,7 +52,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/savanna/roads",
+                "processors": "ctov:village/savanna_na/roads",
                 "location": "ctov:village/savanna_na/roads/t_3"
             }
         },
@@ -61,7 +61,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/savanna/roads",
+                "processors": "ctov:village/savanna_na/roads",
                 "location": "ctov:village/savanna_na/roads/inter"
             }
         }

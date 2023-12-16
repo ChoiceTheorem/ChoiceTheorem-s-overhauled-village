@@ -1,0 +1,165 @@
+{
+    "processors": [
+        {
+            "processor_type":"minecraft:rule",
+            "rules": [
+                {
+                    "position_predicate":{
+                        "predicate_type": "always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "minecraft:deepslate_bricks",
+                        "probability": 0.3
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cracked_deepslate_bricks"
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type":"minecraft:rule",
+            "rules": [
+                {
+                    "position_predicate":{
+                        "predicate_type": "always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "minecraft:deepslate_tiles",
+                        "probability": 0.3
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cracked_deepslate_tiles"
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type":"minecraft:rule",
+            "rules": 
+            [
+                {
+                    "position_predicate":{
+                        "predicate_type": "always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "minecraft:spruce_planks",
+                        "probability": 0.3
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:spruce_log",
+                        "Properties": {
+                            "axis":"y"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type":"minecraft:rule",
+            "rules": [
+                {
+                    "position_predicate":{
+                        "predicate_type": "always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "minecraft:cobbled_deepslate",
+                        "probability": 0.8
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:dirt_path"
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type":"minecraft:rule",
+            "rules": [
+                {
+                    "position_predicate":{
+                        "predicate_type": "always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "minecraft:dirt_path",
+                        "probability": 0.75
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:grass_block",
+                        "Properties": {
+                            "snowy":"false"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type":"minecraft:rule",
+            "rules": [
+                {
+                    "position_predicate":{
+                        "predicate_type": "always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "minecraft:grass_block",
+                        "probability": 0.67
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:podzol",
+                        "Properties": {
+                            "snowy":"false"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type":"minecraft:rule",
+            "rules": 
+            [
+                {
+                    "position_predicate":{
+                        "predicate_type": "always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "minecraft:podzol",
+                        "probability": 0.5
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:deepslate",
+                        "Properties": {
+                            "axis": "y"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

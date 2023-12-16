@@ -8,7 +8,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/house/house_1",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -17,7 +17,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/house/house_2",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -26,7 +26,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/house/house_3",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -35,7 +35,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/house/small_1",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -44,7 +44,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/house/small_2",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -53,7 +53,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/house/small_3",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -62,7 +62,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/house/small_4",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -71,7 +71,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/house/med_3",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -80,7 +80,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/house/big_2",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -89,7 +89,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/butcher",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -98,7 +98,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/chemist",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -134,7 +134,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/fishing_hut",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -143,7 +143,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/tannery",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -152,7 +152,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/library",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -161,7 +161,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/mason",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -170,7 +170,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/shepherd",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -179,7 +179,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/smith",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -188,7 +188,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/cartography",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -197,7 +197,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/archer",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -206,7 +206,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/engineer",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -215,7 +215,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/garden",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -224,7 +224,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/hunter",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -233,7 +233,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/oceanographer",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -242,7 +242,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/woodworker",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -251,7 +251,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/chicken_coop",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -260,7 +260,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/imengineer",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -269,7 +269,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/hunter_trainer",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -278,7 +278,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/restaurant",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
@@ -287,7 +287,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/botanist",
-				"processors": "ctov:detailing/underground/main"
+				"processors": "ctov:village/underground/main"
 			}
 		}
 	]

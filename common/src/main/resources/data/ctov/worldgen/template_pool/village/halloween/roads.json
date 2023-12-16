@@ -8,7 +8,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/halloween/roads/straight",
-          "processors": "ctov:detailing/plains/roads"
+          "processors": "ctov:village/plains/roads"
         }
       },
       {
@@ -17,7 +17,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/halloween/roads/t_1",
-          "processors": "ctov:detailing/plains/roads"
+          "processors": "ctov:village/plains/roads"
         }
       },
       {
@@ -26,7 +26,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/halloween/roads/t_2",
-          "processors": "ctov:detailing/plains/roads"
+          "processors": "ctov:village/plains/roads"
         }
       },
       {
@@ -35,7 +35,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/halloween/roads/t_3",
-          "processors": "ctov:detailing/plains/roads"
+          "processors": "ctov:village/plains/roads"
         }
       },
       {
@@ -44,7 +44,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/halloween/roads/bent_1",
-          "processors": "ctov:detailing/plains/roads"
+          "processors": "ctov:village/plains/roads"
         }
       },
       {
@@ -53,7 +53,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/halloween/roads/bent_2",
-          "processors": "ctov:detailing/plains/roads"
+          "processors": "ctov:village/plains/roads"
         }
       },
       {
@@ -62,7 +62,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/halloween/roads/intersection",
-          "processors": "ctov:detailing/plains/roads"
+          "processors": "ctov:village/plains/roads"
         }
       }
     ]

@@ -1,6 +1,6 @@
 {
 	"name": "ctov:village/plains_fortified/deco",
-	"fallback": "minecraft:empty",
+	"fallback": "ctov:village/plains_fortified/quartz_house",
 	"elements": [
 		{
 			"weight": 1,
@@ -8,7 +8,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/plains_fortified/deco/lamp_1",
-				"processors": "minecraft:empty"
+				"processors": "ctov:village/plains_fortified/quartz_house"
 			}
 		},
 		{
@@ -17,7 +17,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/plains_fortified/deco/lamp_2",
-				"processors": "minecraft:empty"
+				"processors": "ctov:village/plains_fortified/quartz_house"
 			}
 		},
 		{
@@ -26,7 +26,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/plains_fortified/deco/lamp_3",
-				"processors": "minecraft:empty"
+				"processors": "ctov:village/plains_fortified/quartz_house"
 			}
 		},
 		{
@@ -35,7 +35,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/plains_fortified/deco/lamp_4",
-				"processors": "minecraft:empty"
+				"processors": "ctov:village/plains_fortified/quartz_house"
 			}
 		},
 		{
@@ -44,7 +44,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/plains_fortified/deco/well",
-				"processors": "minecraft:empty"
+				"processors": "ctov:village/plains_fortified/quartz_house"
 			}
 		},
 		{
@@ -53,7 +53,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/plains_fortified/deco/tree",
-				"processors": "minecraft:empty"
+				"processors": "ctov:village/plains_fortified/quartz_house"
 			}
 		},
 		{
@@ -62,7 +62,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/plains_fortified/deco/cart",
-				"processors": "minecraft:empty"
+				"processors": "ctov:village/plains_fortified/quartz_house"
 			}
 		},
 		{
@@ -71,7 +71,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/plains_fortified/deco/fountain",
-				"processors": "minecraft:empty"
+				"processors": "ctov:village/plains_fortified/quartz_house"
 			}
 		},
 		{
@@ -104,76 +104,6 @@
 				"element_type": "minecraft:feature_pool_element",
 				"projection": "rigid",
 				"feature": "minecraft:pile_hay"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/plains_fortified/deco/beekeeper"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/plains_fortified/deco/copper_golem"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/plains_fortified/deco/vm"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/plains_fortified/deco/goddess_statue"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/plains_fortified/deco/bard_house"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/plains_fortified/deco/garbage_heaps"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/plains_fortified/jobsite/chicken_coop"
-			}
-		},
-		{
-			"weight":5,
-			"element":{
-					"element_type": "minecraft:empty_pool_element",
-					"projection": "rigid"
 			}
 		}
 	]

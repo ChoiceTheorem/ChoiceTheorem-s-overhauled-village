@@ -8,7 +8,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/mesa/roads/terminator",
-          "processors": "ctov:detailing/mesa/roads"
+          "processors": "ctov:village/mesa/roads"
         }
       }
     ]

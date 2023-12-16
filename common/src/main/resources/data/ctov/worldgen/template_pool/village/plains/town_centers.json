@@ -8,7 +8,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "location": "ctov:village/plains/town_center",
-                "processors": "ctov:detailing/plains/roads"
+                "processors": "ctov:village/plains/roads"
             }
         }
     ]

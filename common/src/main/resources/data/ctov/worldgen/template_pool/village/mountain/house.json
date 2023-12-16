@@ -3,7 +3,7 @@
 	"fallback": "ctov:village/mountain/deco",
 	"elements": [
 		{
-			"weight": 30,
+			"weight": 10,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -12,7 +12,7 @@
 			}
 		},
 		{
-			"weight": 30,
+			"weight": 10,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -21,7 +21,7 @@
 			}
 		},
 		{
-			"weight": 30,
+			"weight": 10,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -30,7 +30,7 @@
 			}
 		},
 		{
-			"weight": 30,
+			"weight": 10,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -39,7 +39,7 @@
 			}
 		},
 		{
-			"weight": 30,
+			"weight": 10,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -48,7 +48,7 @@
 			}
 		},
 		{
-			"weight": 30,
+			"weight": 10,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -57,7 +57,7 @@
 			}
 		},
 		{
-			"weight": 30,
+			"weight": 10,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -66,7 +66,7 @@
 			}
 		},
 		{
-			"weight": 30,
+			"weight": 10,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -75,7 +75,7 @@
 			}
 		},
 		{
-			"weight": 30,
+			"weight": 10,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -84,7 +84,7 @@
 			}
 		},
 		{
-			"weight": 15,
+			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -93,7 +93,7 @@
 			}
 		},
 		{
-			"weight": 15,
+			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -111,7 +111,7 @@
 			}
 		},
 		{
-			"weight": 15,
+			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -120,7 +120,7 @@
 			}
 		},
 		{
-			"weight": 15,
+			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -129,7 +129,7 @@
 			}
 		},
 		{
-			"weight": 15,
+			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -138,7 +138,7 @@
 			}
 		},
 		{
-			"weight": 15,
+			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -147,7 +147,7 @@
 			}
 		},
 		{
-			"weight": 15,
+			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -156,7 +156,7 @@
 			}
 		},
 		{
-			"weight": 15,
+			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -165,7 +165,7 @@
 			}
 		},
 		{
-			"weight": 15,
+			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -183,7 +183,7 @@
 			}
 		},
 		{
-			"weight": 15,
+			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -192,255 +192,12 @@
 			}
 		},
 		{
-			"weight": 15,
+			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "minecraft:empty",
 				"location": "ctov:village/mountain/jobsite/smith"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/engineer"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/garden"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/hunter"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/oceanographer"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/woodworker"
-			}
-		},
-		{
-			"weight": 6,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/chicken_coop"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/imengineer"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/hunter_trainer"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/restaurant"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/botanist"
-			}
-		},
-		{
-			"weight": 6,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/wizard_tower"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/petshop"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/alchemist"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/aquarium"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/horticulturalist"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/occultist"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/computer_lab"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/forager"
-			}
-		},
-		{
-			"weight": 6,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/sanctuary"
-			}
-		},
-		{
-			"weight": 3,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/gazebo"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/mechanic"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/priest_tower"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/krusty_krab"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/vault"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/warehouse"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/flower_farm"
-			}
-		},
-		{
-			"weight": 15,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "ctov:village/mountain/jobsite/windmill"
 			}
 		}
 	]

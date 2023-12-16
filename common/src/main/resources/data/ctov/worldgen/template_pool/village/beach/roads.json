@@ -8,7 +8,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/beach/roads/straight",
-          "processors": "ctov:detailing/beach/roads"
+          "processors": "ctov:village/beach/roads"
         }
       },
       {
@@ -17,7 +17,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/beach/roads/t_1",
-          "processors": "ctov:detailing/beach/roads"
+          "processors": "ctov:village/beach/roads"
         }
       },
       {
@@ -26,7 +26,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/beach/roads/t_2",
-          "processors": "ctov:detailing/beach/roads"
+          "processors": "ctov:village/beach/roads"
         }
       }
       ,
@@ -36,7 +36,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/beach/roads/t_3",
-          "processors": "ctov:detailing/beach/roads"
+          "processors": "ctov:village/beach/roads"
         }
       },
       {
@@ -45,7 +45,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/beach/roads/bent_1",
-          "processors": "ctov:detailing/beach/roads"
+          "processors": "ctov:village/beach/roads"
         }
       },
       {
@@ -54,7 +54,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/beach/roads/bent_2",
-          "processors": "ctov:detailing/beach/roads"
+          "processors": "ctov:village/beach/roads"
         }
       },
       {
@@ -63,7 +63,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/beach/roads/inter",
-          "processors": "ctov:detailing/beach/roads"
+          "processors": "ctov:village/beach/roads"
         }
       }
     ]

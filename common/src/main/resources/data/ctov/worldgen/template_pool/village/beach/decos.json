@@ -116,7 +116,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/beach/jobsite/chicken_coop",
-				"processors": "ctov:detailing/beach/house"
+				"processors": "ctov:village/beach/house"
 			}
 		},
 		{
@@ -125,7 +125,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/beach/deco/goddess_statue",
-				"processors": "ctov:detailing/beach/house"
+				"processors": "ctov:village/beach/house"
 			}
 		},
 		{
@@ -134,7 +134,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/beach/deco/bard_house",
-				"processors": "ctov:detailing/beach/house"
+				"processors": "ctov:village/beach/house"
 			}
 		},
 		{
@@ -143,7 +143,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/beach/deco/garbage_heaps",
-				"processors": "ctov:detailing/beach/house"
+				"processors": "ctov:village/beach/house"
 			}
 		},
 		{

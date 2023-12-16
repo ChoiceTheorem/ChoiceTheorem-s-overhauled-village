@@ -7,7 +7,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
-                "processors": "ctov:detailing/mesa/red_roads",
+                "processors": "ctov:village/mesa/red_roads",
                 "location": "ctov:village/mesa_fortified/roads/terminator"
             }
         }

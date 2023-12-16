@@ -1,6 +1,5 @@
 package net.ctov.fabric;
 
-import net.ctov.ctovExpectPlatform;
 import org.quiltmc.loader.api.QuiltLoader;
 
 import java.nio.file.Path;

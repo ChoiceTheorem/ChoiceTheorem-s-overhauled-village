@@ -8,7 +8,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/mushroom/roads/straight",
-          "processors": "ctov:detailing/mushroom/roads"
+          "processors": "ctov:village/mushroom/roads"
         }
       },
       {
@@ -17,7 +17,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/mushroom/roads/t_1",
-          "processors": "ctov:detailing/mushroom/roads"
+          "processors": "ctov:village/mushroom/roads"
         }
       },
       {
@@ -26,7 +26,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/mushroom/roads/t_2",
-          "processors": "ctov:detailing/mushroom/roads"
+          "processors": "ctov:village/mushroom/roads"
         }
       }
       ,
@@ -36,7 +36,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/mushroom/roads/t_3",
-          "processors": "ctov:detailing/mushroom/roads"
+          "processors": "ctov:village/mushroom/roads"
         }
       },
       {
@@ -45,7 +45,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/mushroom/roads/bent_1",
-          "processors": "ctov:detailing/mushroom/roads"
+          "processors": "ctov:village/mushroom/roads"
         }
       },
       {
@@ -54,7 +54,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/mushroom/roads/bent_2",
-          "processors": "ctov:detailing/mushroom/roads"
+          "processors": "ctov:village/mushroom/roads"
         }
       },
       {
@@ -63,7 +63,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/mushroom/roads/inter",
-          "processors": "ctov:detailing/mushroom/roads"
+          "processors": "ctov:village/mushroom/roads"
         }
       }
     ]

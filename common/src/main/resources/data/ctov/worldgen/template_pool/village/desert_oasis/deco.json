@@ -167,7 +167,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:detailing/desert/village",
+				"processors": "ctov:village/desert/village",
 				"location": "ctov:village/desert_oasis/jobsite/chicken_coop"
 			}
 		},

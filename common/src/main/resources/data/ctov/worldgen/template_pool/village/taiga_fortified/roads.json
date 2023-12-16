@@ -8,7 +8,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/taiga/road",
+                "processors": "ctov:village/taiga_fortified/road",
                 "location": "ctov:village/taiga_fortified/roads/straight"
             }
         },
@@ -17,7 +17,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/taiga/road",
+                "processors": "ctov:village/taiga_fortified/road",
                 "location": "ctov:village/taiga_fortified/roads/bent_1"
             }
         },
@@ -26,7 +26,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/taiga/road",
+                "processors": "ctov:village/taiga_fortified/road",
                 "location": "ctov:village/taiga_fortified/roads/bent_2"
             }
         },
@@ -35,7 +35,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/taiga/road",
+                "processors": "ctov:village/taiga_fortified/road",
                 "location": "ctov:village/taiga_fortified/roads/t_1"
             }
         },
@@ -44,7 +44,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/taiga/road",
+                "processors": "ctov:village/taiga_fortified/road",
                 "location": "ctov:village/taiga_fortified/roads/t_2"
             }
         },
@@ -53,7 +53,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/taiga/road",
+                "processors": "ctov:village/taiga_fortified/road",
                 "location": "ctov:village/taiga_fortified/roads/t_3"
             }
         },
@@ -62,7 +62,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/taiga/road",
+                "processors": "ctov:village/taiga_fortified/road",
                 "location": "ctov:village/taiga_fortified/roads/inter"
             }
         }

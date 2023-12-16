@@ -1,5 +1,4 @@
 {
-    "name":"ctov:village/biome/swamp",
     "fallback": "minecraft:empty",
     "elements": [
         {
@@ -8,7 +7,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "location": "ctov:village/swamp_fortified/town_center",
-                "processors": "ctov:detailing/swamp/fort_house"
+                "processors": "ctov:village/swamp_fortified/house"
             }
         }
     ]

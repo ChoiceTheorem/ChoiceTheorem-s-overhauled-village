@@ -1,4 +1,498 @@
 {
 	"processors": [
-	]
+		{
+			"processor_type": "minecraft:rule",
+			"rules": [
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:almond_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:apple_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:apricot_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:avocado_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:banana_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:cashew_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:cherry_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:cinnamon_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:coconut_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:date_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:dragonfruit_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:fig_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:grapefruit_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:kumquat_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:lemon_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:lime_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:mango_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:nectarine_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:nutmeg_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:orange_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:peach_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:pear_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:pecan_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:persimmon_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:plum_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:starfruit_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:oak_sapling",
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "croptopia:walnut_sapling",
+						"Properties": {
+							"stage": "1"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:oak_sapling"
+					},
+					"output_state": {
+						"Name": "minecraft:air"
+					}
+				}
+			]
+		},
+		{
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:block_match",
+                        "block": "minecraft:stone_bricks"
+                        },
+                    "output_state": {
+                        "Name": "minecraft:mushroom_stem",
+                        "Properties": {
+                            "east": "true",
+                            "down": "true",
+                            "north": "true",
+                            "south": "true",
+                            "up": "true",
+                            "west": "true"
+                        }
+                    }
+                },
+                {
+                    "location_predicate": {
+                    "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:block_match",
+                        "block": "minecraft:stone"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:brown_mushroom_block",
+                        "Properties": {
+                            "east": "true",
+                            "down": "true",
+                            "north": "true",
+                            "south": "true",
+                            "up": "true",
+                            "west": "true"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
 }

@@ -7,7 +7,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
-                "processors": "ctov:detailing/taiga/road",
+                "processors": "ctov:village/taiga_fortified/road",
                 "location": "ctov:village/taiga_fortified/roads/terminator"
             }
         }

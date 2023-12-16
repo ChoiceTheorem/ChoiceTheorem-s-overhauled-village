@@ -7,7 +7,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/mountain/roads",
+                "processors": "ctov:village/mountain/roads",
                 "location": "ctov:village/mountain_alpine/roads/straight"
             }
         },
@@ -16,7 +16,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/mountain/roads",
+                "processors": "ctov:village/mountain/roads",
                 "location": "ctov:village/mountain_alpine/roads/bent_1"
             }
         },
@@ -25,7 +25,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/mountain/roads",
+                "processors": "ctov:village/mountain/roads",
                 "location": "ctov:village/mountain_alpine/roads/bent_2"
             }
         },
@@ -34,7 +34,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/mountain/roads",
+                "processors": "ctov:village/mountain/roads",
                 "location": "ctov:village/mountain_alpine/roads/t_1"
             }
         },
@@ -43,7 +43,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/mountain/roads",
+                "processors": "ctov:village/mountain/roads",
                 "location": "ctov:village/mountain_alpine/roads/t_2"
             }
         },
@@ -52,7 +52,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/mountain/roads",
+                "processors": "ctov:village/mountain/roads",
                 "location": "ctov:village/mountain_alpine/roads/t_3"
             }
         },
@@ -61,7 +61,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:detailing/mountain/roads",
+                "processors": "ctov:village/mountain/roads",
                 "location": "ctov:village/mountain_alpine/roads/inter"
             }
         }
