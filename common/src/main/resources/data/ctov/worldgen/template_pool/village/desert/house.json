@@ -7,7 +7,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/desert/village",
+				"processors": "ctov:village/desert/house",
 				"location": "ctov:village/desert/house/small_1"
 			}
 		},
@@ -16,7 +16,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/desert/village",
+				"processors": "ctov:village/desert/house",
 				"location": "ctov:village/desert/house/small_2"
 			}
 		},
@@ -25,7 +25,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/desert/village",
+				"processors": "ctov:village/desert/house",
 				"location": "ctov:village/desert/house/small_3"
 			}
 		},
@@ -34,7 +34,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/desert/village",
+				"processors": "ctov:village/desert/house",
 				"location": "ctov:village/desert/house/small_4"
 			}
 		},
@@ -43,7 +43,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/desert/village",
+				"processors": "ctov:village/desert/house",
 				"location": "ctov:village/desert/house/small_5"
 			}
 		},
@@ -52,7 +52,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/desert/village",
+				"processors": "ctov:village/desert/house",
 				"location": "ctov:village/desert/house/med_1"
 			}
 		},
@@ -61,7 +61,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/desert/village",
+				"processors": "ctov:village/desert/house",
 				"location": "ctov:village/desert/house/med_2"
 			}
 		},
@@ -70,7 +70,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/desert/village",
+				"processors": "ctov:village/desert/house",
 				"location": "ctov:village/desert/house/big_1"
 			}
 		},
@@ -79,7 +79,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/desert/village",
+				"processors": "ctov:village/desert/house",
 				"location": "ctov:village/desert/house/big_2"
 			}
 		},
@@ -88,7 +88,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/desert/village",
+				"processors": "ctov:village/desert/house",
 				"location": "ctov:village/desert/jobsite/butcher"
 			}
 		},
@@ -97,7 +97,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/desert/village",
+				"processors": "ctov:village/desert/house",
 				"location": "ctov:village/desert/jobsite/chemist"
 			}
 		},
@@ -115,7 +115,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/desert/village",
+				"processors": "ctov:village/desert/house",
 				"location": "ctov:village/desert/jobsite/fishing_oasis"
 			}
 		},
@@ -124,7 +124,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/desert/village",
+				"processors": "ctov:village/desert/house",
 				"location": "ctov:village/desert/jobsite/library"
 			}
 		},
@@ -133,7 +133,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/desert/village",
+				"processors": "ctov:village/desert/house",
 				"location": "ctov:village/desert/jobsite/mason"
 			}
 		},
@@ -142,7 +142,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/desert/village",
+				"processors": "ctov:village/desert/house",
 				"location": "ctov:village/desert/jobsite/observatory"
 			}
 		},
@@ -151,7 +151,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/desert/village",
+				"processors": "ctov:village/desert/house",
 				"location": "ctov:village/desert/jobsite/shepherd"
 			}
 		},
@@ -160,7 +160,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/desert/village",
+				"processors": "ctov:village/desert/house",
 				"location": "ctov:village/desert/jobsite/smith"
 			}
 		},
@@ -169,7 +169,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/desert/village",
+				"processors": "ctov:village/desert/house",
 				"location": "ctov:village/desert/jobsite/tannery"
 			}
 		}

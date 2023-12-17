@@ -9,14 +9,14 @@
 			}
 		]
 	},
-	"template_pool": "ctov:village/swamp_fortified/house",
+	"template_pool": "ctov:village/swamp_fortified/deco",
 	"elements": [
 		{
 			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "minecraft:empty",
+				"processors": "ctov:village/swamp_fortified/house",
 				"location":"ctov:village/swamp_fortified/deco/bard_house"
 			}
 		}

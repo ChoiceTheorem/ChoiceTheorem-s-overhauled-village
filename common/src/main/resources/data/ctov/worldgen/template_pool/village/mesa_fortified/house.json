@@ -7,7 +7,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/mesa/village",
+				"processors": "ctov:village/mesa_fortified/house",
 				"location": "ctov:village/mesa_fortified/house/small_1"
 			}
 		},
@@ -16,7 +16,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/mesa/village",
+				"processors": "ctov:village/mesa_fortified/house",
 				"location": "ctov:village/mesa_fortified/house/small_2"
 			}
 		},
@@ -25,7 +25,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/mesa/village",
+				"processors": "ctov:village/mesa_fortified/house",
 				"location": "ctov:village/mesa_fortified/house/small_3"
 			}
 		},
@@ -34,7 +34,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/mesa/village",
+				"processors": "ctov:village/mesa_fortified/house",
 				"location": "ctov:village/mesa_fortified/house/small_4"
 			}
 		},
@@ -43,7 +43,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/mesa/village",
+				"processors": "ctov:village/mesa_fortified/house",
 				"location": "ctov:village/mesa_fortified/house/small_5"
 			}
 		},
@@ -52,7 +52,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/mesa/village",
+				"processors": "ctov:village/mesa_fortified/house",
 				"location": "ctov:village/mesa_fortified/house/med_1"
 			}
 		},
@@ -61,7 +61,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/mesa/village",
+				"processors": "ctov:village/mesa_fortified/house",
 				"location": "ctov:village/mesa_fortified/house/med_2"
 			}
 		},
@@ -70,7 +70,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/mesa/village",
+				"processors": "ctov:village/mesa_fortified/house",
 				"location": "ctov:village/mesa_fortified/house/med_3"
 			}
 		},
@@ -79,7 +79,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/mesa/village",
+				"processors": "ctov:village/mesa_fortified/house",
 				"location": "ctov:village/mesa_fortified/house/med_4"
 			}
 		},
@@ -88,7 +88,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/mesa/village",
+				"processors": "ctov:village/mesa_fortified/house",
 				"location": "ctov:village/mesa_fortified/house/big"
 			}
 		},
@@ -124,7 +124,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/mesa/village",
+				"processors": "ctov:village/mesa_fortified/house",
 				"location": "ctov:village/mesa_fortified/jobsite/bakery"
 			}
 		},
@@ -133,7 +133,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/mesa/village",
+				"processors": "ctov:village/mesa_fortified/house",
 				"location": "ctov:village/mesa_fortified/jobsite/coop"
 			}
 		},
@@ -142,7 +142,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/mesa/village",
+				"processors": "ctov:village/mesa_fortified/house",
 				"location": "ctov:village/mesa_fortified/jobsite/fishing_oasis"
 			}
 		},
@@ -151,7 +151,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/mesa/village",
+				"processors": "ctov:village/mesa_fortified/house",
 				"location": "ctov:village/mesa_fortified/jobsite/library"
 			}
 		},
@@ -160,7 +160,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/mesa/village",
+				"processors": "ctov:village/mesa_fortified/house",
 				"location": "ctov:village/mesa_fortified/jobsite/mason"
 			}
 		},
@@ -169,7 +169,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/mesa/village",
+				"processors": "ctov:village/mesa_fortified/house",
 				"location": "ctov:village/mesa_fortified/jobsite/sheep_farm"
 			}
 		},
@@ -178,7 +178,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/mesa/village",
+				"processors": "ctov:village/mesa_fortified/house",
 				"location": "ctov:village/mesa_fortified/jobsite/smith"
 			}
 		}

@@ -16,7 +16,16 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "minecraft:empty",
+				"processors": "ctov:village/mushroom/house_brown",
+				"location":"ctov:village/mushroom/jobsite/restaurant"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/mushroom/house_red",
 				"location":"ctov:village/mushroom/jobsite/restaurant"
 			}
 		}

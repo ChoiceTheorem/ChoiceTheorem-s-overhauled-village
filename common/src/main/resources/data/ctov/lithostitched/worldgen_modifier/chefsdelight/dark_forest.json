@@ -16,7 +16,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "minecraft:empty",
+				"processors": "ctov:village/halloween/house",
 				"location":"ctov:village/halloween/jobsite/restaurant"
 			}
 		}

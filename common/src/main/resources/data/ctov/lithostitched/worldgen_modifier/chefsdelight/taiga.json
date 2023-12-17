@@ -16,7 +16,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "minecraft:empty",
+				"processors": "ctov:village/taiga/house",
 				"location":"ctov:village/taiga/jobsite/restaurant"
 			}
 		}

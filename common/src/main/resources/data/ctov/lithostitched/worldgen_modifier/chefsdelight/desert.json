@@ -16,7 +16,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "minecraft:empty",
+				"processors": "ctov:village/desert/house",
 				"location":"ctov:village/desert/jobsite/restaurant"
 			}
 		}

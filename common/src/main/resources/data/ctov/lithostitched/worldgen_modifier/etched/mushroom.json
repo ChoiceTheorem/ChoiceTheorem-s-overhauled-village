@@ -9,14 +9,23 @@
 			}
 		]
 	},
-	"template_pool": "ctov:village/mushroom/house",
+	"template_pool": "ctov:village/mushroom/deco",
 	"elements": [
 		{
 			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "minecraft:empty",
+				"processors": "ctov:village/mushroom/house_brown",
+				"location":"ctov:village/mushroom/deco/bard_house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/mushroom/house_red",
 				"location":"ctov:village/mushroom/deco/bard_house"
 			}
 		}
