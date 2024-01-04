@@ -16,7 +16,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:village/plains_fortified/house_pink",
+				"processors": "ctov:village/plains_fortified/pink_house",
 				"location":"ctov:village/plains_fortified/jobsite/petshop"
 			}
 		}

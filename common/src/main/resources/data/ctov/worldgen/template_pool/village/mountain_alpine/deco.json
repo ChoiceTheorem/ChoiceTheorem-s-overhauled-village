@@ -109,69 +109,6 @@
             }
         },
         {
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/mountain_alpine/deco/beekeeper",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/mountain_alpine/deco/copper_golem",
-				"processors": "minecraft:empty"
-			}
-		},
-        {
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/mountain_alpine/deco/vm",
-				"processors": "minecraft:empty"
-			}
-		},
-        {
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/mountain_alpine/deco/goddess_statue",
-				"processors": "minecraft:empty"
-			}
-		},
-        {
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/mountain_alpine/deco/bard_house",
-				"processors": "minecraft:empty"
-			}
-		},
-        {
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/mountain_alpine/deco/garbage_heaps",
-				"processors": "minecraft:empty"
-			}
-		},
-        {
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/mountain_alpine/jobsite/chicken_coop",
-				"processors": "minecraft:empty"
-			}
-		},
-        {
             "weight":5,
             "element":{
                 "element_type": "minecraft:empty_pool_element",

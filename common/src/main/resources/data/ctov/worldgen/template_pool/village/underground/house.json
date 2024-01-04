@@ -115,24 +115,6 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/underground/jobsite/orchard",
-				"processors": "ctov:orchard/underground"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/underground/jobsite/fd_farm",
-				"processors": "ctov:farm/underground"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/fishing_hut",
 				"processors": "ctov:village/underground/main"
 			}

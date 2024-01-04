@@ -1,0 +1,42 @@
+{
+	"type": "lithostitched:add_template_pool_elements",
+	"predicate": {
+		"type": "lithostitched:all_of",
+			"predicates": [
+			{
+				"type": "lithostitched:mod_loaded",
+				"mod_id": "paraglider"
+			}
+		]
+	},
+	"template_pool": "ctov:village/savanna/deco",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/savanna/house_orange",
+				"location":"ctov:village/savanna/deco/goddess_statue"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/savanna/house_red",
+				"location":"ctov:village/savanna/deco/goddess_statue"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/savanna/house_yellow",
+				"location":"ctov:village/savanna/deco/goddess_statue"
+			}
+		}
+	]
+}

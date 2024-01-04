@@ -17,7 +17,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "ctov:village/snowy/house_ice",
-				"location":"ctov:village/snowy_igloo/botanist"
+				"location":"ctov:village/snowy_igloo/jobsite/botanist"
 			}
 		},
 		{
@@ -26,7 +26,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "ctov:village/snowy/house_snow",
-				"location":"ctov:village/snowy_igloo/botanist"
+				"location":"ctov:village/snowy_igloo/jobsite/botanist"
 			}
 		}
 	]

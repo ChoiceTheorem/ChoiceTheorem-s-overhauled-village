@@ -17,7 +17,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "ctov:village/jungle_tree/house",
-				"location":"ctov:village/jungle_tree/computer_lab"
+				"location":"ctov:village/jungle_tree/jobsite/computer_lab"
 			}
 		}
 	]

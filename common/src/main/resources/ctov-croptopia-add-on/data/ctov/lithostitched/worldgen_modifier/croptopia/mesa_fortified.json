@@ -1,0 +1,33 @@
+{
+	"type": "lithostitched:add_template_pool_elements",
+	"predicate": {
+		"type": "lithostitched:all_of",
+			"predicates": [
+			{
+				"type": "lithostitched:mod_loaded",
+				"mod_id": "croptopia"
+			}
+		]
+	},
+	"template_pool": "ctov:village/mesa_fortified/house",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:orchard/mesa_fortified",
+				"location":"ctov:village/mesa_fortified/jobsite/orchard"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:croptopia_farm/mesa",
+				"location":"ctov:village/mesa_fortified/jobsite/farm"
+			}
+		}
+	]
+}

@@ -17,7 +17,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "ctov:village/christmas/house",
-				"location":"ctov:village/christmas/botanist"
+				"location":"ctov:village/christmas/jobsite/botanist"
 			}
 		}
 	]

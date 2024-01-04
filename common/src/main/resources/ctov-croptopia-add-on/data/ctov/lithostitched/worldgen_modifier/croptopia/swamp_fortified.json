@@ -1,0 +1,33 @@
+{
+	"type": "lithostitched:add_template_pool_elements",
+	"predicate": {
+		"type": "lithostitched:all_of",
+			"predicates": [
+			{
+				"type": "lithostitched:mod_loaded",
+				"mod_id": "croptopia"
+			}
+		]
+	},
+	"template_pool": "ctov:village/swamp_fortified/house",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:orchard/swamp",
+				"location":"ctov:village/swamp_fortified/jobsite/orchard"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:croptopia_farm/swanp",
+				"location":"ctov:village/swamp_fortified/jobsite/farm"
+			}
+		}
+	]
+}

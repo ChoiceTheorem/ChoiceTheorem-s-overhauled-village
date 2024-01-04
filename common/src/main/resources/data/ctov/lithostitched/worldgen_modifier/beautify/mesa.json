@@ -17,7 +17,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "ctov:village/mesa/house",
-				"location":"ctov:village/mesa/botanist"
+				"location":"ctov:village/mesa/jobsite/botanist"
 			}
 		}
 	]

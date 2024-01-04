@@ -17,7 +17,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "ctov:village/taiga_fortified/house",
-				"location":"ctov:village/taiga_fortified/computer_lab"
+				"location":"ctov:village/taiga_fortified/jobsite/computer_lab"
 			}
 		}
 	]

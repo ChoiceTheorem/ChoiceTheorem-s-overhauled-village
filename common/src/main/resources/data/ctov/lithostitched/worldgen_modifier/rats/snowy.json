@@ -1,0 +1,33 @@
+{
+	"type": "lithostitched:add_template_pool_elements",
+	"predicate": {
+		"type": "lithostitched:all_of",
+			"predicates": [
+			{
+				"type": "lithostitched:mod_loaded",
+				"mod_id": "etched"
+			}
+		]
+	},
+	"template_pool": "ctov:village/snowy_igloo/deco",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/snowy/house_ice",
+				"location":"ctov:village/snowy_igloo/deco/garbage_heaps"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/snowy/house_snow",
+				"location":"ctov:village/snowy_igloo/deco/garbage_heaps"
+			}
+		}
+	]
+}

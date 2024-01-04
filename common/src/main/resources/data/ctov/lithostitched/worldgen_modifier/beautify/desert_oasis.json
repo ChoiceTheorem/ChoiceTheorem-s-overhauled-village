@@ -17,7 +17,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "ctov:village/desert_oasis/house",
-				"location":"ctov:village/desert_oasis/botanist"
+				"location":"ctov:village/desert_oasis/jobsite/botanist"
 			}
 		}
 	]

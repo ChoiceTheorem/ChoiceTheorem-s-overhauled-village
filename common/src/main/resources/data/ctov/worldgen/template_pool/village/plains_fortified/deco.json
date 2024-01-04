@@ -1,6 +1,6 @@
 {
 	"name": "ctov:village/plains_fortified/deco",
-	"fallback": "ctov:village/plains_fortified/quartz_house",
+	"fallback": "minecraft:empty",
 	"elements": [
 		{
 			"weight": 1,

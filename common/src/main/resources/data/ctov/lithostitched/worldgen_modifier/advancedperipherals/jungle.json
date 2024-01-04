@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:village/jungle/terminators",
+	"template_pool": "ctov:village/jungle/terminator",
 	"elements": [
 		{
 			"weight": 5,
@@ -17,7 +17,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "ctov:village/jungle/house",
-				"location":"ctov:village/jungle/computer_lab"
+				"location":"ctov:village/jungle/jobsite/computer_lab"
 			}
 		}
 	]

@@ -17,7 +17,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "ctov:village/swamp_fortified/house",
-				"location":"ctov:village/swamp_fortified/botanist"
+				"location":"ctov:village/swamp_fortified/jobsite/botanist"
 			}
 		}
 	]

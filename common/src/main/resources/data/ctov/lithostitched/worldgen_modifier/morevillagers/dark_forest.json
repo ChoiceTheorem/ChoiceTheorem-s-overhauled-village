@@ -1,0 +1,60 @@
+{
+	"type": "lithostitched:add_template_pool_elements",
+	"predicate": {
+		"type": "lithostitched:all_of",
+			"predicates": [
+			{
+				"type": "lithostitched:mod_loaded",
+				"mod_id": "morevillagers"
+			}
+		]
+	},
+	"template_pool": "ctov:village/halloween/house",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/halloween/house",
+				"location":"ctov:village/halloween/jobsite/engineer"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/halloween/house",
+				"location":"ctov:village/halloween/jobsite/garden"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/halloween/house",
+				"location":"ctov:village/halloween/jobsite/hunter"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/halloween/house",
+				"location":"ctov:village/halloween/jobsite/oceanographer"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/halloween/house",
+				"location":"ctov:village/halloween/jobsite/woodworker"
+			}
+		}
+	]
+}

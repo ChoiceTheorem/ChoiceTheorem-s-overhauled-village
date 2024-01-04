@@ -1,0 +1,33 @@
+{
+	"type": "lithostitched:add_template_pool_elements",
+	"predicate": {
+		"type": "lithostitched:all_of",
+			"predicates": [
+			{
+				"type": "lithostitched:mod_loaded",
+				"mod_id": "floralis"
+			}
+		]
+	},
+	"template_pool": "ctov:village/mushroom/house",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/mushroom/house_brown",
+				"location":"ctov:village/mushroom/jobsite/flower_farm"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/mushroom/house_red",
+				"location":"ctov:village/mushroom/jobsite/flower_farm"
+			}
+		}
+	]
+}

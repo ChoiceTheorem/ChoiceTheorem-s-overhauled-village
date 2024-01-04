@@ -17,7 +17,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "ctov:village/mesa_fortified/house",
-				"location":"ctov:village/mesa_fortified/computer_lab"
+				"location":"ctov:village/mesa_fortified/jobsite/computer_lab"
 			}
 		}
 	]

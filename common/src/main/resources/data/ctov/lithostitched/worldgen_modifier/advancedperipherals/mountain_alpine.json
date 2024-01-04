@@ -17,7 +17,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "ctov:village/mountain_alpine/house",
-				"location":"ctov:village/mountain_alpine/computer_lab"
+				"location":"ctov:village/mountain_alpine/jobsite/computer_lab"
 			}
 		}
 	]

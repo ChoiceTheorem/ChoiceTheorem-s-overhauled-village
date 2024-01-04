@@ -17,7 +17,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "ctov:village/taiga/house",
-				"location":"ctov:village/taiga/botanist"
+				"location":"ctov:village/taiga/jobsite/botanist"
 			}
 		}
 	]

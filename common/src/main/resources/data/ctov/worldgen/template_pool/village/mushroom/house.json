@@ -1,6 +1,6 @@
 {
 	"name": "ctov:village/mushroom/house",
-	"fallback": "ctov:village/mushroom/decos",
+	"fallback": "ctov:village/mushroom/deco",
 	"elements": [
 		{
 			"weight": 20,

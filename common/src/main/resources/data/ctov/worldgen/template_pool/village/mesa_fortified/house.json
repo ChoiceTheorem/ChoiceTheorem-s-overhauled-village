@@ -3,7 +3,7 @@
 	"fallback": "ctov:village/mesa_fortified/deco",
 	"elements": [
 		{
-			"weight": 10,
+			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -12,7 +12,7 @@
 			}
 		},
 		{
-			"weight": 10,
+			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -21,7 +21,7 @@
 			}
 		},
 		{
-			"weight": 10,
+			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -30,7 +30,7 @@
 			}
 		},
 		{
-			"weight": 10,
+			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -39,7 +39,7 @@
 			}
 		},
 		{
-			"weight": 10,
+			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -48,7 +48,7 @@
 			}
 		},
 		{
-			"weight": 10,
+			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -57,7 +57,7 @@
 			}
 		},
 		{
-			"weight": 10,
+			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -66,7 +66,7 @@
 			}
 		},
 		{
-			"weight": 10,
+			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -75,7 +75,7 @@
 			}
 		},
 		{
-			"weight": 10,
+			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -84,7 +84,7 @@
 			}
 		},
 		{
-			"weight": 10,
+			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -99,24 +99,6 @@
 				"projection": "rigid",
 				"processors": "ctov:farm/mesa",
 				"location": "ctov:village/mesa_fortified/jobsite/farm"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:orchard/mesa",
-				"location": "ctov:village/mesa_fortified/jobsite/orchard"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:farm/mesa",
-				"location": "ctov:village/mesa_fortified/jobsite/fd_farm"
 			}
 		},
 		{
