@@ -16,7 +16,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:orchard/mushroom/house_brown",
+				"processors": "ctov:orchard/mushroom/brown",
 				"location":"ctov:village/mushroom/jobsite/orchard"
 			}
 		},
@@ -25,7 +25,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:orchard/mushroom/house_red",
+				"processors": "ctov:orchard/mushroom/red",
 				"location":"ctov:village/mushroom/jobsite/orchard"
 			}
 		},

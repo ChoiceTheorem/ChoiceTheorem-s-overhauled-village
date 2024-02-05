@@ -16,7 +16,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:orchard/plains_fortified/pink_house",
+				"processors": "ctov:orchard/plains/pink",
 				"location":"ctov:village/plains_fortified/jobsite/orchard"
 			}
 		},

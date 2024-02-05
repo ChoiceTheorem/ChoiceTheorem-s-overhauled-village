@@ -16,7 +16,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:orchard/jungle_tree",
+				"processors": "ctov:orchard/jungle",
 				"location":"ctov:village/jungle_tree/jobsite/orchard"
 			}
 		},

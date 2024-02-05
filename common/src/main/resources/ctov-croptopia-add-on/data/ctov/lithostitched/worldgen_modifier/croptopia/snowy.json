@@ -16,7 +16,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:orchard/snowy/house_ice",
+				"processors": "ctov:orchard/snowy/ice_igloo",
 				"location":"ctov:village/snowy_igloo/jobsite/orchard"
 			}
 		},
@@ -25,7 +25,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:orchard/snowy/house_snow",
+				"processors": "ctov:orchard/snowy/igloo",
 				"location":"ctov:village/snowy_igloo/jobsite/orchard"
 			}
 		},
