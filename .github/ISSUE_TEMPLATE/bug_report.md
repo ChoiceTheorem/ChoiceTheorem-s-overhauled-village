@@ -27,8 +27,10 @@ If applicable, add screenshots to help explain your problem.
 
 **CTOV Version**
 
-**Add-ons used**
+**Add-ons used (Before 1.20)**
 
+**Do you install Lithostitched?(1.20+)**
+Yes/No(You install it first)
 **Log**
 
 **Additional context**
