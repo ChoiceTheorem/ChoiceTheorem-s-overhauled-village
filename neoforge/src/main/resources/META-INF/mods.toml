@@ -23,7 +23,7 @@ displayName="ChoiceTheorem's Overhauled Village" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
 updateJSONURL = "https://api.modrinth.com/updates/fgmhI8kH/forge_updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
-displayURL="https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village" #optional
+displayURL="https://modrinth.com/mod/ct-overhaul-village" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="assets/pack.png" #optional
 # A text field displayed in the mod UI
