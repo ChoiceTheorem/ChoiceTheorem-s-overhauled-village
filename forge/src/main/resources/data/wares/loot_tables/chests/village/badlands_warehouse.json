@@ -35,8 +35,9 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "wares:cardboard_box",
+					"type": "minecraft:tag",
+					"name": "ctov:wares/cardboard_box",
+                    "expand": false,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -52,9 +53,10 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
 					"weight": 6,
-					"name": "wares:sealed_delivery_agreement",
+					"type": "minecraft:tag",
+					"name": "ctov:wares/sealed_delivery_agreement",
+                    "expand": false,
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
@@ -68,9 +70,10 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
 					"weight": 3,
-					"name": "wares:sealed_delivery_agreement",
+					"type": "minecraft:tag",
+					"name": "ctov:wares/sealed_delivery_agreement",
+                    "expand": false,
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
