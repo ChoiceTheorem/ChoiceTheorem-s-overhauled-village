@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Report if something isn't working.
 title: "[BUG]"
 labels: bug
 assignees: ChoiceTheorem
