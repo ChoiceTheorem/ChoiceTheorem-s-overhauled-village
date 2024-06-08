@@ -1,0 +1,24 @@
+{
+	"type": "lithostitched:add_template_pool_elements",
+	"predicate": {
+		"type": "lithostitched:all_of",
+			"predicates": [
+			{
+				"type": "lithostitched:mod_loaded",
+				"mod_id": "all_bark_all_bite"
+			}
+		]
+	},
+	"template_pool": "ctov:pillager_outpost/plains/features",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location":"ctov:pillager_outpost/plains/feature_kennel"
+			}
+		}
+	]
+}

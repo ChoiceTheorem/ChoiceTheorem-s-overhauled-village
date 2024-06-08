@@ -1,0 +1,87 @@
+{
+	"type": "lithostitched:add_template_pool_elements",
+	"predicate": {
+		"type": "lithostitched:all_of",
+			"predicates": [
+			{
+				"type": "lithostitched:mod_loaded",
+				"mod_id": "villagersplus"
+			}
+		]
+	},
+	"template_pool": "ctov:village/mushroom/house",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/mushroom/house_brown",
+				"location":"ctov:village/mushroom/jobsite/alchemist"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/mushroom/house_red",
+				"location":"ctov:village/mushroom/jobsite/alchemist"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/mushroom/house_brown",
+				"location":"ctov:village/mushroom/jobsite/aquarium"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/mushroom/house_red",
+				"location":"ctov:village/mushroom/jobsite/aquarium"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/mushroom/house_brown",
+				"location":"ctov:village/mushroom/jobsite/horticulturist"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/mushroom/house_red",
+				"location":"ctov:village/mushroom/jobsite/horticulturist"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/mushroom/house_brown",
+				"location":"ctov:village/mushroom/jobsite/occultist"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/mushroom/house_red",
+				"location":"ctov:village/mushroom/jobsite/occultist"
+			}
+		}
+	]
+}

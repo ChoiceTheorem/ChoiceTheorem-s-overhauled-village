@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "mixin": [
+    "ctov.mixins.json",
+    "ctov-common.mixins.json"
+  ],
+  "quilt_loader": {
+    "group": "${group}",
+    "id": "ctov",
+    "version": "${version}",
+    "metadata": {
+      "name": "ChoiceTheorem's Overhauled Village",
+      "description": "Enhances and creates new villages and pillager outposts, that perfectly fit into your Minecraft world.",
+      "contributors": {
+        "ChoiceTheorem": "Owner"
+      },
+      "contact": {
+        "sources": "https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village"
+      },
+      "icon": "assets/ctov/icon.png"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "entrypoints": {
+      "init": [
+        "net.ctov.quilt.ctovQuilt"
+      ]
+    },
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "version": "*"
+      },
+      {
+        "id": "quilt_base",
+        "version": "*"
+      },
+      {
+        "id": "minecraft",
+        "version": ">=1.20.1"
+      },
+      {
+        "id": "architectury",
+        "version": ">=9.1.12"
+      }
+    ]
+  },
+  "minecraft": {
+    "environment": "*"
+  }
+}

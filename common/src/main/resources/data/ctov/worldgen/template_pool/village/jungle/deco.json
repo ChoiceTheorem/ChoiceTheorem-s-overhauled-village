@@ -1,0 +1,127 @@
+{
+    "name":"ctov:village/jungle/deco",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/jungle/deco/lamp_1"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/jungle/deco/lamp_2"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/jungle/deco/melon_1"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/jungle/deco/melon_2"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/jungle/deco/shed"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/jungle/deco/stall_1"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/jungle/deco/stall_2"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/jungle/deco/statue_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/jungle/deco/statue_2"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/jungle/deco/well"
+            }
+        },
+        {
+            "weight":1,
+            "element":{
+                "element_type": "minecraft:feature_pool_element",
+                "projection":"rigid",
+                "feature": "minecraft:bamboo_light"
+            }
+        },
+        {
+            "weight":1,
+            "element":{
+                "element_type": "minecraft:feature_pool_element",
+                "projection":"rigid",
+                "feature": "minecraft:trees_jungle"
+            }
+        },
+        {
+            "weight":1,
+            "element":{
+                "element_type": "minecraft:feature_pool_element",
+                "projection":"rigid",
+                "feature": "minecraft:patch_melon"
+            }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:empty_pool_element",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

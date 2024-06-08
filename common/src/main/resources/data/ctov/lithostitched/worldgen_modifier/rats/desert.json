@@ -1,0 +1,24 @@
+{
+	"type": "lithostitched:add_template_pool_elements",
+	"predicate": {
+		"type": "lithostitched:all_of",
+			"predicates": [
+			{
+				"type": "lithostitched:mod_loaded",
+				"mod_id": "rats"
+			}
+		]
+	},
+	"template_pool": "ctov:village/desert/deco",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/desert/house",
+				"location":"ctov:village/desert/deco/garbage_heaps"
+			}
+		}
+	]
+}

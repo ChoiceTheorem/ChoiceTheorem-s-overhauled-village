@@ -1,0 +1,15 @@
+{
+    "name":"ctov:village/biome/plains",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "ctov:village/plains_fortified/town_center",
+                "processors": "ctov:village/plains/town_center"
+            }
+        }
+    ]
+}

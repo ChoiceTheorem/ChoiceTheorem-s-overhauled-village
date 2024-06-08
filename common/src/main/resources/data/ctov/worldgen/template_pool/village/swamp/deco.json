@@ -1,0 +1,118 @@
+{
+    "name": "ctov:village/swamp/deco",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/swamp/deco/bush"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/swamp/deco/orchid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/swamp/deco/tree"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/swamp/deco/pier"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/swamp/deco/lamp_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/swamp/deco/lamp_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/swamp/deco/lamp_3"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/swamp/deco/lamp_4"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ctov:village/swamp/deco/lamp_5"
+            }
+        },
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:feature_pool_element",
+				"projection": "rigid",
+				"feature": "minecraft:trees_swamp"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:feature_pool_element",
+				"projection": "rigid",
+				"feature": "minecraft:flower_swamp"
+			}
+		},
+		{
+		  	"weight": 2,
+			"element": {
+				"element_type": "minecraft:feature_pool_element",
+				"projection": "rigid",
+				"feature": "minecraft:patch_pumpkin"
+			}
+		},
+		{
+		  	"weight": 5,
+		  	"element": {
+				"element_type": "minecraft:empty_pool_element",
+				"projection": "rigid"
+		  	}
+		}
+    ]
+}

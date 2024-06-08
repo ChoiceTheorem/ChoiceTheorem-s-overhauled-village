@@ -1,0 +1,110 @@
+{
+	"name": "ctov:village/plains_fortified/deco",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/deco/lamp_1",
+				"processors": "ctov:village/plains_fortified/quartz_house"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/deco/lamp_2",
+				"processors": "ctov:village/plains_fortified/quartz_house"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/deco/lamp_3",
+				"processors": "ctov:village/plains_fortified/quartz_house"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/deco/lamp_4",
+				"processors": "ctov:village/plains_fortified/quartz_house"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/deco/well",
+				"processors": "ctov:village/plains_fortified/quartz_house"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/deco/tree",
+				"processors": "ctov:village/plains_fortified/quartz_house"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/deco/cart",
+				"processors": "ctov:village/plains_fortified/quartz_house"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains_fortified/deco/fountain",
+				"processors": "ctov:village/plains_fortified/quartz_house"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:feature_pool_element",
+				"projection": "rigid",
+				"feature": "minecraft:oak"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:feature_pool_element",
+				"projection": "rigid",
+				"feature": "minecraft:flower_plain"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:feature_pool_element",
+				"projection": "rigid",
+				"feature": "minecraft:forest_flowers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:feature_pool_element",
+				"projection": "rigid",
+				"feature": "minecraft:pile_hay"
+			}
+		}
+	]
+}

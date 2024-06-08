@@ -1,0 +1,14 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:village/taiga_fortified/town_center",
+                "location": "ctov:village/taiga_fortified/town_center"
+            }
+        }
+    ]
+}

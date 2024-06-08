@@ -1,6 +1,5 @@
 # What's changed
 
-+ Fix the long standing village distribution bug
-+ Decrease mesa fortified village lion statue.
-+ Compatibility with [Etched](https://www.curseforge.com/minecraft/mc-mods/etched)
-+ Compatibility with [Floralis](https://modrinth.com/mod/floralis)
++ Fix bug [#133](https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village/issues/133)
++ Fix bug [#136](https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village/issues/136)
++ Fix bug [#137](https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village/issues/137)

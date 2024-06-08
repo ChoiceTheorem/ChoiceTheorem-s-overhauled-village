@@ -1,0 +1,187 @@
+{
+		"name": "ctov:village/halloween/house",
+		"fallback": "ctov:village/halloween/deco",
+		"elements": [
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"location": "ctov:village/halloween/house/small_1",
+					"processors": "ctov:village/halloween/house"
+				}
+			},
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"location": "ctov:village/halloween/house/small_2",
+					"processors": "ctov:village/halloween/house"
+				}
+			},
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"location": "ctov:village/halloween/house/small_3",
+					"processors": "ctov:village/halloween/house"
+				}
+			},
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"location": "ctov:village/halloween/house/small_4",
+					"processors": "ctov:village/halloween/house"
+				}
+			},
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"location": "ctov:village/halloween/house/small_5",
+					"processors": "ctov:village/halloween/house"
+				}
+			},
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"location": "ctov:village/halloween/house/med_1",
+					"processors": "ctov:village/halloween/house"
+				}
+			},
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"location": "ctov:village/halloween/house/med_2",
+					"processors": "ctov:village/halloween/house"
+				}
+			},
+			{
+				"weight": 5,
+				"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"location": "ctov:village/halloween/house/big_1",
+				"processors": "ctov:village/halloween/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/halloween/house/big_2",
+				"processors": "ctov:village/halloween/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/halloween/jobsite/butcher",
+				"processors": "ctov:village/halloween/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/halloween/jobsite/cartography",
+				"processors": "ctov:village/halloween/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/halloween/jobsite/chemist",
+				"processors": "ctov:village/halloween/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/halloween/jobsite/fishing_hut",
+				"processors": "ctov:village/halloween/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/halloween/jobsite/library",
+				"processors": "ctov:village/halloween/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/halloween/jobsite/loomhouse",
+				"processors": "ctov:village/halloween/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/halloween/jobsite/mason",
+				"processors": "ctov:village/halloween/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/halloween/jobsite/pen",
+				"processors": "ctov:village/halloween/house"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:farm/halloween",
+					"location": "ctov:village/halloween/jobsite/farm"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+					"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/halloween/jobsite/smith",
+				"processors": "ctov:village/halloween/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/halloween/jobsite/tannery",
+				"processors": "ctov:village/halloween/house"
+			}
+		}
+	]
+}
+	

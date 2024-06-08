@@ -1,0 +1,177 @@
+{
+	"name": "ctov:village/swamp_fortified/house",
+	"fallback": "ctov:village/swamp_fortified/deco",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/house/small_1",
+				"processors": "ctov:village/swamp_fortified/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/house/small_2",
+				"processors": "ctov:village/swamp_fortified/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/house/med_1",
+				"processors": "ctov:village/swamp_fortified/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/house/med_2",
+				"processors": "ctov:village/swamp_fortified/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/house/med_3",
+				"processors": "ctov:village/swamp_fortified/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/house/med_4",
+				"processors": "ctov:village/swamp_fortified/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/house/big_1",
+				"processors": "ctov:village/swamp_fortified/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/house/big_2",
+				"processors": "ctov:village/swamp_fortified/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/jobsite/loomhouse",
+				"processors": "ctov:village/swamp_fortified/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/jobsite/library",
+				"processors": "ctov:village/swamp_fortified/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/jobsite/butcher",
+				"processors": "ctov:village/swamp_fortified/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/jobsite/cartographer",
+				"processors": "ctov:village/swamp_fortified/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/jobsite/chemist",
+				"processors": "ctov:village/swamp_fortified/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/jobsite/farm",
+				"processors": "ctov:farm/swamp"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/jobsite/fishing_hut",
+				"processors": "ctov:village/swamp_fortified/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/jobsite/mason",
+				"processors": "ctov:village/swamp_fortified/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/jobsite/pen",
+				"processors": "ctov:village/swamp_fortified/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/jobsite/tannery",
+				"processors": "ctov:village/swamp_fortified/house"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/swamp_fortified/jobsite/smith",
+				"processors": "ctov:village/swamp_fortified/house"
+			}
+		}
+	]
+}

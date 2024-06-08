@@ -1,0 +1,16 @@
+{
+    "name":"ctov:village/biome/taiga",
+    "fallback": "minecraft:empty",
+    "elements": 
+    [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ctov:village/taiga/house",
+                "location": "ctov:village/taiga/town_center"
+            }
+        }
+    ]
+}

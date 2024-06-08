@@ -1,0 +1,140 @@
+{
+    "processors": [
+        {
+            "processor_type":"minecraft:rule",
+            "rules": [
+                {
+                    "position_predicate":{
+                        "predicate_type": "always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "minecraft:deepslate_bricks",
+                        "probability": 0.3
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cracked_deepslate_bricks"
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type":"minecraft:rule",
+            "rules": [
+                {
+                    "position_predicate":{
+                        "predicate_type": "always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "minecraft:deepslate_tiles",
+                        "probability": 0.3
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cracked_deepslate_tiles"
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type":"minecraft:rule",
+            "rules": 
+            [
+                {
+                    "position_predicate":{
+                        "predicate_type": "always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "minecraft:spruce_planks",
+                        "probability": 0.3
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:stripped_spruce_log",
+                        "Properties": {
+                            "axis":"y"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type":"minecraft:rule",
+            "rules": [
+                {
+                    "position_predicate":{
+                        "predicate_type": "always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "minecraft:allium",
+                        "probability": 0.2
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:poppy"
+                    }
+                },
+                {
+                    "position_predicate":{
+                        "predicate_type": "always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "minecraft:allium",
+                        "probability": 0.2
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:dandelion"
+                    }
+                },
+                {
+                    "position_predicate":{
+                        "predicate_type": "always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "minecraft:allium",
+                        "probability": 0.2
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:orange_tulip"
+                    }
+                },
+                {
+                    "position_predicate":{
+                        "predicate_type": "always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "minecraft:allium",
+                        "probability": 0.2
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cornflower"
+                    }
+                }
+            ]
+        }
+    ]
+}
