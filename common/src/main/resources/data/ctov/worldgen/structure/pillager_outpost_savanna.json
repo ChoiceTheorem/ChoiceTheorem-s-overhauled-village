@@ -8,7 +8,7 @@
 			"spawns": [
 				{
 					"type": "minecraft:pillager",
-					"weight": 5,
+					"weight": 1,
 					"minCount": 1,
 					"maxCount": 1
 				},
@@ -20,13 +20,13 @@
 				},
 				{
 					"type": "minecraft:vindicator",
-					"weight": 2,
+					"weight": 1,
 					"minCount": 1,
 					"maxCount": 1
 				},
 				{
 					"type": "minecraft:witch",
-					"weight": 2,
+					"weight": 1,
 					"minCount": 1,
 					"maxCount": 1
 				}
