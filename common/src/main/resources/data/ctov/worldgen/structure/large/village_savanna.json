@@ -1,5 +1,5 @@
 {
-	"type": "minecraft:jigsaw",
+	"type": "lithostitched:jigsaw",
 	"biomes": "#minecraft:has_structure/village_savanna",
 	"step": "surface_structures",
 	"spawn_overrides": {},

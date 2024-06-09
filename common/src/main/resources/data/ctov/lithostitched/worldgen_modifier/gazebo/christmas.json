@@ -14,10 +14,14 @@
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/christmas/house",
-				"location":"ctov:village/christmas/jobsite/gazebo"
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+    				"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/christmas/house",
+					"location":"ctov:village/christmas/jobsite/gazebo"			
+					},
+  				"limit": 1
 			}
 		}
 	]

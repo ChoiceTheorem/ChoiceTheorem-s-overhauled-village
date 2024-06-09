@@ -1,5 +1,5 @@
 {
-	"type": "minecraft:jigsaw",
+	"type": "lithostitched:jigsaw",
 	"biomes": "#minecraft:has_structure/ruined_portal_swamp",
 	"step": "surface_structures",
 	"spawn_overrides": {},
