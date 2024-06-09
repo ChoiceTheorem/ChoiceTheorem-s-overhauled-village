@@ -2,7 +2,7 @@
 name: Compatibility request
 about: Suggest an idea for compatiblity
 title: "[Compat]"
-labels: ''
+labels: enhancement
 assignees: ''
 
 ---
@@ -12,9 +12,10 @@ Mod name:
 Mod ID(optional):
 CurseForge:
 Modrinth:
-
+Curseforge download(The higher it is, the higher the priority):
 **I read this repo's wiki page and issues that this mod isn't on the list of already compatible mod.**
 - [ ] Yes
+
 **Describe the compatibility you'd like**
 A clear and concise description of what you want to happen.
 
