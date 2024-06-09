@@ -1,7 +1,7 @@
 ---
 name: Bug report
-about: Create a report to help us improve
-title: ''
+about: Report if something isn't working.
+title: "[BUG]"
 labels: bug
 assignees: ChoiceTheorem
 
@@ -27,6 +27,10 @@ If applicable, add screenshots to help explain your problem.
 
 **CTOV Version**
 
+**Add-ons used (Before 1.20)**
+
+**Do you install Lithostitched?(1.20+)**
+Yes/No(You install it first)
 **Log**
 
 **Additional context**
