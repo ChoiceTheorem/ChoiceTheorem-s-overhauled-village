@@ -5,7 +5,7 @@
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",
 	"start_pool": "ctov:village/underground/start",
-	"size": 4,
+	"size": 5,
 	"start_height": {
 		"absolute": -14
 	},
