@@ -15,3 +15,4 @@
     - [] Building jewelry workshop set
     - [] Building Archery range set
     - [] Add this through pool mod
+5. Fuse CTOV structure set to vanilla one.
