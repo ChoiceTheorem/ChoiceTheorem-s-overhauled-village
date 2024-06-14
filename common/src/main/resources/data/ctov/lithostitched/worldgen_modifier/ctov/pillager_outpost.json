@@ -1,5 +1,7 @@
 {
-	"structures": [
+	"type": "lithostitched:add_structure_set_entries",
+	"structure_set": "minecraft:pillager_outposts",
+	"entries": [
 		{
 			"structure": "ctov:pillager_outpost_beach",
 			"weight": 1
@@ -44,17 +46,5 @@
 			"structure": "ctov:pillager_outpost_taiga",
 			"weight": 1
 		}
-	],
-	"placement": {
-		"type": "minecraft:random_spread",
-		"salt": 165745296,
-		"frequency_reduction_method": "legacy_type_1",
-		"frequency": 0.2,
-		"exclusion_zone": {
-			"other_set": "ctov:villages",
-			"chunk_count": 10
-		},
-		"spacing": 32,
-		"separation": 8
-	}
+	]
 }
