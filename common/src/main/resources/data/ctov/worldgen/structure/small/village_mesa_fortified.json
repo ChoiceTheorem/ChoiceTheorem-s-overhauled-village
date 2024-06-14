@@ -5,7 +5,7 @@
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",
 	"start_pool": "ctov:village/mesa_fortified/town_centers",
-	"size": 3,
+	"size": 4,
 	"start_height": {
 		"absolute": 0
 	},
