@@ -5,14 +5,15 @@
     - [x] Add pool addition
     - [x] Rework processors for bounty board
 2. Rat compatibility
-    - [] Create village building set
-    - [] Modify village pet shop set
-    - [] Add this through pool mod
+    - [x] Create village building set
+    - [x] Modify village pet shop set
+    - [x] Add this through pool mod
 3. Ice and Fire compatibility
-    - [] Create village building set
-    - [] Add this through pool mod
+    - [ ] Create village building set
+    - [ ] Add this through pool mod
 4. RPG Series
-    - [] Building jewelry workshop set
-    - [] Building Archery range set
-    - [] Add this through pool mod
+    - [ ] Building jewelry workshop set
+    - [ ] Building Archery range set
+    - [ ] Add this through pool mod
 5. Fuse CTOV structure set to vanilla one.
+    - [x] Done
