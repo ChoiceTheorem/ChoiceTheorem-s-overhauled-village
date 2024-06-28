@@ -45,6 +45,12 @@ description='''Enhances and creates new villages and pillager outposts, that per
 config = "ctov.mixins.json"
 [[mixins]]
 config = "ctov-common.mixins.json"
+[[dependencies.ctov]]
+    modId= "lithostitched"
+    mandatory=true
+    versionRange="[1,)"
+    ordering="NONE"
+    side="SERVER"
 [[dependencies.ctov]] #optional
     # the modid of the dependency
     modId="neoforge" #mandatory

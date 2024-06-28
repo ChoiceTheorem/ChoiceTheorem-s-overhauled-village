@@ -9,8 +9,8 @@
     - [x] Modify village pet shop set
     - [x] Add this through pool mod
 3. Ice and Fire compatibility
-    - [ ] Create village building set
-    - [ ] Add this through pool mod
+    - [x] Create village building set
+    - [x] Add this through pool mod
 4. RPG Series
     - [ ] Building jewelry workshop set
     - [ ] Building Archery range set
