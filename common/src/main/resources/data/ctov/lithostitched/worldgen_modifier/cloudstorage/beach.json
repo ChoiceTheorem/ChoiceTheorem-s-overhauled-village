@@ -1,0 +1,29 @@
+{
+	"type": "lithostitched:add_template_pool_elements",
+	"predicate": {
+		"type": "lithostitched:all_of",
+			"predicates": [
+			{
+				"type": "lithostitched:mod_loaded",
+				"mod_id": "cloudstorage"
+			}
+		]
+	},
+	"template_pool": "ctov:village/beach/house",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "lithostitched:guaranteed",
+  				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/beach/house",
+					"location": "ctov:village/beach/jobsite/balloon_stand"
+				},
+  				"count": 1,
+				"min_depth": 3
+			}
+		}
+	]
+}
