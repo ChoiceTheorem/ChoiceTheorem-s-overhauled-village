@@ -1,0 +1,29 @@
+{
+	"type": "lithostitched:add_template_pool_elements",
+	"predicate": {
+		"type": "lithostitched:all_of",
+			"predicates": [
+			{
+				"type": "lithostitched:mod_loaded",
+				"mod_id": "archers"
+			}
+		]
+	},
+	"template_pool": "ctov:village/christmas/house",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "lithostitched:guaranteed",
+  				"delegate": {
+    				"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/christmas/house",
+					"location": "ctov:village/christmas/jobsite/archery_range"	
+				},
+  				"count": 1,
+                "min_depth": 3
+			}
+		}
+	]
+}
