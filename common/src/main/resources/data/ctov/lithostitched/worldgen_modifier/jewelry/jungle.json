@@ -14,15 +14,14 @@
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "lithostitched:guaranteed",
+				"element_type": "lithostitched:limited",
   				"delegate": {
     				"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
 					"processors": "ctov:village/jungle/house",
 					"location": "ctov:village/jungle/jobsite/jewelry_shop"
 				},
-				"count": 1,
-                "min_depth": 3
+				"limit": 1
 			}
 		}
 	]
