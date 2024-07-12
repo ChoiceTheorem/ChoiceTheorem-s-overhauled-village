@@ -14,15 +14,14 @@
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "lithostitched:guaranteed",
+				"element_type": "lithostitched:limited",
   				"delegate": {
     				"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
 					"processors": "ctov:village/savanna/house_orange",
 					"location": "ctov:village/savanna/jobsite/archery_range"
 				},
-				"count": 1,
-                "min_depth": 3
+				"limit": 1
 			}
 		}
 	]
