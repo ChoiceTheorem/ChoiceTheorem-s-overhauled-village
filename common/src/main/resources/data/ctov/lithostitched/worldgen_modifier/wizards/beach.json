@@ -14,10 +14,14 @@
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/beach/house",
-				"location":"ctov:village/beach/jobsite/wizard_tower"
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/beach/house",
+					"location": "ctov:village/beach/jobsite/wizard_tower"
+				},
+  				"limit": 1
 			}
 		}
 	]

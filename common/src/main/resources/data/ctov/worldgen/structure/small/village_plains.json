@@ -1,11 +1,11 @@
 {
-	"type": "minecraft:jigsaw",
+	"type": "lithostitched:jigsaw",
 	"biomes": "#minecraft:has_structure/village_plains",
 	"step": "surface_structures",
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",
 	"start_pool": "ctov:village/plains/town_centers",
-	"size": 3,
+	"size": 4,
 	"start_height": {
 		"absolute": 0
 	},

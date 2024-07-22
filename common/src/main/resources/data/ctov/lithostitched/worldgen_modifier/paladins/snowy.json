@@ -14,19 +14,14 @@
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/snowy/house_ice",
-				"location":"ctov:village/snowy_igloo/jobsite/sanctuary"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/snowy/house_snow",
-				"location":"ctov:village/snowy_igloo/jobsite/sanctuary"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+    				"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/snowy/house_snow",
+					"location": "ctov:village/snowy_igloo/jobsite/sanctuary"
+				},
+				"limit": 1
 			}
 		}
 	]

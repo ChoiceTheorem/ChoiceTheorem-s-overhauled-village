@@ -1,11 +1,11 @@
 {
-	"type": "minecraft:jigsaw",
+	"type": "lithostitched:jigsaw",
 	"biomes": "#minecraft:is_badlands",
 	"step": "surface_structures",
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",
 	"start_pool": "ctov:village/mesa/town_centers",
-	"size": 4,
+	"size": 5,
 	"start_height": {
 		"absolute": 0
 	},

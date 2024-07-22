@@ -1,5 +1,6 @@
 # What's changed
 
-+ Fix bug [#133](https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village/issues/133)
-+ Fix bug [#136](https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village/issues/136)
-+ Fix bug [#137](https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village/issues/137)
+- Added Jewelry Compat
+- Added Archers Compat
+- Added Rogues Compat
+- All RPG series mod buildings will be restricted to 1 building per villages.
