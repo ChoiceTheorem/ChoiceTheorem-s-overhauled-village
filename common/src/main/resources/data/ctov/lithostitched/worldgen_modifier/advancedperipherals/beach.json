@@ -1,14 +1,17 @@
 {
 	"type": "lithostitched:add_template_pool_elements",
-	"predicate": {
-		"type": "lithostitched:all_of",
-			"predicates": [
-			{
-				"type": "lithostitched:mod_loaded",
-				"mod_id": "advancedperipherals"
-			}
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"advancedperipherals"
 		]
 	},
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "advancedperipherals"
+		}
+	],
 	"template_pool": "ctov:village/beach/house",
 	"elements": [
 		{

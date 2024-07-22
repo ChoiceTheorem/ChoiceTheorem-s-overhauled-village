@@ -1,18 +1,27 @@
 {
 	"type": "lithostitched:add_template_pool_elements",
-	"predicate": {
-		"type": "lithostitched:any_of",
-		"predicates": [
-			{
-				"type": "lithostitched:mod_loaded",
-				"mod_id": "domesticationinnovation"
-			},
-			{
-				"type": "lithostitched:mod_loaded",
-				"mod_id": "rats"
-			}
+		"fabric:load_conditions": {
+		"condition": "fabric:any_mods_loaded",
+		"values": [
+			"domesticationinnovation",
+			"rats"
 		]
 	},
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:or",
+			"values": [
+				{
+				"type": "neoforge:mod_loaded",
+				"modid": "domesticationinnovation"
+				},
+				{
+				"type": "neoforge:mod_loaded",
+				"modid": "rats"
+				}
+			]
+		}
+	],
 	"template_pool": "ctov:village/taiga_fortified/house",
 	"elements": [
 		{

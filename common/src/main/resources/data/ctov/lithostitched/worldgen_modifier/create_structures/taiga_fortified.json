@@ -1,14 +1,17 @@
 {
 	"type": "lithostitched:add_template_pool_elements",
-	"predicate": {
-		"type": "lithostitched:all_of",
-			"predicates": [
-			{
-				"type": "lithostitched:mod_loaded",
-				"mod_id": "create_structures"
-			}
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"create_structures"
 		]
 	},
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "create_structures"
+		}
+	],
 	"template_pool": "ctov:village/taiga_fortified/house",
 	"elements": [
 		{
