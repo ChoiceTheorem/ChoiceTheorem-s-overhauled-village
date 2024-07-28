@@ -116,7 +116,7 @@
 			  "element_type": "minecraft:single_pool_element",
 			  "projection": "rigid",
 			  "location": "ctov:village/christmas/jobsite/farm",
-			  "processors": "ctov:farm/default"
+			  "processors": "ctov:village/christmas/farm"
 			}
 		},
 		{

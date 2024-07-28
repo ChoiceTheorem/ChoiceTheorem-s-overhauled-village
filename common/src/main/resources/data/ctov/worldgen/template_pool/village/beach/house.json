@@ -161,7 +161,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/beach/jobsite/farm",
-				"processors": "ctov:farm/beach"
+				"processors": "ctov:village/beach/farm"
 			}
 		},
 		{

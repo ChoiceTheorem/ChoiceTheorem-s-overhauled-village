@@ -1,0 +1,11 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:reference",
+			"processor_lists": [
+				"ctov:village/desert_oasis/house",
+				"ctov:village/common/farm"
+			]
+		}
+    ]
+}

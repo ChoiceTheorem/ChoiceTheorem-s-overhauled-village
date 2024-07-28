@@ -1,0 +1,11 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:reference",
+			"processor_lists": [
+				"ctov:village/savanna/house",
+				"ctov:village/common/farm"
+			]
+		}
+    ]
+}

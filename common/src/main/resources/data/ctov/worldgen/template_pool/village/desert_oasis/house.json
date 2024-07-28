@@ -124,7 +124,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:farm/desert",
+				"processors": "ctov:village/desert_oasis/farm",
 				"location": "ctov:village/desert_oasis/jobsite/greenhouse"
 			}
 		},

@@ -32,7 +32,7 @@
                         "predicate_type": "always_true"
                     },
                     "output_state": {
-                        "Name": "minecraft:deepslate_tiles"
+                        "Name": "minecraft:cracked_deepslate_tiles"
                     }
                 }
             ]

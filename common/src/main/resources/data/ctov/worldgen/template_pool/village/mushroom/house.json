@@ -138,21 +138,12 @@
 			}
 		},
 		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/mushroom/jobsite/farm",
-				"processors": "ctov:farm/mushroom/brown"
-			}
-		},
-		{
 			"weight": 3,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/mushroom/jobsite/farm",
-				"processors": "ctov:farm/mushroom/red"
+				"processors": "ctov:village/mushroom/farm"
 			}
 		},
 		{

@@ -133,7 +133,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:farm/mountain",
+				"processors": "ctov:village/mountain/farm",
 				"location": "ctov:village/mountain/jobsite/farm"
 			}
 		},

@@ -98,7 +98,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/taiga_fortified/jobsite/farm",
-				"processors": "ctov:farm/taiga"
+				"processors": "ctov:village/taiga_fortified/farm"
 			}
 		},
 		{

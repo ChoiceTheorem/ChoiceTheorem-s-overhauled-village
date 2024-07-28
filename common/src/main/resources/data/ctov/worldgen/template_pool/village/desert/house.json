@@ -106,7 +106,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:farm/desert",
+				"processors": "ctov:village/desert/farm",
 				"location": "ctov:village/desert/jobsite/farm"
 			}
 		},

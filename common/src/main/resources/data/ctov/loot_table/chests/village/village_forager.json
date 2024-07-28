@@ -5,13 +5,15 @@
 			"entries": [
 				{
 					"type": "minecraft:tag",
-					"weight": 1,
-					"name": "byg:mushrooms_for_foragers_table"
+					"name": "byg:mushrooms_for_foragers_table",
+					"expand": true,
+					"weight": 1
 				},
 				{
 					"type": "minecraft:tag",
-					"weight": 1,
-					"name": "byg:all/saplings"
+					"name": "byg:all/saplings",
+					"expand": true,
+					"weight": 1
 				}
 			],
 			"functions": [
