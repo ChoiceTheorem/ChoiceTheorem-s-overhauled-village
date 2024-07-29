@@ -1,0 +1,22 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:apply_random",
+			"mode": "per_piece",
+			"processor_lists": [
+				{
+					"weight": 1,
+					"data": "ctov:village/plains_fortified/red_house"
+				},
+				{
+					"weight": 1,
+					"data": "ctov:village/plains_fortified/pink_house"
+				},
+                {
+					"weight": 1,
+					"data": "ctov:village/plains_fortified/quartz_house"
+				}
+			]
+		}
+	]
+}

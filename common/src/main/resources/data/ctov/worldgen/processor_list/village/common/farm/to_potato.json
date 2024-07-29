@@ -1,0 +1,10 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:block_swap",
+			"blocks": {
+				"minecraft:wheat": "minecraft:potatoes"
+			}
+		}
+	]
+}

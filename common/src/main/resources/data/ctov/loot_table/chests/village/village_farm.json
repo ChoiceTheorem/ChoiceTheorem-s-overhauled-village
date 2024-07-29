@@ -79,7 +79,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "minecraft:gameplay/hero_of_the_village/farmer_gift"
+					"value": "minecraft:gameplay/hero_of_the_village/farmer_gift"
 				}
 			]
 		}

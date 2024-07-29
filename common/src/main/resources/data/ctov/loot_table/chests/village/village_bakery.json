@@ -5,7 +5,7 @@
             "entries":[
                 {
                     "type":"minecraft:loot_table",
-                    "name":"minecraft:chests/village/village_butcher"
+                    "value":"minecraft:chests/village/village_butcher"
                 }
             ]
         },
@@ -14,7 +14,7 @@
             "entries":[
                 {
                     "type":"minecraft:loot_table",
-                    "name":"ctov:chests/village/village_farm"
+                    "value":"ctov:chests/village/village_farm"
                 }
             ]
         }

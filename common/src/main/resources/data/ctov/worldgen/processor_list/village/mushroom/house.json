@@ -1,0 +1,18 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:apply_random",
+			"mode": "per_piece",
+			"processor_lists": [
+				{
+					"weight": 1,
+					"data": "ctov:village/mushroom/house_red"
+				},
+				{
+					"weight": 1,
+					"data": "ctov:village/mushroom/house_brown"
+				}
+			]
+		}
+	]
+}

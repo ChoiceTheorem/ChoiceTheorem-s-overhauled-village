@@ -1,0 +1,130 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:apply_random",
+			"mode": "per_block",
+			"processor_lists": [
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_almond"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_apple"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_apricot"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_avocado"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_banana"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_cashew"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_cherry"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_cinnamon"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_coconut"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_date"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_dragonfruit"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_fig"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_grapefruit"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_kumquat"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_lemon"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_lime"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_mango"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_nectarine"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_nutmeg"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_orange"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_peach"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_pear"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_pecan"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_persimmon"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_plum"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_starfruit"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/trees/to_walnut"
+				}
+			]
+		}
+	],
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"croptopia"
+		]
+	},
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "croptopia"
+		}
+	]
+}
