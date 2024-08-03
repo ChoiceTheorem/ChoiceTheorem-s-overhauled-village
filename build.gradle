@@ -31,7 +31,7 @@ allprojects {
 	apply plugin: "maven-publish"
 
 	base {
-		archivesName = rootProject.archives_base_name
+		archivesName = "[$project.name]$rootProject.archives_base_name"
 	}
 
 	version = rootProject.mod_version
@@ -48,7 +48,7 @@ allprojects {
 		}
 	}
 
-	tasks.withType(JavaCompile) {
+	tasks.withType(JavaCompile){
 		options.encoding = "UTF-8"
 		options.release = 21
 	}
