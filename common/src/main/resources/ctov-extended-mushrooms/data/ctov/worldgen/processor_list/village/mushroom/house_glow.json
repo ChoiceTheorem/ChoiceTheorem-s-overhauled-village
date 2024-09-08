@@ -1,0 +1,12 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:block_swap",
+			"blocks": {
+				"minecraft:stone_bricks": "extendedmushrooms:glowshroom_stem",
+				"minecraft:stone": "extendedmushrooms:glowshroom_cap"	
+			}
+			
+		}
+	]
+}
