@@ -1,6 +1,6 @@
 .gradle/
 .vscode/
-.idea/
+.idea/*
 bin/
 build/
 ChoiceTheorem's-overhauled-village.jar

@@ -1,0 +1,12 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:block_swap",
+			"blocks": {
+				"minecraft:stone_bricks": "extendedmushrooms:honey_fungus_stem",
+				"minecraft:stone": "extendedmushrooms:honey_fungus_cap"	
+			}
+			
+		}
+	]
+}
