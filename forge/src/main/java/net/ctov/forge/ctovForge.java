@@ -1,4 +1,4 @@
-package net.ctov.neoforge;
+package net.ctov.forge;
 
 import net.ctov.ctov;
 import net.minecraftforge.fml.common.Mod;
