@@ -1,0 +1,31 @@
+{
+	"type": "lithostitched:add_template_pool_elements",
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"sawmill"
+		]
+	},
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "sawmill"
+		}
+	],
+	"template_pool": "ctov:village/halloween/deco",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/halloween/house",
+					"location":"ctov:village/halloween/jobsite/sawmill"
+				},
+				"limit": 1
+			}
+		}
+	]
+}
