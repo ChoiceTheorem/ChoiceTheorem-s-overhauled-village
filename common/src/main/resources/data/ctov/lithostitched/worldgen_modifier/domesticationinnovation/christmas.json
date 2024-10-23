@@ -10,7 +10,11 @@
     		{
     			"type": "lithostitched:mod_loaded",
     			"mod_id": "rats"
-			}
+			},
+		  	{
+				"type": "lithostitched:mod_loaded",
+				"mod_id": "simplycats"
+		  	}
 		]
 	},
 	"template_pool": "ctov:village/christmas/house",
