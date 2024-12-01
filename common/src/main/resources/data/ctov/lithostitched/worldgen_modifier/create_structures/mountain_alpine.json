@@ -14,10 +14,14 @@
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
 				"processors": "ctov:village/mountain_alpine/house",
 				"location":"ctov:village/mountain_alpine/jobsite/windmill"
+			},
+  				"limit": 1
 			}
 		}
 	]
