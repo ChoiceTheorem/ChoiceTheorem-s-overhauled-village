@@ -18,7 +18,7 @@
   				"delegate": {
     				"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
-					"processors": "ctov:village/taiga/roads",
+					"processors": "ctov:village/taiga/road",
 					"location": "ctov:village/taiga/roads/respawn_obelisk"
 				},
 				"limit": 1

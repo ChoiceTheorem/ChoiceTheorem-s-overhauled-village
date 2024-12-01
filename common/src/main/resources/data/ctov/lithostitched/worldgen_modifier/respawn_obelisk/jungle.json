@@ -18,7 +18,7 @@
   				"delegate": {
     				"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
-					"processors": "ctov:village/jungle/roads",
+					"processors": "ctov:village/jungle/road",
 					"location": "ctov:village/jungle/roads/respawn_obelisk"
 				},
 				"limit": 1
