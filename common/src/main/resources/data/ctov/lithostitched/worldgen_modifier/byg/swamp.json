@@ -3,13 +3,13 @@
 	"fabric:load_conditions": {
 		"condition": "fabric:all_mods_loaded",
 		"values": [
-			"byg"
+			"biomeswevegone"
 		]
 	},
 	"neoforge:conditions": [
 		{
 			"type": "neoforge:mod_loaded",
-			"modid": "byg"
+			"modid": "biomeswevegone"
 		}
 	],
 	"template_pools": "ctov:village/swamp/house",
