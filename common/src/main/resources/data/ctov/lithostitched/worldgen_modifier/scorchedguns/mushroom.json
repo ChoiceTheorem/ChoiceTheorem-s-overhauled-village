@@ -1,0 +1,28 @@
+{
+	"type": "lithostitched:add_template_pool_elements",
+	"predicate": {
+		"type": "lithostitched:all_of",
+			"predicates": [
+			{
+				"type": "lithostitched:mod_loaded",
+				"mod_id": "scguns"
+			}
+		]
+	},
+	"template_pool": "ctov:village/mushroom/house",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+    				"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/mushroom/house_red",
+					"location": "ctov:village/mushroom/jobsite/gunsmith"
+				},
+				"limit": 1
+			}
+		}
+	]
+}
