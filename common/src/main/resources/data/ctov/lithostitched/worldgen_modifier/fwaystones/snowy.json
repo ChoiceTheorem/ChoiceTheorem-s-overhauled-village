@@ -6,7 +6,7 @@
 			"fwaystone"
 		]
 	},
-	"template_pool": "ctov:village/snowy_igloo/house",
+	"template_pools": "ctov:village/snowy_igloo/house",
 	"elements": [
 		{
 			"weight": 5,

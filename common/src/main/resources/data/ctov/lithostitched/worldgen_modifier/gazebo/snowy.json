@@ -12,7 +12,7 @@
 			"modid": "gazebo"
 		}
 	],
-	"template_pool": "ctov:village/snowy_igloo/deco",
+	"template_pools": "ctov:village/snowy_igloo/deco",
 	"elements": [
 		{
 			"weight": 5,

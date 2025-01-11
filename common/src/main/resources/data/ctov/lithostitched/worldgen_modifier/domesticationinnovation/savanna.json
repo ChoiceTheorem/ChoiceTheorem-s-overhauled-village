@@ -26,7 +26,7 @@
 			]
 		}
 	],
-	"template_pool": "ctov:village/savanna/house",
+	"template_pools": "ctov:village/savanna/house",
 	"elements": [
 		{
 			"weight": 5,

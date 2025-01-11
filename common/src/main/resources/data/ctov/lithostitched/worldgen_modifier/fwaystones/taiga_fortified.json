@@ -6,7 +6,7 @@
 			"fwaystone"
 		]
 	},
-	"template_pool": "ctov:village/taiga_fortified/house",
+	"template_pools": "ctov:village/taiga_fortified/house",
 	"elements": [
 		{
 			"weight": 5,

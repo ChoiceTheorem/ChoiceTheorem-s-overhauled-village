@@ -12,7 +12,7 @@
 			"modid": "jewelry"
 		}
 	],
-	"template_pool": "ctov:village/taiga/house",
+	"template_pools": "ctov:village/taiga/house",
 	"elements": [
 		{
 			"weight": 5,

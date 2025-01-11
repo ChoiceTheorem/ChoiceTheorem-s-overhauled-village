@@ -12,7 +12,7 @@
 			"modid": "rats"
 		}
 	],
-	"template_pool": "ctov:village/mountain_alpine/deco",
+	"template_pools": "ctov:village/mountain_alpine/deco",
 	"elements": [
 		{
 			"weight": 5,

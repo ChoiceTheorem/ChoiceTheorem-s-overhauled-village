@@ -12,7 +12,7 @@
 			"modid": "waystones"
 		}
 	],
-	"template_pool": "ctov:village/halloween/house",
+	"template_pools": "ctov:village/halloween/house",
 	"elements": [
 		{
 			"weight": 5,

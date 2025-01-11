@@ -12,7 +12,7 @@
 			"modid": "paraglider"
 		}
 	],
-	"template_pool": "ctov:village/savanna/deco",
+	"template_pools": "ctov:village/savanna/deco",
 	"elements": [
 		{
 			"weight": 1,

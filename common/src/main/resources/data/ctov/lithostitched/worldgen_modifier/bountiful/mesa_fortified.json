@@ -12,7 +12,7 @@
 			"modid": "bountiful"
 		}
 	],
-	"template_pool": "ctov:village/mesa_fortified/house",
+	"template_pools": "ctov:village/mesa_fortified/house",
 	"elements": [
 		{
 			"weight": 5,

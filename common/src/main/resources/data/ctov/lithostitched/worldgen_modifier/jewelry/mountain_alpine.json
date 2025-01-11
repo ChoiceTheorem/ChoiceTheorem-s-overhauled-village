@@ -12,7 +12,7 @@
 			"modid": "jewelry"
 		}
 	],
-	"template_pool": "ctov:village/mountain_alpine/house",
+	"template_pools": "ctov:village/mountain_alpine/house",
 	"elements": [
 		{
 			"weight": 5,

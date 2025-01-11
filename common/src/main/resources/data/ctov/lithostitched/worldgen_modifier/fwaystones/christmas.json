@@ -6,7 +6,7 @@
 			"fwaystone"
 		]
 	},
-	"template_pool": "ctov:village/christmas/house",
+	"template_pools": "ctov:village/christmas/house",
 	"elements": [
 		{
 			"weight": 5,

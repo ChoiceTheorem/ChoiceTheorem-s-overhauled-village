@@ -12,7 +12,7 @@
 			"modid": "rats"
 		}
 	],
-	"template_pool": "ctov:village/desert_oasis/deco",
+	"template_pools": "ctov:village/desert_oasis/deco",
 	"elements": [
 		{
 			"weight": 5,

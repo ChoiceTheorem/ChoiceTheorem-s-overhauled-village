@@ -1,6 +1,6 @@
 {
 	"type": "lithostitched:add_structure_set_entries",
-	"structure_set": "minecraft:pillager_outposts",
+	"structure_sets": "minecraft:pillager_outposts",
 	"entries": [
 		{
 			"structure": "ctov:pillager_outpost_beach",
