@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:pillager_outpost/dark_forest/features",
+	"template_pools": "ctov:pillager_outpost/dark_forest/features",
 	"elements": [
 		{
 			"weight": 1,

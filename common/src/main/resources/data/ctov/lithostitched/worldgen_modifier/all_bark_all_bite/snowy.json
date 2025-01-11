@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:pillager_outpost/snowy/features",
+	"template_pools": "ctov:pillager_outpost/snowy/features",
 	"elements": [
 		{
 			"weight": 1,

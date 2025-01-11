@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:pillager_outpost/beach/features",
+	"template_pools": "ctov:pillager_outpost/beach/features",
 	"elements": [
 		{
 			"weight": 1,

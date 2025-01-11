@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:pillager_outpost/mountain/features",
+	"template_pools": "ctov:pillager_outpost/mountain/features",
 	"elements": [
 		{
 			"weight": 1,

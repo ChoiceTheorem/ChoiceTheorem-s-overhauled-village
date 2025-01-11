@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:pillager_outpost/taiga/features",
+	"template_pools": "ctov:pillager_outpost/taiga/features",
 	"elements": [
 		{
 			"weight": 1,

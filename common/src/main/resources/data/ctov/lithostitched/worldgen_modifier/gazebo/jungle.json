@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:village/jungle/deco",
+	"template_pools": "ctov:village/jungle/deco",
 	"elements": [
 		{
 			"weight": 5,

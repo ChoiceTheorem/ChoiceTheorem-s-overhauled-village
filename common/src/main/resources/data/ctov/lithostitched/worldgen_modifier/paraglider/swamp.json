@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:village/swamp/deco",
+	"template_pools": "ctov:village/swamp/deco",
 	"elements": [
 		{
 			"weight": 1,

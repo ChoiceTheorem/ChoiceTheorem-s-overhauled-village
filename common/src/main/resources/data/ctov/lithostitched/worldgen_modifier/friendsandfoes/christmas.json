@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:village/christmas/deco",
+	"template_pools": "ctov:village/christmas/deco",
 	"elements": [
 		{
 			"weight": 1,

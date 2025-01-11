@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:pillager_outpost/swamp/features",
+	"template_pools": "ctov:pillager_outpost/swamp/features",
 	"elements": [
 		{
 			"weight": 1,
