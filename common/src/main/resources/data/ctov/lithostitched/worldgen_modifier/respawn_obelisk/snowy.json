@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:village/snowy_igloo/roads",
+	"template_pools": "ctov:village/snowy_igloo/roads",
 	"elements": [
 		{
 			"weight": 5,

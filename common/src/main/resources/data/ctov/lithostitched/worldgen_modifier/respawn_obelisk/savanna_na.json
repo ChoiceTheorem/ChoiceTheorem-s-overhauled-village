@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:village/savanna_na/roads",
+	"template_pools": "ctov:village/savanna_na/roads",
 	"elements": [
 		{
 			"weight": 5,

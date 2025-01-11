@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:village/halloween/roads",
+	"template_pools": "ctov:village/halloween/roads",
 	"elements": [
 		{
 			"weight": 5,

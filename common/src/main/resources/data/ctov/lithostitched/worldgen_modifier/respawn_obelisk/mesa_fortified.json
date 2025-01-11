@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:village/mesa_fortified/road",
+	"template_pools": "ctov:village/mesa_fortified/road",
 	"elements": [
 		{
 			"weight": 5,

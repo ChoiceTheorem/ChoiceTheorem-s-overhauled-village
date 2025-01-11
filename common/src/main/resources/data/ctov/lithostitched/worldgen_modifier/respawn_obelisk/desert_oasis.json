@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:village/desert_oasis/roads",
+	"template_pools": "ctov:village/desert_oasis/roads",
 	"elements": [
 		{
 			"weight": 5,
