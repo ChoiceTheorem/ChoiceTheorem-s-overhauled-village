@@ -12,7 +12,7 @@
 			"modid": "etched"
 		}
 	],
-	"template_pool": "ctov:village/mushroom/deco",
+	"template_pools": "ctov:village/mushroom/deco",
 	"elements": [
 		{
 			"weight": 5,

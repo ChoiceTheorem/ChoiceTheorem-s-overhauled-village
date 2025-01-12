@@ -12,7 +12,7 @@
 			"modid": "iceandfire"
 		}
 	],
-	"template_pool": "ctov:village/mountain/house",
+	"template_pools": "ctov:village/mountain/house",
 	"elements": [
 		{
 			"weight": 5,

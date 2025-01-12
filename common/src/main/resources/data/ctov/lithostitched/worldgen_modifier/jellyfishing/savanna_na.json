@@ -12,7 +12,7 @@
 			"modid": "jellyfishing"
 		}
 	],
-	"template_pool": "ctov:village/savanna_na/house",
+	"template_pools": "ctov:village/savanna_na/house",
 	"elements": [
 		{
 			"weight": 5,

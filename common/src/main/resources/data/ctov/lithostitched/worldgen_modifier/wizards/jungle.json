@@ -12,7 +12,7 @@
 			"modid": "wizards"
 		}
 	],
-	"template_pool": "ctov:village/jungle/house",
+	"template_pools": "ctov:village/jungle/house",
 	"elements": [
 		{
 			"weight": 5,

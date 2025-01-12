@@ -12,7 +12,7 @@
 			"modid": "irons_spellbooks"
 		}
 	],
-	"template_pool": "ctov:village/jungle_tree/house",
+	"template_pools": "ctov:village/jungle_tree/house",
 	"elements": [
 		{
 			"weight": 5,

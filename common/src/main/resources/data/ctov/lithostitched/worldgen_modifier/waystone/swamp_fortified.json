@@ -12,7 +12,7 @@
 			"modid": "waystones"
 		}
 	],
-	"template_pool": "ctov:village/swamp_fortified/house",
+	"template_pools": "ctov:village/swamp_fortified/house",
 	"elements": [
 		{
 			"weight": 5,

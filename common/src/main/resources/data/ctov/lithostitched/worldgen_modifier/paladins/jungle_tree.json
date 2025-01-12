@@ -12,7 +12,7 @@
 			"modid": "paladins"
 		}
 	],
-	"template_pool": "ctov:village/jungle_tree/terminator",
+	"template_pools": "ctov:village/jungle_tree/terminator",
 	"elements": [
 		{
 			"weight": 5,

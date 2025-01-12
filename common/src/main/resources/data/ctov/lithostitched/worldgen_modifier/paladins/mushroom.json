@@ -12,7 +12,7 @@
 			"modid": "paladins"
 		}
 	],
-	"template_pool": "ctov:village/mushroom/house",
+	"template_pools": "ctov:village/mushroom/house",
 	"elements": [
 		{
 			"weight": 5,

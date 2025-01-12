@@ -12,7 +12,7 @@
 			"modid": "rats"
 		}
 	],
-	"template_pool": "ctov:village/taiga/deco",
+	"template_pools": "ctov:village/taiga/deco",
 	"elements": [
 		{
 			"weight": 5,

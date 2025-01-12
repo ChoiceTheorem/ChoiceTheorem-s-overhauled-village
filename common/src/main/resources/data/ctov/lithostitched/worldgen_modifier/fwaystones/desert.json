@@ -6,7 +6,7 @@
 			"fwaystone"
 		]
 	},
-	"template_pool": "ctov:village/desert/house",
+	"template_pools": "ctov:village/desert/house",
 	"elements": [
 		{
 			"weight": 5,

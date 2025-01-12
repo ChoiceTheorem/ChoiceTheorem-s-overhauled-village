@@ -12,7 +12,7 @@
 			"modid": "all_bark_all_bite"
 		}
 	],
-	"template_pool": "ctov:pillager_outpost/desert/features",
+	"template_pools": "ctov:pillager_outpost/desert/features",
 	"elements": [
 		{
 			"weight": 1,

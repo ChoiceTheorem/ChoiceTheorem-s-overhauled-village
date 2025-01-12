@@ -12,7 +12,7 @@
 			"modid": "irons_spellbooks"
 		}
 	],
-	"template_pool": "ctov:village/plains/house",
+	"template_pools": "ctov:village/plains/house",
 	"elements": [
 		{
 			"weight": 5,

@@ -6,7 +6,7 @@
 			"fwaystone"
 		]
 	},
-	"template_pool": "ctov:village/beach/house",
+	"template_pools": "ctov:village/beach/house",
 	"elements": [
 		{
 			"weight": 5,

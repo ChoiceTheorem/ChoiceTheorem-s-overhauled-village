@@ -12,7 +12,7 @@
 			"modid": "gazebo"
 		}
 	],
-	"template_pool": "ctov:village/taiga_fortified/deco",
+	"template_pools": "ctov:village/taiga_fortified/deco",
 	"elements": [
 		{
 			"weight": 5,
