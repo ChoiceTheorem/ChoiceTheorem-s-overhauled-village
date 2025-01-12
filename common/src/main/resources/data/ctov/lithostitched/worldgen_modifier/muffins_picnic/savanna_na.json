@@ -12,7 +12,7 @@
 			"modid": "muffins_picnic"
 		}
 	],
-	"template_pool": "ctov:village/savanna_na/deco",
+	"template_pools": "ctov:village/savanna_na/deco",
 	"elements": [
 		{
 			"weight": 5,

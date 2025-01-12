@@ -12,7 +12,7 @@
 			"modid": "respawnobelisks"
 		}
 	],
-	"template_pool": "ctov:village/savanna/roads",
+	"template_pools": "ctov:village/savanna/roads",
 	"elements": [
 		{
 			"weight": 5,

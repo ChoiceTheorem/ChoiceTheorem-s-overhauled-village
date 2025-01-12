@@ -12,7 +12,7 @@
 			"modid": "respawnobelisks"
 		}
 	],
-	"template_pool": "ctov:village/swamp_fortified/roads",
+	"template_pools": "ctov:village/swamp_fortified/roads",
 	"elements": [
 		{
 			"weight": 5,

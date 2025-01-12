@@ -12,7 +12,7 @@
 			"modid": "respawnobelisks"
 		}
 	],
-	"template_pool": "ctov:village/mushroom/roads",
+	"template_pools": "ctov:village/mushroom/roads",
 	"elements": [
 		{
 			"weight": 5,

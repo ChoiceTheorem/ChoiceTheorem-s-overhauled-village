@@ -12,7 +12,7 @@
 			"modid": "respawnobelisks"
 		}
 	],
-	"template_pool": "ctov:village/taiga_fortified/roads",
+	"template_pools": "ctov:village/taiga_fortified/roads",
 	"elements": [
 		{
 			"weight": 5,

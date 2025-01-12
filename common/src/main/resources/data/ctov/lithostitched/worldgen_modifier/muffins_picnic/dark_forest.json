@@ -12,7 +12,7 @@
 			"modid": "muffins_picnic"
 		}
 	],
-	"template_pool": "ctov:village/halloween/deco",
+	"template_pools": "ctov:village/halloween/deco",
 	"elements": [
 		{
 			"weight": 5,

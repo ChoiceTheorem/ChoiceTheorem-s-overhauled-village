@@ -12,7 +12,7 @@
 			"modid": "respawnobelisks"
 		}
 	],
-	"template_pool": "ctov:village/desert/roads",
+	"template_pools": "ctov:village/desert/roads",
 	"elements": [
 		{
 			"weight": 5,

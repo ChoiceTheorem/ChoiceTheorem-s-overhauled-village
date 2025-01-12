@@ -12,7 +12,7 @@
 			"modid": "respawnobelisks"
 		}
 	],
-	"template_pool": "ctov:village/mountain_alpine/roads",
+	"template_pools": "ctov:village/mountain_alpine/roads",
 	"elements": [
 		{
 			"weight": 5,
