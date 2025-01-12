@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:pillager_outpost/savanna/features",
+	"template_pools": "ctov:pillager_outpost/savanna/features",
 	"elements": [
 		{
 			"weight": 1,

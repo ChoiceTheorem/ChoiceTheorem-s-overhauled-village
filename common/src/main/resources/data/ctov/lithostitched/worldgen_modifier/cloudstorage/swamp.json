@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:village/swamp/house",
+	"template_pools": "ctov:village/swamp/house",
 	"elements": [
 		{
 			"weight": 5,

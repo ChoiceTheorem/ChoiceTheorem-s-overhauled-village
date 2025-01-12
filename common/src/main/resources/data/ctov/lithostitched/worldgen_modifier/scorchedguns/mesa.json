@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:village/mesa/house",
+	"template_pools": "ctov:village/mesa/house",
 	"elements": [
 		{
 			"weight": 5,

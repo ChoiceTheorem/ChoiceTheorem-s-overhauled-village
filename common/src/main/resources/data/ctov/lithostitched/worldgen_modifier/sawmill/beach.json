@@ -12,7 +12,7 @@
 			"modid": "sawmill"
 		}
 	],
-	"template_pool": "ctov:village/beach/deco",
+	"template_pools": "ctov:village/beach/deco",
 	"elements": [
 		{
 			"weight": 5,

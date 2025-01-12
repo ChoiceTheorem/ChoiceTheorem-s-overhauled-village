@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:pillager_outpost/jungle/features",
+	"template_pools": "ctov:pillager_outpost/jungle/features",
 	"elements": [
 		{
 			"weight": 1,

@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:village/mesa/deco",
+	"template_pools": "ctov:village/mesa/deco",
 	"elements": [
 		{
 			"weight": 1,

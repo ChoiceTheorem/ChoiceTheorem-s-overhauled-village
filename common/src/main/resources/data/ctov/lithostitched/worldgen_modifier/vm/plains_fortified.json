@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:village/plains_fortified/deco",
+	"template_pools": "ctov:village/plains_fortified/deco",
 	"elements": [
 		{
 			"weight": 1,

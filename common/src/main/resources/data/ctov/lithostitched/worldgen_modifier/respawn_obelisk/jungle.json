@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:village/jungle/roads",
+	"template_pools": "ctov:village/jungle/roads",
 	"elements": [
 		{
 			"weight": 5,

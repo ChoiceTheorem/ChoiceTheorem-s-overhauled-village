@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:village/mesa/roads",
+	"template_pools": "ctov:village/mesa/roads",
 	"elements": [
 		{
 			"weight": 5,

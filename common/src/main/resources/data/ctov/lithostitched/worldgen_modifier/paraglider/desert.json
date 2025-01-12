@@ -9,7 +9,7 @@
 			}
 		]
 	},
-	"template_pool": "ctov:village/desert/deco",
+	"template_pools": "ctov:village/desert/deco",
 	"elements": [
 		{
 			"weight": 1,
