@@ -48,7 +48,7 @@ config = "ctov-common.mixins.json"
 [[dependencies.ctov]]
     modId= "lithostitched"
     mandatory=true
-    versionRange="[1,)"
+    versionRange="[1.4,)"
     ordering="NONE"
     side="SERVER"
 [[dependencies.ctov]] #optional

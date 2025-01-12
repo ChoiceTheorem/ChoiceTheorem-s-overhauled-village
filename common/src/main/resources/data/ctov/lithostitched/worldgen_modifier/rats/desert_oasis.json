@@ -2,7 +2,7 @@
 	"type": "lithostitched:add_template_pool_elements",
 	"predicate": {
 		"type": "lithostitched:all_of",
-			"predicates": [
+	  	"predicates": [
 			{
 				"type": "lithostitched:mod_loaded",
 				"mod_id": "rats"

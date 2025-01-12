@@ -26,6 +26,6 @@
 	"depends": {
 		"fabric": "*",
 		"minecraft": ">=1.20",
-		"lithostitched":"*"
+		"lithostitched":">=1.4"
 	}
 }
