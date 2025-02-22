@@ -1,3 +1,6 @@
 # What's changed
 
-- Add compatibility with Easel does it!
+- Fixing OBWG forager loot table
+- Adding compatibility to Easel does it!
+- Adding compatibility to Iron's gem 'n jewelry!
+- Reworking all fisherman building to have outlining blocks
