@@ -1,7 +1,6 @@
 # What's changed
 
-- Add compatibility with Scorched Guns
-- Add compatibility with Respawn Obelisk
-- Add compatibility with Muffin's picnic 
-- Reimplementing compatibility with BYG/OBWG!
-- Requires Lithostiched 1.4.x+ from now on.
+- Fixing OBWG forager loot table
+- Adding compatibility to Easel does it!
+- Adding compatibility to Iron's gem 'n jewelry!
+- Reworking all fisherman building to have outlining blocks
