@@ -13,14 +13,16 @@
 	"elements": [
 		{
 			"weight": 5,
-			"element_type": "lithostitched:limited",
+			"element": {
+				"element_type": "lithostitched:limited",
   				"delegate": {
     				"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
 					"processors": "ctov:village/taiga/house",
 					"location":"ctov:village/taiga/jobsite/scriber"
 			    },
-			"limit": 1
+				"limit": 1
+			}
 		}
 	]
 }

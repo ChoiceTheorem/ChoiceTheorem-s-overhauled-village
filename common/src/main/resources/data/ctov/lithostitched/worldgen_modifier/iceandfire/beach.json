@@ -13,14 +13,16 @@
 	"elements": [
 		{
 			"weight": 5,
-			"element_type": "lithostitched:limited",
-  				"delegate": {
-    				"element_type": "minecraft:single_pool_element",
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
 					"processors": "ctov:village/beach/house",
-					"location":"ctov:village/beach/jobsite/scriber"
-			    },
-			"limit": 1
+					"location": "ctov:village/beach/jobsite/scriber"
+				},
+				"limit": 1
+			}
 		}
 	]
 }
