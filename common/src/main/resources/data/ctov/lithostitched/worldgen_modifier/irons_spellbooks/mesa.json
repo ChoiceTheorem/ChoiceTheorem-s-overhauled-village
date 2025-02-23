@@ -17,10 +17,14 @@
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/mesa/house",
-				"location":"ctov:village/mesa/jobsite/priest_tower"
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+    				"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/mesa/house",
+					"location": "ctov:village/mesa/jobsite/priest_tower"
+				},
+  				"limit": 1
 			}
 		}
 	]
