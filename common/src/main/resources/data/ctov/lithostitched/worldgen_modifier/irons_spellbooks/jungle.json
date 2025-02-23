@@ -9,15 +9,19 @@
 			}
 		]
 	},
-	"template_pools": "ctov:village/jungle/terminator",
+	"template_pools": "ctov:village/jungle/house",
 	"elements": [
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/jungle/house",
-				"location":"ctov:village/jungle/jobsite/priest_tower"
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+    				"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/jungle/house",
+					"location": "ctov:village/jungle/jobsite/priest_tower"
+				},
+				"limit": 1
 			}
 		}
 	]
