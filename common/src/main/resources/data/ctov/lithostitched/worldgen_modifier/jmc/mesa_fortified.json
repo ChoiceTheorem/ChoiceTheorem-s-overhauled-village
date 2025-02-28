@@ -1,0 +1,28 @@
+{
+	"type": "lithostitched:add_template_pool_elements",
+	"predicate": {
+		"type": "lithostitched:all_of",
+			"predicates": [
+			{
+				"type": "lithostitched:mod_loaded",
+				"mod_id": "jmc"
+			}
+		]
+	},
+	"template_pools": "ctov:village/mesa_fortified/house",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+    				"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/mesa_fortified/house",
+					"location": "ctov:village/mesa_fortified/jobsite/bakery_jmc"
+				},
+  				"limit": 1
+			}
+		}
+	]
+}
