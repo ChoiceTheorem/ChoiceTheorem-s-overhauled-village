@@ -1,0 +1,25 @@
+{
+	"type": "lithostitched:add_template_pool_elements",
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"fwaystone"
+		]
+	},
+	"template_pools": "ctov:village/beach/house",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/beach/house",
+					"location": "ctov:village/beach/jobsite/vineyard"
+				},
+  				"limit": 1
+			}
+		}
+	]
+}

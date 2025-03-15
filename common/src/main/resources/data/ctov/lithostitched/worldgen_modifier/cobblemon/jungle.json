@@ -1,0 +1,41 @@
+{
+	"type": "lithostitched:add_template_pool_elements",
+	"predicate": {
+		"type": "lithostitched:all_of",
+			"predicates": [
+			{
+				"type": "lithostitched:mod_loaded",
+				"mod_id": "cobblemon"
+			}
+		]
+	},
+	"template_pools": "ctov:village/jungle/terminator",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+    				"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "cobblemon:crop_to_berry",
+					"location":"ctov:village/jungle/jobsite/farm"
+			    },
+				"limit": 1
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/jungle/house",
+					"location":"ctov:village/jungle/jobsite/pokecenter"
+				},
+				"limit": 1
+			}
+		}
+	]
+}
