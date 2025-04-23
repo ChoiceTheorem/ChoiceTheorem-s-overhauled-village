@@ -50,7 +50,7 @@ config = "ctov-common.mixins.json"
     mandatory=true
     versionRange="[1.4,)"
     ordering="NONE"
-    side="SERVER"
+    side="BOTH"
 [[dependencies.ctov]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
