@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 	"main": [
-		"net.ctov.fabric.ctovFabric"
+		"net.choicetheorem.ctov.fabric.CTOVFabric"
 	]
 	},
 	"mixins": [

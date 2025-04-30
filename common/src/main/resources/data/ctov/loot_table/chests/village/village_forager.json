@@ -5,15 +5,15 @@
 			"entries": [
 				{
 					"type": "minecraft:tag",
+					"weight": 1,
 					"name": "byg:mushrooms_for_foragers_table",
-					"expand": true,
-					"weight": 1
+					"expand": true
 				},
 				{
 					"type": "minecraft:tag",
+					"weight": 1,
 					"name": "byg:all/saplings",
-					"expand": true,
-					"weight": 1
+					"expand": true
 				}
 			],
 			"functions": [
@@ -26,17 +26,5 @@
 				}
 			]
 		}
-	],
-	"neoforge:conditions": [
-		{
-			"type": "neoforge:mod_loaded",
-			"modid": "byg"
-		}
-	],
-	"fabric:load_conditions": {
-		"condition": "fabric:all_mods_loaded",
-		"values": [
-			"byg"
-		]
-	}
+	]
 }
