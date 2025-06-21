@@ -16,7 +16,8 @@
 						"Name": "minecraft:jungle_leaves",
 						"Properties": {
 							"distance": "1",
-							"persistent": "true"
+							"persistent": "true",
+							"waterlogged": "false"
 						}
 					}
 				}
@@ -24,4 +25,3 @@
 		}
 	]
 }
-	
