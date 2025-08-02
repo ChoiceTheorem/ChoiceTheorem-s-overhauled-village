@@ -44,7 +44,7 @@
         "element": {
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
-          "location": "ctov:village/beach/roads/bent_1",
+          "location": "ctov:village/beach/roads/corner_1",
           "processors": "ctov:village/beach/roads"
         }
       },
@@ -53,7 +53,7 @@
         "element": {
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
-          "location": "ctov:village/beach/roads/bent_2",
+          "location": "ctov:village/beach/roads/corner_2",
           "processors": "ctov:village/beach/roads"
         }
       },
@@ -62,7 +62,7 @@
         "element": {
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
-          "location": "ctov:village/beach/roads/inter",
+          "location": "ctov:village/beach/roads/crossroad",
           "processors": "ctov:village/beach/roads"
         }
       }

@@ -20,8 +20,8 @@
 	]
 	},
 	"mixins": [
-	"ctov.mixins.json",
-	"ctov-common.mixins.json"
+		"ctov.mixins.json",
+		"ctov-common.mixins.json"
 	],
 	"depends": {
 		"fabric": "*",

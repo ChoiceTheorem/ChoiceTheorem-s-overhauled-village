@@ -17,10 +17,14 @@
 		{
 			"weight": 1,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/taiga_fortified/house",
-				"location":"ctov:village/taiga_fortified/deco/beekeeper"
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/taiga_fortified/house",
+					"location":"ctov:village/taiga_fortified/deco/beekeeper"
+				},
+  				"limit": 1
 			}
 		},
 		{

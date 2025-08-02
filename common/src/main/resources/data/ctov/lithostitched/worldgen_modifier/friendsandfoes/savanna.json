@@ -17,28 +17,40 @@
 		{
 			"weight": 1,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/savanna/house_orange",
-				"location":"ctov:village/savanna/deco/beekeeper"
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/savanna/house_orange",
+					"location":"ctov:village/savanna/deco/beekeeper"
+				},
+  				"limit": 1
 			}
 		},
 		{
 			"weight": 1,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/savanna/house_red",
-				"location":"ctov:village/savanna/deco/beekeeper"
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/savanna/house_red",
+					"location":"ctov:village/savanna/deco/beekeeper"
+				},
+  				"limit": 1
 			}
 		},
 		{
 			"weight": 1,
 			"element": {
+				"element_type": "lithostitched:limited",
+  				"delegate": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "ctov:village/savanna/house_yellow",
 				"location":"ctov:village/savanna/deco/beekeeper"
+				},
+  				"limit": 1
 			}
 		},
 		{

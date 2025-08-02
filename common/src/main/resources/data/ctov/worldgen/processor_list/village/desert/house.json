@@ -74,27 +74,6 @@
                     }
                 }
             ]
-        },
-        {
-            "processor_type": "minecraft:rule",
-            "rules": [
-                {
-                    "position_predicate": {
-                        "predicate_type": "minecraft:always_true"
-                    },
-                    "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:lapis_block",
-                        "probability": 0.7
-                    },
-                    "location_predicate": {
-                        "predicate_type": "minecraft:always_true"
-                    },
-                    "output_state": {
-                        "Name": "minecraft:blue_concrete_powder"
-                    }
-                }
-            ]
         }
     ]
 }

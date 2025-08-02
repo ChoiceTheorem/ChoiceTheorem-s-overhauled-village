@@ -17,19 +17,27 @@
 		{
 			"weight": 1,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/mushroom/house_brown",
-				"location":"ctov:village/mushroom/deco/beekeeper"
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/mushroom/house_brown",
+					"location":"ctov:village/mushroom/deco/beekeeper"
+				},
+  				"limit": 1
 			}
 		},
 		{
 			"weight": 1,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/mushroom/house_red",
-				"location":"ctov:village/mushroom/deco/beekeeper"
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/mushroom/house_red",
+					"location":"ctov:village/mushroom/deco/beekeeper"
+				},
+  				"limit": 1
 			}
 		},
 		{

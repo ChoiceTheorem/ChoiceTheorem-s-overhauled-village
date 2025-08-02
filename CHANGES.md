@@ -8,6 +8,6 @@
 - Friends and foe beehives are limited to 5 per village. 
 - Replaced all lapis block in desert villages for blue terracotta
 ### New compatibility
-- Adding compatibility to Village Taverns!
+- Climatologist's station from Tough as nail will spawn in CTOV villages
 ### Bug Fixes
 - Limiting enchantments to vanilla non treasure enchantment(Fix [#263](https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village/issues/263]))

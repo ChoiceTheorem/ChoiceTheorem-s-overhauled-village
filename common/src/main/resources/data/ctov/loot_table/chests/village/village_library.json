@@ -10,7 +10,7 @@
 						{
 							"function": "minecraft:enchant_with_levels",
 							"levels": 5,
-							"treasure": true
+							"options": "#minecraft:non_treasure"
 						}
 					]
 				},
@@ -21,7 +21,7 @@
 						{
 							"function": "minecraft:enchant_with_levels",
 							"levels": 10,
-							"treasure": true
+							"options": "#minecraft:non_treasure"
 						}
 					]
 				},
@@ -32,7 +32,7 @@
 						{
 							"function": "minecraft:enchant_with_levels",
 							"levels": 15,
-							"treasure": true
+							"options": "#minecraft:non_treasure"
 						}
 					]
 				},
@@ -43,7 +43,7 @@
 						{
 							"function": "minecraft:enchant_with_levels",
 							"levels": 20,
-							"treasure": true
+							"options": "#minecraft:non_treasure"
 						}
 					]
 				},
@@ -54,7 +54,7 @@
 						{
 							"function": "minecraft:enchant_with_levels",
 							"levels": 25,
-							"treasure": true
+							"options": "#minecraft:non_treasure"
 						}
 					]
 				},
@@ -65,7 +65,7 @@
 						{
 							"function": "minecraft:enchant_with_levels",
 							"levels": 30,
-							"treasure": true
+							"options": "#minecraft:non_treasure"
 						}
 					]
 				}
