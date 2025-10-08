@@ -17,10 +17,14 @@
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/swamp_fortified/house",
-				"location":"ctov:village/swamp_fortified/deco/garbage_heaps"
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/swamp_fortified/house",
+					"location":"ctov:village/swamp_fortified/deco/garbage_heaps"
+				},
+  				"limit": 1
 			}
 		}
 	]

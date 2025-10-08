@@ -17,10 +17,14 @@
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location":"ctov:village/savanna_na/deco/garbage_heaps"
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "minecraft:empty",
+					"location":"ctov:village/savanna_na/deco/garbage_heaps"
+				},
+  				"limit": 1
 			}
 		}
 	]
