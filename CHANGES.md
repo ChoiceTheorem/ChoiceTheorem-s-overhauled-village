@@ -1,10 +1,12 @@
 ## What's changed
 ### Reworked villages
-- Replace lapis blocks in desert village with blue terracotta
+- No village reworks
 ### Optimization
-- Rat garbage piles limited to maximum of 1 per village
+- Etched music tents are limited to 1 per village.
 ### New compatibility
 - No new compatibility added
 ### Bug Fixes
+- Fixed [#286](https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village/issues/286). No more empty vineyard in villages.
 - Fixed [#288](https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village/issues/288)
-- Fixed "cut_smooth_sandstone" in jigsaw blocks
+## Configs are now available. 
+Now you can set the frequency and enable/disable villages and pillager outposts.

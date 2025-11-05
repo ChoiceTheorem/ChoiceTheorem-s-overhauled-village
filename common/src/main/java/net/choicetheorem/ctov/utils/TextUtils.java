@@ -16,4 +16,7 @@ public class TextUtils {
 	public static ResourceLocation res(String name) {
 		return ResourceLocation.fromNamespaceAndPath(CTOV.MOD_ID, name);
 	}
+	public static ResourceLocation res(String namespace, String name) {
+		return ResourceLocation.fromNamespaceAndPath(namespace, name);
+	}
 }

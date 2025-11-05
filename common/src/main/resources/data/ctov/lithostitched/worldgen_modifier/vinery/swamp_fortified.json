@@ -6,6 +6,12 @@
 			"vinery"
 		]
 	},
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "vinery"
+		}
+	],
 	"template_pools": "ctov:village/swamp_fortified/house",
 	"elements": [
 		{

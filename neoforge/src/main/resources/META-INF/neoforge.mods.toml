@@ -17,7 +17,7 @@ issueTrackerURL="https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-vil
 # The modid of the mod
 modId="ctov" #mandatory
 # The version number of the mod
-version="${version}" #mandatory
+version="3.6.0" #mandatory
 # A display name for the mod
 displayName="ChoiceTheorem's Overhauled Village" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
