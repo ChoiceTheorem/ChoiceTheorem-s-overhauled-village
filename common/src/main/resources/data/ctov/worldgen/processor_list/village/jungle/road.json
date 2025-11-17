@@ -10,7 +10,7 @@
                     "input_predicate": {
                         "predicate_type": "random_block_match",
                         "block": "minecraft:mossy_cobblestone",
-                        "probability": 0.7
+                        "probability": 0.2
                     },
                     "location_predicate": {
                         "predicate_type": "always_true"

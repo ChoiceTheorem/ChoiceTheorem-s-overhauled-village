@@ -2,6 +2,7 @@ package net.choicetheorem.ctov.utils;
 
 import dev.worldgen.lithostitched.worldgen.modifier.AddStructureSetEntriesModifier;
 import net.minecraft.core.Holder;
+import net.minecraft.core.HolderLookup;
 import net.minecraft.core.HolderSet;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
@@ -15,18 +16,12 @@ import net.minecraft.world.level.levelgen.structure.StructureSet.StructureSelect
 import java.util.List;
 
 public class CTOVStructureHelper {
-	public CTOVStructureHelper(MinecraftServer server, ResourceLocation setRL, ResourceLocation structureRL, int weight) {
-		Registry<StructureSet> structureSetRegistry = server.registryAccess().registry(Registries.STRUCTURE_SET).orElseThrow();
-		Registry<Structure> structureRegistry = server.registryAccess().registry(Registries.STRUCTURE).orElseThrow();
-		ResourceKey<StructureSet> structureSetKey = ResourceKey.create(Registries.STRUCTURE_SET, setRL);
-		Holder<StructureSet> structureSetHolder = structureSetRegistry.getHolder(structureSetKey)
-			.orElseThrow(() -> new IllegalArgumentException("StructureSet not found: " + structureSetKey));
-		HolderSet<StructureSet> structureSets = HolderSet.direct(structureSetHolder);
-		ResourceKey<Structure> structureKey = ResourceKey.create(Registries.STRUCTURE,structureRL);
-		Holder<Structure> structureHolder = structureRegistry.getHolder(structureKey)
-			.orElseThrow(() -> new IllegalArgumentException("Structure not found: " + structureKey));
-		StructureSelectionEntry newEntry = new StructureSelectionEntry(structureHolder, weight); // 1 = weight
-		AddStructureSetEntriesModifier modifier = new AddStructureSetEntriesModifier(structureSets, List.of(newEntry));
+	public CTOVStructureHelper(MinecraftServer server, HolderLookup<StructureSet> StructureSetRegistry, HolderLookup<Structure> StructureRegistry, ResourceLocation setRL, ResourceLocation structureRL, int weight) {
+		Holder.Reference<StructureSet> structureSetHolder = StructureSetRegistry.getOrThrow(ResourceKey.create(Registries.STRUCTURE_SET, setRL));
+		Holder.Reference<Structure> structureHolder = StructureRegistry.getOrThrow(ResourceKey.create(Registries.STRUCTURE, structureRL));
+		HolderSet<StructureSet> targetStructureSet = HolderSet.direct(structureSetHolder);
+		StructureSelectionEntry newEntry = new StructureSelectionEntry(structureHolder, weight);
+		AddStructureSetEntriesModifier modifier = new AddStructureSetEntriesModifier(1, targetStructureSet , List.of(newEntry));
 		modifier.applyModifier();
 	}
 }

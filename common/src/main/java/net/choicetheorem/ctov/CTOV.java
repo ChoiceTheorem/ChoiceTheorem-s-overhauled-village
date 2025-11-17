@@ -2,10 +2,12 @@ package net.choicetheorem.ctov;
 
 import net.choicetheorem.ctov.platform.CTOVConfigHelper;
 import net.choicetheorem.ctov.utils.CTOVStructureHelper;
+import net.minecraft.core.HolderLookup;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.world.level.levelgen.structure.Structure;
 import net.minecraft.world.level.levelgen.structure.StructureSet;
 
 import static net.choicetheorem.ctov.platform.CTOVConfigHelper.*;
@@ -19,7 +21,9 @@ public class CTOV {
     }
     
     public  static void registerstructure(MinecraftServer server) {
-        Registry<StructureSet> StructureSetRegistry = server.registryAccess().registry(Registries.STRUCTURE_SET).orElseThrow();
+        HolderLookup.Provider registryProvider = server.registryAccess();
+        HolderLookup<StructureSet> StructureSetRegistry = registryProvider.lookupOrThrow(Registries.STRUCTURE_SET);
+        HolderLookup<Structure> StructureRegistry = registryProvider.lookupOrThrow(Registries.STRUCTURE);
         String[] enabledpillageroutpost = {"beach", "dark_forest", "desert", "jungle", "badlands", "mountain",
             "plains", "savanna", "snowy", "swamp", "taiga"};
         String[] enabledvillage = {"beach", "christmas", "desert", "desert_oasis", "dark_forest",
@@ -30,25 +34,25 @@ public class CTOV {
         if (generatePillagerOutpost()) {
             for (String outpost : enabledpillageroutpost){
                 ResourceLocation pillagerlocation = res("pillager_outpost_"+outpost);
-                new CTOVStructureHelper(server, outpostsetLocation, pillagerlocation, OutpostWeight());
+                new CTOVStructureHelper(server, StructureSetRegistry, StructureRegistry, outpostsetLocation, pillagerlocation, OutpostWeight());
             }
         }
         if (generatesmallVillage()) {
             for (String village : enabledvillage){
                 ResourceLocation villagelocation = res("small/village_"+ village);
-                new CTOVStructureHelper(server, villagesetLocation, villagelocation, smallVillageWeight());
+                new CTOVStructureHelper(server, StructureSetRegistry, StructureRegistry, villagesetLocation, villagelocation, smallVillageWeight());
             }
         }
         if (generatemediumVillage()) {
             for (String village : enabledvillage){
                 ResourceLocation villagelocation = res("medium/village_"+ village);
-                new CTOVStructureHelper(server, villagesetLocation, villagelocation, mediumVillageWeight());
+                new CTOVStructureHelper(server, StructureSetRegistry, StructureRegistry, villagesetLocation, villagelocation, mediumVillageWeight());
             }
         }
         if (generatelargeVillage()) {
             for (String village : enabledvillage){
                 ResourceLocation villagelocation = res("large/village_"+ village);
-                new CTOVStructureHelper(server, villagesetLocation, villagelocation, largeVillageWeight());
+                new CTOVStructureHelper(server, StructureSetRegistry, StructureRegistry, villagesetLocation, villagelocation, largeVillageWeight());
             }
         }
     }

@@ -17,7 +17,7 @@ issueTrackerURL="https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-vil
 # The modid of the mod
 modId="ctov" #mandatory
 # The version number of the mod
-version="3.6.0" #mandatory
+version="${version}" #mandatory
 # A display name for the mod
 displayName="ChoiceTheorem's Overhauled Village" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
@@ -25,7 +25,7 @@ updateJSONURL = "https://api.modrinth.com/updates/fgmhI8kH/forge_updates.json" #
 # A URL for the "homepage" for this mod, displayed in the mod UI
 displayURL="https://modrinth.com/mod/ct-overhaul-village" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="assets/pack.png" #optional
+logoFile="assets/ctov/pack.png" #optional
 # A text field displayed in the mod UI
 credits="" #optional
 # A text field displayed in the mod UI
@@ -48,7 +48,7 @@ config = "ctov-common.mixins.json"
 [[dependencies.ctov]]
     modId= "lithostitched"
     mandatory=true
-    versionRange="[1.4,)"
+    versionRange="[1.5,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.ctov]] #optional
