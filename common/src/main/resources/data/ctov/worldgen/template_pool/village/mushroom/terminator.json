@@ -8,7 +8,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "terrain_matching",
           "location": "ctov:village/mushroom/roads/terminator",
-          "processors": "ctov:village/mushroom/roads"
+          "processors": "ctov:village/mushroom/road"
         }
       }
     ]

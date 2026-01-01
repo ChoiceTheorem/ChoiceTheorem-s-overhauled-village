@@ -1,5 +1,5 @@
 {
-    "name":"ctov:village/jungle_tree/roads",
+    "name":"ctov:village/jungle_tree/road",
     "fallback": "ctov:village/jungle_tree/terminator",
     "elements": [
         {

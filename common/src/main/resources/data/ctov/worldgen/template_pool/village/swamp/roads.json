@@ -1,69 +1,69 @@
 {
-    "name": "ctov:village/swamp/roads",
-    "fallback": "ctov:village/swamp/terminator",
-    "elements": [
-        {
-            "weight": 4,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "terrain_matching",
-                "processors": "ctov:village/swamp/roads",
-                "location": "ctov:village/swamp/roads/straight"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "terrain_matching",
-                "processors": "ctov:village/swamp/roads",
-                "location": "ctov:village/swamp/roads/bent_1"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "terrain_matching",
-                "processors": "ctov:village/swamp/roads",
-                "location": "ctov:village/swamp/roads/bent_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "terrain_matching",
-                "processors": "ctov:village/swamp/roads",
-                "location": "ctov:village/swamp/roads/t_1"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "terrain_matching",
-                "processors": "ctov:village/swamp/roads",
-                "location": "ctov:village/swamp/roads/t_2"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "terrain_matching",
-                "processors": "ctov:village/swamp/roads",
-                "location": "ctov:village/swamp/roads/t_3"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "terrain_matching",
-                "processors": "ctov:village/swamp/roads",
-                "location": "ctov:village/swamp/roads/inter"
-            }
-        }
-    ]
+	"name": "ctov:village/swamp/road",
+	"fallback": "ctov:village/swamp/terminator",
+	"elements": [
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "terrain_matching",
+				"processors": "ctov:village/swamp/road",
+				"location": "ctov:village/swamp/roads/straight"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "terrain_matching",
+				"processors": "ctov:village/swamp/road",
+				"location": "ctov:village/swamp/roads/corner_1"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "terrain_matching",
+				"processors": "ctov:village/swamp/road",
+				"location": "ctov:village/swamp/roads/corner_2"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "terrain_matching",
+				"processors": "ctov:village/swamp/road",
+				"location": "ctov:village/swamp/roads/t_1"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "terrain_matching",
+				"processors": "ctov:village/swamp/road",
+				"location": "ctov:village/swamp/roads/t_2"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "terrain_matching",
+				"processors": "ctov:village/swamp/road",
+				"location": "ctov:village/swamp/roads/t_3"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "terrain_matching",
+				"processors": "ctov:village/swamp/road",
+				"location": "ctov:village/swamp/roads/crossroad"
+			}
+		}
+	]
 }

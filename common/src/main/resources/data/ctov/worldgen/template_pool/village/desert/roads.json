@@ -1,5 +1,5 @@
 {
-    "name": "ctov:village/desert/roads",
+    "name": "ctov:village/desert/road",
     "fallback": "ctov:village/desert/terminator",
     "elements": [
         {
@@ -7,7 +7,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "minecraft:empty",
+                "processors": "ctov:village/desert/road",
                 "location": "ctov:village/desert/roads/straight"
             }
         },
@@ -16,8 +16,8 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/desert/roads/bent_1"
+                "processors": "ctov:village/desert/road",
+                "location": "ctov:village/desert/roads/corner_1"
             }
         },
         {
@@ -25,8 +25,8 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/desert/roads/bent_2"
+                "processors": "ctov:village/desert/road",
+                "location": "ctov:village/desert/roads/corner_2"
             }
         },
         {
@@ -34,7 +34,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "minecraft:empty",
+                "processors": "ctov:village/desert/road",
                 "location": "ctov:village/desert/roads/t_1"
             }
         },
@@ -43,7 +43,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "minecraft:empty",
+                "processors": "ctov:village/desert/road",
                 "location": "ctov:village/desert/roads/t_2"
             }
         },
@@ -52,7 +52,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "minecraft:empty",
+                "processors": "ctov:village/desert/road",
                 "location": "ctov:village/desert/roads/t_3"
             }
         },
@@ -61,8 +61,8 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "minecraft:empty",
-                "location": "ctov:village/desert/roads/inter"
+                "processors": "ctov:village/desert/road",
+                "location": "ctov:village/desert/roads/crossroad"
             }
         }
     ]

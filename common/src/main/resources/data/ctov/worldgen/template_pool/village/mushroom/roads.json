@@ -1,71 +1,69 @@
 {
-    "name": "ctov:village/mushroom/roads",
-    "fallback": "ctov:village/mushroom/terminator",
-    "elements": [
-      {
-        "weight": 4,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "terrain_matching",
-          "location": "ctov:village/mushroom/roads/straight",
-          "processors": "ctov:village/mushroom/roads"
-        }
-      },
-      {
-        "weight": 1,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "terrain_matching",
-          "location": "ctov:village/mushroom/roads/t_1",
-          "processors": "ctov:village/mushroom/roads"
-        }
-      },
-      {
-        "weight": 1,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "terrain_matching",
-          "location": "ctov:village/mushroom/roads/t_2",
-          "processors": "ctov:village/mushroom/roads"
-        }
-      }
-      ,
-      {
-        "weight": 1,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "terrain_matching",
-          "location": "ctov:village/mushroom/roads/t_3",
-          "processors": "ctov:village/mushroom/roads"
-        }
-      },
-      {
-        "weight": 1,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "terrain_matching",
-          "location": "ctov:village/mushroom/roads/bent_1",
-          "processors": "ctov:village/mushroom/roads"
-        }
-      },
-      {
-        "weight": 1,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "terrain_matching",
-          "location": "ctov:village/mushroom/roads/bent_2",
-          "processors": "ctov:village/mushroom/roads"
-        }
-      },
-      {
-        "weight": 1,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "terrain_matching",
-          "location": "ctov:village/mushroom/roads/inter",
-          "processors": "ctov:village/mushroom/roads"
-        }
-      }
-    ]
-  }
-  
+	"name": "ctov:village/mushroom/road",
+	"fallback": "ctov:village/mushroom/terminator",
+	"elements": [
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "terrain_matching",
+				"processors": "ctov:village/mushroom/road",
+				"location": "ctov:village/mushroom/roads/straight"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "terrain_matching",
+				"processors": "ctov:village/mushroom/road",
+				"location": "ctov:village/mushroom/roads/corner_1"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "terrain_matching",
+				"processors": "ctov:village/mushroom/road",
+				"location": "ctov:village/mushroom/roads/corner_2"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "terrain_matching",
+				"processors": "ctov:village/mushroom/road",
+				"location": "ctov:village/mushroom/roads/t_1"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "terrain_matching",
+				"processors": "ctov:village/mushroom/road",
+				"location": "ctov:village/mushroom/roads/t_2"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "terrain_matching",
+				"processors": "ctov:village/mushroom/road",
+				"location": "ctov:village/mushroom/roads/t_3"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "terrain_matching",
+				"processors": "ctov:village/mushroom/road",
+				"location": "ctov:village/mushroom/roads/crossroad"
+			}
+		}
+	]
+}

@@ -7,7 +7,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
-                "processors": "ctov:village/swamp/roads",
+                "processors": "ctov:village/swamp/road",
                 "location": "ctov:village/swamp/roads/terminator"
             }
         }

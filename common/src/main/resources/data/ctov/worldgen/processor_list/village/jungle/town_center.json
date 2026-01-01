@@ -1,0 +1,11 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:reference",
+			"processor_lists": [
+				"ctov:village/jungle/house",
+				"ctov:village/jungle/road"
+			]
+		}
+	]
+}

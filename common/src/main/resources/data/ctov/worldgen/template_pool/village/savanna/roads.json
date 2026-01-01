@@ -1,5 +1,5 @@
 {
-    "name": "ctov:village/savanna/roads",
+    "name": "ctov:village/savanna/road",
     "fallback": "ctov:village/savanna/terminator",
     "elements": [
         {
@@ -7,7 +7,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:village/savanna/roads",
+                "processors": "ctov:village/savanna/road",
                 "location": "ctov:village/savanna/roads/straight"
             }
         },
@@ -16,8 +16,8 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:village/savanna/roads",
-                "location": "ctov:village/savanna/roads/bent_1"
+                "processors": "ctov:village/savanna/road",
+                "location": "ctov:village/savanna/roads/corner_1"
             }
         },
         {
@@ -25,8 +25,8 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:village/savanna/roads",
-                "location": "ctov:village/savanna/roads/bent_2"
+                "processors": "ctov:village/savanna/road",
+                "location": "ctov:village/savanna/roads/corner_2"
             }
         },
         {
@@ -34,7 +34,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:village/savanna/roads",
+                "processors": "ctov:village/savanna/road",
                 "location": "ctov:village/savanna/roads/t_1"
             }
         },
@@ -43,7 +43,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:village/savanna/roads",
+                "processors": "ctov:village/savanna/road",
                 "location": "ctov:village/savanna/roads/t_2"
             }
         },
@@ -52,7 +52,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:village/savanna/roads",
+                "processors": "ctov:village/savanna/road",
                 "location": "ctov:village/savanna/roads/t_3"
             }
         },
@@ -61,8 +61,8 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
-                "processors": "ctov:village/savanna/roads",
-                "location": "ctov:village/savanna/roads/inter"
+                "processors": "ctov:village/savanna/road",
+                "location": "ctov:village/savanna/roads/crossroad"
             }
         }
     ]
