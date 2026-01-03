@@ -73,7 +73,7 @@
                                 }
                             },
                             {
-                                "weight": 0,
+                                "weight": 1,
                                 "data": {
                                     "Name": "minecraft:mud"
                                 }

@@ -1,0 +1,15 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:block_swap",
+			"blocks": {
+				"minecraft:birch_planks": "minecraft:cherry_planks",
+				"minecraft:birch_stairs": "minecraft:cherry_stairs",
+				"minecraft:birch_slab": "minecraft:cherry_slab",
+				"minecraft:birch_door": "cherry_door",
+				"minecraft:birch_trapdoor": "minecraft:cherry_trapdoor",
+				"minecraft:stripped_birch_log": "minecraft:stripped_cherry_log"
+			}
+		}
+	]
+}
