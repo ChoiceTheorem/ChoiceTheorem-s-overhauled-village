@@ -1,5 +1,5 @@
 {
-    "name":"ctov:village/underground/roads",
+    "name":"ctov:village/underground/road",
     "fallback": "ctov:village/underground/small_wall",
     "elements": 
     [

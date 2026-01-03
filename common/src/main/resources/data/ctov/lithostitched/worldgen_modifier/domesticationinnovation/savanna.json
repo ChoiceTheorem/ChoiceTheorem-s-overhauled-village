@@ -1,19 +1,32 @@
 {
 	"type": "lithostitched:add_template_pool_elements",
-	"predicate": {
-		"type": "lithostitched:any_of",
-		"predicates": [
-			{
-				"type": "lithostitched:mod_loaded",
-				"mod_id": "domesticationinnovation"
-			},
-			{
-				"type": "lithostitched:mod_loaded",
-				"mod_id": "rats"
-			}
+		"fabric:load_conditions": {
+		"condition": "fabric:any_mods_loaded",
+		"values": [
+			"domesticationinnovation",
+			"rats"
 		]
 	},
-	"template_pool": "ctov:village/savanna/house",
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:or",
+			"values": [
+				{
+				"type": "neoforge:mod_loaded",
+				"modid": "domesticationinnovation"
+				},
+				{
+				"type": "neoforge:mod_loaded",
+				"modid": "rats"
+				},
+				{
+				"type": "neoforge:mod_loaded",
+				"modid": "simplycats"
+				}
+			]
+		}
+	],
+	"template_pools": "ctov:village/savanna/house",
 	"elements": [
 		{
 			"weight": 5,

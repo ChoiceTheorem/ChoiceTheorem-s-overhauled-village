@@ -1,41 +1,56 @@
 {
 	"type": "lithostitched:add_template_pool_elements",
-	"predicate": {
-		"type": "lithostitched:all_of",
-			"predicates": [
-			{
-				"type": "lithostitched:mod_loaded",
-				"mod_id": "etched"
-			}
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"etched"
 		]
 	},
-	"template_pool": "ctov:village/savanna/deco",
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "etched"
+		}
+	],
+	"template_pools": "ctov:village/savanna/deco",
 	"elements": [
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/savanna/house_orange",
-				"location":"ctov:village/savanna/deco/bard_house"
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+    				"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/savanna/house_orange",
+					"location":"ctov:village/savanna/deco/bard_house"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/savanna/house_red",
-				"location":"ctov:village/savanna/deco/bard_house"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+    				"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/savanna/house_red",
+					"location":"ctov:village/savanna/deco/bard_house"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/savanna/house_yellow",
-				"location":"ctov:village/savanna/deco/bard_house"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+    				"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/savanna/house_yellow",
+					"location":"ctov:village/savanna/deco/bard_house"
+				},
+  				"limit": 1
 			}
 		}
 	]

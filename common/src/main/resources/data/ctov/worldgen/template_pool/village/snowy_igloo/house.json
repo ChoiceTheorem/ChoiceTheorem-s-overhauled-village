@@ -205,16 +205,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:farm/snowy/igloo",
-				"location": "ctov:village/snowy_igloo/jobsite/farm"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:farm/snowy/ice_igloo",
+				"processors": "ctov:village/snowy/farm",
 				"location": "ctov:village/snowy_igloo/jobsite/farm"
 			}
 		},

@@ -1,15 +1,18 @@
 {
 	"type": "lithostitched:add_template_pool_elements",
-	"predicate": {
-		"type": "lithostitched:all_of",
-			"predicates": [
-			{
-				"type": "lithostitched:mod_loaded",
-				"mod_id": "monobank"
-			}
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"monobank"
 		]
 	},
-	"template_pool": "ctov:village/mushroom/house",
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "monobank"
+		}
+	],
+	"template_pools": "ctov:village/mushroom/house",
 	"elements": [
 		{
 			"weight": 5,

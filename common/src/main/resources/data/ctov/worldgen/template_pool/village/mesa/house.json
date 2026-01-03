@@ -106,7 +106,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:farm/mesa",
+				"processors": "ctov:village/mesa/farm",
 				"location": "ctov:village/mesa/jobsite/farm"
 			}
 		},

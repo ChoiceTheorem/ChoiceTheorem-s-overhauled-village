@@ -1,0 +1,278 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:apply_random",
+			"mode": "per_block",
+			"processor_lists": [
+				{
+					"weight": 10,
+					"data": "ctov:village/common/farm/to_beetroot"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/farm/to_carrot"
+				},
+				{
+					"weight": 1,
+					"data": "ctov:village/common/farm/to_melon"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/farm/to_potato"
+				},
+				{
+					"weight": 1,
+					"data": "ctov:village/common/farm/to_pumpkin"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/farm/to_wheats"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_artichoke"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_asparagus"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_barley"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_basil"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_bellpepper"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_blackbean"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_blackberry"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_blueberry"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_broccoli"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_cabbage"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_cantaloupe"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_cauliflower"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_celery"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_coffee"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_chile_pepper"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_corn"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_cranberry"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_cucumber"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_currant"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_eggplant"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_elderberry"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_garlic"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_ginger"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_grape"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_greenbean"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_greenonion"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_honeydew"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_hops"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_kale"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_kiwi"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_leek"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_lettuce"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_mustard"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_oat"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_olive"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_onion"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_peanut"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_pepper"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_pineapple"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_radish"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_raspberry"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_rhubarb"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_rice"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_rutabaga"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_saguaro"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_soybean"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_spinach"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_squash"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_strawberry"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_sweetpotato"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_tea"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_tomatillo"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_tomato"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_turmeric"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_turnip"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_vanilla"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_yam"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/croptopia/crops/to_zucchini"
+				}
+			]
+		}
+	],
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"croptopia"
+		]
+	},
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "croptopia"
+		}
+	]
+}

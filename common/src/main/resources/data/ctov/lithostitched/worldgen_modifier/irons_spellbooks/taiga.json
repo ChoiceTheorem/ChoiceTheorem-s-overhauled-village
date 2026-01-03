@@ -1,23 +1,30 @@
 {
 	"type": "lithostitched:add_template_pool_elements",
-	"predicate": {
-		"type": "lithostitched:all_of",
-			"predicates": [
-			{
-				"type": "lithostitched:mod_loaded",
-				"mod_id": "irons_spellbooks"
-			}
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"irons_spellbooks"
 		]
 	},
-	"template_pool": "ctov:village/taiga/house",
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "irons_spellbooks"
+		}
+	],
+	"template_pools": "ctov:village/taiga/house",
 	"elements": [
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/taiga/house",
-				"location":"ctov:village/taiga/jobsite/priest_tower"
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+    				"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/taiga/house",
+					"location": "ctov:village/taiga/jobsite/priest_tower"
+				},
+				"limit": 1
 			}
 		}
 	]

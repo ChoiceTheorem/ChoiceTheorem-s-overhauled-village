@@ -97,7 +97,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "ctov:farm/jungle",
+				"processors": "ctov:village/jungle/farm",
 				"location": "ctov:village/jungle/jobsite/farm"
 			}
 		},

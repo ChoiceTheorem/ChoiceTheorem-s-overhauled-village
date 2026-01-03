@@ -1,32 +1,43 @@
 {
 	"type": "lithostitched:add_template_pool_elements",
-	"predicate": {
-		"type": "lithostitched:all_of",
-			"predicates": [
-			{
-				"type": "lithostitched:mod_loaded",
-				"mod_id": "friendsandfoes"
-			}
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"friendsandfoes"
 		]
 	},
-	"template_pool": "ctov:village/mushroom/deco",
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "friendsandfoes"
+		}
+	],
+	"template_pools": "ctov:village/mushroom/deco",
 	"elements": [
 		{
 			"weight": 1,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/mushroom/house_brown",
-				"location":"ctov:village/mushroom/deco/beekeeper"
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/mushroom/house_brown",
+					"location":"ctov:village/mushroom/deco/beekeeper"
+				},
+  				"limit": 1
 			}
 		},
 		{
 			"weight": 1,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/mushroom/house_red",
-				"location":"ctov:village/mushroom/deco/beekeeper"
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/mushroom/house_red",
+					"location":"ctov:village/mushroom/deco/beekeeper"
+				},
+  				"limit": 1
 			}
 		},
 		{

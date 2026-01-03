@@ -12,8 +12,8 @@
     - [x] Create village building set
     - [x] Add this through pool mod
 4. RPG Series
-    - [ ] Building jewelry workshop set
-    - [ ] Building Archery range set
-    - [ ] Add this through pool mod
+    - [x] Building jewelry workshop set
+    - [x] Building Archery range set
+    - [x] Add this through pool mod
 5. Fuse CTOV structure set to vanilla one.
     - [x] Done

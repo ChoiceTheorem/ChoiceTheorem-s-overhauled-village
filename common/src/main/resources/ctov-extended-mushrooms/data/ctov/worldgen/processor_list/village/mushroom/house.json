@@ -1,0 +1,34 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:apply_random",
+			"mode": "per_piece",
+			"processor_lists": [
+				{
+					"weight": 1,
+					"data": "ctov:village/mushroom/house_red"
+				},
+				{
+					"weight": 1,
+					"data": "ctov:village/mushroom/house_brown"
+				},
+                {
+					"weight": 1,
+					"data": "ctov:village/mushroom/house_poison"
+				},
+				{
+					"weight": 1,
+					"data": "ctov:village/mushroom/house_glow"
+				},
+                {
+					"weight": 1,
+					"data": "ctov:village/mushroom/house_honey"
+				},
+				{
+					"weight": 1,
+					"data": "ctov:village/mushroom/house_slime"
+				}
+			]
+		}
+	]
+}

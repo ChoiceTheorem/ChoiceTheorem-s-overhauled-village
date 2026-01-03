@@ -1,15 +1,18 @@
 {
 	"type": "lithostitched:add_template_pool_elements",
-	"predicate": {
-		"type": "lithostitched:all_of",
-			"predicates": [
-			{
-				"type": "lithostitched:mod_loaded",
-				"mod_id": "morevillagers"
-			}
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"morevillagers"
 		]
 	},
-	"template_pool": "ctov:village/mountain_alpine/house",
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "morevillagers"
+		}
+	],
+	"template_pools": "ctov:village/mountain_alpine/house",
 	"elements": [
 		{
 			"weight": 5,

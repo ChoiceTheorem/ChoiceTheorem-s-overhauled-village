@@ -1,0 +1,57 @@
+{
+	"type": "lithostitched:add_template_pool_elements",
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"cobblemon"
+		]
+	},
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "cobblemon"
+		}
+	],
+	"template_pools": "ctov:village/mushroom/house",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+    				"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "cobblemon:crop_to_berry",
+					"location":"ctov:village/mushroom/jobsite/farm"
+			    },
+				"limit": 1
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+    				"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/mushroom/house_red",
+					"location":"ctov:village/mushroom/jobsite/pokecenter"
+			    },
+				"limit": 1
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/mushroom/house_brown",
+					"location":"ctov:village/mushroom/jobsite/pokecenter"
+				},
+				"limit": 1
+			}
+		}
+	]
+}

@@ -1,23 +1,30 @@
 {
 	"type": "lithostitched:add_template_pool_elements",
-	"predicate": {
-		"type": "lithostitched:all_of",
-			"predicates": [
-			{
-				"type": "lithostitched:mod_loaded",
-				"mod_id": "rats"
-			}
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"rats"
 		]
 	},
-	"template_pool": "ctov:village/beach/deco",
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "rats"
+		}
+	],
+	"template_pools": "ctov:village/beach/deco",
 	"elements": [
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/beach/house",
-				"location":"ctov:village/beach/deco/garbage_heaps"
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/beach/house",
+					"location":"ctov:village/beach/deco/garbage_heaps"
+				},
+  				"limit": 1
 			}
 		}
 	]

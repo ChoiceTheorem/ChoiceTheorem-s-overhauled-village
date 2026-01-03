@@ -1,6 +1,10 @@
 {
 	"pack": {
-		"pack_format": 15,
-		"description": "ChoiceTheorem's Village Overhaul Datapack with new village and pillager outpost buildings"
+		"pack_format": 48,
+		"supported_formats": [
+			18,
+			48
+		],
+		"description": "ChoiceTheorem's Village Datapack with new village and pillager outpost buildings"
 	}
 }

@@ -1,3 +1,18 @@
 {
-	"processors": []
+	"processors": [
+		{
+			"processor_type": "lithostitched:apply_random",
+			"mode": "per_piece",
+			"processor_lists": [
+				{
+					"weight": 1,
+					"data": "ctov:village/mountain/house_birch"
+				},
+				{
+					"weight": 1,
+					"data": "ctov:village/mountain/house_cherry"
+				}
+			]
+		}
+	]
 }

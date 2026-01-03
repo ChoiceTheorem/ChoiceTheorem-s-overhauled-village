@@ -8,7 +8,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "location": "ctov:village/savanna_na/town_center",
-                "processors": "ctov:village/savanna/roads"
+                "processors": "ctov:village/savanna/town_center"
             }
         }
     ]

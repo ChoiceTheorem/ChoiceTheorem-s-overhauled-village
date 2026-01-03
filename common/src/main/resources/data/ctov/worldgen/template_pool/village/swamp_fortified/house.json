@@ -125,7 +125,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/swamp_fortified/jobsite/farm",
-				"processors": "ctov:farm/swamp"
+				"processors": "ctov:village/swamp_fortified/farm"
 			}
 		},
 		{

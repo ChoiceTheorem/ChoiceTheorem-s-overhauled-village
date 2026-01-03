@@ -1,0 +1,15 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:block_swap",
+			"blocks": {
+				"minecraft:smooth_quartz": "minecraft:dark_oak_planks",
+				"minecraft:smooth_quartz_stairs": "minecraft:dark_oak_stairs",
+				"minecraft:smooth_quartz_slab": "minecraft:dark_oak_slab",
+				"minecraft:deepslate_bricks": "minecraft:deepslate_bricks",
+				"minecraft:deepslate_brick_stairs": "minecraft:deepslate_brick_stairs",
+				"minecraft:bricks": "minecraft:polished_diorite"
+			}
+		}
+	]
+}

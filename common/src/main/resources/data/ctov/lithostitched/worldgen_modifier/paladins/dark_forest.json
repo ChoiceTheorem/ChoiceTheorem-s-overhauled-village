@@ -1,15 +1,18 @@
 {
 	"type": "lithostitched:add_template_pool_elements",
-	"predicate": {
-		"type": "lithostitched:all_of",
-			"predicates": [
-			{
-				"type": "lithostitched:mod_loaded",
-				"mod_id": "paladins"
-			}
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"paladins"
 		]
 	},
-	"template_pool": "ctov:village/halloween/house",
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "paladins"
+		}
+	],
+	"template_pools": "ctov:village/halloween/house",
 	"elements": [
 		{
 			"weight": 5,

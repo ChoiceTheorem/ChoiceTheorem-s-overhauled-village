@@ -1,6 +1,14 @@
-# What's changed
-
-- Added Jewelry Compat
-- Added Archers Compat
-- Added Rogues Compat
-- All RPG series mod buildings will be restricted to 1 building per villages.
+## What's changed
+### Reworked villages
+- Rework how houses and decorations spawn -> Fix bug #201 for most of the scenarios
+- Replace all Thai style village crimson wood to mangroves
+- Japanese village also has cherry wood buildings with birch buildings
+### Optimization
+- Revamped how road processors works.
+### New compatibility
+- No new compatibility added
+### Bug Fixes
+- Fix [#139](https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village/issues/139)
+- Fix [#201](https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village/issues/201)
+### New configs are now available. 
+Now you can set the frequency and enable/disable villages and pillager outposts.

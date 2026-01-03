@@ -8,7 +8,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
-                "processors": "ctov:village/taiga/house",
+                "processors": "ctov:village/taiga/town_center",
                 "location": "ctov:village/taiga/town_center"
             }
         }

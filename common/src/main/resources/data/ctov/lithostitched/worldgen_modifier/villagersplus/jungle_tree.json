@@ -1,15 +1,18 @@
 {
 	"type": "lithostitched:add_template_pool_elements",
-	"predicate": {
-		"type": "lithostitched:all_of",
-			"predicates": [
-			{
-				"type": "lithostitched:mod_loaded",
-				"mod_id": "villagersplus"
-			}
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"villagersplus"
 		]
 	},
-	"template_pool": "ctov:village/jungle_tree/house",
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "villagersplus"
+		}
+	],
+	"template_pools": "ctov:village/jungle_tree/house",
 	"elements": [
 		{
 			"weight": 5,

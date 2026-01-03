@@ -1,0 +1,31 @@
+{
+	"type": "lithostitched:add_template_pool_elements",
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"easel_does_it"
+		]
+	},
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "easel_does_it"
+		}
+	],
+	"template_pools": "ctov:village/mesa_fortified/house",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "lithostitched:limited",
+  				"delegate": {
+    				"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/mesa_fortified/house",
+					"location": "ctov:village/mesa_fortified/jobsite/artist_studio"
+				},
+  				"limit": 1
+			}
+		}
+	]
+}

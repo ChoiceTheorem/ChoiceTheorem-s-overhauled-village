@@ -1,5 +1,4 @@
 {
-    "name": "ctov:village/biome/beach",
     "fallback": "minecraft:empty",
     "elements": [
         {
@@ -7,8 +6,8 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
-                "processors": "ctov:village/beach/roads",
-                "location": "ctov:village/beach/town_center"
+                "location": "ctov:village/beach/town_center",
+                "processors": "ctov:village/beach/town_center"
             }
         }
     ]

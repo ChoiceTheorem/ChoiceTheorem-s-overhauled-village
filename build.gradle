@@ -1,6 +1,6 @@
 plugins {
 	id "architectury-plugin" version "3.4-SNAPSHOT"
-	id "dev.architectury.loom" version "1.6-SNAPSHOT" apply false
+	id "dev.architectury.loom" version "1.7-SNAPSHOT" apply false
 	
 }
 
@@ -31,7 +31,7 @@ allprojects {
 	apply plugin: "maven-publish"
 
 	base {
-		archivesName = rootProject.archives_base_name
+		archivesName = "[$project.name]$rootProject.archives_base_name"
 	}
 
 	version = rootProject.mod_version
@@ -48,9 +48,9 @@ allprojects {
 		}
 	}
 
-	tasks.withType(JavaCompile) {
+	tasks.withType(JavaCompile){
 		options.encoding = "UTF-8"
-		options.release = 17
+		options.release = 21
 	}
 
 	java {

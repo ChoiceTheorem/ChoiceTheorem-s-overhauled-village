@@ -1,15 +1,18 @@
 {
 	"type": "lithostitched:add_template_pool_elements",
-	"predicate": {
-		"type": "lithostitched:all_of",
-			"predicates": [
-			{
-				"type": "lithostitched:mod_loaded",
-				"mod_id": "wares"
-			}
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"wares"
 		]
 	},
-	"template_pool": "ctov:village/desert_oasis/house",
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "wares"
+		}
+	],
+	"template_pools": "ctov:village/desert_oasis/house",
 	"elements": [
 		{
 			"weight": 5,

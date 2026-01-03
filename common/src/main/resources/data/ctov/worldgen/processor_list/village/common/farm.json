@@ -1,0 +1,34 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:apply_random",
+			"mode": "per_block",
+			"processor_lists": [
+				{
+					"weight": 10,
+					"data": "ctov:village/common/farm/to_beetroot"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/farm/to_carrot"
+				},
+				{
+					"weight": 1,
+					"data": "ctov:village/common/farm/to_melon"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/farm/to_potato"
+				},
+				{
+					"weight": 1,
+					"data": "ctov:village/common/farm/to_pumpkin"
+				},
+				{
+					"weight": 10,
+					"data": "ctov:village/common/farm/to_wheats"
+				}
+			]
+		}
+	]
+}

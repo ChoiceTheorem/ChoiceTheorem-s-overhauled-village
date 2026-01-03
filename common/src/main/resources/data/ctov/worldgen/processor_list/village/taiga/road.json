@@ -1,98 +1,84 @@
 {
     "processors": [
         {
-            "processor_type":"minecraft:rule",
-            "rules": [
-                {
-                    "position_predicate":{
-                        "predicate_type": "always_true"
-                    },
-                    "input_predicate": {
-                        "predicate_type": "random_block_match",
-                        "block": "minecraft:cobbled_deepslate",
-                        "probability": 0.8
-                    },
-                    "location_predicate": {
-                        "predicate_type": "always_true"
-                    },
-                    "output_state": {
-                        "Name": "minecraft:dirt_path"
+            "processor_type": "lithostitched:condition",
+            "random_mode": "per_block",
+            "if_true": {
+                "type": "lithostitched:all_of",
+                "conditions": [
+                    {
+                        "type": "lithostitched:matching_blocks",
+                        "blocks": "minecraft:cobblestone",
+                        "match_type": "input"
                     }
-                }
-            ]
-        },
-        {
-            "processor_type":"minecraft:rule",
-            "rules": [
-                {
-                    "position_predicate":{
-                        "predicate_type": "always_true"
-                    },
-                    "input_predicate": {
-                        "predicate_type": "random_block_match",
-                        "block": "minecraft:dirt_path",
-                        "probability": 0.75
-                    },
-                    "location_predicate": {
-                        "predicate_type": "always_true"
-                    },
-                    "output_state": {
-                        "Name": "minecraft:grass_block",
-                        "Properties": {
-                            "snowy":"false"
+                ]
+            },
+            "then": {
+                "processor_type": "lithostitched:condition",
+                "random_mode": "per_block",
+                "if_true": {
+                    "type": "lithostitched:matching_blocks",
+                    "blocks": "minecraft:water",
+                    "match_type": "location"
+                },
+                "then": {
+                    "processor_type": "lithostitched:set_block",
+                    "state_provider": {
+                        "type": "minecraft:simple_state_provider",
+                        "state": {
+                            "Name": "minecraft:spruce_planks"
                         }
                     }
+                },
+                "else": {
+                    "processor_type": "lithostitched:set_block",
+                    "state_provider": {
+                        "type": "minecraft:weighted_state_provider",
+                        "entries": [
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "Name": "minecraft:deepslate"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "Name": "minecraft:podzol"
+                                }
+                            },
+                            {
+                                "weight": 5,
+                                "data": {
+                                    "Name": "minecraft:dirt_path"
+                                }
+                            },
+                            {
+                                "weight": 4,
+                                "data": {
+                                    "Name": "minecraft:grass_block"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "Name": "minecraft:cobbled_deepslate"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "Name": "minecraft:coarse_dirt"
+                                }
+                            }
+                        ]
+                    },
+                    "random_mode": "per_block"
                 }
-            ]
-        },
-        {
-            "processor_type":"minecraft:rule",
-            "rules": [
-                {
-                    "position_predicate":{
-                        "predicate_type": "always_true"
-                    },
-                    "input_predicate": {
-                        "predicate_type": "random_block_match",
-                        "block": "minecraft:grass_block",
-                        "probability": 0.67
-                    },
-                    "location_predicate": {
-                        "predicate_type": "always_true"
-                    },
-                    "output_state": {
-                        "Name": "minecraft:podzol",
-                        "Properties": {
-                            "snowy":"false"
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "processor_type":"minecraft:rule",
-            "rules": 
-            [
-                {
-                    "position_predicate":{
-                        "predicate_type": "always_true"
-                    },
-                    "input_predicate": {
-                        "predicate_type": "random_block_match",
-                        "block": "minecraft:podzol",
-                        "probability": 0.5
-                    },
-                    "location_predicate": {
-                        "predicate_type": "always_true"
-                    },
-                    "output_state": {
-                        "Name": "minecraft:deepslate",
-                        "Properties": {
-                            "axis": "y"
-                        }
-                    }
-                }
-            ]
+            },
+            "else": {
+                "processor_type": "minecraft:nop"
+            }
         }
     ]
 }

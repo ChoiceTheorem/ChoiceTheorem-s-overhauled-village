@@ -1,0 +1,22 @@
+{
+    "pools":[
+        {
+            "rolls":1,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value":"minecraft:chests/village/village_butcher"
+                }
+            ]
+        },
+        {
+            "rolls":1,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value":"ctov:chests/village/village_farm"
+                }
+            ]
+        }
+    ]
+}

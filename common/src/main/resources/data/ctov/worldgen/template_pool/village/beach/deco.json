@@ -43,15 +43,6 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/beach/deco/lamp_5",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
 				"location": "ctov:village/beach/deco/well",
 				"processors": "minecraft:empty"
 			}
@@ -75,16 +66,7 @@
 			}
 		},
 		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/beach/deco/lamp_0",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
-			"weight": 7,
+			"weight": 30,
 			"element": {
 				"element_type": "minecraft:empty_pool_element",
 				"projection": "rigid"

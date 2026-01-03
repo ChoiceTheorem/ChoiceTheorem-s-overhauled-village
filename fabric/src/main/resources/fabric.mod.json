@@ -16,16 +16,16 @@
 	"environment": "*",
 	"entrypoints": {
 	"main": [
-		"net.ctov.fabric.ctovFabric"
+		"net.choicetheorem.ctov.fabric.CTOVFabric"
 	]
 	},
 	"mixins": [
-	"ctov.mixins.json",
-	"ctov-common.mixins.json"
+		"ctov.mixins.json",
+		"ctov-common.mixins.json"
 	],
 	"depends": {
 		"fabric": "*",
-		"minecraft": ">=1.20",
-		"lithostitched":"*"
+		"minecraft": ">=1.21",
+		"lithostitched":">=1.5"
 	}
 }

@@ -1,0 +1,24 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:reference",
+			"processor_lists": [
+				"ctov:village/savanna_na/hut"
+			]
+		},
+        {
+			"processor_type": "lithostitched:apply_random",
+			"mode": "per_piece",
+			"processor_lists": [
+				{
+					"weight": 1,
+					"data": "ctov:village/savanna_na/tipi_blue"
+				},
+				{
+					"weight": 1,
+					"data": "ctov:village/savanna_na/tipi_red"
+				}
+			]
+		}
+    ]
+}

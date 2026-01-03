@@ -5,11 +5,17 @@ architectury {
 loom {
     accessWidenerPath = file("src/main/resources/ctov.accesswidener")
 }
-
+repositories {
+    maven {
+        url = "https://api.modrinth.com/maven"
+    }
+}
 dependencies {
     // We depend on fabric loader here to use the fabric @Environment annotations and get the mixin dependencies
     // Do NOT use other classes from fabric loader
     modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
+    modImplementation "maven.modrinth:lithostitched:${rootProject.lithostitched_version}-fabric-${rootProject.mapping_version}"
+
 }
 
 publishing {

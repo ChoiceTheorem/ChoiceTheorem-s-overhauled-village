@@ -1,6 +1,6 @@
 {
-    "name":"ctov:village/jungle/starts",
-    "fallback": "minecraft:empty",
+    "name": "ctov:village/jungle/road",
+    "fallback": "ctov:village/jungle/terminator",
     "elements": [
         {
             "weight": 4,
@@ -17,7 +17,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
                 "processors": "ctov:village/jungle/road",
-                "location": "ctov:village/jungle/roads/bent_1"
+                "location": "ctov:village/jungle/roads/corner_1"
             }
         },
         {
@@ -26,7 +26,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
                 "processors": "ctov:village/jungle/road",
-                "location": "ctov:village/jungle/roads/bent_2"
+                "location": "ctov:village/jungle/roads/corner_2"
             }
         },
         {
@@ -62,7 +62,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
                 "processors": "ctov:village/jungle/road",
-                "location": "ctov:village/jungle/roads/inter"
+                "location": "ctov:village/jungle/roads/crossroad"
             }
         }
     ]

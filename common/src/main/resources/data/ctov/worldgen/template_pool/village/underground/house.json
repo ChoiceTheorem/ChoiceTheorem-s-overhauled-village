@@ -107,7 +107,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/farm",
-				"processors": "ctov:farm/underground"
+				"processors": "ctov:village/underground/main"
 			}
 		},
 		{
