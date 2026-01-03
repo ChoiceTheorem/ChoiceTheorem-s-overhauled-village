@@ -39,11 +39,12 @@ public class CTOVConfigHelperImpl {
 		return CTOVConfigNeoForge.OUTPOST_WEIGHT.get();
 	}
 	
-	/* public static String @NotNull [] enabledvillage(){
+	 public static @NotNull List<? extends String> enabledvillage(){
 		return CTOVConfigNeoForge.ENABLED_VILLAGES.get();
 	}
 	
-	public static String @NotNull [] enabledpillageroutpost(){	return CTOVConfigNeoForge.ENABLED_PILLAGER_OUTPOST.get();
+	public static @NotNull List<? extends String> enabledpillageroutpost(){
+		return CTOVConfigNeoForge.ENABLED_PILLAGER_OUTPOST.get();
 	}
-	*/
+	
 }

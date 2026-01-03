@@ -10,6 +10,8 @@ import net.minecraft.server.MinecraftServer;
 import net.minecraft.world.level.levelgen.structure.Structure;
 import net.minecraft.world.level.levelgen.structure.StructureSet;
 
+import java.util.List;
+
 import static net.choicetheorem.ctov.platform.CTOVConfigHelper.*;
 import static net.choicetheorem.ctov.utils.TextUtils.res;
 
@@ -26,9 +28,9 @@ public class CTOV {
         HolderLookup<Structure> StructureRegistry = registryProvider.lookupOrThrow(Registries.STRUCTURE);
         String[] enabledpillageroutpost = {"beach", "dark_forest", "desert", "jungle", "badlands", "mountain",
             "plains", "savanna", "snowy", "swamp", "taiga"};
-        String[] enabledvillage = {"beach", "christmas", "desert", "desert_oasis", "dark_forest",
+        List<? extends String> enabledvillage = List.of(new String[]{"beach", "christmas", "desert", "desert_oasis", "dark_forest",
             "jungle", "jungle_tree", "mesa", "mesa_fortified", "mountain", "mountain_alpine", "mushroom", "plains",
-            "plains_fortified",	"savanna", "savanna_na", "snowy_igloo", "swamp", "swamp_fortified", "taiga", "taiga_fortified"};
+            "plains_fortified", "savanna", "savanna_na", "snowy_igloo", "swamp", "swamp_fortified", "taiga", "taiga_fortified"});
         ResourceLocation villagesetLocation = ResourceLocation.fromNamespaceAndPath("minecraft", "villages");
         ResourceLocation outpostsetLocation = ResourceLocation.fromNamespaceAndPath("minecraft", "pillager_outposts");
         if (generatePillagerOutpost()) {
@@ -38,19 +40,19 @@ public class CTOV {
             }
         }
         if (generatesmallVillage()) {
-            for (String village : enabledvillage){
+            for (String village : enabledvillage()){
                 ResourceLocation villagelocation = res("small/village_"+ village);
                 new CTOVStructureHelper(server, StructureSetRegistry, StructureRegistry, villagesetLocation, villagelocation, smallVillageWeight());
             }
         }
         if (generatemediumVillage()) {
-            for (String village : enabledvillage){
+            for (String village : enabledvillage()){
                 ResourceLocation villagelocation = res("medium/village_"+ village);
                 new CTOVStructureHelper(server, StructureSetRegistry, StructureRegistry, villagesetLocation, villagelocation, mediumVillageWeight());
             }
         }
         if (generatelargeVillage()) {
-            for (String village : enabledvillage){
+            for (String village : enabledvillage()){
                 ResourceLocation villagelocation = res("large/village_"+ village);
                 new CTOVStructureHelper(server, StructureSetRegistry, StructureRegistry, villagesetLocation, villagelocation, largeVillageWeight());
             }

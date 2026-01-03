@@ -2,6 +2,8 @@ package net.choicetheorem.ctov.platform;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 
+import java.util.List;
+
 public class CTOVConfigHelper {
 	@ExpectPlatform
 	public static boolean generatesmallVillage() {
@@ -35,12 +37,12 @@ public class CTOVConfigHelper {
 	public static int OutpostWeight() {
 		throw new AssertionError();
 	}
-	/*@ExpectPlatform
-	public static String[] enabledvillage(){
+	@ExpectPlatform
+	public static List<? extends String> enabledvillage(){
 		throw new AssertionError();
 	}
 	@ExpectPlatform
 	public static String[] enabledpillageroutpost(){
 		throw new AssertionError();
-	}*/
+	}
 }

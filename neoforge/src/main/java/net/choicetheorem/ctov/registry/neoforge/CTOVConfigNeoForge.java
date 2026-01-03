@@ -10,7 +10,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-@EventBusSubscriber(modid = CTOV.MOD_ID, bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = CTOV.MOD_ID)
 public class CTOVConfigNeoForge {
 	public static ModConfigSpec COMMON_CONFIG;
 	public static final String CATEGORY_STRUCTURES = "structures";
@@ -19,22 +19,21 @@ public class CTOVConfigNeoForge {
 	public static final ModConfigSpec.BooleanValue GENERATE_MEDIUM_VILLAGES;
 	public static final ModConfigSpec.BooleanValue GENERATE_LARGE_VILLAGES;
 	public static final ModConfigSpec.BooleanValue GENERATE_PILLAGER_OUTPOST;
-	//public static final ModConfigSpec.ConfigValue<String[]> ENABLED_VILLAGES;
-	//public static final ModConfigSpec.ConfigValue<String[]> ENABLED_PILLAGER_OUTPOST;
+	public static final ModConfigSpec.ConfigValue<List<? extends String>> ENABLED_VILLAGES;
+	public static final ModConfigSpec.ConfigValue<List<? extends String>> ENABLED_PILLAGER_OUTPOST;
 	public static final ModConfigSpec.IntValue SMALL_VILLAGE_WEIGHT;
 	public static final ModConfigSpec.IntValue MEDIUM_VILLAGE_WEIGHT;
 	public static final ModConfigSpec.IntValue LARGE_VILLAGE_WEIGHT;
 	public static final ModConfigSpec.IntValue OUTPOST_WEIGHT;
-	public static final String[] VILLAGE_POOL= new String[]{
+	public static final List<String> VILLAGE_POOL = List.of(
 		"beach", "christmas", "desert", "desert_oasis", "dark_forest",
 		"jungle", "jungle_tree", "mesa", "mesa_fortified", "mountain",
 		"mountain_alpine", "mushroom", "plains", "plains_fortified",
 		"savanna", "savanna_na", "snowy_igloo", "swamp",
-		"swamp_fortified", "taiga", "taiga_fortified"};
-	public static final String[] PILLAGER_OUTPOST_POOL = new String[]{
+		"swamp_fortified", "taiga", "taiga_fortified");
+	public static final List<String> PILLAGER_OUTPOST_POOL = List.of(
 		"beach", "dark_forest", "desert", "jungle", "badlands", "mountain",
-		"plains", "savanna", "snowy", "swamp", "taiga"
-	};
+		"plains", "savanna", "snowy", "swamp", "taiga");
 	static {
 		ModConfigSpec.Builder COMMON_BUILDER = new ModConfigSpec.Builder();
 		
@@ -47,10 +46,16 @@ public class CTOVConfigNeoForge {
 			.define("generatelargeVillage", true);
 		GENERATE_PILLAGER_OUTPOST = COMMON_BUILDER.comment("Should CTOV Pillager Outpost generates?")
 			.define("generatePillagerOutpost", true);
-		/*ENABLED_VILLAGES = COMMON_BUILDER.comment("Which villages should generate")
-			.define("enabledVillages",VILLAGE_POOL);
+		ENABLED_VILLAGES = COMMON_BUILDER.comment("Which villages should generate")
+			.defineListAllowEmpty("enabledVillages",
+				VILLAGE_POOL,
+				obj -> obj instanceof String str && VILLAGE_POOL.contains(str)
+			);
 		ENABLED_PILLAGER_OUTPOST = COMMON_BUILDER.comment("Which pillager outpost should generates")
-			.define("enabledpillageroutpost",PILLAGER_OUTPOST_POOL);*/
+			.defineListAllowEmpty("enabledpillageroutpost",
+				PILLAGER_OUTPOST_POOL,
+				obj -> obj instanceof String str && PILLAGER_OUTPOST_POOL.contains(str)
+			);
 		COMMON_BUILDER.pop();
 		
 		COMMON_BUILDER.comment("Structure spawning frequency").push(CATEGORY_WEIGHTS);

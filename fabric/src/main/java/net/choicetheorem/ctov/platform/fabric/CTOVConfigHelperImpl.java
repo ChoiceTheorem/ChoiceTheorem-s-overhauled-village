@@ -2,6 +2,10 @@ package net.choicetheorem.ctov.platform.fabric;
 
 import me.shedaniel.autoconfig.AutoConfig;
 import net.choicetheorem.ctov.registry.fabric.CTOVConfigFabric;
+import org.jetbrains.annotations.NotNull;
+
+import java.util.List;
+
 public class CTOVConfigHelperImpl {
 	static CTOVConfigFabric config = AutoConfig.getConfigHolder(CTOVConfigFabric.class).getConfig();
 	 
@@ -36,11 +40,11 @@ public class CTOVConfigHelperImpl {
 	public static int OutpostWeight() {
 		return config.weights.OutpostWeight;
 	}
-	public static String[] enabledvillage(){
+	public static @NotNull List<String> enabledvillage(){
 		return config.structures.enabledvillage;
 	}
 	
-	public static String[] enabledpillageroutpost(){
+	public static @NotNull List<String> enabledpillageroutpost(){
 		return config.structures.enabledpillageroutpost;
 	}
 }
