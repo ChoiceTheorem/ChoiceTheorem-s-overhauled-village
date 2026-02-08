@@ -7,15 +7,19 @@ import java.util.List;
 
 public class CTOVConfigHelperImpl {
 	
-	public static boolean generatesmallVillage() {
+	private CTOVConfigHelperImpl() {
+		// utility class
+	}
+	
+	public static boolean generateSmallVillage() {
 		return CTOVConfigNeoForge.GENERATE_SMALL_VILLAGES.get();
 	}
 	
-	public static boolean generatemediumVillage() {
+	public static boolean generateMediumVillage() {
 		return CTOVConfigNeoForge.GENERATE_MEDIUM_VILLAGES.get();
 	}
 	
-	public static boolean generatelargeVillage() {
+	public static boolean generateLargeVillage() {
 		return CTOVConfigNeoForge.GENERATE_LARGE_VILLAGES.get();
 	}
 	
@@ -27,24 +31,23 @@ public class CTOVConfigHelperImpl {
 		return CTOVConfigNeoForge.SMALL_VILLAGE_WEIGHT.get();
 	}
 	
-	public static int mediumVillageWeight(){
+	public static int mediumVillageWeight() {
 		return CTOVConfigNeoForge.MEDIUM_VILLAGE_WEIGHT.get();
 	}
 	
-	public static int largeVillageWeight(){
+	public static int largeVillageWeight() {
 		return CTOVConfigNeoForge.LARGE_VILLAGE_WEIGHT.get();
 	}
 	
-	public static int OutpostWeight() {
+	public static int outpostWeight() {
 		return CTOVConfigNeoForge.OUTPOST_WEIGHT.get();
 	}
 	
-	 public static @NotNull List<? extends String> enabledvillage(){
+	public static @NotNull List<? extends String> enabledVillages() {
 		return CTOVConfigNeoForge.ENABLED_VILLAGES.get();
 	}
 	
-	public static @NotNull List<? extends String> enabledpillageroutpost(){
+	public static @NotNull List<? extends String> enabledPillagerOutposts() {
 		return CTOVConfigNeoForge.ENABLED_PILLAGER_OUTPOST.get();
 	}
-	
 }

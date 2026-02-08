@@ -7,44 +7,50 @@ import org.jetbrains.annotations.NotNull;
 import java.util.List;
 
 public class CTOVConfigHelperImpl {
-	static CTOVConfigFabric config = AutoConfig.getConfigHolder(CTOVConfigFabric.class).getConfig();
-	 
-	public static boolean generatesmallVillage() {
-		return config.structures.generatesmallVillage;
-	}
-	 
-	public static boolean generatemediumVillage() {
-		return config.structures.generatemediumVillage;
-	}
-	 
-	public static boolean generatelargeVillage() {
-		return config.structures.generatelargeVillage;
-	}
-	 
-	public static boolean generatePillagerOutpost() {
-		return config.structures.generatePillagerOutpost;
-	}
-	 
-	public static int smallVillageWeight() {
-		return config.weights.smallVillageWeight;
-	}
-	 
-	public static int mediumVillageWeight(){
-		return config.weights.mediumVillageWeight;
-	}
-	 
-	public static int largeVillageWeight(){
-		return config.weights.largeVillageWeight;
-	}
-	 
-	public static int OutpostWeight() {
-		return config.weights.OutpostWeight;
-	}
-	public static @NotNull List<String> enabledvillage(){
-		return config.structures.enabledvillage;
+	private static final CTOVConfigFabric CONFIG =
+		AutoConfig.getConfigHolder(CTOVConfigFabric.class).getConfig();
+	
+	private CTOVConfigHelperImpl() {
+		// utility class
 	}
 	
-	public static @NotNull List<String> enabledpillageroutpost(){
-		return config.structures.enabledpillageroutpost;
+	public static boolean generateSmallVillage() {
+		return CONFIG.structures.generateSmallVillage;
+	}
+	
+	public static boolean generateMediumVillage() {
+		return CONFIG.structures.generateMediumVillage;
+	}
+	
+	public static boolean generateLargeVillage() {
+		return CONFIG.structures.generateLargeVillage;
+	}
+	
+	public static boolean generatePillagerOutpost() {
+		return CONFIG.structures.generatePillagerOutpost;
+	}
+	
+	public static int smallVillageWeight() {
+		return CONFIG.weights.smallVillageWeight;
+	}
+	
+	public static int mediumVillageWeight() {
+		return CONFIG.weights.mediumVillageWeight;
+	}
+	
+	public static int largeVillageWeight() {
+		return CONFIG.weights.largeVillageWeight;
+	}
+	
+	public static int outpostWeight() {
+		return CONFIG.weights.OutpostWeight;
+	}
+	
+	public static @NotNull List<? extends String> enabledVillages() {
+		return CONFIG.structures.enabledVillage;
+	}
+	
+	public static @NotNull List<? extends String> enabledPillagerOutposts() {
+		return CONFIG.structures.enabledPillageroutpost;
 	}
 }

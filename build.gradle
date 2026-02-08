@@ -1,6 +1,6 @@
 plugins {
 	id "architectury-plugin" version "3.4-SNAPSHOT"
-	id "dev.architectury.loom" version "1.7-SNAPSHOT" apply false
+	id "dev.architectury.loom" version "1.13-SNAPSHOT" apply false
 	
 }
 
@@ -31,7 +31,7 @@ allprojects {
 	apply plugin: "maven-publish"
 
 	base {
-		archivesName = "[$project.name]$rootProject.archives_base_name"
+		archivesName = "[$project.name]$rootProject.archives_base_name-1.21.11"
 	}
 
 	version = rootProject.mod_version
