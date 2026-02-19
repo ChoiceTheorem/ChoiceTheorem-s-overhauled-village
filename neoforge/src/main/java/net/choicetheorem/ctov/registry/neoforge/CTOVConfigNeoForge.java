@@ -64,9 +64,9 @@ public class CTOVConfigNeoForge {
 		MEDIUM_VILLAGE_WEIGHT = COMMON_BUILDER.comment("CTOV medium village spawn chance")
 			.defineInRange("mediumVillageWeight", 4,0,Integer.MAX_VALUE);
 		LARGE_VILLAGE_WEIGHT = COMMON_BUILDER.comment("CTOV large village spawn chance")
-			.defineInRange("generatelargeVillage", 1,0,Integer.MAX_VALUE);
+			.defineInRange("largeVillageWeight", 1,0,Integer.MAX_VALUE);
 		OUTPOST_WEIGHT = COMMON_BUILDER.comment("CTOV Pillager Outpost spawn chance")
-			.defineInRange("generatePillagerOutpost", 1,0,Integer.MAX_VALUE);
+			.defineInRange("PillagerOutpostWeight", 1,0,Integer.MAX_VALUE);
 		
 		COMMON_BUILDER.pop();
 		

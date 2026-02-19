@@ -1,6 +1,11 @@
 {
 	"processors": [
 		{
+			"processor_type": "ctov:modular_compat",
+			"modid": "natures_spirit",
+			"reference": "ctov:village/beach/house_natures_spirit"
+		},
+		{
 			"processor_type": "minecraft:rule",
 			"rules": [
 				{

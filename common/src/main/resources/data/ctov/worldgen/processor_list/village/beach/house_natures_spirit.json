@@ -1,0 +1,65 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:block_swap",
+			"blocks": {
+				"minecraft:terracotta": "natures_spirit:stripped_coconut_log",
+				"minecraft:stripped_jungle_log": "natures_spirit:stripped_coconut_log",
+				"minecraft:jungle_log": "natures_spirit:coconut_log",
+				"minecraft:jungle_trapdoor": "natures_spirit:coconut_trapdoor",
+				"minecraft:jungle_door": "natures_spirit:coconut_door",
+				"minecraft:jungle_stairs": "natures_spirit:coconut_stairs",
+				"minecraft:jungle_planks": "natures_spirit:coconut_planks",
+				"minecraft:jungle_slab": "natures_spirit:coconut_slab",
+				"minecraft:jungle_fence": "natures_spirit:coconut_fence",
+				"minecraft:smooth_sandstone": "natures_spirit:smooth_pink_sandstone",
+				"minecraft:smooth_sandstone_slab": "natures_spirit:smooth_pink_sandstone_slab",
+				"minecraft:smooth_sandstone_stairs": "natures_spirit:smooth_pink_sandstone_stairs",
+				"minecraft:sandstone_wall": "natures_spirit:pink_sandstone_wall",
+				"minecraft:granite_wall": "natures_spirit:pink_sandstone_wall",
+				"minecraft:spruce_stairs": "natures_spirit:coconut_thatch_stairs",
+				"minecraft:spruce_planks": "natures_spirit:coconut_thatch",
+				"minecraft:spruce_slab": "natures_spirit:coconut_thatch_slab",
+				"minecraft:spruce_fence": "natures_spirit:coconut_fence"
+			}
+		},
+		{
+			"processor_type": "minecraft:rule",
+			"rules": [
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:blockstate_match",
+						"block_state": {
+							"Name": "minecraft:campfire",
+							"Properties": {
+								"lit": "false"
+							}
+						}
+					},
+					"output_state": {
+						"Name": "natures_spirit:coconut_thatch",
+						"Properties": {
+							"distance": "1",
+							"persistent": "true"
+						}
+					}
+				}
+			]
+		}
+	],
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"natures_spirit"
+		]
+	},
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "natures_spirit"
+		}
+	]
+}

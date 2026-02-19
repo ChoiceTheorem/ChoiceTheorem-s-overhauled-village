@@ -1,6 +1,11 @@
 {
     "processors": [
         {
+            "processor_type": "ctov:modular_compat",
+            "modid": "natures_spirit",
+            "reference": "ctov:village/beach/road_natures_spirit"
+        },
+        {
             "processor_type": "lithostitched:condition",
             "random_mode": "per_block",
             "if_true": {
