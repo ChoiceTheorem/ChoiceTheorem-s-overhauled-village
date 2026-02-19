@@ -2,6 +2,7 @@ package net.choicetheorem.ctov.neoforge;
 
 import net.choicetheorem.ctov.CTOV;
 import net.choicetheorem.ctov.registry.neoforge.CTOVConfigNeoForge;
+import net.choicetheorem.ctov.registry.neoforge.worldgen.WorldgenRegistry;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -17,6 +18,8 @@ public class ctovNeo {
         CTOV.init();
         container.registerConfig(ModConfig.Type.COMMON, CTOVConfigNeoForge.COMMON_CONFIG);
         NeoForge.EVENT_BUS.register(this);
+        
+        WorldgenRegistry.PROCESSORS.register(modEventBus);
     }
     @SubscribeEvent
     public void onServerAboutToStartEvent(ServerAboutToStartEvent event) {
