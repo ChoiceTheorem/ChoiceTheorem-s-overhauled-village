@@ -1,19 +1,18 @@
 package net.choicetheorem.ctov;
 
-import net.choicetheorem.ctov.platform.CTOVConfigHelper;
+import dev.worldgen.lithostitched.api.event.AddWorldgenModifiersEvent;
 import net.choicetheorem.ctov.utils.CTOVStructureHelper;
-import net.minecraft.core.HolderLookup;
-import net.minecraft.core.Registry;
+import net.minecraft.core.Holder;
+import net.minecraft.core.HolderLookup.RegistryLookup;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.world.level.levelgen.structure.BuiltinStructureSets;
 import net.minecraft.world.level.levelgen.structure.Structure;
 import net.minecraft.world.level.levelgen.structure.StructureSet;
 
 import java.util.List;
 
 import static net.choicetheorem.ctov.platform.CTOVConfigHelper.*;
-import static net.choicetheorem.ctov.utils.TextUtils.res;
 
 public class CTOV {
     public static final String MOD_ID = "ctov";
@@ -23,39 +22,39 @@ public class CTOV {
     }
     
     public  static void registerstructure(MinecraftServer server) {
-        HolderLookup.Provider registryProvider = server.registryAccess();
-        HolderLookup<StructureSet> StructureSetRegistry = registryProvider.lookupOrThrow(Registries.STRUCTURE_SET);
-        HolderLookup<Structure> StructureRegistry = registryProvider.lookupOrThrow(Registries.STRUCTURE);
-        String[] enabledpillageroutpost = {"beach", "dark_forest", "desert", "jungle", "badlands", "mountain",
-            "plains", "savanna", "snowy", "swamp", "taiga"};
-        List<? extends String> enabledvillage = List.of(new String[]{"beach", "christmas", "desert", "desert_oasis", "dark_forest",
-            "jungle", "jungle_tree", "mesa", "mesa_fortified", "mountain", "mountain_alpine", "mushroom", "plains",
-            "plains_fortified", "savanna", "savanna_na", "snowy_igloo", "swamp", "swamp_fortified", "taiga", "taiga_fortified"});
-        ResourceLocation villagesetLocation = ResourceLocation.fromNamespaceAndPath("minecraft", "villages");
-        ResourceLocation outpostsetLocation = ResourceLocation.fromNamespaceAndPath("minecraft", "pillager_outposts");
-        if (generatePillagerOutpost()) {
-            for (String outpost : enabledpillageroutpost){
-                ResourceLocation pillagerlocation = res("pillager_outpost_"+outpost);
-                new CTOVStructureHelper(server, StructureSetRegistry, StructureRegistry, outpostsetLocation, pillagerlocation, OutpostWeight());
+        List<String> outpostVariants = List.of(
+            "beach", "dark_forest", "desert", "jungle", "badlands",
+            "mountain", "plains", "savanna", "snowy", "swamp", "taiga"
+        );
+        
+        AddWorldgenModifiersEvent.EVENT.register((registries, consumer) -> {
+            Holder.Reference<StructureSet> outpostSet = registries.lookupOrThrow(Registries.STRUCTURE_SET).getOrThrow(BuiltinStructureSets.PILLAGER_OUTPOSTS);
+            Holder.Reference<StructureSet> villageSet = registries.lookupOrThrow(Registries.STRUCTURE_SET).getOrThrow(BuiltinStructureSets.VILLAGES);
+            RegistryLookup<Structure> registry = registries.lookupOrThrow(Registries.STRUCTURE);
+            
+            if (generatePillagerOutpost()) {
+                for (String variant : outpostVariants) {
+                    CTOVStructureHelper.addModifier(consumer, registry, outpostSet, "pillager_outpost_" + variant, OutpostWeight());
+                }
             }
-        }
-        if (generatesmallVillage()) {
-            for (String village : enabledvillage()){
-                ResourceLocation villagelocation = res("small/village_"+ village);
-                new CTOVStructureHelper(server, StructureSetRegistry, StructureRegistry, villagesetLocation, villagelocation, smallVillageWeight());
+            
+            if (generatesmallVillage()) {
+                for (String variant : enabledvillage()) {
+                    CTOVStructureHelper.addModifier(consumer, registry, villageSet, "small/village_" + variant, smallVillageWeight());
+                }
             }
-        }
-        if (generatemediumVillage()) {
-            for (String village : enabledvillage()){
-                ResourceLocation villagelocation = res("medium/village_"+ village);
-                new CTOVStructureHelper(server, StructureSetRegistry, StructureRegistry, villagesetLocation, villagelocation, mediumVillageWeight());
+            
+            if (generatemediumVillage()) {
+                for (String variant : enabledvillage()) {
+                    CTOVStructureHelper.addModifier(consumer, registry, villageSet, "medium/village_" + variant, mediumVillageWeight());
+                }
             }
-        }
-        if (generatelargeVillage()) {
-            for (String village : enabledvillage()){
-                ResourceLocation villagelocation = res("large/village_"+ village);
-                new CTOVStructureHelper(server, StructureSetRegistry, StructureRegistry, villagesetLocation, villagelocation, largeVillageWeight());
+            
+            if (generatelargeVillage()) {
+                for (String variant : enabledvillage()) {
+                    CTOVStructureHelper.addModifier(consumer, registry, villageSet, "large/village_" + variant, largeVillageWeight());
+                }
             }
-        }
+        });
     }
 }
