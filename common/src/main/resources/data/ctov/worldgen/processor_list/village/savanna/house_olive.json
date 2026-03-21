@@ -1,0 +1,39 @@
+{
+    "processors": [
+        {
+            "processor_type": "lithostitched:block_swap",
+            "blocks": {
+                "minecraft:red_terracotta": "natures_spirit:stripped_olive_log",
+                "minecraft:yellow_terracotta": "natures_spirit:stripped_olive_log",
+                "minecraft:orange_terracotta": "natures_spirit:stripped_olive_log",
+                "minecraft:acacia_log": "natures_spirit:olive_log",
+                "minecraft:stripped_acacia_log": "natures_spirit:stripped_olive_log",
+                "minecraft:acacia_wood": "natures_spirit:olive_wood",
+                "minecraft:stripped_acacia_wood": "natures_spirit:stripped_olive_wood",
+                "minecraft:acacia_planks": "natures_spirit:olive_planks",
+                "minecraft:acacia_slab": "natures_spirit:olive_slab",
+                "minecraft:acacia_stairs": "natures_spirit:olive_stairs",
+                "minecraft:acacia_fence": "natures_spirit:olive_fence",
+                "minecraft:acacia_fence_gate": "natures_spirit:olive_fence_gate",
+                "minecraft:acacia_trapdoor": "natures_spirit:olive_trapdoor",
+                "minecraft:acacia_door": "natures_spirit:olive_door",
+                "minecraft:acacia_pressure_plate": "natures_spirit:olive_pressure_plate",
+                "minecraft:acacia_button": "natures_spirit:olive_button",
+                "minecraft:acacia_sign": "natures_spirit:olive_sign",
+                "minecraft:acacia_hanging_sign": "natures_spirit:olive_hanging_sign"
+            }
+        }
+    ],
+    "fabric:load_conditions": {
+        "condition": "fabric:all_mods_loaded",
+        "values": [
+            "natures_spirit"
+        ]
+    },
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "natures_spirit"
+        }
+    ]
+}

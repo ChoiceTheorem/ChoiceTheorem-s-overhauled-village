@@ -51,9 +51,9 @@ I can't take any commissions or monetary support due to a lack of time and mean 
 <details><summary>Images</summary>
 
 Some fantastic footage from the mod. All pictures are taken with complementary shaders or complementary reimagined shaders.
-![](https://media.forgecdn.net/attachments/470/355/2022-06-19_15.png)
-![](https://media.forgecdn.net/attachments/484/285/4.png)
-![](https://media.forgecdn.net/attachments/484/286/12.png)
+![](https://cdn.modrinth.com/data/fgmhI8kH/images/15d7bf1aa1b7174fde4a5dac2ed81d4b8adb4b06.png)
+![](https://i.imgur.com/MBILgX5.png)
+![](https://i.imgur.com/CpLSx3M.png)
 </details>
 
 ## **Credits**
@@ -66,33 +66,6 @@ Some fantastic footage from the mod. All pictures are taken with complementary s
 + Most world generation mods like Terralith, Oh Biome you'll go, Biomes O'plenty.
 + Various structure mods like Town&Tower and Repurposed structures.
 + Any other structure packs by ChoiceTheorem like Immersive structures.
-
-</details>
-
-<details><summary>Planned mod integration</summary>
-
-+ [✓] [**Waystone (Before version 3.2.1)**](https://modrinth.com/datapack/ctov-waystone-compat)
-+ [✓] [**Farmer's delight**](https://modrinth.com/datapack/ctov-farmers-delight-compat)
-+ [✓] [**More villagers**](https://modrinth.com/datapack/ctov-more-villagers-compat)
-+ [✓] [**Croptopia**](https://modrinth.com/datapack/ctov-croptopia-compat)
-+ [✓] [**Bountiful (Before version 3.2.1)**](https://modrinth.com/datapack/ctov-bountiful-compat)
-+ [✓] [**Friend and Foe**](https://modrinth.com/datapack/ctov-friends-and-foes-compat)
-+ [✓] [**Immersive Engineering**](https://modrinth.com/datapack/ctov-immersive-engineering-compat)
-+ [✓] [**Incubation**](https://modrinth.com/datapack/ctov-incubation-compat)
-+ [✓] [**Chef's delight**](https://modrinth.com/datapack/ctov-chefs-delight-compat)
-+ [✓] [**Beautify**](https://modrinth.com/datapack/ctov-beautify-compat)
-+ [✓] [**Vampirism**](https://modrinth.com/mod/vampirism-integrations)
-+ [✓] [**Domestication Innovation**](https://modrinth.com/datapack/ctov-domesticated-innovation-compat)
-+ [✓] [**Wizards**](https://modrinth.com/datapack/ctov-wizards-compat)
-+ [✓] [**Villager Plus**](https://modrinth.com/datapack/ctov-villagers-plus-compat)
-+ [✓] [**Advance peripheral**](https://modrinth.com/datapack/ctov-advanced-peripheral-compat)
-+ [✓] [**BYG**](https://modrinth.com/datapack/ctov-byg-compat)
-+ [✓] [**Savage and Ravage**](https://modrinth.com/datapack/ctov-savage-and-ravage-compat)
-+ [✓] [**Vending Machine**](https://modrinth.com/datapack/ctov-vending-machine-compat)
-+ [ ] Drunken mug
-+ [ ] Pneumatic craft
-+ [ ] Questager
-+ [ ] Buzzier bees
 
 </details>
 You can suggest more mods in my GitHub Issue section.

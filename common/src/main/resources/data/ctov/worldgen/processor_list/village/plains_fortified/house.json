@@ -17,6 +17,28 @@
 					"data": "ctov:village/plains_fortified/quartz_house"
 				}
 			]
+		},
+		{
+			"processor_type": "lithostitched:apply_random",
+			"mode": "per_piece",
+			"processor_lists": [
+				{
+					"weight": 1,
+					"data": "minecraft:empty"
+				},
+				{
+					"weight": 1,
+					"data": {
+						"processors": [
+							{
+								"processor_type": "ctov:modular_compat",
+								"modid": "natures_spirit",
+								"reference": "ctov:village/plains_fortified/house_cypress"
+							}
+						]
+					}
+				}
+			]
 		}
 	]
 }

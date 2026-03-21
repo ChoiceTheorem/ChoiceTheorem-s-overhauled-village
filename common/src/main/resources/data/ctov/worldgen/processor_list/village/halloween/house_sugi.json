@@ -1,0 +1,30 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:block_swap",
+			"blocks": {
+				"minecraft:dark_oak_log": "natures_spirit:sugi_log",
+				"minecraft:stripped_dark_oak_log": "natures_spirit:stripped_sugi_log",
+				"minecraft:dark_oak_planks": "natures_spirit:sugi_planks",
+				"minecraft:dark_oak_slab": "natures_spirit:sugi_slab",
+				"minecraft:dark_oak_stairs": "natures_spirit:sugi_stairs",
+				"minecraft:dark_oak_fence": "natures_spirit:sugi_fence",
+				"minecraft:dark_oak_trapdoor": "natures_spirit:sugi_trapdoor",
+				"minecraft:dark_oak_door": "natures_spirit:sugi_door",
+				"minecraft:birch_door": "natures_spirit:sugi_door"
+			}
+		}
+	],
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"natures_spirit"
+		]
+	},
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "natures_spirit"
+		}
+	]
+}

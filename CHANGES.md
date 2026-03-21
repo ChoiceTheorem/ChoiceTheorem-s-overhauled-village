@@ -1,14 +1,14 @@
 ## What's changed
 ### Reworked villages
-- Rework how houses and decorations spawn -> Fix bug #201 for most of the scenarios
-- Replace all Thai style village crimson wood to mangroves
-- Japanese village also has cherry wood buildings with birch buildings
 ### Optimization
-- Revamped how road processors works.
+- None for this patch
 ### New compatibility
-- No new compatibility added
+- The experimental compatibility with Nature's spirit is expanded to cover all villages.
+- Added Point Blank's arm dealer's barn to the villages.
+- Added EvilCraft's werewolf mansion to the villages.
+### Technical changes
+- More CTOV villages will receive a new variant based on a co-existing biome mod.
+- Hot fixes to how villages are injected, now requiring lithostitched 1.6.0+
 ### Bug Fixes
-- Fix [#139](https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village/issues/139)
-- Fix [#201](https://github.com/ChoiceTheorem/ChoiceTheorem-s-overhauled-village/issues/201)
-### New configs are now available. 
-Now you can set the frequency and enable/disable villages and pillager outposts.
+- No bug to fix in this update.
+

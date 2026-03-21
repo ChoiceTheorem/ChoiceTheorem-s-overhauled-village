@@ -11,6 +11,30 @@
 				{
 					"weight": 1,
 					"data": "ctov:village/mountain/house_cherry"
+				},
+				{
+					"weight": 1,
+					"data": {
+						"processors": [
+							{
+								"processor_type": "ctov:modular_compat",
+								"modid": "natures_spirit",
+								"reference": "ctov:village/mountain/house_maple"
+							}
+						]
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"processors": [
+							{
+								"processor_type": "ctov:modular_compat",
+								"modid": "natures_spirit",
+								"reference": "ctov:village/mountain/house_redwood"
+							}
+						]
+					}
 				}
 			]
 		}

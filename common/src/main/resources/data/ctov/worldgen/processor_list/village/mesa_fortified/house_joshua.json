@@ -1,0 +1,37 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:block_swap",
+			"blocks": {
+				"minecraft:spruce_log": "natures_spirit:joshua_log",
+				"minecraft:stripped_spruce_log": "natures_spirit:stripped_joshua_log",
+				"minecraft:spruce_wood": "natures_spirit:joshua_wood",
+				"minecraft:stripped_spruce_wood": "natures_spirit:stripped_joshua_wood",
+				"minecraft:spruce_planks": "natures_spirit:joshua_planks",
+				"minecraft:spruce_slab": "natures_spirit:joshua_slab",
+				"minecraft:spruce_stairs": "natures_spirit:joshua_stairs",
+				"minecraft:spruce_fence": "natures_spirit:joshua_fence",
+				"minecraft:spruce_fence_gate": "natures_spirit:joshua_fence_gate",
+				"minecraft:spruce_trapdoor": "natures_spirit:joshua_trapdoor",
+				"minecraft:spruce_door": "natures_spirit:joshua_door",
+				"minecraft:birch_door": "natures_spirit:joshua_door",
+				"minecraft:spruce_pressure_plate": "natures_spirit:joshua_pressure_plate",
+				"minecraft:spruce_button": "natures_spirit:joshua_button",
+				"minecraft:spruce_sign": "natures_spirit:joshua_sign",
+				"minecraft:spruce_hanging_sign": "natures_spirit:joshua_hanging_sign"
+			}
+		}
+	],
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"natures_spirit"
+		]
+	},
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "natures_spirit"
+		}
+	]
+}
