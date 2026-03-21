@@ -85,13 +85,69 @@
                     "input_predicate": {
                         "predicate_type": "minecraft:random_block_match",
                         "block": "minecraft:lapis_block",
-                        "probability": 0.7
+                        "probability": 0.9
                     },
                     "location_predicate": {
                         "predicate_type": "minecraft:always_true"
                     },
                     "output_state": {
                         "Name": "minecraft:blue_concrete_powder"
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type": "lithostitched:apply_random",
+            "mode": "per_piece",
+            "processor_lists": [
+                {
+                    "weight": 1,
+                    "data": "minecraft:empty"
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "processors": [
+                            {
+                                "processor_type": "ctov:modular_compat",
+                                "modid": "natures_spirit",
+                                "reference": "ctov:village/desert/house_ghaf"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "processors": [
+                            {
+                                "processor_type": "ctov:modular_compat",
+                                "modid": "natures_spirit",
+                                "reference": "ctov:village/desert/house_saxaul"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type": "lithostitched:apply_random",
+            "mode": "per_piece",
+            "processor_lists": [
+                {
+                    "weight": 1,
+                    "data": "minecraft:empty"
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "processors": [
+                            {
+                                "processor_type": "ctov:modular_compat",
+                                "modid": "natures_spirit",
+                                "reference": "ctov:village/desert/house_pink"
+                            }
+                        ]
                     }
                 }
             ]

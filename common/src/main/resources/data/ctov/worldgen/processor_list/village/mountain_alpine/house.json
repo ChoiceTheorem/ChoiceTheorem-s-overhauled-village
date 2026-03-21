@@ -20,6 +20,40 @@
 					}
 				}
 			]
+		},
+		{
+			"processor_type": "lithostitched:apply_random",
+			"mode": "per_piece",
+			"processor_lists": [
+				{
+					"weight": 1,
+					"data": "minecraft:empty"
+				},
+				{
+					"weight": 1,
+					"data": {
+						"processors": [
+							{
+								"processor_type": "ctov:modular_compat",
+								"modid": "natures_spirit",
+								"reference": "ctov:village/mountain_alpine/house_maple"
+							}
+						]
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"processors": [
+							{
+								"processor_type": "ctov:modular_compat",
+								"modid": "natures_spirit",
+								"reference": "ctov:village/mountain_alpine/house_redwood"
+							}
+						]
+					}
+				}
+			]
 		}
 	]
 }
