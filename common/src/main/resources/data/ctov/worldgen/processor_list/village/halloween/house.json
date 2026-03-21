@@ -1,10 +1,10 @@
 {
     "processors": [
         {
-            "processor_type":"minecraft:rule",
+            "processor_type": "minecraft:rule",
             "rules": [
                 {
-                    "position_predicate":{
+                    "position_predicate": {
                         "predicate_type": "always_true"
                     },
                     "input_predicate": {
@@ -20,7 +20,7 @@
                     }
                 },
                 {
-                    "position_predicate":{
+                    "position_predicate": {
                         "predicate_type": "always_true"
                     },
                     "input_predicate": {
@@ -38,11 +38,10 @@
             ]
         },
         {
-            "processor_type":"minecraft:rule",
-            "rules": 
-            [
+            "processor_type": "minecraft:rule",
+            "rules": [
                 {
-                    "position_predicate":{
+                    "position_predicate": {
                         "predicate_type": "always_true"
                     },
                     "input_predicate": {
@@ -56,8 +55,78 @@
                     "output_state": {
                         "Name": "minecraft:stripped_dark_oak_log",
                         "Properties": {
-                            "axis":"y"
+                            "axis": "y"
                         }
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type": "lithostitched:condition",
+            "if_true": {
+                "type": "lithostitched:matching_blocks",
+                "blocks": "minecraft:yellow_stained_glass_pane"
+            },
+            "then": [
+                {
+                    "processor_type": "lithostitched:set_block",
+                    "state_provider": {
+                        "type": "minecraft:weighted_state_provider",
+                        "entries": [
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "Name": "minecraft:yellow_stained_glass_pane"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "Name": "minecraft:light_blue_stained_glass_pane"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "Name": "minecraft:light_gray_stained_glass_pane"
+                                }
+                            }
+                        ]
+                    },
+                    "random_mode": "per_piece"
+                }
+            ]
+        },
+        {
+            "processor_type": "lithostitched:apply_random",
+            "mode": "per_piece",
+            "processor_lists": [
+                {
+                    "weight": 1,
+                    "data": "minecraft:empty"
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "processors": [
+                            {
+                                "processor_type": "ctov:modular_compat",
+                                "modid": "natures_spirit",
+                                "reference": "ctov:village/halloween/house_mahogany"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "processors": [
+                            {
+                                "processor_type": "ctov:modular_compat",
+                                "modid": "natures_spirit",
+                                "reference": "ctov:village/halloween/house_sugi"
+                            }
+                        ]
                     }
                 }
             ]

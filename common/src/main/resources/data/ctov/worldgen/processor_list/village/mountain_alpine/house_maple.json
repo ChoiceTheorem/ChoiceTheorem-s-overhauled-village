@@ -1,0 +1,36 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:block_swap",
+			"blocks": {
+				"minecraft:dark_oak_log": "natures_spirit:maple_log",
+				"minecraft:stripped_dark_oak_log": "natures_spirit:stripped_maple_log",
+				"minecraft:dark_oak_wood": "natures_spirit:maple_wood",
+				"minecraft:stripped_dark_oak_wood": "natures_spirit:stripped_maple_wood",
+				"minecraft:dark_oak_planks": "natures_spirit:maple_planks",
+				"minecraft:dark_oak_slab": "natures_spirit:maple_slab",
+				"minecraft:dark_oak_stairs": "natures_spirit:maple_stairs",
+				"minecraft:dark_oak_fence": "natures_spirit:maple_fence",
+				"minecraft:dark_oak_fence_gate": "natures_spirit:maple_fence_gate",
+				"minecraft:dark_oak_trapdoor": "natures_spirit:maple_trapdoor",
+				"minecraft:dark_oak_door": "natures_spirit:maple_door",
+				"minecraft:dark_oak_pressure_plate": "natures_spirit:maple_pressure_plate",
+				"minecraft:dark_oak_button": "natures_spirit:maple_button",
+				"minecraft:dark_oak_sign": "natures_spirit:maple_sign",
+				"minecraft:dark_oak_hanging_sign": "natures_spirit:maple_hanging_sign"
+			}
+		}
+	],
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"natures_spirit"
+		]
+	},
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "natures_spirit"
+		}
+	]
+}

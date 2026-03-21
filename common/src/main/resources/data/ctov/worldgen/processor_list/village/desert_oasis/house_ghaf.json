@@ -1,0 +1,29 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:block_swap",
+			"blocks": {
+				"minecraft:oak_log": "natures_spirit:ghaf_log",
+				"minecraft:spruce_log": "natures_spirit:ghaf_log",
+				"minecraft:spruce_planks": "natures_spirit:ghaf_planks",
+				"minecraft:spruce_slab": "natures_spirit:ghaf_slab",
+				"minecraft:spruce_fence": "natures_spirit:ghaf_fence",
+				"minecraft:spruce_trapdoor": "natures_spirit:ghaf_trapdoor",
+				"minecraft:spruce_door": "natures_spirit:ghaf_door",
+				"minecraft:birch_door": "natures_spirit:ghaf_door"
+			}
+		}
+	],
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"natures_spirit"
+		]
+	},
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "natures_spirit"
+		}
+	]
+}

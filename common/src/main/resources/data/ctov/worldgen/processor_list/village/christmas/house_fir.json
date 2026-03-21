@@ -1,0 +1,42 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:block_swap",
+			"blocks": {
+				"minecraft:smooth_quartz": "natures_spirit:fir_planks",
+				"minecraft:smooth_quartz_slab": "natures_spirit:fir_slab",
+				"minecraft:smooth_quartz_stairs": "natures_spirit:fir_stairs",
+				"minecraft:deepslate_bricks": "minecraft:stone_bricks",
+				"minecraft:deepslate_brick_slab": "minecraft:stone_brick_slab",
+				"minecraft:deepslate_brick_stairs": "minecraft:stone_brick_stairs",
+				"minecraft:stone_bricks": "minecraft:deepslate_bricks",
+				"minecraft:spruce_log": "natures_spirit:fir_log",
+				"minecraft:spruce_planks": "natures_spirit:fir_planks",
+				"minecraft:spruce_slab": "natures_spirit:fir_slab",
+				"minecraft:spruce_stairs": "natures_spirit:fir_stairs",
+				"minecraft:spruce_fence": "natures_spirit:fir_fence",
+				"minecraft:spruce_trapdoor": "natures_spirit:fir_trapdoor",
+				"minecraft:spruce_pressure_plate": "natures_spirit:fir_pressure_plate",
+				"minecraft:spruce_door": "natures_spirit:fir_door",
+				"minecraft:dark_oak_planks": "natures_spirit:fir_planks",
+				"minecraft:dark_oak_slab": "natures_spirit:fir_slab",
+				"minecraft:dark_oak_stairs": "natures_spirit:fir_stairs",
+				"minecraft:dark_oak_fence": "natures_spirit:fir_fence",
+				"minecraft:dark_oak_pressure_plate": "natures_spirit:fir_pressure_plate",
+				"minecraft:dark_oak_door": "natures_spirit:fir_door"
+			}
+		}
+	],
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"natures_spirit"
+		]
+	},
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "natures_spirit"
+		}
+	]
+}

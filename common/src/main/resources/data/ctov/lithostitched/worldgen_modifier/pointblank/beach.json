@@ -1,0 +1,32 @@
+{
+	"type": "lithostitched:add_template_pool_elements",
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"pointblank"
+		]  
+	},
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "pointblank"
+		}
+	],
+	"template_pools": "ctov:village/beach/house",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "lithostitched:guaranteed",
+  				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/beach/house",
+					"location": "pointblank:village/all_terrain/arms_dealer_barn"
+				},
+  				"count": 1,
+				"min_depth": 3
+			}
+		}
+	]
+}
