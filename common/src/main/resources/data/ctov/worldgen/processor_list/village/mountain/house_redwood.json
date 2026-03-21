@@ -1,0 +1,36 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:block_swap",
+			"blocks": {
+				"minecraft:birch_log": "natures_spirit:redwood_log",
+				"minecraft:stripped_birch_log": "natures_spirit:stripped_redwood_log",
+				"minecraft:birch_wood": "natures_spirit:redwood_wood",
+				"minecraft:stripped_birch_wood": "natures_spirit:stripped_redwood_wood",
+				"minecraft:birch_planks": "natures_spirit:redwood_planks",
+				"minecraft:birch_slab": "natures_spirit:redwood_slab",
+				"minecraft:birch_stairs": "natures_spirit:redwood_stairs",
+				"minecraft:birch_fence": "natures_spirit:redwood_fence",
+				"minecraft:birch_fence_gate": "natures_spirit:redwood_fence_gate",
+				"minecraft:birch_trapdoor": "natures_spirit:redwood_trapdoor",
+				"minecraft:birch_door": "natures_spirit:redwood_door",
+				"minecraft:birch_pressure_plate": "natures_spirit:redwood_pressure_plate",
+				"minecraft:birch_button": "natures_spirit:redwood_button",
+				"minecraft:birch_sign": "natures_spirit:redwood_sign",
+				"minecraft:birch_hanging_sign": "natures_spirit:redwood_hanging_sign"
+			}
+		}
+	],
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"natures_spirit"
+		]
+	},
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "natures_spirit"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:block_swap",
+			"blocks": {
+				"minecraft:sandstone": "natures_spirit:pink_sandstone",
+				"minecraft:sandstone_wall": "natures_spirit:pink_sandstone_wall",
+				"minecraft:sandstone_slab": "natures_spirit:pink_sandstone_slab",
+				"minecraft:sandstone_stairs": "natures_spirit:pink_sandstone_stairs",
+				"minecraft:smooth_sandstone": "natures_spirit:smooth_pink_sandstone",
+				"minecraft:smooth_sandstone_slab": "natures_spirit:smooth_pink_sandstone_slab",
+				"minecraft:smooth_sandstone_stairs": "natures_spirit:smooth_pink_sandstone_stairs",
+				"minecraft:chiseled_sandstone": "natures_spirit:chiseled_pink_sandstone",
+				"minecraft:cut_sandstone": "natures_spirit:cut_pink_sandstone",
+				"minecraft:cut_sandstone_slab": "natures_spirit:cut_pink_sandstone_slab"
+			}
+		}
+	],
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"natures_spirit"
+		]
+	},
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "natures_spirit"
+		}
+	]
+}

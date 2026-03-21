@@ -1,0 +1,31 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:block_swap",
+			"blocks": {
+				"minecraft:orange_terracotta": "natures_spirit:chiseled_chert",
+				"minecraft:red_sandstone": "natures_spirit:polished_chert",
+				"minecraft:red_sandstone_stairs": "natures_spirit:polished_chert_stairs",
+				"minecraft:red_sandstone_slab": "natures_spirit:polished_chert_slab",
+				"minecraft:red_sandstone_wall": "natures_spirit:polished_chert_wall",
+				"minecraft:cut_red_sandstone": "natures_spirit:chert_bricks",
+				"minecraft:cut_red_sandstone_slab": "natures_spirit:chert_brick_slab",
+				"minecraft:smooth_red_sandstone": "natures_spirit:chert_bricks",
+				"minecraft:smooth_red_sandstone_stairs": "natures_spirit:chert_brick_stairs",
+				"minecraft:smooth_red_sandstone_slab": "natures_spirit:chert_brick_slab"
+			}
+		}
+	],
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"natures_spirit"
+		]
+	},
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "natures_spirit"
+		}
+	]
+}

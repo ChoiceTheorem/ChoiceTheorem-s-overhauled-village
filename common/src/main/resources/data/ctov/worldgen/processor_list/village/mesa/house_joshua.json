@@ -1,0 +1,29 @@
+{
+	"processors": [
+		{
+			"processor_type": "lithostitched:block_swap",
+			"blocks": {
+				"minecraft:birch_log": "natures_spirit:joshua_log",
+				"minecraft:stripped_birch_log": "natures_spirit:joshua_planks",
+				"minecraft:birch_planks": "natures_spirit:joshua_planks",
+				"minecraft:birch_slab": "natures_spirit:joshua_slab",
+				"minecraft:birch_stairs": "natures_spirit:joshua_stairs",
+				"minecraft:birch_fence": "natures_spirit:joshua_fence",
+				"minecraft:birch_trapdoor": "natures_spirit:joshua_trapdoor",
+				"minecraft:birch_door": "natures_spirit:joshua_door"
+			}
+		}
+	],
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"natures_spirit"
+		]
+	},
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "natures_spirit"
+		}
+	]
+}
