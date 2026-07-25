@@ -13,9 +13,9 @@ repositories {
 dependencies {
     // We depend on fabric loader here to use the fabric @Environment annotations and get the mixin dependencies
     // Do NOT use other classes from fabric loader
-    modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
-    modImplementation "maven.modrinth:lithostitched:${rootProject.lithostitched_version}-fabric-${rootProject.mapping_version}"
-
+    implementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
+    implementation "maven.modrinth:lithostitched:${rootProject.lithostitched_version_id}"
+    implementation "dev.architectury:architectury:${rootProject.architectury_version}"
 }
 
 publishing {

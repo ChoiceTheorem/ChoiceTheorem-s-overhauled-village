@@ -1,5 +1,5 @@
 plugins {
-    id "com.github.johnrengelman.shadow" version "7.1.2"
+    id "com.gradleup.shadow" version "7.1.2"
 }
 
 repositories {
@@ -24,8 +24,8 @@ configurations {
 }
 
 dependencies {
-    modImplementation "org.quiltmc:quilt-loader:${rootProject.quilt_loader_version}"
-    modApi "org.quiltmc.quilted-fabric-api:quilted-fabric-api:${rootProject.quilt_fabric_api_version}"
+    implementation "org.quiltmc:quilt-loader:${rootProject.quilt_loader_version}"
+    implementation "org.quiltmc.quilted-fabric-api:quilted-fabric-api:${rootProject.quilt_fabric_api_version}"
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionQuilt")) { transitive false }

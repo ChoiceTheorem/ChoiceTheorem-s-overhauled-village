@@ -3,12 +3,12 @@
 ### Optimization
 - None for this patch
 ### New compatibility
-- The experimental compatibility with Nature's spirit is expanded to cover all villages.
-- Added Point Blank's arm dealer's barn to the villages.
-- Added EvilCraft's werewolf mansion to the villages.
+- Added Enderologist, netherologist building and mines from More Villagers:Missing Buildings to the villages.
+- Added Compost piles from Farmer's Delight to Villages.
 ### Technical changes
 - More CTOV villages will receive a new variant based on a co-existing biome mod.
-- Hot fixes to how villages are injected, now requiring lithostitched 1.6.0+
+- Now requiring lithostitched 1.6.0+
 ### Bug Fixes
 - No bug to fix in this update.
+This is expected to be final version for Minecraft 1.21.x.
 

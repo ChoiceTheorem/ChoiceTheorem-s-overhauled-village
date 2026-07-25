@@ -41,10 +41,10 @@ authors="ChoiceTheorem" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''Enhances and creates new villages and pillager outposts, that perfectly fit into your Minecraft world.'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[mixins]]
-config = "ctov.mixins.json"
-[[mixins]]
-config = "ctov-common.mixins.json"
+# [[mixins]]
+# config = "ctov.mixins.json"
+# [[mixins]]
+# config = "ctov-common.mixins.json"
 [[dependencies.ctov]]
     modId= "lithostitched"
     mandatory=true

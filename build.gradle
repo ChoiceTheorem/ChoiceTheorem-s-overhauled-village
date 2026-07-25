@@ -1,6 +1,6 @@
 plugins {
-	id "architectury-plugin" version "3.4-SNAPSHOT"
-	id "dev.architectury.loom" version "1.13-SNAPSHOT" apply false
+	id "architectury-plugin" version "3.5-SNAPSHOT"
+	id "dev.architectury.loom-no-remap" version "1.17-SNAPSHOT" apply false
 	
 }
 
@@ -9,19 +9,12 @@ architectury {
 }
 
 subprojects {
-	apply plugin: "dev.architectury.loom"
-
-	loom {
-		silentMojangMappingsLicense()
-	}
+	apply plugin: "dev.architectury.loom-no-remap"
 
 	dependencies {
 		minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
-		
-		// The following line declares the mojmap mappings, you may use other mappings as well
-		mappings loom.officialMojangMappings()
-		// The following line declares the yarn mappings you may select this one as well.
-		// mappings "net.fabricmc:yarn:1.20.1+build.10:v2"
+		// Minecraft 26.1+ is non-obfuscated, so do not use:
+		// mappings loom.officialMojangMappings()
 	}
 }
 
@@ -31,7 +24,7 @@ allprojects {
 	apply plugin: "maven-publish"
 
 	base {
-		archivesName = "[$project.name]$rootProject.archives_base_name-1.21.11"
+		archivesName = "[$project.name]$rootProject.archives_base_name-26"
 	}
 
 	version = rootProject.mod_version
@@ -43,6 +36,16 @@ allprojects {
 		// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
 		// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 		// for more information about repositories.
+		exclusiveContent {
+			forRepository {
+				maven {
+					url = "https://api.modrinth.com/maven"
+				}
+			}
+			filter {
+				includeGroup "maven.modrinth"
+			}
+		}
 		maven {
     		url = "https://maven.neoforged.net/releases"
 		}
@@ -50,10 +53,13 @@ allprojects {
 
 	tasks.withType(JavaCompile){
 		options.encoding = "UTF-8"
-		options.release = 21
+		options.release = 25
 	}
 
 	java {
+		toolchain {
+			languageVersion = JavaLanguageVersion.of(25)
+		}
 		withSourcesJar()
 	}
 }
