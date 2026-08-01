@@ -10,7 +10,6 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.levelgen.structure.templatesystem.*;
-import org.jetbrains.annotations.NotNull;
 
 /**
  * A custom {@link StructureProcessor} that conditionally applies another list of structure processors based on
@@ -19,7 +18,7 @@ import org.jetbrains.annotations.NotNull;
  * The class utilizes a codec-based approach for deserialization and reads the required mod ID and processor list
  * from JSON definitions, ensuring flexibility and extensibility in mod integration.
  */
-public class ModularCompatProcessor extends StructureProcessor {
+public class ModularCompatProcessor implements StructureProcessor {
 	private static final String CODEC_FIELD_MOD_ID = "modid";
 	private static final String CODEC_FIELD_REFERENCE = "reference";
 	
@@ -31,7 +30,6 @@ public class ModularCompatProcessor extends StructureProcessor {
 	
 	private final String modId;
 	private final Identifier compatProcessorListId;
-	public static final StructureProcessorType<ModularCompatProcessor> TYPE = () -> CODEC;
 	public ModularCompatProcessor(String modid, Identifier compatList) {
 		this.modId = modid;
 		this.compatProcessorListId = compatList;
@@ -40,25 +38,25 @@ public class ModularCompatProcessor extends StructureProcessor {
 	@Override
 	public StructureTemplate.StructureBlockInfo processBlock(
 		LevelReader level,
+		BlockPos offset,
 		BlockPos pos,
 		BlockPos pivot,
 		StructureTemplate.StructureBlockInfo blockInfo,
-		StructureTemplate.StructureBlockInfo nextBlockInfo,
 		StructurePlaceSettings settings
 	) {
 		if (!PlatformHelper.isModLoaded(modId)) {
-			return nextBlockInfo;
+			return blockInfo;
 		}
 		
-		return applyCompatProcessorList(level, pos, pivot, blockInfo, nextBlockInfo, settings);
+		return applyCompatProcessorList(level, offset, pos, pivot, blockInfo, settings);
 	}
 	
 	private StructureTemplate.StructureBlockInfo applyCompatProcessorList(
 		LevelReader level,
+		BlockPos offset,
 		BlockPos pos,
 		BlockPos pivot,
 		StructureTemplate.StructureBlockInfo originalBlockInfo,
-		StructureTemplate.StructureBlockInfo currentBlockInfo,
 		StructurePlaceSettings settings
 	) {
 		ResourceKey<StructureProcessorList> processorListKey = ResourceKey.create(Registries.PROCESSOR_LIST, compatProcessorListId);
@@ -67,20 +65,20 @@ public class ModularCompatProcessor extends StructureProcessor {
 			       .lookup(Registries.PROCESSOR_LIST)
 			       .flatMap(registry -> registry.get(processorListKey))
 			       .map(holder -> {
-				       StructureTemplate.StructureBlockInfo current = currentBlockInfo;
+				       StructureTemplate.StructureBlockInfo current = originalBlockInfo;
 				       for (StructureProcessor processor : holder.value().list()) {
-					       current = processor.processBlock(level, pos, pivot, originalBlockInfo, current, settings);
+					       current = processor.processBlock(level, offset, pos, pivot, current, settings);
 					       if (current == null) {
-						       break;
+					       	break;
 					       }
 				       }
 				       return current;
-			       })
-			       .orElse(currentBlockInfo);
+				   })
+			       .orElse(originalBlockInfo);
 	}
 	
 	@Override
-	public @NotNull StructureProcessorType<?> getType() {
-		return TYPE;
+	public MapCodec<? extends StructureProcessor> codec() {
+		return (MapCodec<? extends StructureProcessor>) (MapCodec<?>) CODEC;
 	}
 }
