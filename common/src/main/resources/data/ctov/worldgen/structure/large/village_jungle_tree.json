@@ -3,7 +3,7 @@
 	"biomes": "#minecraft:is_jungle",
 	"step": "surface_structures",
 	"spawn_overrides": {},
-	"terrain_adaptation": "beard_thin",
+	"terrain_adaptation": "beard_box",
 	"start_pool": "ctov:village/jungle_tree/town_centers",
 	"size": 6,
 	"start_height": {

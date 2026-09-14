@@ -17,16 +17,16 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "processors": "minecraft:empty",
-                "location": "ctov:village/jungle_tree/roads/bent_1"
+                "location": "ctov:village/jungle_tree/roads/corner_1"
             }
         },
         {
-            "weight": 4,
+            "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "processors": "minecraft:empty",
-                "location": "ctov:village/jungle_tree/roads/bent_2"
+                "location": "ctov:village/jungle_tree/roads/corner_2"
             }
         },
         {
@@ -62,7 +62,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "processors": "minecraft:empty",
-                "location": "ctov:village/jungle_tree/roads/inter"
+                "location": "ctov:village/jungle_tree/roads/crossroad"
             }
         }
     ]

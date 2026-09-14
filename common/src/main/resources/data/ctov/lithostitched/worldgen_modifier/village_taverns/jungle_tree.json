@@ -12,7 +12,7 @@
 			"modid": "village_taverns"
 		}
 	],
-	"template_pools": "ctov:village/jungle_tree/terminator",
+	"template_pools": "ctov:village/jungle_tree/roads",
 	"elements": [
 		{
 			"weight": 5,
@@ -24,7 +24,8 @@
 					"processors": "ctov:village/jungle/house",
 					"location": "ctov:village/jungle_tree/jobsite/tavern"
 				},
-  				"limit": 1
+  				"limit": 1,
+				"min_depth": 3
 			}
 		}
 	]

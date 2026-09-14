@@ -12,7 +12,7 @@
 			"modid": "easel_does_it"
 		}
 	],
-	"template_pools": "ctov:village/jungle_tree/terminator",
+	"template_pools": "ctov:village/jungle_tree/house",
 	"elements": [
 		{
 			"weight": 5,
