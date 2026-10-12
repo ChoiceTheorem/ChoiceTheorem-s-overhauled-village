@@ -6,7 +6,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "terrain_matching",
-				"location": "ctov:village/halloween/terminator",
+				"location": "ctov:village/halloween/roads/terminator",
 				"processors": "ctov:village/halloween/road"
 			}
 		}
