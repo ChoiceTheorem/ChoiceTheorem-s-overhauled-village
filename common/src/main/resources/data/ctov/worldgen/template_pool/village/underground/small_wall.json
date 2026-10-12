@@ -1,5 +1,4 @@
 {
-	"name": "ctov:village/underground/small_wall",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{

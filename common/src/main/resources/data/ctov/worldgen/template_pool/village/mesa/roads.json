@@ -1,5 +1,4 @@
 {
-	"name": "ctov:village/mesa/road",
 	"fallback": "ctov:village/mesa/terminator",
 	"elements": [
 		{

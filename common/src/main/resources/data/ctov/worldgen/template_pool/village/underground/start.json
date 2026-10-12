@@ -1,5 +1,4 @@
 {
-	"name": "ctov:village/underground/start",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{

@@ -1,5 +1,4 @@
 {
-    "name": "ctov:village/common/bounty_board",
     "fallback": "minecraft:empty",
     "elements": [
         {

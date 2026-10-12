@@ -1,5 +1,4 @@
 {
-	"name": "ctov:village/mushroom/road",
 	"fallback": "ctov:village/mushroom/terminator",
 	"elements": [
 		{

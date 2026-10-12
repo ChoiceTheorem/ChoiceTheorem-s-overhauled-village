@@ -1,5 +1,4 @@
 {
-    "name": "ctov:village/common/waystone/sand",
     "fallback": "minecraft:empty",
     "elements": [
         {

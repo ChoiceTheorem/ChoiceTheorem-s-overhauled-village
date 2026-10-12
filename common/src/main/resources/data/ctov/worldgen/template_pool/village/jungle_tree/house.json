@@ -1,5 +1,4 @@
 {
-	"name":"ctov:village/jungle_tree/house",
 	"fallback":"ctov:village/jungle_tree/house_terminator",
 	"elements": [
 		{

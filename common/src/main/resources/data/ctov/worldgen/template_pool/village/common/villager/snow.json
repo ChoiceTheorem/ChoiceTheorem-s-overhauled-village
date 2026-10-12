@@ -1,5 +1,4 @@
 {
-    "name":"ctov:village/common/villager/snow",
     "fallback":"minecraft:empty",
     "elements":[
         {

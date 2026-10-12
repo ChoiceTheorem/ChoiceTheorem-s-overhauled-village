@@ -1,5 +1,4 @@
 {
-    "name": "ctov:village/common/waystone/mossy",
     "fallback": "minecraft:empty",
     "elements": [
         {

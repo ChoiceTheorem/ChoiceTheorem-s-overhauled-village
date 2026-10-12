@@ -1,5 +1,4 @@
 {
-	"name": "ctov:village/underground/house",
 	"fallback": "ctov:village/underground/wall",
 	"elements": [
 		{

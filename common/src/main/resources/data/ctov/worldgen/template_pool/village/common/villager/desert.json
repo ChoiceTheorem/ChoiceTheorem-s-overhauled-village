@@ -1,5 +1,4 @@
 {
-    "name":"ctov:village/common/villager/desert",
     "fallback":"minecraft:empty",
     "elements":[
         {

@@ -1,5 +1,4 @@
 {
-    "name":"ctov:village/jungle/terminator",
     "fallback": "minecraft:empty",
     "elements": [
         {

@@ -1,5 +1,4 @@
 {
-    "name": "ctov:village/savanna_na/road",
     "fallback": "ctov:village/savanna_na/terminator",
     "elements": [
         {

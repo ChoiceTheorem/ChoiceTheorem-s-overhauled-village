@@ -1,5 +1,4 @@
 {
-    "name":"ctov:village/biome/taiga",
     "fallback": "minecraft:empty",
     "elements": 
     [

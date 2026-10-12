@@ -1,5 +1,4 @@
 {
-    "name":"ctov:village/common/villager/taiga",
     "fallback":"minecraft:empty",
     "elements":[
         {

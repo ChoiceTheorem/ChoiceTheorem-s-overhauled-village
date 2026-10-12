@@ -1,5 +1,4 @@
 {
-    "name":"ctov:village/common/villager/savanna",
     "fallback":"minecraft:empty",
     "elements":[
         {

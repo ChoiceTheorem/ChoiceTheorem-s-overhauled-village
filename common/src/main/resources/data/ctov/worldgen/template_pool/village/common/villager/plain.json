@@ -1,5 +1,4 @@
 {
-    "name":"ctov:village/common/villager/plain",
     "fallback":"minecraft:empty",
     "elements":[
         {

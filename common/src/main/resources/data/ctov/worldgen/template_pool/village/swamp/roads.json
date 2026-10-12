@@ -1,5 +1,4 @@
 {
-	"name": "ctov:village/swamp/road",
 	"fallback": "ctov:village/swamp/terminator",
 	"elements": [
 		{

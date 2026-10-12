@@ -1,5 +1,4 @@
 {
-    "name": "ctov:village/biome/mushroom",
     "fallback": "minecraft:empty",
     "elements": [
         {
