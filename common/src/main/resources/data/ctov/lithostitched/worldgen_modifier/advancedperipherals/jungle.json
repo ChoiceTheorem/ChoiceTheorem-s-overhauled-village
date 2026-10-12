@@ -12,7 +12,7 @@
 			"modid": "advancedperipherals"
 		}
 	],
-	"template_pools": "ctov:village/jungle/terminator",
+	"template_pools": "ctov:village/jungle/house",
 	"elements": [
 		{
 			"weight": 5,
