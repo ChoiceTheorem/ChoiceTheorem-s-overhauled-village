@@ -20,7 +20,7 @@
 	]
 	},
 	"depends": {
-		"minecraft": ">=1.21",
-		"lithostitched":">=1.6.0"
+		"minecraft": ">=26.1",
+		"lithostitched":">=1.7.0"
 	}
 }
