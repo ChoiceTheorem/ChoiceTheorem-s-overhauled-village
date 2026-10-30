@@ -5,6 +5,8 @@
 ### New compatibility
 - Rework domestication innovation building into Redomestication blocks.
 - New compatibility with More Villagers: Missing Buildings
+- Limit More Villagers: Missing Buildings houses to 1 per village
+- Limit More Villagers houses to 1 per village
 ### Technical changes
 - Fix various kinks in the mods.
 ### Bug Fixes

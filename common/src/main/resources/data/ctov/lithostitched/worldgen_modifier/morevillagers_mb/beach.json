@@ -1,0 +1,67 @@
+{
+	"type": "lithostitched:add_template_pool_elements",
+	"fabric:load_conditions": {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+			"morevillagers",
+			"morevillagers_mb"
+		]
+	},
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:and",
+			"values": [
+				{
+				"type": "neoforge:mod_loaded",
+				"modid": "morevillagers"
+				},
+				{
+				"type": "neoforge:mod_loaded",
+				"modid": "morevillagers_mb"
+				}
+			]
+		}
+	],
+	"template_pools": "ctov:village/beach/house",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/beach/house",
+					"location":"ctov:village/beach/jobsite/miner"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/beach/house",
+					"location":"ctov:village/beach/jobsite/netherologist"
+				},
+				"limit": 1
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/beach/house",
+					"location":"ctov:village/beach/jobsite/enderologist"
+				},
+				"limit": 1
+			}
+		}
+	]
+}
