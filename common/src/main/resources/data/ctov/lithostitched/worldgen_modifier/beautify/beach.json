@@ -20,7 +20,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "ctov:village/beach/house",
-				"location":"ctov:village/beach/botanist"
+				"location":"ctov:village/beach/jobsite/botanist"
 			}
 		}
 	]

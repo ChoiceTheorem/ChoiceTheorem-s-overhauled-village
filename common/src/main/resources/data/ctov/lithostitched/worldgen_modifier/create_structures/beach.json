@@ -22,7 +22,7 @@
 					"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
 					"processors": "ctov:village/beach/house",
-					"location":"ctov:village/beach/jobsite/windmill"
+					"location":"ctov:village/beach/jobsite/water_mill"
 				},
   				"limit": 1
 			}

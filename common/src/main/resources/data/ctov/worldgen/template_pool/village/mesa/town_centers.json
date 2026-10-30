@@ -1,5 +1,4 @@
 {
-    "name":"ctov:village/biome/mesa",
     "fallback": "minecraft:empty",
     "elements": [
         {

@@ -1,5 +1,4 @@
 {
-	"name": "ctov:village/mountain_alpine/road",
 	"fallback": "ctov:village/mountain_alpine/terminator",
 	"elements": [
 		{

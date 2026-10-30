@@ -1,5 +1,4 @@
 {
-    "name": "ctov:village/biome/desert",
     "fallback": "minecraft:empty",
     "elements": [
         {

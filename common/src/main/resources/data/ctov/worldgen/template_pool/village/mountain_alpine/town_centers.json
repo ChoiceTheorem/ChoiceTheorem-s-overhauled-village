@@ -1,5 +1,4 @@
 {
-    "name":"ctov:village/biome/mountain",
     "fallback": "minecraft:empty",
     "elements": [
             {

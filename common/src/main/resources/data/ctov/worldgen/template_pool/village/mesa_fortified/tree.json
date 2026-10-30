@@ -1,5 +1,4 @@
 {
-    "name": "ctov:village/mesa_fortified/tree",
     "fallback": "minecraft:empty",
     "elements": [
         {

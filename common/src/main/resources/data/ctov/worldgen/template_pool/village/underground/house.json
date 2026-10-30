@@ -1,5 +1,4 @@
 {
-	"name": "ctov:village/underground/house",
 	"fallback": "ctov:village/underground/wall",
 	"elements": [
 		{
@@ -242,15 +241,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "ctov:village/underground/jobsite/imengineer",
-				"processors": "ctov:village/underground/main"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/underground/jobsite/hunter_trainer",
 				"processors": "ctov:village/underground/main"
 			}
 		},
