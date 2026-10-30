@@ -22,7 +22,7 @@
 					"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
 					"processors": "ctov:village/halloween/house",
-					"location": "ctov:village/dark_forest/jobsite/barracks"
+					"location": "ctov:village/halloween/jobsite/barracks"
 				},
 				"limit": 1 
 			}
