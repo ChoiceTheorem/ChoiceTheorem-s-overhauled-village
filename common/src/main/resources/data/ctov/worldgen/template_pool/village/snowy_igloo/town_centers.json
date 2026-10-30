@@ -1,5 +1,4 @@
 {
-    "name":"ctov:village/biome/snowy",
     "fallback": "minecraft:empty",
     "elements": [
         {

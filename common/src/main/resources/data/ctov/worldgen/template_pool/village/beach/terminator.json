@@ -1,5 +1,4 @@
 {
-    "name": "ctov:village/beach/terminator",
     "fallback": "minecraft:empty",
     "elements": [
       {

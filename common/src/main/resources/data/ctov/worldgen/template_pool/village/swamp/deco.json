@@ -1,5 +1,4 @@
 {
-    "name": "ctov:village/swamp/deco",
     "fallback": "minecraft:empty",
     "elements": [
         {

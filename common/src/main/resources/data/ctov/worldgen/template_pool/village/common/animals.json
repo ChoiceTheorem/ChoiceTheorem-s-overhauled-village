@@ -1,5 +1,4 @@
 {
-    "name":"ctov:village/common/animals",
     "fallback": "minecraft:empty",
     "elements": [
         {

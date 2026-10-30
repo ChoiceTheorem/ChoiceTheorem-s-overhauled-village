@@ -1,5 +1,4 @@
 {
-    "name":"ctov:village/taiga/terminator",
     "fallback": "minecraft:empty",
     "elements": [
         {

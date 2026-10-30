@@ -20,6 +20,7 @@
 		"ctov:medium/village_swamp",
 		"ctov:medium/village_swamp_fortified",
 		"ctov:medium/village_taiga",
-		"ctov:medium/village_taiga_fortified"
+		"ctov:medium/village_taiga_fortified",
+		"ctov:medium/village_underground"
 	]
 }

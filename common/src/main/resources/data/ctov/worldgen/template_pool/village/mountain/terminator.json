@@ -1,5 +1,4 @@
 {
-    "name":"ctov:village/mountain/terminator",
     "fallback": "minecraft:empty",
     "elements": [
         {

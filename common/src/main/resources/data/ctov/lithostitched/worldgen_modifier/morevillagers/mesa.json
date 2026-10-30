@@ -17,46 +17,66 @@
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/mesa/house",
-				"location":"ctov:village/mesa/jobsite/engineer"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/mesa/house",
+					"location":"ctov:village/mesa/jobsite/engineer"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/mesa/house",
-				"location":"ctov:village/mesa/jobsite/garden"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/mesa/house",
+					"location":"ctov:village/mesa/jobsite/garden"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/mesa/house",
-				"location":"ctov:village/mesa/jobsite/hunter"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/mesa/house",
+					"location":"ctov:village/mesa/jobsite/hunter"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/mesa/house",
-				"location":"ctov:village/mesa/jobsite/oceanographer"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/mesa/house",
+					"location":"ctov:village/mesa/jobsite/oceanographer"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/mesa/house",
-				"location":"ctov:village/mesa/jobsite/woodworker"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/mesa/house",
+					"location":"ctov:village/mesa/jobsite/woodworker"
+				},
+				"limit": 1
 			}
 		}
 	]

@@ -1,5 +1,4 @@
 {
-		"name": "ctov:village/halloween/house",
 		"fallback": "ctov:village/halloween/deco",
 		"elements": [
 			{

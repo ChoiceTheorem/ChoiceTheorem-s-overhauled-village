@@ -1,5 +1,4 @@
 {
-    "name": "ctov:village/plains/terminator",
     "fallback": "minecraft:empty",
     "elements": [
       {
