@@ -3,12 +3,12 @@
 ### Optimization
 - None for this patch
 ### New compatibility
-- The experimental compatibility with Nature's spirit is expanded to cover all villages.
-- Added Point Blank's arm dealer's barn to the villages.
-- Added EvilCraft's werewolf mansion to the villages.
+- Rework domestication innovation building into Redomestication blocks.
+- New compatibility with More Villagers: Missing Buildings
+- Limit More Villagers: Missing Buildings houses to 1 per village
+- Limit More Villagers houses to 1 per village
 ### Technical changes
-- More CTOV villages will receive a new variant based on a co-existing biome mod.
-- Hot fixes to how villages are injected, now requiring lithostitched 1.6.0+
+- Fix various kinks in the mods.
 ### Bug Fixes
-- No bug to fix in this update.
+- Fix references to legacy loot table
 

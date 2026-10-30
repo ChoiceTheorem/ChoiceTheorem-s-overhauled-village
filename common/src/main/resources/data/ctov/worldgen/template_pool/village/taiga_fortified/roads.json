@@ -1,5 +1,4 @@
 {
-	"name": "ctov:village/taiga_fortified/road",
 	"fallback": "ctov:village/taiga_fortified/terminator",
 	"elements": [
 		{

@@ -17,136 +17,196 @@
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/savanna/house_orange",
-				"location":"ctov:village/savanna/jobsite/engineer"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/savanna/house_orange",
+					"location":"ctov:village/savanna/jobsite/engineer"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/savanna/house_red",
-				"location":"ctov:village/savanna/jobsite/engineer"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/savanna/house_red",
+					"location":"ctov:village/savanna/jobsite/engineer"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/savanna/house_yellow",
-				"location":"ctov:village/savanna/jobsite/engineer"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/savanna/house_yellow",
+					"location":"ctov:village/savanna/jobsite/engineer"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/savanna/house_orange",
-				"location":"ctov:village/savanna/jobsite/garden"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/savanna/house_orange",
+					"location":"ctov:village/savanna/jobsite/garden"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/savanna/house_red",
-				"location":"ctov:village/savanna/jobsite/garden"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/savanna/house_red",
+					"location":"ctov:village/savanna/jobsite/garden"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/savanna/house_yellow",
-				"location":"ctov:village/savanna/jobsite/garden"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/savanna/house_yellow",
+					"location":"ctov:village/savanna/jobsite/garden"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/savanna/house_orange",
-				"location":"ctov:village/savanna/jobsite/hunter"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/savanna/house_orange",
+					"location":"ctov:village/savanna/jobsite/hunter"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/savanna/house_red",
-				"location":"ctov:village/savanna/jobsite/hunter"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/savanna/house_red",
+					"location":"ctov:village/savanna/jobsite/hunter"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/savanna/house_yellow",
-				"location":"ctov:village/savanna/jobsite/hunter"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/savanna/house_yellow",
+					"location":"ctov:village/savanna/jobsite/hunter"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/savanna/house_orange",
-				"location":"ctov:village/savanna/jobsite/oceanographer"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/savanna/house_orange",
+					"location":"ctov:village/savanna/jobsite/oceanographer"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/savanna/house_red",
-				"location":"ctov:village/savanna/jobsite/oceanographer"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/savanna/house_red",
+					"location":"ctov:village/savanna/jobsite/oceanographer"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/savanna/house_yellow",
-				"location":"ctov:village/savanna/jobsite/oceanographer"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/savanna/house_yellow",
+					"location":"ctov:village/savanna/jobsite/oceanographer"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/savanna/house_orange",
-				"location":"ctov:village/savanna/jobsite/woodworker"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/savanna/house_orange",
+					"location":"ctov:village/savanna/jobsite/woodworker"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/savanna/house_red",
-				"location":"ctov:village/savanna/jobsite/woodworker"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/savanna/house_red",
+					"location":"ctov:village/savanna/jobsite/woodworker"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/savanna/house_yellow",
-				"location":"ctov:village/savanna/jobsite/woodworker"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/savanna/house_yellow",
+					"location":"ctov:village/savanna/jobsite/woodworker"
+				},
+				"limit": 1
 			}
 		}
 	]

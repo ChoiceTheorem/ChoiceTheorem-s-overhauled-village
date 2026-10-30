@@ -1,5 +1,4 @@
 {
-    "name": "ctov:village/swamp_fortified/deco",
     "fallback": "minecraft:empty",
     "elements": [
         {

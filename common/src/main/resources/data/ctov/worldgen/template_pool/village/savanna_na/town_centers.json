@@ -1,5 +1,4 @@
 {
-    "name":"ctov:village/biome/savanna",
     "fallback": "minecraft:empty",
     "elements": [
         {

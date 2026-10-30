@@ -1,5 +1,4 @@
 {
-    "name":"ctov:village/common/sheep",
     "fallback": "minecraft:empty",
     "elements": [
         {

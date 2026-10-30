@@ -17,46 +17,66 @@
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/jungle_tree/house",
-				"location":"ctov:village/jungle_tree/jobsite/engineer"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/jungle_tree/house",
+					"location":"ctov:village/jungle_tree/jobsite/engineer"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/jungle_tree/house",
-				"location":"ctov:village/jungle_tree/jobsite/garden"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/jungle_tree/house",
+					"location":"ctov:village/jungle_tree/jobsite/garden"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/jungle_tree/house",
-				"location":"ctov:village/jungle_tree/jobsite/hunter"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/jungle_tree/house",
+					"location":"ctov:village/jungle_tree/jobsite/hunter"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/jungle_tree/house",
-				"location":"ctov:village/jungle_tree/jobsite/oceanographer"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/jungle_tree/house",
+					"location":"ctov:village/jungle_tree/jobsite/oceanographer"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/jungle_tree/house",
-				"location":"ctov:village/jungle_tree/jobsite/woodworker"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/jungle_tree/house",
+					"location":"ctov:village/jungle_tree/jobsite/woodworker"
+				},
+				"limit": 1
 			}
 		}
 	]

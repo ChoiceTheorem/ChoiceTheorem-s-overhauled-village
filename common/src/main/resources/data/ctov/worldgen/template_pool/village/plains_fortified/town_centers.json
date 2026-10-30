@@ -1,5 +1,4 @@
 {
-    "name":"ctov:village/biome/plains",
     "fallback": "minecraft:empty",
     "elements": [
         {

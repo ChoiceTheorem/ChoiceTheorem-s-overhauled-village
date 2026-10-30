@@ -1,5 +1,4 @@
 {
-    "name":"ctov:village/common/villager/jungle",
     "fallback":"minecraft:empty",
     "elements":[
         {

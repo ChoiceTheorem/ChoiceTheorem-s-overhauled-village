@@ -1,5 +1,4 @@
 {
-    "name":"ctov:village/biome/dark_forest",
     "fallback": "minecraft:empty",
     "elements": [
         {

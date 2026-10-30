@@ -1,5 +1,4 @@
 {
-    "name":"ctov:village/biome/swamp",
     "fallback": "minecraft:empty",
     "elements": [
         {

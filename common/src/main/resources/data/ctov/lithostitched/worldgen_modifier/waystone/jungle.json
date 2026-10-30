@@ -22,7 +22,7 @@
     				"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
 					"processors": "minecraft:empty",
-					"location": "waystones:village/mossy/waystone"
+					"location": "ctov:village/common/mossy_waystone"
 				},
 				"count": 1,
                 "min_depth": 3

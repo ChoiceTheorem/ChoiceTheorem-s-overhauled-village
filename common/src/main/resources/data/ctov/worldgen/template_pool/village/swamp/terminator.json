@@ -1,5 +1,4 @@
 {
-    "name":"ctov:village/swamp/terminator",
     "fallback": "minecraft:empty",
     "elements": [
         {

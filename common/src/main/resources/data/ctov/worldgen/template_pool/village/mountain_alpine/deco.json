@@ -1,5 +1,4 @@
 {
-    "name": "ctov:village/mountain_alpine/deco",
     "fallback": "minecraft:empty",
     "elements": [
         {

@@ -17,46 +17,66 @@
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/taiga/house",
-				"location":"ctov:village/taiga/jobsite/engineer"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/taiga/house",
+					"location":"ctov:village/taiga/jobsite/engineer"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/taiga/house",
-				"location":"ctov:village/taiga/jobsite/garden"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/taiga/house",
+					"location":"ctov:village/taiga/jobsite/garden"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/taiga/house",
-				"location":"ctov:village/taiga/jobsite/hunter"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/taiga/house",
+					"location":"ctov:village/taiga/jobsite/hunter"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/taiga/house",
-				"location":"ctov:village/taiga/jobsite/oceanographer"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/taiga/house",
+					"location":"ctov:village/taiga/jobsite/oceanographer"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/taiga/house",
-				"location":"ctov:village/taiga/jobsite/woodworker"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/taiga/house",
+					"location":"ctov:village/taiga/jobsite/woodworker"
+				},
+				"limit": 1
 			}
 		}
 	]

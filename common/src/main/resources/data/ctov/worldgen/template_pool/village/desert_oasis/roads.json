@@ -1,5 +1,4 @@
 {
-    "name": "ctov:village/desert_oasis/road",
     "fallback": "ctov:village/desert_oasis/terminator",
     "elements": [
         {

@@ -1,5 +1,4 @@
 {
-	"name": "ctov:village/mesa/house",
 	"fallback": "ctov:village/mesa/deco",
 	"elements": [
 		{

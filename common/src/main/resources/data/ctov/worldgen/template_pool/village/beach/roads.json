@@ -1,5 +1,4 @@
 {
-	"name": "ctov:village/beach/road",
 	"fallback": "ctov:village/beach/terminator",
 	"elements": [
 		{

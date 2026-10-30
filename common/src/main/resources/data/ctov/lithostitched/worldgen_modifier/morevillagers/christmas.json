@@ -17,46 +17,66 @@
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/christmas/house",
-				"location":"ctov:village/christmas/jobsite/engineer"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/christmas/house",
+					"location":"ctov:village/christmas/jobsite/engineer"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/christmas/house",
-				"location":"ctov:village/christmas/jobsite/garden"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/christmas/house",
+					"location":"ctov:village/christmas/jobsite/garden"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/christmas/house",
-				"location":"ctov:village/christmas/jobsite/hunter"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/christmas/house",
+					"location":"ctov:village/christmas/jobsite/hunter"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/christmas/house",
-				"location":"ctov:village/christmas/jobsite/oceanographer"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/christmas/house",
+					"location":"ctov:village/christmas/jobsite/oceanographer"
+				},
+				"limit": 1
 			}
 		},
 		{
 			"weight": 5,
 			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "ctov:village/christmas/house",
-				"location":"ctov:village/christmas/jobsite/woodworker"
+				"element_type": "lithostitched:limited",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"processors": "ctov:village/christmas/house",
+					"location":"ctov:village/christmas/jobsite/woodworker"
+				},
+				"limit": 1
 			}
 		}
 	]

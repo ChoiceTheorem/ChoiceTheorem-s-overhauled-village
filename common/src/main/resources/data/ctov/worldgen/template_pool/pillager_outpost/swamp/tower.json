@@ -1,5 +1,4 @@
 {
-	"name": "ctov:pillager_outpost/swamp/tower",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{
