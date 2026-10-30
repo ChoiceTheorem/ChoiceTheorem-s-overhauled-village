@@ -6,8 +6,8 @@ import com.mojang.serialization.codecs.RecordCodecBuilder;
 import net.choicetheorem.ctov.utils.PlatformHelper;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.levelgen.structure.templatesystem.*;
 import org.jetbrains.annotations.NotNull;
@@ -26,13 +26,13 @@ public class ModularCompatProcessor extends StructureProcessor {
 	// Codec to read "modid" and "compat_list" from JSON
 	public static final MapCodec<ModularCompatProcessor> CODEC = RecordCodecBuilder.mapCodec(inst -> inst.group(
 		Codec.STRING.fieldOf(CODEC_FIELD_MOD_ID).forGetter(p -> p.modId),
-		ResourceLocation.CODEC.fieldOf(CODEC_FIELD_REFERENCE).forGetter(p -> p.compatProcessorListId)
+		Identifier.CODEC.fieldOf(CODEC_FIELD_REFERENCE).forGetter(p -> p.compatProcessorListId)
 	).apply(inst, ModularCompatProcessor::new));
 	
 	private final String modId;
-	private final ResourceLocation compatProcessorListId;
+	private final Identifier compatProcessorListId;
 	public static final StructureProcessorType<ModularCompatProcessor> TYPE = () -> CODEC;
-	public ModularCompatProcessor(String modid, ResourceLocation compatList) {
+	public ModularCompatProcessor(String modid, Identifier compatList) {
 		this.modId = modid;
 		this.compatProcessorListId = compatList;
 	}
@@ -61,13 +61,14 @@ public class ModularCompatProcessor extends StructureProcessor {
 		StructureTemplate.StructureBlockInfo currentBlockInfo,
 		StructurePlaceSettings settings
 	) {
-		var registry = level.registryAccess().registryOrThrow(Registries.PROCESSOR_LIST);
 		ResourceKey<StructureProcessorList> processorListKey = ResourceKey.create(Registries.PROCESSOR_LIST, compatProcessorListId);
 		
-		return registry.getOptional(processorListKey)
-			       .map(list -> {
+		return level.registryAccess()
+			       .lookup(Registries.PROCESSOR_LIST)
+			       .flatMap(registry -> registry.get(processorListKey))
+			       .map(holder -> {
 				       StructureTemplate.StructureBlockInfo current = currentBlockInfo;
-				       for (StructureProcessor processor : list.list()) {
+				       for (StructureProcessor processor : holder.value().list()) {
 					       current = processor.processBlock(level, pos, pivot, originalBlockInfo, current, settings);
 					       if (current == null) {
 						       break;

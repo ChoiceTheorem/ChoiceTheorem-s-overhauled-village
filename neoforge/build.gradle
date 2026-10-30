@@ -1,5 +1,5 @@
 plugins {
-    id "com.github.johnrengelman.shadow" version "7.1.2"
+    id "com.gradleup.shadow" version "9.6.0"
 }
 
 architectury {
@@ -23,8 +23,9 @@ dependencies {
     neoForge "net.neoforged:neoforge:${rootProject.neo_version}"
     // Remove the next line if you don't want to depend on the API
 
-    common(project(path: ":common", configuration: "namedElements")) { transitive false }
-    shadowCommon(project(path: ":common", configuration: "transformProductionNeoForge")) { transitive = false }
+    common(project(path: ":common")) { transitive false }
+    shadowCommon(project(path: ":common")) { transitive = false }
+    implementation "dev.architectury:architectury:${rootProject.architectury_version}"
 }
 
 processResources {
@@ -41,11 +42,6 @@ shadowJar {
 
     configurations = [project.configurations.shadowCommon]
     archiveClassifier = "dev-shadow"
-}
-
-remapJar {
-    input.set shadowJar.archiveFile
-    dependsOn shadowJar
 }
 
 sourcesJar {
@@ -74,5 +70,6 @@ publishing {
         maven {
 			url "file://" + System.getenv("local_maven")
 		}
+
     }
 }

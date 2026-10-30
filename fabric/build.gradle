@@ -1,5 +1,5 @@
 plugins {
-    id "com.github.johnrengelman.shadow" version "7.1.2"
+    id "com.gradleup.shadow" version "9.6.0"
 }
 
 architectury {
@@ -29,17 +29,17 @@ repositories {
     }
 }
 dependencies {
-    modApi include("me.shedaniel.cloth:cloth-config-fabric:${rootProject.cloth_fabric_version}") {
+    implementation include("me.shedaniel.cloth:cloth-config-fabric:${rootProject.cloth_fabric_version}") {
         exclude(group: "net.fabricmc.fabric-api")
     }
-    modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}", {
-        exclude module: "fabric-api"
-    }
-    modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
-    modApi "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
+    implementation "maven.modrinth:modmenu:${rootProject.modmenu_version}"
+    implementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
+    implementation "dev.architectury:architectury:${rootProject.architectury_version}"
+    common(project(path: ":common")) { transitive false }
+    shadowCommon(project(path: ":common")) { transitive false }
 
-    common(project(path: ":common", configuration: "namedElements")) { transitive false }
-    shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
+
 }
 
 fabric_mc_version_range = rootProject.fabric_mc_version_range
@@ -54,17 +54,15 @@ processResources {
     }
 }
 
+jar {
+    enabled = false
+}
+
 shadowJar {
     exclude "architectury.common.json"
 
     configurations = [project.configurations.shadowCommon]
-    archiveClassifier = "dev-shadow"
-}
-
-remapJar {
-    injectAccessWidener = true
-    input.set shadowJar.archiveFile
-    dependsOn shadowJar
+    archiveClassifier = ""
 }
 
 sourcesJar {
@@ -72,12 +70,13 @@ sourcesJar {
     dependsOn commonSources
     from commonSources.archiveFile.map { zipTree(it) }
 }
-
 components.java {
     withVariantsFromConfiguration(project.configurations.shadowRuntimeElements) {
         skip()
     }
 }
+
+tasks.assemble.dependsOn shadowJar
 
 publishing {
     publications {

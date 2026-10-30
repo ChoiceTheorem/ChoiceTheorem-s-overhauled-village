@@ -1,58 +1,97 @@
 package net.choicetheorem.ctov.platform;
 
-import dev.architectury.injectables.annotations.ExpectPlatform;
-
+import java.lang.reflect.Method;
 import java.util.List;
 
 public class CTOVConfigHelper {
 	
-	@ExpectPlatform
 	public static boolean generateSmallVillage() {
-		throw new AssertionError();
+		return invokeBoolean("generateSmallVillage");
 	}
 	
-	@ExpectPlatform
 	public static boolean generateMediumVillage() {
-		throw new AssertionError();
+		return invokeBoolean("generateMediumVillage");
 	}
 	
-	@ExpectPlatform
 	public static boolean generateLargeVillage() {
-		throw new AssertionError();
+		return invokeBoolean("generateLargeVillage");
 	}
 	
-	@ExpectPlatform
 	public static boolean generatePillagerOutpost() {
-		throw new AssertionError();
+		return invokeBoolean("generatePillagerOutpost");
 	}
 	
-	@ExpectPlatform
 	public static int smallVillageWeight() {
-		throw new AssertionError();
+		return invokeInt("smallVillageWeight");
 	}
 	
-	@ExpectPlatform
 	public static int mediumVillageWeight() {
-		throw new AssertionError();
+		return invokeInt("mediumVillageWeight");
 	}
 	
-	@ExpectPlatform
 	public static int largeVillageWeight() {
-		throw new AssertionError();
+		return invokeInt("largeVillageWeight");
 	}
 	
-	@ExpectPlatform
 	public static int outpostWeight() {
-		throw new AssertionError();
+		return invokeInt("outpostWeight");
 	}
 	
-	@ExpectPlatform
 	public static List<? extends String> enabledVillages() {
-		throw new AssertionError();
+		return invokeList("enabledVillages");
 	}
 	
-	@ExpectPlatform
 	public static List<? extends String> enabledPillagerOutposts() {
-		throw new AssertionError();
+		return invokeList("enabledPillagerOutposts");
+	}
+	
+	private static boolean invokeBoolean(String methodName) {
+		try {
+			return (boolean) resolveImpl().getMethod(methodName).invoke(null);
+		} catch (ReflectiveOperationException e) {
+			throw new IllegalStateException("Unable to resolve CTOV config helper method: " + methodName, e);
+		}
+	}
+	
+	private static int invokeInt(String methodName) {
+		try {
+			return (int) resolveImpl().getMethod(methodName).invoke(null);
+		} catch (ReflectiveOperationException e) {
+			throw new IllegalStateException("Unable to resolve CTOV config helper method: " + methodName, e);
+		}
+	}
+	
+	@SuppressWarnings("unchecked")
+	private static List<? extends String> invokeList(String methodName) {
+		try {
+			return (List<? extends String>) resolveImpl().getMethod(methodName).invoke(null);
+		} catch (ReflectiveOperationException e) {
+			throw new IllegalStateException("Unable to resolve CTOV config helper method: " + methodName, e);
+		}
+	}
+	
+	private static Class<?> resolveImpl() {
+		return ImplHolder.IMPL_CLASS;
+	}
+	
+	private static final class ImplHolder {
+		private static final String[] CANDIDATES = {
+			"net.choicetheorem.ctov.platform.fabric.CTOVConfigHelperImpl",
+			"net.choicetheorem.ctov.platform.neoforge.CTOVConfigHelperImpl"
+		};
+		
+		private static final Class<?> IMPL_CLASS = loadImplClass();
+		
+		private static Class<?> loadImplClass() {
+			ClassLoader loader = CTOVConfigHelper.class.getClassLoader();
+			for (String candidate : CANDIDATES) {
+				try {
+					return Class.forName(candidate, true, loader);
+				} catch (ClassNotFoundException ignored) {
+					// Try the next platform implementation.
+				}
+			}
+			throw new IllegalStateException("No CTOV config helper implementation found for the current runtime.");
+		}
 	}
 }
